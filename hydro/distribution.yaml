@@ -10,6 +10,14 @@ release_platforms:
   - quantal
   - raring
 repositories:
+  ros_datacentre:
+    source:
+      type: git
+      url: https://github.com/strands-project/ros_datacentre.git
+      version: hydro
+    status: developed
+
+
   abb:
     doc:
       type: git
