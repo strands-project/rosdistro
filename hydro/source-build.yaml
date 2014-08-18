@@ -4,7 +4,6 @@
 ---
 jenkins_job_timeout: 60
 jenkins_url: http://lcas.lincoln.ac.uk/jenkins/
-package_whitelist: [ros_datacentre]
 notifications:
   committers: false
   emails:
