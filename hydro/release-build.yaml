@@ -4,24 +4,18 @@
 ---
 jenkins_binarydeb_job_timeout: 120
 jenkins_sourcedeb_job_timeout: 10
-jenkins_url: http://jenkins.ros.org
+jenkins_url: http://lcas.lincoln.ac.uk/jenkins
 notifications:
   emails:
-  - ros-buildfarm-release@googlegroups.com
-  maintainers: true
+  - marc@hanheide.net
+  maintainers: false
 sync:
   package_count: 150
 targets:
   _config:
-    apt_target_repository: http://repos.ros.org/repos/building/
+    apt_target_repository: http://lcas.lincoln.ac.uk/strands/repos/building/
   ubuntu:
     precise:
-      amd64:
-      i386:
-    quantal:
-      amd64:
-      i386:
-    raring:
       amd64:
       i386:
 type: release-build
