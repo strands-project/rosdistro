@@ -5,7 +5,7 @@
 release_platforms:
   ubuntu:
   - precise
-  repositories:
+repositories:
   abb:
     doc:
       type: git
