@@ -232,6 +232,16 @@ repositories:
       url: https://github.com/clearpathrobotics/axis_camera.git
       version: master
     status: maintained
+  barrett_hand:
+    doc:
+      type: git
+      url: https://github.com/RobotnikAutomation/barrett_hand.git
+      version: hydro-devel
+    source:
+      type: git
+      url: https://github.com/RobotnikAutomation/barrett_hand.git
+      version: hydro-devel
+    status: maintained
   baxter:
     doc:
       type: git
@@ -560,7 +570,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.5.88-0
+      version: 0.5.89-0
     source:
       type: git
       url: https://github.com/ros/catkin.git
@@ -618,6 +628,11 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/cmvision-release.git
       version: 0.4.1-0
+  cmvision_3d:
+    doc:
+      type: git
+      url: https://github.com/OSUrobotics/cmvision_3d.git
+      version: master
   cob_calibration_data:
     doc:
       type: git
@@ -1721,7 +1736,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.3.5-1
+      version: 2.3.6-0
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
@@ -2742,7 +2757,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.33-0
+      version: 1.0.35-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -2954,7 +2969,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki-release.git
-      version: 0.5.6-0
+      version: 0.5.8-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki.git
@@ -3286,7 +3301,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/clearpath-gbp/LMS1xx-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/LMS1xx.git
@@ -3824,11 +3839,22 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/nao_robot-release.git
-      version: 0.2.3-1
+      version: 0.3.0-0
     source:
       type: git
       url: https://github.com/ros-nao/nao_robot.git
-      version: devel
+      version: master
+    status: developed
+  nao_sensors:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/nao_sensors-release.git
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/ros-nao/nao_sensors.git
+      version: master
     status: developed
   nao_viz:
     doc:
@@ -4123,7 +4149,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_ros-release.git
-      version: 0.3.2-0
+      version: 0.3.3-0
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_ros.git
@@ -4715,7 +4741,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-drivers-gbp/pointgrey_camera_driver-release.git
-      version: 0.9.2-0
+      version: 0.10.0-0
     source:
       type: git
       url: https://github.com/ros-drivers/pointgrey_camera_driver.git
@@ -4941,7 +4967,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.2.25-0
+      version: 0.2.26-0
     source:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
@@ -5029,6 +5055,21 @@ repositories:
       url: https://github.com/ros-drivers/razer_hydra.git
       version: hydro-devel
     status: maintained
+  rbdl:
+    doc:
+      type: hg
+      url: https://bitbucket.org/rbdl/rbdl
+      version: v2.3.1
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/isura/rbdl-release.git
+      version: 2.3.1-1
+    source:
+      type: hg
+      url: https://bitbucket.org/rbdl/rbdl
+      version: default
+    status: developed
   realtime_tools:
     doc:
       type: git
@@ -5174,6 +5215,21 @@ repositories:
       type: git
       url: https://github.com/clearpathrobotics/robot_upstart.git
       version: hydro-devel
+    status: maintained
+  robot_web_tools:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/robot_web_tools.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/RobotWebTools-release/robot_web_tools-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/RobotWebTools/robot_web_tools.git
+      version: develop
     status: maintained
   roboteq:
     doc:
@@ -5437,7 +5493,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.10.10-0
+      version: 1.10.11-0
     source:
       type: git
       url: https://github.com/ros/ros_comm.git
@@ -5674,7 +5730,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/OSUrobotics/rosh_core-release.git
-      version: 1.0.6-0
+      version: 1.0.7-0
     source:
       type: git
       url: https://github.com/OSUrobotics/rosh_core.git
@@ -5693,7 +5749,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/OSUrobotics/rosh_desktop_plugins-release.git
-      version: 1.0.2-0
+      version: 1.0.3-0
     source:
       type: git
       url: https://github.com/OSUrobotics/rosh_desktop_plugins.git
@@ -5713,7 +5769,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/OSUrobotics/rosh_robot_plugins-release.git
-      version: 1.0.1-0
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/OSUrobotics/rosh_robot_plugins.git
@@ -6074,7 +6130,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rqt_common_plugins-release.git
-      version: 0.3.8-0
+      version: 0.3.9-0
     status: developed
   rqt_ez_publisher:
     doc:
@@ -6122,7 +6178,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rqt_robot_plugins-release.git
-      version: 0.3.6-0
+      version: 0.3.7-0
     status: maintained
   rtmros_common:
     doc:
@@ -6489,10 +6545,11 @@ repositories:
       - rmp_description
       - rmp_msgs
       - rmp_teleop
+      - segwayrmp
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/sri-robotics/segwayrmp-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/sri-robotics/segwayrmp.git
@@ -6592,10 +6649,14 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/wcaarls/shared_serial-release.git
       version: 0.2.0-1
-  sick_tim3xx:
+  sick_tim:
     doc:
       type: git
-      url: https://github.com/uos/sick_tim3xx.git
+      url: https://github.com/uos/sick_tim.git
+      version: hydro_catkin
+    source:
+      type: git
+      url: https://github.com/uos/sick_tim.git
       version: hydro_catkin
   sicktoolbox:
     doc:
@@ -6890,7 +6951,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RobotWebTools-release/tf2_web_republisher-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/RobotWebTools/tf2_web_republisher.git
@@ -7261,7 +7322,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/bosch-ros-pkg-release/usb_cam-release.git
-      version: 0.1.5-1
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/bosch-ros-pkg/usb_cam.git
@@ -7568,7 +7629,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/wu-robotics/wu_ros_tools.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/DLu/wu_ros_tools.git

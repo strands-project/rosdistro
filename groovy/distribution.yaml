@@ -163,6 +163,16 @@ repositories:
       url: https://github.com/clearpathrobotics/axis_camera.git
       version: master
     status: maintained
+  barrett_hand:
+    doc:
+      type: git
+      url: https://github.com/RobotnikAutomation/barrett_hand.git
+      version: groovy-devel
+    source:
+      type: git
+      url: https://github.com/RobotnikAutomation/barrett_hand.git
+      version: groovy-devel
+    status: maintained
   baxter:
     doc:
       type: git
@@ -429,7 +439,7 @@ repositories:
       version: 0.2.3-0
     source:
       type: git
-      url: git://github.com/ros-perception/camera_info_manager_py.git
+      url: https://github.com/ros-perception/camera_info_manager_py.git
       version: master
     status: developed
   camera_pose:
@@ -475,7 +485,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.5.86-0
+      version: 0.5.89-0
     status: maintained
   ccny_rgbd_tools:
     doc:
@@ -1278,7 +1288,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/genlisp-release.git
-      version: 0.4.12-0
+      version: 0.4.14-0
     source:
       type: git
       url: https://github.com/ros/genlisp.git
@@ -1307,7 +1317,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.4.16-0
+      version: 0.4.17-0
     source:
       type: git
       url: https://github.com/ros/genpy.git
@@ -1853,7 +1863,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.33-0
+      version: 1.0.35-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -2120,6 +2130,24 @@ repositories:
       type: svn
       url: https://code.ros.org/svn/ros-pkg/stacks/laser_drivers/trunk
       version: HEAD
+  laser_filtering:
+    doc:
+      type: git
+      url: https://github.com/DLu/laser_filtering.git
+      version: groovy
+    release:
+      packages:
+      - laser_filtering
+      - map_laser
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/wu-robotics/laser_filtering_release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/DLu/laser_filtering.git
+      version: groovy
+    status: maintained
   laser_filters:
     doc:
       type: git
@@ -2543,11 +2571,22 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/nao_robot-release.git
-      version: 0.2.3-1
+      version: 0.3.0-0
     source:
       type: git
       url: https://github.com/ros-nao/nao_robot.git
-      version: devel
+      version: master
+    status: developed
+  nao_sensors:
+    release:
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/ros-gbp/nao_sensors-release.git
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/ros-nao/nao_sensors.git
+      version: master
     status: developed
   nao_viz:
     doc:
@@ -2703,7 +2742,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_ros-release.git
-      version: 0.3.2-0
+      version: 0.3.3-0
     status: maintained
   object_recognition_tabletop:
     release:
@@ -3327,7 +3366,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.2.22-0
+      version: 0.2.26-0
     source:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
@@ -3522,6 +3561,21 @@ repositories:
       type: git
       url: https://github.com/ros/robot_state_publisher.git
       version: groovy-devel
+  robot_web_tools:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/robot_web_tools.git
+      version: master
+    release:
+      tags:
+        release: release/groovy/{package}/{version}
+      url: https://github.com/RobotWebTools-release/robot_web_tools-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/RobotWebTools/robot_web_tools.git
+      version: develop
+    status: maintained
   robotnik_msgs:
     doc:
       type: git
@@ -3680,7 +3734,7 @@ repositories:
       version: 1.9.53-0
     source:
       type: git
-      url: git://github.com/ros/ros.git
+      url: https://github.com/ros/ros.git
       version: groovy-devel
     status: maintained
   rosR:
@@ -4103,7 +4157,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/rqt_common_plugins-release.git
-      version: 0.3.4-0
+      version: 0.3.9-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_common_plugins.git
@@ -4134,7 +4188,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/ros-gbp/rqt_robot_plugins-release.git
-      version: 0.3.3-0
+      version: 0.3.7-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_plugins.git
@@ -4386,10 +4440,10 @@ repositories:
       type: hg
       url: https://kforge.ros.org/geometry/shape_tools
       version: default
-  sick_tim3xx:
+  sick_tim:
     doc:
       type: git
-      url: https://github.com/uos/sick_tim3xx.git
+      url: https://github.com/uos/sick_tim.git
       version: groovy
   sicks300:
     doc:
@@ -4528,7 +4582,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/RobotWebTools-release/tf2_web_republisher-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/RobotWebTools/tf2_web_republisher.git
@@ -4703,7 +4757,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/bosch-ros-pkg-release/usb_cam-release.git
-      version: 0.1.5-1
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/bosch-ros-pkg/usb_cam.git
@@ -4881,10 +4935,16 @@ repositories:
       url: https://github.com/ros-windows/win_ros.git
       version: groovy-devel
   wu_ros_tools:
+    doc:
+      type: git
+      url: https://github.com/DLu/wu_ros_tools.git
+      version: groovy
     release:
       packages:
       - catkinize_this
       - easy_markers
+      - joy_listener
+      - kalman_filter
       - manifest_cleaner
       - rosbaglive
       - roswiki_node
@@ -4892,7 +4952,12 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/wu-robotics/wu_ros_tools.git
-      version: 0.1.0-5
+      version: 0.2.2-0
+    source:
+      type: git
+      url: https://github.com/DLu/wu_ros_tools.git
+      version: groovy
+    status: maintained
   x52_joyext:
     doc:
       type: git
