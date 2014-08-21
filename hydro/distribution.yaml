@@ -7,8 +7,6 @@ release_platforms:
   - heisenbug
   ubuntu:
   - precise
-  - quantal
-  - raring
 repositories:
   abb:
     doc:
