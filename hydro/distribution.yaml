@@ -6450,6 +6450,22 @@ repositories:
       url: https://github.com/ipa320/schunk_modular_robotics.git
       version: hydro_dev
     status: developed
+  scitos_common:
+    release:
+      packages:
+      - calibrate_chest
+      - scitos_common
+      - scitos_description
+      - scitos_msgs
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/scitos_common.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/strands-project/scitos_common.git
+      version: hydro-devel
+    status: developed
   scriptable_monitoring:
     doc:
       type: git
