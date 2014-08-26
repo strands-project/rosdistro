@@ -699,7 +699,6 @@ repositories:
       packages:
       - cob_base_drive_chain
       - cob_base_velocity_smoother
-      - cob_cam3d_throttle
       - cob_camera_sensors
       - cob_canopen_motor
       - cob_collision_velocity_filter
@@ -722,7 +721,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ipa320/cob_driver-release.git
-      version: 0.5.3-0
+      version: 0.5.4-0
     source:
       type: git
       url: https://github.com/ipa320/cob_driver.git
@@ -824,6 +823,28 @@ repositories:
       url: https://github.com/ipa320/cob_navigation.git
       version: hydro_dev
     status: developed
+  cob_perception_common:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_perception_common.git
+      version: hydro_dev
+    release:
+      packages:
+      - cob_cam3d_throttle
+      - cob_image_flip
+      - cob_object_detection_msgs
+      - cob_perception_common
+      - cob_perception_msgs
+      - cob_vision_utils
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ipa320/cob_perception_common-release.git
+      version: 0.5.4-2
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_perception_common.git
+      version: hydro_dev
+    status: maintained
   cob_robots:
     doc:
       type: git
@@ -2828,6 +2849,7 @@ repositories:
       packages:
       - checkerboard_detector
       - imagesift
+      - jsk_libfreenect2
       - jsk_pcl_ros
       - jsk_perception
       - jsk_recognition
@@ -2835,7 +2857,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.1.14-0
+      version: 0.1.15-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -3371,7 +3393,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/vooon/mavlink-gbp-release.git
-      version: 1.0.9-7
+      version: 1.0.9-8
     status: maintained
   mavros:
     doc:
@@ -3385,7 +3407,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/vooon/mavros-release.git
-      version: 0.7.0-0
+      version: 0.7.1-0
     source:
       type: git
       url: https://github.com/vooon/mavros.git
@@ -5139,7 +5161,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
-      version: 1.1.3-0
+      version: 1.1.4-0
     source:
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
@@ -5747,7 +5769,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/OSUrobotics/rosh_desktop_plugins-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/OSUrobotics/rosh_desktop_plugins.git
@@ -6139,7 +6161,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/OTL/rqt_ez_publisher-release.git
-      version: 0.2.0-0
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/OTL/rqt_ez_publisher.git
@@ -6214,7 +6236,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.0.21-0
+      version: 1.0.22-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
@@ -6946,13 +6968,17 @@ repositories:
   teleop_twist_keyboard:
     doc:
       type: git
-      url: https://github.com/trainman419/teleop_twist_keyboard.git
+      url: https://github.com/ros-teleop/teleop_twist_keyboard.git
       version: master
     release:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/teleop_twist_keyboard-release.git
-      version: 0.5.0-0
+      version: 0.5.0-1
+    source:
+      type: git
+      url: https://github.com/ros-teleop/teleop_twist_keyboard.git
+      version: master
     status: maintained
   terarangerone-ros:
     release:
