@@ -6960,6 +6960,17 @@ repositories:
       url: https://github.com/strands-project/strands_morse.git
       version: hydro-devel
     status: developed
+  strands_webtools:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_webtools.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_webtools.git
+      version: hydro-devel
+    status: developed
   swiftnav:
     doc:
       type: git
