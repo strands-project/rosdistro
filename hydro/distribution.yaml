@@ -322,6 +322,17 @@ repositories:
       url: https://github.com/RethinkRobotics/baxter_tools.git
       version: master
     status: developed
+  bayes_tracking:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/bayes_tracking.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/LCAS/bayestracking.git
+      version: master
+    status: developed
   bfl:
     doc:
       type: git
