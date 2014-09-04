@@ -147,7 +147,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/AutonomyLab/ardrone_autonomy-release.git
-      version: 1.3.4-0
+      version: 1.3.5-0
     source:
       type: git
       url: https://github.com/AutonomyLab/ardrone_autonomy.git
@@ -235,6 +235,16 @@ repositories:
       type: git
       url: https://github.com/RobotnikAutomation/barrett_hand.git
       version: hydro-devel
+    release:
+      packages:
+      - barrett_hand
+      - bhand_controller
+      - bhand_description
+      - rqt_bhand
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/RobotnikAutomation/barrett_hand-release.git
+      version: 0.1.0-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/barrett_hand.git
@@ -732,7 +742,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ipa320/cob_driver-release.git
-      version: 0.5.4-0
+      version: 0.5.5-0
     source:
       type: git
       url: https://github.com/ipa320/cob_driver.git
@@ -1766,7 +1776,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.3.6-0
+      version: 2.3.7-0
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
@@ -2125,7 +2135,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_gazebo-release.git
-      version: 0.3.3-0
+      version: 0.3.4-0
     status: maintained
   hector_localization:
     doc:
@@ -2158,7 +2168,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_models-release.git
-      version: 0.3.1-1
+      version: 0.3.2-0
     status: maintained
   hector_navigation:
     doc:
@@ -2191,7 +2201,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_quadrotor-release.git
-      version: 0.3.2-1
+      version: 0.3.3-0
     status: maintained
   hector_quadrotor_apps:
     doc:
@@ -2339,7 +2349,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.2.4-0
+      version: 315.2.5-0
     source:
       type: git
       url: https://github.com/start-jsk/hrpsys.git
@@ -2787,7 +2797,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.35-0
+      version: 1.0.36-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -2868,7 +2878,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.1.15-0
+      version: 0.1.16-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -3786,16 +3796,6 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/cogniteam/mr_teleoperator-release.git
       version: 0.2.6-1
-  mrpt_navigation:
-    doc:
-      type: git
-      url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: indigo-devel
-    source:
-      type: git
-      url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: indigo-devel
-    status: maintained
   multi_level_map:
     doc:
       type: git
@@ -3859,7 +3859,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/nao_meshes-release.git
-      version: 0.1.0-1
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/ros-nao/nao_meshes.git
@@ -4018,7 +4018,7 @@ repositories:
     source:
       type: git
       url: https://github.com/skasperski/navigation_2d.git
-      version: hydro
+      version: hydro-dev
     status: developed
   navigation_layers:
     release:
@@ -4514,7 +4514,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist_core-release.git
-      version: 1.1.0-7
+      version: 1.1.0-8
     source:
       type: git
       url: https://github.com/start-jsk/openrtm_aist_core.git
@@ -5061,7 +5061,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_maps-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_maps.git
@@ -5676,6 +5676,21 @@ repositories:
       url: https://github.com/WPI-RAIL/rosauth.git
       version: develop
     status: maintained
+  rosbag_image_compressor:
+    doc:
+      type: git
+      url: https://github.com/ros/rosbag_image_compressor.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/rosbag_image_compressor-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/ros/rosbag_image_compressor.git
+      version: indigo-devel
+    status: maintained
   rosbag_migration_rule:
     release:
       tags:
@@ -5966,11 +5981,6 @@ repositories:
       url: https://github.com/ros-gbp/roslisp_repl-release.git
       version: 0.3.3-0
     status: maintained
-  rosmatlab:
-    doc:
-      type: git
-      url: https://github.com/tu-darmstadt-ros-pkg/rosmatlab.git
-      version: master
   rospack:
     doc:
       type: git
@@ -6239,7 +6249,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.2.1-0
+      version: 1.2.3-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
@@ -6258,7 +6268,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.0.22-0
+      version: 1.0.23-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
@@ -6278,7 +6288,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_nextage-release.git
-      version: 0.2.18-0
+      version: 0.4.1-0
     source:
       type: git
       url: https://github.com/tork-a/rtmros_nextage.git
@@ -6712,10 +6722,16 @@ repositories:
       type: git
       url: https://github.com/uos/sick_tim.git
       version: hydro_catkin
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/uos-gbp/sick_tim-release.git
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/uos/sick_tim.git
       version: hydro_catkin
+    status: developed
   sicktoolbox:
     doc:
       type: git
@@ -6770,7 +6786,11 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/slam_gmapping-release.git
-      version: 1.3.4-0
+      version: 1.3.5-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/slam_gmapping.git
+      version: hydro-devel
     status: maintained
   slam_karto:
     release:
@@ -6907,6 +6927,18 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/stage_ros-release.git
       version: 1.7.2-0
+  staubli:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/staubli.git
+      version: hydro-devel
+    status: developed
+  staubli_experimental:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/staubli_experimental.git
+      version: hydro-devel
+    status: developed
   std_capabilities:
     release:
       tags:
@@ -6996,7 +7028,7 @@ repositories:
   tedusar_manipulation:
     doc:
       type: git
-      url: https://github.com/johmau85/tedusar_manipulation.git
+      url: https://github.com/RoboCupTeam-TUGraz/tedusar_manipulation.git
       version: master
   teleop_twist_keyboard:
     doc:
@@ -7229,6 +7261,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/tu-darmstadt-ros-pkg/ublox.git
+      version: catkin
   ueye:
     doc:
       type: hg
