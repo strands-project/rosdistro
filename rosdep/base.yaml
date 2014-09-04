@@ -307,6 +307,11 @@ boost:
     trusty_python3:
       apt:
         packages: [libboost-all-dev]
+box2d-dev:
+  arch: [box2d]
+  debian: [libbox2d-dev]
+  fedora: [box2d-devel]
+  ubuntu: [libbox2d-dev]
 bullet:
   arch: [bullet]
   debian:
@@ -350,6 +355,10 @@ bzip2:
   opensuse: [libbz2-devel]
   rhel: [bzip2-devel]
   ubuntu: [libbz2-dev]
+cdk:
+  ubuntu: [libcdk5]
+cdk-dev:
+  ubuntu: [libcdk5-dev]
 cgal:
   arch: [cgal]
   debian: [libcgal-dev]
