@@ -5,10 +5,10 @@
 jenkins_job_timeout: 60
 jenkins_url: http://lcas.lincoln.ac.uk/jenkins/
 notifications:
-  committers: false
+  committers: true
   emails:
-  - marc@hanheide.net
-  maintainers: false
+  - strands-buildfarm@googlegroups.com
+  maintainers: true
 targets:
   _config:
     apt_mirrors:
