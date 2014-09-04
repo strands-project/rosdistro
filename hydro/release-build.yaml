@@ -7,8 +7,8 @@ jenkins_sourcedeb_job_timeout: 10
 jenkins_url: http://lcas.lincoln.ac.uk/jenkins
 notifications:
   emails:
-  - marc@hanheide.net
-  maintainers: false
+  - strands-buildfarm@googlegroups.com
+  maintainers: true
 sync:
   package_count: 150
 targets:
