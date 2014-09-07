@@ -1091,7 +1091,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ecto-release.git
-      version: 0.6.4-0
+      version: 0.6.6-0
     source:
       type: git
       url: https://github.com/plasmodic/ecto.git
@@ -1146,7 +1146,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ecto_ros-release.git
-      version: 0.4.3-0
+      version: 0.4.4-0
     source:
       type: git
       url: https://github.com/plasmodic/ecto_ros.git
@@ -1608,6 +1608,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_worldmodel-release.git
+      version: 0.3.2-0
     status: maintained
   hokuyo_node:
     doc:
@@ -1820,7 +1821,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -1842,6 +1843,8 @@ repositories:
     source:
       type: git
       url: https://github.com/jackal/jackal_desktop.git
+      version: indigo-devel
+    status: developed
   joystick_drivers:
     doc:
       type: git
@@ -2042,7 +2045,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/laser_filters-release.git
-      version: 1.7.2-0
+      version: 1.7.3-0
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -2807,7 +2810,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_core-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_core.git
@@ -2885,7 +2888,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/octomap-release.git
-      version: 1.6.7-0
+      version: 1.6.8-0
     source:
       type: git
       url: https://github.com/OctoMap/octomap.git
@@ -3345,11 +3348,20 @@ repositories:
       version: develop
     status: maintained
   random_numbers:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/random_numbers.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/random_numbers-release.git
-      version: 0.2.0-0
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/random_numbers.git
+      version: master
+    status: maintained
   razer_hydra:
     release:
       tags:
