@@ -6705,6 +6705,11 @@ repositories:
       url: https://github.com/ipa320/schunk_modular_robotics.git
       version: hydro_dev
     status: developed
+  scitos_apps:
+    source:
+      type: git
+      url: https://github.com/strands-project/scitos_apps.git
+      version: hydro-devel
   scitos_common:
     release:
       packages:
