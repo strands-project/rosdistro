@@ -8,29 +8,31 @@ import yaml
 from sort_yaml import sort_yaml_data
 
 
-def add_devel_repository(yaml_file, name, vcs_type, url, version=None):
+def add_devel_repository(yaml_file, name, vcs_type, url, version='master'):
     data = yaml.load(open(yaml_file, 'r'))
     if data['type'] == 'gbp':
         add_devel_repository_fuerte(yaml_file, data, name, vcs_type, url, version)
         return
 
-    if data['type'] != 'source':
-        raise RuntimeError('The passed .yaml file is neither of type "source" nor "gbp"')
+    if data['type'] != 'distribution':
+        raise RuntimeError('The passed .yaml file is neither of type "distribution" nor "gbp"')
 
     if name in data['repositories']:
         raise RuntimeError('Repository with name "%s" is already in the .yaml file' % name)
 
     data['repositories'][name] = {
-        'type': vcs_type,
-        'url': url,
-        'version': version,
+	'source': {
+            'type': vcs_type,
+            'url': url,
+            'version': version
+        }
     }
     try:
         from rosdistro.verify import _to_yaml, _yaml_header_lines
     except ImportError as e:
         raise ImportError(str(e) + ' - you need to install the latest version of python-rosdistro.')
     data = _to_yaml(data)
-    data = '\n'.join(_yaml_header_lines('source')) + '\n' + data
+    data = '\n'.join(_yaml_header_lines('distribution')) + '\n' + data
     with open(yaml_file, 'w') as f:
         f.write(data)
 
@@ -61,7 +63,7 @@ if __name__ == "__main__":
     parser.add_argument('name', help='The unique name of the repo')
     parser.add_argument('type', help='The type of the repository (i.e. "git", "hg", "svn")')
     parser.add_argument('url', help='The url of the repository')
-    parser.add_argument('version', nargs='?', help='The version')
+    parser.add_argument('version', nargs='?', help='The version', default='master')
     args = parser.parse_args()
 
     try:
