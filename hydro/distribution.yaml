@@ -154,7 +154,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/AutonomyLab/ardrone_autonomy-release.git
-      version: 1.3.6-0
+      version: 1.3.7-0
     source:
       type: git
       url: https://github.com/AutonomyLab/ardrone_autonomy.git
@@ -867,7 +867,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ipa320/cob_perception_common-release.git
-      version: 0.5.4-2
+      version: 0.5.12-0
     source:
       type: git
       url: https://github.com/ipa320/cob_perception_common.git
@@ -2799,6 +2799,7 @@ repositories:
       - jsk_footstep_msgs
       - jsk_gui_msgs
       - jsk_hark_msgs
+      - jsk_tilt_laser
       - jsk_tools
       - jsk_topic_tools
       - laser_filters_jsk_patch
@@ -2818,7 +2819,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.36-0
+      version: 1.0.37-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -4102,7 +4103,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/skasperski/navigation_2d-release.git
-      version: 0.1.2-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/skasperski/navigation_2d.git
@@ -4602,7 +4603,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist_core-release.git
-      version: 1.1.0-8
+      version: 1.1.0-9
     source:
       type: git
       url: https://github.com/start-jsk/openrtm_aist_core.git
@@ -4889,7 +4890,21 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_apps-release.git
-      version: 0.5.6-0
+      version: 0.5.6-1
+  pr2_calibration:
+    release:
+      packages:
+      - dense_laser_assembler
+      - laser_joint_processor
+      - laser_joint_projector
+      - pr2_calibration
+      - pr2_calibration_launch
+      - pr2_dense_laser_snapshotter
+      - pr2_se_calibration_launch
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_calibration-release.git
+      version: 1.0.2-0
   pr2_common:
     doc:
       type: git
@@ -5017,6 +5032,45 @@ repositories:
       url: https://github.com/ros-gbp/pr2_mechanism_msgs-release.git
       version: 1.8.0-0
     status: maintained
+  pr2_navigation:
+    release:
+      packages:
+      - laser_tilt_controller_filter
+      - pr2_move_base
+      - pr2_navigation
+      - pr2_navigation_config
+      - pr2_navigation_global
+      - pr2_navigation_local
+      - pr2_navigation_perception
+      - pr2_navigation_self_filter
+      - pr2_navigation_slam
+      - pr2_navigation_teleop
+      - semantic_point_annotator
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_navigation-release.git
+      version: 0.1.22-0
+  pr2_pan_tilt:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_pan_tilt-release.git
+      version: 1.0.1-0
+  pr2_plugs:
+    release:
+      packages:
+      - checkerboard_pose_estimation
+      - outlet_pose_estimation
+      - pr2_image_snapshot_recorder
+      - pr2_plugs_actions
+      - pr2_plugs_common
+      - pr2_plugs_msgs
+      - stereo_wall_detection
+      - visual_pose_estimation
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_plugs-release.git
+      version: 1.0.4-0
   pr2_power_drivers:
     doc:
       type: git
@@ -5072,6 +5126,18 @@ repositories:
       url: https://github.com/PR2/pr2_simulator.git
       version: hydro-devel
     status: maintained
+  pr2_surrogate:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_surrogate-release.git
+      version: 0.0.4-0
+  pr2_tuck_arms_app:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_tuck_arms_app-release.git
+      version: 1.0.2-0
   prosilica_driver:
     doc:
       type: git
@@ -5745,6 +5811,17 @@ repositories:
   ros_http_video_streamer:
     release:
       url: https://github.com/ros-gbp/ros_http_video_streamer-release.git
+  ros_realtime:
+    release:
+      packages:
+      - allocators
+      - lockfree
+      - rosatomic
+      - rosrt
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/ros_realtime-release.git
+      version: 1.0.3-0
   ros_tutorials:
     doc:
       type: git
