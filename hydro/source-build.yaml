@@ -18,4 +18,3 @@ targets:
       amd64:
 type: source-build
 version: 1
-
