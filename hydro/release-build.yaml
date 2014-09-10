@@ -17,5 +17,12 @@ targets:
   ubuntu:
     precise:
       amd64:
+      i386:
+    quantal:
+      amd64:
+      i386:
+    raring:
+      amd64:
+      i386:
 type: release-build
 version: 1
