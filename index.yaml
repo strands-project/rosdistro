@@ -11,7 +11,7 @@ distributions:
     source_builds: [hydro/source-build.yaml]
   indigo:
     distribution: indigo/distribution.yaml
-    distribution_cache: http://ros.org/rosdistro/indigo-cache.yaml.gz
+    distribution_cache: http://lcas.lincoln.ac.uk/strands-rosdistro/indigo-cache.yaml.gz
     doc_builds: [indigo/doc-build.yaml]
     release_builds: [indigo/release-build.yaml]
     source_builds: [indigo/source-build.yaml]
