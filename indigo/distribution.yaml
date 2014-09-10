@@ -578,7 +578,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_driver-release.git
-      version: 0.5.7-0
+      version: 0.6.0-0
     source:
       type: git
       url: https://github.com/ipa320/cob_driver.git
@@ -1816,12 +1816,14 @@ repositories:
       version: indigo-devel
     release:
       packages:
+      - jackal_control
       - jackal_description
+      - jackal_diff_drive_controller
       - jackal_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.1.1-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -1850,6 +1852,14 @@ repositories:
       type: git
       url: https://github.com/jackal/jackal_simulator.git
       version: indigo-devel
+    release:
+      packages:
+      - jackal_gazebo
+      - jackal_simulator
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/jackal_simulator-release.git
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/jackal/jackal_simulator.git
@@ -3034,7 +3044,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 2.9.0-2
+      version: 2.9.0-3
     status: maintained
   opencv_candidate:
     release:
@@ -3105,6 +3115,13 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/openni_launch.git
       version: indigo-devel
+  openrtm_aist:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/tork-a/openrtm_aist-release.git
+      version: 1.1.0-2
+    status: developed
   openslam_gmapping:
     doc:
       type: git
@@ -3784,6 +3801,34 @@ repositories:
       url: https://github.com/robotics-in-concert/rocon_tutorials.git
       version: indigo
     status: developed
+  romeo_description:
+    release:
+      packages:
+      - nao_camera
+      - romeo_dcm_bringup
+      - romeo_dcm_control
+      - romeo_dcm_driver
+      - romeo_description
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-aldebaran/romeo_robot-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/ros-aldebaran/romeo_robot.git
+      version: master
+    status: maintained
+  romeo_moveit_config:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-aldebaran/romeo_moveit_config-release.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/ros-aldebaran/romeo_moveit_config.git
+      version: master
+    status: maintained
   ros:
     doc:
       type: git
@@ -3934,7 +3979,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/code-iai-release/ros_emacs_utils-release.git
-      version: 0.4.1-3
+      version: 0.4.2-0
     source:
       type: git
       url: https://github.com/code-iai/ros_emacs_utils.git
