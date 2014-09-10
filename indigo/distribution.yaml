@@ -347,6 +347,17 @@ repositories:
       url: https://github.com/osrf/capabilities.git
       version: master
     status: maintained
+  care_o_bot:
+    release:
+      packages:
+      - care_o_bot
+      - care_o_bot_robot
+      - care_o_bot_simulation
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/care-o-bot-release.git
+      version: 0.6.0-0
+    status: maintained
   carl_bot:
     doc:
       type: git
@@ -645,6 +656,30 @@ repositories:
     source:
       type: git
       url: https://github.com/ipa320/cob_manipulation.git
+      version: indigo_dev
+    status: maintained
+  cob_navigation:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_navigation.git
+      version: indigo_release_candidate
+    release:
+      packages:
+      - cob_linear_nav
+      - cob_mapping_slam
+      - cob_navigation
+      - cob_navigation_config
+      - cob_navigation_global
+      - cob_navigation_local
+      - cob_navigation_slam
+      - cob_scan_unifier
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_navigation-release.git
+      version: 0.6.0-2
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_navigation.git
       version: indigo_dev
     status: maintained
   cob_perception_common:
@@ -1823,7 +1858,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -1859,7 +1894,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal_simulator-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/jackal/jackal_simulator.git
@@ -2279,7 +2314,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/vooon/mavlink-gbp-release.git
-      version: 1.0.9-10
+      version: 2014.09.10-0
     status: maintained
   mavros:
     doc:
@@ -3808,6 +3843,7 @@ repositories:
       - romeo_dcm_bringup
       - romeo_dcm_control
       - romeo_dcm_driver
+      - romeo_dcm_msgs
       - romeo_description
       tags:
         release: release/indigo/{package}/{version}
