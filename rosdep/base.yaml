@@ -2510,7 +2510,7 @@ subversion:
   gentoo: [dev-vcs/subversion]
   macports: [subversion]
   opensuse: [subversion]
-  ubuntu: [subversion]
+  ubuntu: [subversion, libsvn-dev]
 suitesparse:
   arch: [suitesparse]
   debian: [libsuitesparse-dev]
