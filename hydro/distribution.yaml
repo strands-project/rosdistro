@@ -1725,11 +1725,6 @@ repositories:
       type: git
       url: https://github.com/kth-ros-pkg/force_torque_tools.git
       version: hydro
-  fovis:
-    doc:
-      type: git
-      url: https://github.com/srv/fovis.git
-      version: hydro
   freenect_stack:
     doc:
       type: git
@@ -1758,7 +1753,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/paulbovbel/frontier_exploration-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/paulbovbel/frontier_exploration.git
@@ -2818,10 +2813,11 @@ repositories:
       - sklearn
       - speech_recognition_msgs
       - stereo_synchronizer
+      - voice_text
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.37-0
+      version: 1.0.38-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -2926,7 +2922,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.1.17-0
+      version: 0.1.18-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -2969,7 +2965,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.9-0
+      version: 1.0.10-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
@@ -4046,7 +4042,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/paulbovbel/nav2_platform-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/paulbovbel/nav2_platform.git
@@ -5003,6 +4999,30 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_gripper_sensor-release.git
       version: 1.0.2-0
+  pr2_hack_the_future:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_hack_the_future.git
+      version: hydro-devel
+    release:
+      packages:
+      - hack_the_web_program_executor
+      - pr2_hack_the_future
+      - pr2_joint_teleop
+      - pr2_simple_interface
+      - program_queue
+      - queue_web
+      - rviz_backdrop
+      - slider_gui
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_hack_the_future-release.git
+      version: 1.0.3-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_hack_the_future.git
+      version: hydro-devel
+    status: maintained
   pr2_kinematics:
     release:
       packages:

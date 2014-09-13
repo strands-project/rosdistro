@@ -1856,10 +1856,11 @@ repositories:
       - sklearn
       - speech_recognition_msgs
       - stereo_synchronizer
+      - voice_text
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.37-1
+      version: 1.0.38-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -1964,7 +1965,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.1.17-0
+      version: 0.1.18-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -2007,7 +2008,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.9-0
+      version: 1.0.10-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
@@ -3034,7 +3035,7 @@ repositories:
       tags:
         release: release/groovy/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist_core-release.git
-      version: 1.1.0-11
+      version: 1.1.0-12
     source:
       type: git
       url: https://github.com/start-jsk/openrtm_aist_core.git
