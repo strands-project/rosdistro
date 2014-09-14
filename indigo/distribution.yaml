@@ -2745,6 +2745,26 @@ repositories:
       url: https://github.com/ros-nao/nao_viz.git
       version: master
     status: developed
+  nav2_platform:
+    doc:
+      type: git
+      url: https://github.com/paulbovbel/nav2_platform.git
+      version: hydro-devel
+    release:
+      packages:
+      - nav2_bringup
+      - nav2_driver
+      - nav2_navigation
+      - nav2_platform
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/paulbovbel/nav2_platform-release.git
+      version: 0.0.7-1
+    source:
+      type: git
+      url: https://github.com/paulbovbel/nav2_platform.git
+      version: hydro-devel
+    status: maintained
   navigation:
     doc:
       type: git
@@ -3290,7 +3310,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/perception_pcl-release.git
-      version: 1.2.0-0
+      version: 1.2.1-0
     source:
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
