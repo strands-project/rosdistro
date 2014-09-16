@@ -5428,10 +5428,10 @@ repositories:
       version: master
     status: maintained
   robblog:
-      source:
-        type: git
-        url: https://github.com/strands-project/robblog.git
-        version: hydro-devel
+    source:
+      type: git
+      url: https://github.com/strands-project/robblog.git
+      version: hydro-devel
   robot_localization:
     doc:
       type: git
