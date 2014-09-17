@@ -118,6 +118,21 @@ repositories:
       type: git
       url: https://github.com/mikeferguson/ar_kinect.git
       version: groovy-devel
+  ar_sys:
+    doc:
+      type: git
+      url: https://github.com/Sahloul/ar_sys.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/Sahloul/ar_sys.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/Sahloul/ar_sys.git
+      version: hydro-devel
+    status: developed
   ar_tools:
     doc:
       type: git
@@ -2922,7 +2937,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.1.18-0
+      version: 0.1.19-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -5032,6 +5047,21 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_kinematics-release.git
       version: 1.0.2-0
+  pr2_make_a_map_app:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_make_a_map_app.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_make_a_map_app-release.git
+      version: 1.0.2-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_make_a_map_app.git
+      version: hydro-devel
+    status: maintained
   pr2_map_navigation_app:
     doc:
       type: git
@@ -5098,6 +5128,26 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_navigation-release.git
       version: 0.1.22-0
+  pr2_navigation_apps:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_navigation_apps.git
+      version: hydro-devel
+    release:
+      packages:
+      - pr2_2dnav
+      - pr2_2dnav_local
+      - pr2_2dnav_slam
+      - pr2_navigation_apps
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_navigation_apps-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_navigation_apps.git
+      version: hydro-devel
+    status: maintained
   pr2_pan_tilt:
     release:
       tags:
@@ -5150,6 +5200,36 @@ repositories:
       url: https://github.com/PR2/pr2_precise_trajectory.git
       version: hydro-devel
     status: maintained
+  pr2_props:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_props.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_props-release.git
+      version: 1.0.2-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_props.git
+      version: hydro-devel
+    status: maintained
+  pr2_props_app:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_props_app.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_props_app-release.git
+      version: 1.0.2-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_props_app.git
+      version: hydro-devel
+    status: maintained
   pr2_robot:
     doc:
       type: git
@@ -5170,6 +5250,42 @@ repositories:
       url: https://github.com/ros-gbp/pr2_robot-release.git
       version: 1.6.6-0
     status: maintained
+  pr2_self_test:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_self_test.git
+      version: hydro-devel
+    release:
+      packages:
+      - joint_qualification_controllers
+      - pr2_bringup_tests
+      - pr2_counterbalance_check
+      - pr2_self_test
+      - pr2_self_test_msgs
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_self_test-release.git
+      version: 1.0.2-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_self_test.git
+      version: hydro-devel
+    status: maintained
+  pr2_shield_teleop:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_shield_teleop.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_shield_teleop-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_shield_teleop.git
+      version: hydro-devel
+    status: maintained
   pr2_simulator:
     doc:
       type: git
@@ -5187,6 +5303,21 @@ repositories:
     source:
       type: git
       url: https://github.com/PR2/pr2_simulator.git
+      version: hydro-devel
+    status: maintained
+  pr2_sith:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_sith.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/TheDash/pr2_sith-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_sith.git
       version: hydro-devel
     status: maintained
   pr2_surrogate:
@@ -6538,7 +6669,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
-      version: groovy-devel
+      version: hydro-devel
     release:
       packages:
       - hironx_moveit_config
@@ -6551,7 +6682,7 @@ repositories:
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
-      version: groovy-devel
+      version: hydro-devel
     status: developed
   rtmros_nextage:
     doc:
