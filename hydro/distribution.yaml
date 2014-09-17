@@ -7405,7 +7405,7 @@ repositories:
   strands_executive:
     source:
       type: git
-      url: https://github.com/hawesie/strands_executive.git
+      url: https://github.com/strands-project/strands_executive.git
       version: hydro-release
   strands_morse:
     release:
