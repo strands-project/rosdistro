@@ -5558,11 +5558,6 @@ repositories:
       url: https://github.com/robotican/ric.git
       version: master
     status: maintained
-  robblog:
-    source:
-      type: git
-      url: https://github.com/strands-project/robblog.git
-      version: hydro-devel
   robot_localization:
     doc:
       type: git
@@ -7407,6 +7402,11 @@ repositories:
       type: git
       url: https://github.com/srv/stereo_slam.git
       version: hydro
+  strands_executive:
+    source:
+      type: git
+      url: https://github.com/hawesie/strands_executive.git
+      version: hydro-release
   strands_morse:
     release:
       tags:
