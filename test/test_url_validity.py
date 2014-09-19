@@ -16,7 +16,7 @@ import unittest
 import rosdistro
 import unidiff
 
-DIFF_TARGET = 'origin/master'
+DIFF_TARGET = 'origin/strands-devel'
 
 
 TARGET_FILE_BLACKLIST = []
