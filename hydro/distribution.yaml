@@ -3482,6 +3482,12 @@ repositories:
       url: https://github.com/ros-gbp/microstrain_3dmgx2_imu-release.git
       version: 1.5.12-1
     status: maintained
+  mira_installer:
+    source:
+      type: git
+      url: https://github.com/strands-project/mira_installer.git
+      version: master
+    status: developed
   mjpeg_server:
     doc:
       type: git
