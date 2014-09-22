@@ -7239,6 +7239,17 @@ repositories:
       url: https://github.com/uos/sick_tim.git
       version: hydro_catkin
     status: developed
+  sicks300:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/sicks300.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/strands-project/sicks300.git
+      version: master
+    status: maintained
   sicktoolbox:
     doc:
       type: git
