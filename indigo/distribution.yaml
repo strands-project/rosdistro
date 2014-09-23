@@ -76,7 +76,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/Sahloul/ar_sys.git
-      version: master
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/Sahloul/ar_sys.git
+      version: 1.0.3-0
+    source:
+      type: git
+      url: https://github.com/Sahloul/ar_sys.git
+      version: indigo-devel
     status: developed
   ar_track_alvar:
     doc:
@@ -3958,7 +3967,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_multimaster-release.git
-      version: 0.7.4-0
+      version: 0.7.5-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_multimaster.git
@@ -5074,6 +5083,16 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/srdfdom-release.git
       version: 0.2.7-0
+    status: maintained
+  srv_tools:
+    doc:
+      type: git
+      url: https://github.com/srv/srv_tools.git
+      version: indigo
+    source:
+      type: git
+      url: https://github.com/srv/srv_tools.git
+      version: indigo
     status: maintained
   stage:
     release:
