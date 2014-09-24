@@ -3584,7 +3584,7 @@ repositories:
   mira_installer:
     release:
       tags:
-        release: release/hydro/{package}/{version}
+        release: release/{package}/{version}
       url: https://github.com/strands-project-releases/mira_strands.git
       version: 0.0.0-1
     source:
