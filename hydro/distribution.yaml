@@ -3582,11 +3582,6 @@ repositories:
       version: 1.5.12-1
     status: maintained
   mira_installer:
-    release:
-      tags:
-        release: release/{package}/{version}
-      url: https://github.com/strands-project-releases/mira_strands.git
-      version: 0.0.0-1
     source:
       type: git
       url: https://github.com/strands-project/mira_installer.git
