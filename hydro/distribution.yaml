@@ -146,7 +146,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/Sahloul/ar_sys.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/Sahloul/ar_sys.git
@@ -6751,6 +6751,25 @@ repositories:
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
+      version: master
+    status: developed
+  rtmros_gazebo:
+    doc:
+      type: git
+      url: https://github.com/start-jsk/rtmros_gazebo.git
+      version: master
+    release:
+      packages:
+      - eusgazebo
+      - hrpsys_gazebo_general
+      - hrpsys_gazebo_msgs
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/rtmros_gazebo-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/start-jsk/rtmros_gazebo.git
       version: master
     status: developed
   rtmros_hironx:
