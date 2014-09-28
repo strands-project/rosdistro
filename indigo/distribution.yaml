@@ -37,7 +37,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wunderkammer-laboratory/ackermann_vehicle-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/wunderkammer-laboratory/ackermann_vehicle.git
@@ -2841,6 +2841,24 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-nao/nao_sensors.git
+      version: master
+    status: developed
+  nao_virtual:
+    doc:
+      type: git
+      url: https://github.com/ros-nao/nao_virtual.git
+      version: master
+    release:
+      packages:
+      - nao_control
+      - nao_gazebo_plugin
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-nao/nao_virtual-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/ros-nao/nao_virtual.git
       version: master
     status: developed
   nao_viz:
