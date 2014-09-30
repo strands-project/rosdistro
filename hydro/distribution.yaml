@@ -19,7 +19,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/aau-ros/aau_multi_robot-release.git
-      version: 0.1.2-0
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/aau-ros/aau_multi_robot.git
@@ -5090,7 +5090,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/pr2_ethercat_drivers-release.git
-      version: 1.8.8-1
+      version: 1.8.11-0
     source:
       type: git
       url: https://github.com/PR2/pr2_ethercat_drivers.git
