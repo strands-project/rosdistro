@@ -7077,7 +7077,7 @@ repositories:
   scitos_2d_navigation:
     source:
       type: git
-      url: https://github.com/strands-project/scitos_2d_navigation
+      url: https://github.com/strands-project/scitos_2d_navigation.git
       version: hydro-devel
   scitos_apps:
     release:
