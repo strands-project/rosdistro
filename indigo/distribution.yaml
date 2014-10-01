@@ -2399,18 +2399,18 @@ repositories:
   mavlink:
     doc:
       type: git
-      url: https://github.com/vooon/mavlink-gbp-release.git
+      url: https://github.com/mavlink/mavlink-gbp-release.git
       version: release/indigo/mavlink
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/vooon/mavlink-gbp-release.git
+      url: https://github.com/mavlink/mavlink-gbp-release.git
       version: 2014.09.22-0
     status: maintained
   mavros:
     doc:
       type: git
-      url: https://github.com/vooon/mavros.git
+      url: https://github.com/mavlink/mavros.git
       version: master
     release:
       packages:
@@ -2418,11 +2418,11 @@ repositories:
       - mavros_extras
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/vooon/mavros-release.git
+      url: https://github.com/mavlink/mavros-release.git
       version: 0.8.0-0
     source:
       type: git
-      url: https://github.com/vooon/mavros.git
+      url: https://github.com/mavlink/mavros.git
       version: master
     status: developed
   media_export:
@@ -2811,7 +2811,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-nao/nao_moveit_config-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/ros-nao/nao_moveit_config.git
@@ -4078,7 +4078,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-aldebaran/romeo_moveit_config-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/ros-aldebaran/romeo_moveit_config.git
@@ -4705,7 +4705,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/rqt_common_plugins-release.git
-      version: 0.3.9-0
+      version: 0.3.10-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_common_plugins.git
@@ -4725,6 +4725,21 @@ repositories:
       type: git
       url: https://github.com/OTL/rqt_ez_publisher.git
       version: indigo-devel
+    status: developed
+  rqt_graphprofiler:
+    doc:
+      type: git
+      url: https://github.com/osrf/rqt_graphprofiler.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_graphprofiler-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/osrf/rqt_graphprofiler.git
+      version: master
     status: developed
   rqt_robot_plugins:
     release:
@@ -5599,11 +5614,19 @@ repositories:
       url: https://github.com/lagadic/vrep_ros_bridge.git
       version: master
   warehouse_ros:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/warehouse_ros-release.git
-      version: 0.8.6-0
+      version: 0.8.8-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros.git
+      version: master
     status: maintained
   wpi_jaco:
     doc:
