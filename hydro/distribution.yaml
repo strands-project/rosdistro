@@ -19,7 +19,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/aau-ros/aau_multi_robot-release.git
-      version: 0.1.2-1
+      version: 0.1.3-0
     source:
       type: git
       url: https://github.com/aau-ros/aau_multi_robot.git
@@ -2215,11 +2215,10 @@ repositories:
       - hector_pose_estimation
       - hector_pose_estimation_core
       - message_to_tf
-      - world_magnetic_model
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_localization-release.git
-      version: 0.1.3-0
+      version: 0.1.5-0
     status: maintained
   hector_models:
     doc:
@@ -2340,21 +2339,6 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_worldmodel-release.git
       version: 0.3.2-0
-    status: maintained
-  hironx_tutorial:
-    doc:
-      type: git
-      url: https://github.com/tork-a/hironx_tutorial.git
-      version: master
-    release:
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/tork-a/hironx_tutorial-release.git
-      version: 0.1.2-0
-    source:
-      type: git
-      url: https://github.com/tork-a/hironx_tutorial.git
-      version: master
     status: maintained
   hlugv_common:
     doc:
@@ -2879,7 +2863,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.45-0
+      version: 1.0.46-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -3340,7 +3324,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/srv/libfovis-release.git
-      version: 0.0.4-0
+      version: 0.0.4-1
   libfreenect:
     release:
       tags:
@@ -4177,7 +4161,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.11.11-0
+      version: 1.11.13-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation.git
@@ -6511,7 +6495,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/roslisp-release.git
-      version: 1.9.15-0
+      version: 1.9.17-0
     status: maintained
   roslisp_common:
     doc:
@@ -6842,13 +6826,15 @@ repositories:
       version: hydro-devel
     release:
       packages:
+      - hironx_calibration
       - hironx_moveit_config
       - hironx_ros_bridge
+      - hironx_tutorial
       - rtmros_hironx
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.0.24-0
+      version: 1.0.25-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
