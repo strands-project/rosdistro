@@ -4720,6 +4720,11 @@ repositories:
       url: https://github.com/ros-gbp/openni_tracker-release.git
       version: 0.2.0-1
     status: maintained
+  openni_wrapper:
+    source:
+      type: git
+      url: https://github.com/strands-project/openni_wrapper.git
+      version: hydro-devel
   openrtm_aist_core:
     doc:
       type: git
