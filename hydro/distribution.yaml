@@ -713,6 +713,11 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/cmake_modules-release.git
       version: 0.2.1-1
+  cmp3641m:
+    source:
+      type: git
+      url: https://github.com/LCAS/CMP3641M.git
+      version: hydro-devel
   cmvision:
     release:
       tags:
