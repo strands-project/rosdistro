@@ -1,5 +1,5 @@
 mira-scitos:
-  ubuntu: 
+  ubuntu:
     precise: [mira-scitos]
 morse-blender-bundle:
   ubuntu:
