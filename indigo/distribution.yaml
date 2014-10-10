@@ -964,11 +964,21 @@ repositories:
       url: https://github.com/stonier/cv_backports.git
       version: indigo
     status: maintained
+  demo_lidar:
+    doc:
+      type: git
+      url: https://github.com/jizhang-cmu/demo_lidar.git
+      version: indigo
   demo_pioneer:
     doc:
       type: git
       url: https://github.com/lagadic/demo_pioneer.git
       version: master
+  demo_rgbd:
+    doc:
+      type: git
+      url: https://github.com/jizhang-cmu/demo_rgbd.git
+      version: indigo
   depthcloud_encoder:
     doc:
       type: git
@@ -2377,6 +2387,21 @@ repositories:
       url: https://github.com/clearpathrobotics/lms1xx.git
       version: master
     status: maintained
+  loam_back_and_forth:
+    doc:
+      type: git
+      url: https://github.com/jizhang-cmu/loam_back_and_forth.git
+      version: indigo
+  loam_continuous:
+    doc:
+      type: git
+      url: https://github.com/jizhang-cmu/loam_continuous.git
+      version: indigo
+  loam_velodyne:
+    doc:
+      type: git
+      url: https://github.com/jizhang-cmu/loam_velodyne.git
+      version: hydro-indigo
   m4atx_battery_monitor:
     doc:
       type: git
@@ -3334,7 +3359,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/openhrp3-release.git
-      version: 3.1.7-4
+      version: 3.1.7-5
     source:
       type: git
       url: https://github.com/fkanehiro/openhrp3.git
@@ -4632,7 +4657,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/rosprofiler-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/osrf/rosprofiler.git
