@@ -7210,10 +7210,20 @@ repositories:
       version: hydro-devel
     status: developed
   scitos_drivers:
+    release:
+      packages:
+      - flir_pantilt_d46
+      - scitos_drivers
+      - scitos_mira
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/scitos_drivers.git
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/strands-project/scitos_drivers.git
       version: hydro-devel
+    status: developed
   scriptable_monitoring:
     doc:
       type: git
