@@ -7209,6 +7209,11 @@ repositories:
       url: https://github.com/strands-project/scitos_common.git
       version: hydro-devel
     status: developed
+  scitos_driver:
+    source:
+      type: git
+      url: https://github.com/strands-project/scitos_driver.git
+      version: hydro-devel
   scriptable_monitoring:
     doc:
       type: git
