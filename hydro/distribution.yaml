@@ -7,8 +7,8 @@ release_platforms:
   - heisenbug
   ubuntu:
   - precise
-  - quantal
-  - raring
+#  - quantal
+#  - raring
 repositories:
   aau_multi_robot:
     release:
