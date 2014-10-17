@@ -1713,7 +1713,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/fanuc.git
-      version: hydro-devel
+      version: hydro
     release:
       packages:
       - fanuc
@@ -1890,7 +1890,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/genmsg-release.git
-      version: 0.4.25-0
+      version: 0.4.26-0
     source:
       type: git
       url: https://github.com/ros/genmsg.git
@@ -6632,7 +6632,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rospack-release.git
-      version: 2.1.24-0
+      version: 2.1.25-0
     source:
       type: git
       url: https://github.com/ros/rospack.git
@@ -8049,6 +8049,16 @@ repositories:
       type: git
       url: https://github.com/anqixu/ueye_cam.git
       version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/anqixu/ueye_cam-release.git
+      version: 1.0.2-0
+    source:
+      type: git
+      url: https://github.com/anqixu/ueye_cam.git
+      version: master
+    status: developed
   um6:
     doc:
       type: git
