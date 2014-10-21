@@ -1305,6 +1305,18 @@ repositories:
       url: https://github.com/ros-visualization/executive_smach_visualization.git
       version: indigo-devel
     status: developed
+  fanuc:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/fanuc.git
+      version: hydro-devel
+    status: developed
+  fanuc_experimental:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/fanuc_experimental.git
+      version: hydro-devel
+    status: developed
   fcl:
     release:
       tags:
@@ -4979,6 +4991,16 @@ repositories:
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_driver.git
       version: master
     status: maintained
+  scitos_apps:
+    source:
+      type: git
+      url: https://github.com/strands-project/scitos_apps.git
+      version: master
+  scitos_common:
+    source:
+      type: git
+      url: https://github.com/strands-project/scitos_common.git
+      version: master
   sentis_tof_m100:
     doc:
       type: git
@@ -5377,6 +5399,16 @@ repositories:
       url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator-release.git
       version: 0.2.0-0
     status: developed
+  strands_apps:
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_apps.git
+      version: master
+  strands_webtools:
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_webtools.git
+      version: master
   teleop_twist_joy:
     doc:
       type: git
