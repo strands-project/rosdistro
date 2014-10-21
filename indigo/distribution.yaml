@@ -4995,12 +4995,12 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/scitos_apps.git
-      version: master
+      version: hydro-devel
   scitos_common:
     source:
       type: git
       url: https://github.com/strands-project/scitos_common.git
-      version: master
+      version: hydro-devel
   sentis_tof_m100:
     doc:
       type: git
@@ -5403,12 +5403,12 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/strands_apps.git
-      version: master
+      version: hydro-devel
   strands_webtools:
     source:
       type: git
       url: https://github.com/strands-project/strands_webtools.git
-      version: master
+      version: hydro-devel
   teleop_twist_joy:
     doc:
       type: git
