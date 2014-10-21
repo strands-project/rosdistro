@@ -4994,12 +4994,12 @@ repositories:
   scitos_apps:
     source:
       type: git
-      url: https://github.com/strands-project/scitos_apps
+      url: https://github.com/strands-project/scitos_apps.git
       version: master
   scitos_common:
     source:
       type: git
-      url: https://github.com/strands-project/scitos_common
+      url: https://github.com/strands-project/scitos_common.git
       version: master
   sentis_tof_m100:
     doc:
@@ -5402,12 +5402,12 @@ repositories:
   strands_apps:
     source:
       type: git
-      url: https://github.com/strands-project/strands_apps
+      url: https://github.com/strands-project/strands_apps.git
       version: master
   strands_webtools:
     source:
       type: git
-      url: https://github.com/strands-project/strands_webtools
+      url: https://github.com/strands-project/strands_webtools.git
       version: master
   teleop_twist_joy:
     doc:
