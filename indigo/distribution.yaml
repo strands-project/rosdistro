@@ -4991,6 +4991,16 @@ repositories:
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_driver.git
       version: master
     status: maintained
+  scitos_apps:
+    source:
+      type: git
+      url: https://github.com/strands-project/scitos_apps
+      version: master
+  scitos_common:
+    source:
+      type: git
+      url: https://github.com/strands-project/scitos_common
+      version: master
   sentis_tof_m100:
     doc:
       type: git
@@ -5389,6 +5399,16 @@ repositories:
       url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator-release.git
       version: 0.2.0-0
     status: developed
+  strands_apps:
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_apps
+      version: master
+  strands_webtools:
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_webtools
+      version: master
   teleop_twist_joy:
     doc:
       type: git
