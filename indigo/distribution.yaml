@@ -4997,10 +4997,20 @@ repositories:
       url: https://github.com/strands-project/scitos_apps.git
       version: hydro-devel
   scitos_common:
+    release:
+      packages:
+      - scitos_common
+      - scitos_description
+      - scitos_msgs
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/scitos_common.git
+      version: 0.1.0-0
     source:
       type: git
       url: https://github.com/strands-project/scitos_common.git
       version: hydro-devel
+    status: developed
   sentis_tof_m100:
     doc:
       type: git
