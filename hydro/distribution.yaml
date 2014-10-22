@@ -6263,6 +6263,19 @@ repositories:
       url: https://github.com/ros/ros_realtime.git
       version: hydro-devel
     status: maintained
+  ros_systems:
+    release:
+      packages:
+      - lcas_hri
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/ros_systems.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/LCAS/ros_systems.git
+      version: master
+    status: developed
   ros_tutorials:
     doc:
       type: git
