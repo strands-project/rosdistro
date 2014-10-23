@@ -7779,6 +7779,11 @@ repositories:
       url: https://github.com/strands-project/strands_morse.git
       version: hydro-devel
     status: developed
+  strands_movebase:
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_movebase.git
+      version: master
   strands_navigation:
     source:
       type: git

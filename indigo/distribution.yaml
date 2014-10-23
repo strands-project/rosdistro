@@ -5468,6 +5468,11 @@ repositories:
       url: https://github.com/strands-project/strands_apps.git
       version: hydro-devel
     status: developed
+  strands_movebase:
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_movebase.git
+      version: master
   strands_webtools:
     source:
       type: git
