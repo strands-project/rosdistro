@@ -5441,10 +5441,22 @@ repositories:
       version: 0.2.0-0
     status: developed
   strands_apps:
+    release:
+      packages:
+      - door_pass
+      - pose_extractor
+      - ramp_climb
+      - reconfigure_inflation
+      - state_checker
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_apps.git
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/strands-project/strands_apps.git
       version: hydro-devel
+    status: developed
   strands_webtools:
     source:
       type: git
