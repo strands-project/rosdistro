@@ -5010,10 +5010,23 @@ repositories:
       version: master
     status: maintained
   scitos_apps:
+    release:
+      packages:
+      - scitos_cmd_vel_mux
+      - scitos_dashboard
+      - scitos_docking
+      - scitos_ptu
+      - scitos_teleop
+      - scitos_touch
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/scitos_apps.git
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/strands-project/scitos_apps.git
       version: hydro-devel
+    status: developed
   scitos_common:
     release:
       packages:
