@@ -7779,10 +7779,20 @@ repositories:
       version: hydro-devel
     status: developed
   strands_movebase:
+    release:
+      packages:
+      - calibrate_chest
+      - strands_description
+      - strands_movebase
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_movebase.git
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/strands-project/strands_movebase.git
       version: master
+    status: developed
   strands_navigation:
     source:
       type: git
