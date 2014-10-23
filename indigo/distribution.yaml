@@ -5571,6 +5571,17 @@ repositories:
       url: https://github.com/turtlebot/turtlebot_arm.git
       version: indigo-devel
     status: developed
+  twitter_bootstrap:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/twitter_bootstrap.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/strands-project/twitter_bootstrap.git
+      version: master
+    status: maintained
   ublox:
     doc:
       type: git
