@@ -7190,10 +7190,16 @@ repositories:
       version: master
     status: maintained
   scitos_2d_navigation:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/scitos_2d_navigation.git
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/strands-project/scitos_2d_navigation.git
       version: hydro-devel
+    status: developed
   scitos_apps:
     release:
       packages:
