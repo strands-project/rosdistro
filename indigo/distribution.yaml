@@ -6,7 +6,6 @@ release_platforms:
   fedora:
   - heisenbug
   ubuntu:
-  - saucy
   - trusty
 repositories:
   ackermann_msgs:
