@@ -469,7 +469,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ipa320/bride-release.git
-      version: 0.3.3-0
+      version: 0.3.3-1
     source:
       type: git
       url: https://github.com/ipa320/bride.git
@@ -710,7 +710,12 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/cmake_modules-release.git
-      version: 0.2.1-1
+      version: 0.3.2-0
+    source:
+      type: git
+      url: https://github.com/ros/cmake_modules.git
+      version: 0.3-devel
+    status: maintained
   cmp3641m:
     source:
       type: git
@@ -3983,7 +3988,7 @@ repositories:
     doc:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
-      version: 3.3.1
+      version: default
     release:
       packages:
       - multisense
@@ -6275,7 +6280,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/ros_realtime-release.git
-      version: 1.0.16-0
+      version: 1.0.21-0
     source:
       type: git
       url: https://github.com/ros/ros_realtime.git
