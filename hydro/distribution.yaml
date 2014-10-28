@@ -7860,10 +7860,21 @@ repositories:
       version: hydro-devel
     status: developed
   strands_social:
+    release:
+      packages:
+      - datamatrix_read
+      - fake_camera_effects
+      - image_branding
+      - strands_tweets
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_social.git
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/strands-project/strands_social.git
       version: hydro-devel
+    status: developed
   strands_webtools:
     release:
       tags:
