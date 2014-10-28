@@ -7859,6 +7859,11 @@ repositories:
       url: https://github.com/strands-project/strands_perception_people.git
       version: hydro-devel
     status: developed
+  strands_social:
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_social.git
+      version: hydro-devel
   strands_webtools:
     release:
       tags:
