@@ -1227,6 +1227,11 @@ repositories:
       type: git
       url: https://github.com/GertKanter/cyton_gamma_1500_description.git
       version: master
+  data_compression:
+    source:
+      type: git
+      url: https://github.com/strands-project/data_compression.git
+      version: hydro-devel
   decision_making:
     doc:
       type: git
