@@ -4,3 +4,5 @@ mira-scitos:
 morse-blender-bundle:
   ubuntu:
     precise: [morse-blender-2.65-py-3.3]
+rubygem-jekyll:
+  ubuntu: [rubygem-jekyll]
