@@ -7892,6 +7892,11 @@ repositories:
       url: https://github.com/strands-project/strands_perception_people.git
       version: hydro-devel
     status: developed
+  strands_recovery_behaviours:
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_recovery_behaviours.git
+      version: hydro-devel
   strands_social:
     release:
       packages:
