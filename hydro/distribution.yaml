@@ -90,6 +90,19 @@ repositories:
       url: https://github.com/ros/actionlib.git
       version: hydro-devel
     status: maintained
+  activity_analysis:
+    release:
+      packages:
+      - strands_engagement_checker
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/activity_analysis.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/strands-project/activity_analysis.git
+      version: hydro-devel
+    status: developed
   agvs:
     doc:
       type: git
