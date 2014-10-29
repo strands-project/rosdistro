@@ -159,6 +159,24 @@ repositories:
       url: https://github.com/clearpathrobotics/applanix_driver.git
       version: hydro-devel
     status: maintained
+  apriltags_ros:
+    doc:
+      type: git
+      url: https://github.com/RIVeR-Lab/apriltags_ros.git
+      version: hydro-devel
+    release:
+      packages:
+      - apriltags
+      - apriltags_ros
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/RIVeR-Lab-release/apriltags_ros-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/RIVeR-Lab/apriltags_ros.git
+      version: hydro-devel
+    status: maintained
   ar_kinect:
     doc:
       type: git
@@ -6204,7 +6222,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/ros_control-release.git
-      version: 0.7.2-1
+      version: 0.7.3-0
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
@@ -6231,7 +6249,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/ros_controllers-release.git
-      version: 0.7.2-1
+      version: 0.7.3-0
     source:
       type: git
       url: https://github.com/ros-controls/ros_controllers.git
@@ -7570,6 +7588,21 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/slam_karto-release.git
       version: 0.7.1-0
+    status: maintained
+  smart_battery_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/smart_battery_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/smart_battery_msgs-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/smart_battery_msgs.git
+      version: master
     status: maintained
   softkinetic:
     doc:
