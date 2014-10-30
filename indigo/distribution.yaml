@@ -5647,7 +5647,7 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/strands_perception_people.git
-      version: hydro-devel
+      version: indigo-release
     status: developed
   strands_webtools:
     source:
