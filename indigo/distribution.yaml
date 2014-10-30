@@ -5608,6 +5608,11 @@ repositories:
       url: https://github.com/strands-project/strands_movebase.git
       version: hydro-devel
     status: developed
+  strands_navigation:
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_navigation.git
+      version: hydro-devel
   strands_perception_people:
     release:
       packages:
