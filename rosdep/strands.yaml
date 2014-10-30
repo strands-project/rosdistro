@@ -6,3 +6,5 @@ morse-blender-bundle:
     precise: [morse-blender-2.65-py-3.3]
 rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
+strands-twython:
+  ubuntu: [python-strands-twython]
