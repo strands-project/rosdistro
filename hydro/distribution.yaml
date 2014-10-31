@@ -479,7 +479,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/bond_core-release.git
-      version: 1.7.15-0
+      version: 1.7.16-0
     source:
       type: git
       url: https://github.com/ros/bond_core.git
@@ -3703,12 +3703,13 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RobotWebTools-release/mjpeg_server-release.git
-      version: 1.1.1-0
+      version: 1.1.2-0
     source:
       type: git
       url: https://github.com/RobotWebTools/mjpeg_server.git
       version: develop
-    status: maintained
+    status: end-of-life
+    status_description: Replaced by the web_video_server package.
   ml_classifiers:
     doc:
       type: git
@@ -4373,7 +4374,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/nodelet_core-release.git
-      version: 1.8.5-0
+      version: 1.8.6-0
     source:
       type: git
       url: https://github.com/ros/nodelet_core.git
@@ -5948,7 +5949,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RobotWebTools-release/robot_web_tools-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/RobotWebTools/robot_web_tools.git
@@ -6365,12 +6366,13 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RobotWebTools-release/ros_web_video-release.git
-      version: 0.1.13-0
+      version: 0.1.14-0
     source:
       type: git
       url: https://github.com/RobotWebTools/ros_web_video.git
       version: develop
-    status: maintained
+    status: end-of-life
+    status_description: Replaced by the web_video_server package.
   rosaria:
     doc:
       type: git
@@ -8419,7 +8421,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/bosch-ros-pkg-release/usb_cam-release.git
-      version: 0.1.10-0
+      version: 0.1.11-1
     source:
       type: git
       url: https://github.com/bosch-ros-pkg/usb_cam.git
@@ -8646,6 +8648,21 @@ repositories:
       type: git
       url: https://github.com/ros-planning/warehouse_ros.git
       version: master
+    status: maintained
+  web_video_server:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/web_video_server.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/RobotWebTools-release/web_video_server-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/RobotWebTools/web_video_server.git
+      version: develop
     status: maintained
   wge100_driver:
     release:
