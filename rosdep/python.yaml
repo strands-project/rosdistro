@@ -279,6 +279,9 @@ python-cwiid:
     trusty: [python-cwiid]
 python-dateutil:
   ubuntu:
+    lucid: [python-dateutil]
+    maverick: [python-dateutil]
+    natty: [python-dateutil]
     oneiric: [python-dateutil]
     precise: [python-dateutil]
     quantal: [python-dateutil]
@@ -876,6 +879,9 @@ python-pymodbus:
 python-pymongo:
   debian: [python-pymongo]
   fedora: [python-pymongo]
+  osx:
+    pip:
+      packages: [pymongo]
   ubuntu:
     lucid: [python-pymongo]
     maverick: [python-pymongo]
@@ -1467,6 +1473,7 @@ python-visual:
   fedora: [python-visual]
   ubuntu: [python-visual]
 python-vtk:
+  arch: [vtk]
   debian: [python-vtk]
   fedora: [vtk-python]
   ubuntu:
