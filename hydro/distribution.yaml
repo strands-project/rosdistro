@@ -3667,22 +3667,10 @@ repositories:
       version: groovy-devel
     status: maintained
   metapackages:
-    release:
-      packages:
-      - desktop
-      - desktop_full
-      - mobile
-      - perception
-      - robot
-      - ros_base
-      - ros_full
-      - simulators
-      - viz
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/ros-gbp/metapackages-release.git
-      version: 1.0.2-0
-    status: maintained
+    source:
+      type: git
+      url: https://github.com/strands-project/metapackages.git
+      version: hydro-devel
   microstrain_3dmgx2_imu:
     doc:
       type: git
