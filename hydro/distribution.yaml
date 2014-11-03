@@ -7834,6 +7834,12 @@ repositories:
       type: git
       url: https://github.com/srv/stereo_slam.git
       version: hydro
+  strands_3d_mapping:
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_3d_mapping.git
+      version: hydro-devel
+    status: developed
   strands_apps:
     release:
       packages:
