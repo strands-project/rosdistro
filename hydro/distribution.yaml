@@ -7839,7 +7839,7 @@ repositories:
       type: git
       url: https://github.com/strands-project/strands_3d_mapping.git
       version: hydro-devel
-    status: developed	
+    status: developed
   strands_apps:
     release:
       packages:
