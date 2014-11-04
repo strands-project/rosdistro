@@ -3611,20 +3611,21 @@ repositories:
     doc:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: master
+      version: hydro-devel
     release:
       packages:
+      - libmavconn
       - mavros
       - mavros_extras
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.8.0-0
+      version: 0.8.4-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: master
-    status: developed
+      version: hydro-devel
+    status: maintained
   maxwell:
     doc:
       type: git
@@ -4026,7 +4027,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 3.3.4-0
+      version: 3.3.5-0
     source:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
@@ -4848,7 +4849,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RIVeR-Lab-release/orientus_driver-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/RIVeR-Lab/orientus_driver.git
@@ -5253,7 +5254,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_gripper_sensor-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/PR2/pr2_gripper_sensor.git
@@ -5778,6 +5779,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/razer_hydra.git
+      version: hydro-devel
+    status: maintained
+  razor_imu_9dof:
+    doc:
+      type: git
+      url: https://github.com/KristofRobot/razor_imu_9dof.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/KristofRobot/razor_imu_9dof-release.git
+      version: 1.0.3-2
+    source:
+      type: git
+      url: https://github.com/KristofRobot/razor_imu_9dof.git
       version: hydro-devel
     status: maintained
   rbdl:
@@ -6324,7 +6340,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/ros_realtime-release.git
-      version: 1.0.22-0
+      version: 1.0.23-0
     source:
       type: git
       url: https://github.com/ros/ros_realtime.git
@@ -7012,7 +7028,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.0.26-0
+      version: 1.0.27-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
@@ -7032,7 +7048,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_nextage-release.git
-      version: 0.5.1-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/tork-a/rtmros_nextage.git
@@ -8358,10 +8374,11 @@ repositories:
       - ur_driver
       - ur_gazebo
       - ur_kinematics
+      - ur_msgs
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-industrial-release/universal_robot-release.git
-      version: 1.0.2-1
+      version: 1.0.5-0
     source:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
