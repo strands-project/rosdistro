@@ -3671,10 +3671,19 @@ repositories:
       version: groovy-devel
     status: maintained
   metapackages:
+    release:
+      packages:
+      - strands_desktop
+      - strands_robot
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/metapackages.git
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/strands-project/metapackages.git
       version: hydro-devel
+    status: maintained
   microstrain_3dmgx2_imu:
     doc:
       type: git
