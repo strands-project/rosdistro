@@ -507,6 +507,11 @@ repositories:
       url: https://github.com/ipa320/bride.git
       version: develop
     status: developed
+  bta_ros:
+    doc:
+      type: git
+      url: https://github.com/voxel-dot-at/bta_ros.git
+      version: master
   bwi:
     doc:
       type: git
@@ -3620,7 +3625,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.8.4-0
+      version: 0.8.5-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -7013,7 +7018,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_gazebo-release.git
-      version: 0.1.4-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_gazebo.git
