@@ -1856,6 +1856,15 @@ repositories:
       version: master
     status: maintained
   fremen:
+    release:
+      packages:
+      - fremengrid
+      - frenap
+      - froctomap
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/fremen.git
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/strands-project/fremen.git
