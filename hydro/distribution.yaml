@@ -1855,6 +1855,12 @@ repositories:
       url: https://github.com/ros-drivers/freenect_stack.git
       version: master
     status: maintained
+  fremen:
+    source:
+      type: git
+      url: https://github.com/strands-project/fremen.git
+      version: master
+    status: developed
   frontier_exploration:
     doc:
       type: git
