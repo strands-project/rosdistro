@@ -5915,6 +5915,17 @@ repositories:
       url: https://github.com/robotican/ric.git
       version: hydro-devel
     status: maintained
+  robblog:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/robblog.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/strands-project/robblog.git
+      version: hydro-devel
+    status: developed
   robot_localization:
     doc:
       type: git
