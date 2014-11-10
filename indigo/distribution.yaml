@@ -82,6 +82,24 @@ repositories:
       type: git
       url: https://github.com/ros/angles.git
       version: master
+  apriltags_ros:
+    doc:
+      type: git
+      url: https://github.com/RIVeR-Lab/apriltags_ros.git
+      version: indigo-devel
+    release:
+      packages:
+      - apriltags
+      - apriltags_ros
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RIVeR-Lab-release/apriltags_ros-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/RIVeR-Lab/apriltags_ros.git
+      version: indigo-devel
+    status: maintained
   ar_sys:
     doc:
       type: git
@@ -3495,6 +3513,24 @@ repositories:
       url: https://github.com/OctoMap/octomap.git
       version: devel
     status: developed
+  octomap_mapping:
+    doc:
+      type: git
+      url: https://github.com/OctoMap/octomap_mapping.git
+      version: indigo-devel
+    release:
+      packages:
+      - octomap_mapping
+      - octomap_server
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/octomap_mapping-release.git
+      version: 0.5.3-0
+    source:
+      type: git
+      url: https://github.com/OctoMap/octomap_mapping.git
+      version: indigo-devel
+    status: maintained
   octomap_msgs:
     doc:
       type: git
