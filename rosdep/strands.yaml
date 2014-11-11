@@ -8,3 +8,5 @@ rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-twython:
   ubuntu: [python-strands-twython]
+python-webpy:
+  ubuntu: [python-webpy]
