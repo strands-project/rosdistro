@@ -4,9 +4,9 @@ mira-scitos:
 morse-blender-bundle:
   ubuntu:
     precise: [morse-blender-2.65-py-3.3]
+python-webpy:
+  ubuntu: [python-webpy]
 rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-twython:
   ubuntu: [python-strands-twython]
-python-webpy:
-  ubuntu: [python-webpy]
