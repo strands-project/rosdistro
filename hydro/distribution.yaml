@@ -7393,12 +7393,13 @@ repositories:
     release:
       packages:
       - flir_pantilt_d46
+      - scitos_bringup
       - scitos_drivers
       - scitos_mira
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/strands-project-releases/scitos_drivers.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/strands-project/scitos_drivers.git
