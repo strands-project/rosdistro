@@ -1249,11 +1249,12 @@ repositories:
       packages:
       - catkinized_libav
       - libav_image_transport
+      - mongodb_openni_compression
       - rosbag_openni_compression
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/strands-project-releases/data_compression.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/strands-project/data_compression.git
