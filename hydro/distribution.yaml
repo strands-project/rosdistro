@@ -164,7 +164,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/clearpath-gbp/applanix_driver-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/applanix_driver.git
@@ -3405,8 +3405,18 @@ repositories:
   leap_motion:
     doc:
       type: git
-      url: https://github.com/mirzashah/rosleapmotion.git
+      url: https://github.com/ros-drivers/leap_motion.git
       version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/rosleapmotion-release.git
+      version: 0.0.4-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/leap_motion.git
+      version: master
+    status: maintained
   libccd:
     release:
       tags:
@@ -3918,7 +3928,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/mikeferguson/moveit_python-release.git
-      version: 0.2.5-0
+      version: 0.2.6-0
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
@@ -5173,7 +5183,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_apps-release.git
-      version: 0.5.11-0
+      version: 0.5.12-0
     source:
       type: git
       url: https://github.com/pr2/pr2_apps.git
@@ -5224,6 +5234,10 @@ repositories:
       version: hydro-devel
     status: maintained
   pr2_common_actions:
+    doc:
+      type: git
+      url: https://github.com/pr2/pr2_common_actions.git
+      version: hydro-devel
     release:
       packages:
       - joint_trajectory_action_tools
@@ -5236,7 +5250,12 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_common_actions-release.git
-      version: 0.0.3-0
+      version: 0.0.3-1
+    source:
+      type: git
+      url: https://github.com/pr2/pr2_common_actions.git
+      version: hydro-devel
+    status: maintained
   pr2_controllers:
     doc:
       type: git
@@ -6724,14 +6743,6 @@ repositories:
       url: https://github.com/rosjava/rosjava_messages.git
       version: hydro
     status: developed
-  rosleapmotion:
-    release:
-      packages:
-      - leap_motion
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/ros-gbp/rosleapmotion-release.git
-      version: 0.0.4-0
   roslint:
     doc:
       type: git
@@ -8182,6 +8193,15 @@ repositories:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
       version: hydro-devel
+    release:
+      packages:
+      - joy_teleop
+      - key_teleop
+      - teleop_tools
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-gbp/teleop_tools-release.git
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git

@@ -222,7 +222,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/srv/avt_vimba_camera-release.git
-      version: 0.0.8-0
+      version: 0.0.9-0
     source:
       type: git
       url: https://github.com/srv/avt_vimba_camera.git
@@ -2898,7 +2898,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mikeferguson/moveit_python-release.git
-      version: 0.2.5-0
+      version: 0.2.6-0
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
@@ -4711,7 +4711,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/code-iai-release/ros_emacs_utils-release.git
-      version: 0.4.4-0
+      version: 0.4.5-0
     source:
       type: git
       url: https://github.com/code-iai/ros_emacs_utils.git
@@ -4753,6 +4753,21 @@ repositories:
       url: https://github.com/WPI-RAIL/ros_ethernet_rmp.git
       version: develop
     status: maintained
+  ros_openlighting:
+    release:
+      packages:
+      - lighting_msgs
+      - lighting_tools
+      - ola_ros
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/sevenbitbyte/ros_openlighting-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/sevenbitbyte/ros_openlighting.git
+      version: indigo
+    status: developed
   ros_statistics_msgs:
     doc:
       type: git
