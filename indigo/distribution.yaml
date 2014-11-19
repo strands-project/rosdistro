@@ -2544,7 +2544,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/linux_peripheral_interfaces-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/ros-drivers/linux_peripheral_interfaces.git
@@ -2626,6 +2626,21 @@ repositories:
       type: git
       url: https://github.com/ethz-asl/map_msgs.git
       version: master
+  map_store:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/map_store.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/map_store-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/map_store.git
+      version: hydro-devel
+    status: maintained
   mavlink:
     doc:
       type: git
@@ -6097,6 +6112,21 @@ repositories:
       url: https://github.com/turtlebot/turtlebot_arm.git
       version: indigo-devel
     status: developed
+  turtlebot_msgs:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot_msgs.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/turtlebot-release/turtlebot_msgs-release.git
+      version: 2.2.0-0
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot_msgs.git
+      version: indigo
+    status: maintained
   twist_mux:
     doc:
       type: git
