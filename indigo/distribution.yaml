@@ -2056,6 +2056,11 @@ repositories:
       version: indigo_dev
     status: maintained
   ira_photonfocus_driver:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/iralabdisco/ira_photonfocus_driver-release.git
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/iralabdisco/ira_photonfocus_driver.git
@@ -2172,11 +2177,12 @@ repositories:
       - rostwitter
       - sklearn
       - speech_recognition_msgs
+      - virtual_force_publisher
       - voice_text
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.53-0
+      version: 1.0.54-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -4016,6 +4022,17 @@ repositories:
       url: https://github.com/ros-visualization/python_qt_binding.git
       version: groovy-devel
     status: maintained
+  python_trep:
+    doc:
+      type: git
+      url: https://github.com/MurpheyLab/trep-release.git
+      version: release/indigo/python_trep
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/MurpheyLab/trep-release.git
+      version: 0.93.0-0
+    status: developed
   qt_gui_core:
     doc:
       type: git
