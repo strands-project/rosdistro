@@ -8138,7 +8138,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/strands-project-releases/strands_social.git
-      version: 0.0.9-2
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/strands-project/strands_social.git
