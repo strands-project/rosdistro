@@ -5051,19 +5051,21 @@ repositories:
       version: release-hydro-source
     release:
       packages:
+      - ndt_costmap
+      - ndt_feature_reg
       - ndt_fuser
       - ndt_map
       - ndt_map_builder
       - ndt_mcl
       - ndt_registration
+      - ndt_rviz_visualisation
       - ndt_visualisation
       - perception_oru
-      - pointcloud_vrml
       - sdf_tracker
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tstoyanov/perception_oru-release.git
-      version: 1.0.18-0
+      version: 1.0.22-0
   perception_pcl:
     doc:
       type: git
@@ -5363,7 +5365,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_kinematics-release.git
-      version: 1.0.5-0
+      version: 1.0.6-0
     source:
       type: git
       url: https://github.com/pr2/pr2_kinematics.git
@@ -6087,6 +6089,15 @@ repositories:
       type: git
       url: https://github.com/g/roboteq.git
       version: master
+  robotiq:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/robotiq.git
+      version: hydro-devel
+    source:
+      type: git
+      url: https://github.com/ros-industrial/robotiq.git
+      version: hydro-devel
   robotnik_msgs:
     doc:
       type: git
