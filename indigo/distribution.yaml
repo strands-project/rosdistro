@@ -6042,6 +6042,17 @@ repositories:
       url: https://github.com/strands-project/strands_webtools.git
       version: hydro-devel
     status: developed
+  swiftnav:
+    doc:
+      type: git
+      url: https://github.com/clearpath-gbp/libswiftnav-release.git
+      version: upstream
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/libswiftnav-release.git
+      version: 0.13.0-1
+    status: maintained
   teleop_twist_joy:
     doc:
       type: git
