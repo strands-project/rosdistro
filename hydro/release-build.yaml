@@ -4,7 +4,7 @@
 ---
 jenkins_binarydeb_job_timeout: 120
 jenkins_sourcedeb_job_timeout: 10
-jenkins_url: http://lcas.lincoln.ac.uk/jenkins
+jenkins_url: https://lcas.lincoln.ac.uk/jenkins
 notifications:
   emails:
   - strands-buildfarm@googlegroups.com
