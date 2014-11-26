@@ -4075,7 +4075,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 3.3.6-0
+      version: 3.3.7-0
     source:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
@@ -4432,7 +4432,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-drivers-gbp/novatel_span_driver-release.git
-      version: 0.2.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/ros-drivers/novatel_span_driver.git
@@ -5064,7 +5064,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tstoyanov/perception_oru-release.git
-      version: 1.0.22-0
+      version: 1.0.23-0
   perception_pcl:
     doc:
       type: git
@@ -7073,6 +7073,34 @@ repositories:
       url: https://github.com/ros-visualization/rqt_robot_plugins.git
       version: hydro-devel
     status: maintained
+  rtabmap:
+    doc:
+      type: git
+      url: https://github.com/introlab/rtabmap.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/introlab/rtabmap-release.git
+      version: 0.7.1-1
+    source:
+      type: git
+      url: https://github.com/introlab/rtabmap.git
+      version: master
+  rtabmap_ros:
+    doc:
+      type: git
+      url: https://github.com/introlab/rtabmap_ros.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/introlab/rtabmap_ros-release.git
+      version: 0.7.1-0
+    source:
+      type: git
+      url: https://github.com/introlab/rtabmap_ros.git
+      version: master
   rtmros_common:
     doc:
       type: git
