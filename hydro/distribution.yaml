@@ -1369,6 +1369,10 @@ repositories:
       type: git
       url: https://github.com/uos/diffdrive_gazebo_plugin.git
       version: hydro
+    source:
+      type: git
+      url: https://github.com/uos/diffdrive_gazebo_plugin.git
+      version: hydro
   driver_common:
     doc:
       type: git
@@ -2728,6 +2732,20 @@ repositories:
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
       version: hydro
+    release:
+      packages:
+      - imu_filter_madgwick
+      - imu_tools
+      - rviz_imu_plugin
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/uos-gbp/imu_tools-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/ccny-ros-pkg/imu_tools.git
+      version: hydro
+    status: developed
   industrial_calibration:
     doc:
       type: git
@@ -4129,8 +4147,8 @@ repositories:
     release:
       tags:
         release: release/hydro/{package}/{version}
-      url: https://github.com/ros-gbp/nao_meshes-release.git
-      version: 0.1.6-0
+      url: https://github.com/ros-naoqi/nao_meshes-release.git
+      version: 0.1.8-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_meshes.git
@@ -5093,6 +5111,10 @@ repositories:
       type: git
       url: https://github.com/ccny-ros-pkg/phidgets_drivers.git
       version: hydro
+    source:
+      type: git
+      url: https://github.com/ccny-ros-pkg/phidgets_drivers.git
+      version: hydro
   pi_tracker:
     doc:
       type: git
@@ -5645,7 +5667,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_self_test-release.git
-      version: 1.0.3-1
+      version: 1.0.5-0
     source:
       type: git
       url: https://github.com/PR2/pr2_self_test.git
@@ -6268,7 +6290,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-aldebaran/romeo_robot-release.git
-      version: 0.0.12-0
+      version: 0.0.12-1
     source:
       type: git
       url: https://github.com/ros-aldebaran/romeo_robot.git
@@ -8679,6 +8701,10 @@ repositories:
       type: git
       url: https://github.com/uos/uos_tools.git
       version: hydro
+    source:
+      type: git
+      url: https://github.com/uos/uos_tools.git
+      version: hydro
   ur_kin_py:
     doc:
       type: git
@@ -8948,6 +8974,10 @@ repositories:
       version: 0.8.4-0
   volksbot_driver:
     doc:
+      type: git
+      url: https://github.com/uos/volksbot_driver.git
+      version: hydro
+    source:
       type: git
       url: https://github.com/uos/volksbot_driver.git
       version: hydro

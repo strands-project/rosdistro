@@ -1109,6 +1109,10 @@ repositories:
       type: git
       url: https://github.com/uos/diffdrive_gazebo_plugin.git
       version: indigo
+    source:
+      type: git
+      url: https://github.com/uos/diffdrive_gazebo_plugin.git
+      version: indigo
   driver_common:
     doc:
       type: git
@@ -1927,7 +1931,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/open-rdc/icart_mini_gazebo-release.git
-      version: 0.0.1-0
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/open-rdc/icart_mini_gazebo.git
@@ -1941,11 +1945,12 @@ repositories:
     release:
       packages:
       - force_rotate_recovery
+      - icart_mini_navigation
       - waypoints_navigation
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/open-rdc/icart_mini_navigation-release.git
-      version: 0.0.1-0
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/open-rdc/icart_mini_navigation.git
@@ -3166,8 +3171,8 @@ repositories:
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/ros-gbp/nao_meshes-release.git
-      version: 0.1.7-0
+      url: https://github.com/ros-naoqi/nao_meshes-release.git
+      version: 0.1.8-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_meshes.git
@@ -6412,6 +6417,10 @@ repositories:
       type: git
       url: https://github.com/uos/uos_tools.git
       version: indigo
+    source:
+      type: git
+      url: https://github.com/uos/uos_tools.git
+      version: indigo
   urdf_tutorial:
     release:
       tags:
@@ -6649,6 +6658,10 @@ repositories:
       type: git
       url: https://github.com/uos/volksbot_driver.git
       version: indigo
+    source:
+      type: git
+      url: https://github.com/uos/volksbot_driver.git
+      version: indigo
   vrep_ros_bridge:
     doc:
       type: git
@@ -6684,6 +6697,58 @@ repositories:
       url: https://github.com/RobotWebTools/web_video_server.git
       version: develop
     status: maintained
+  world_canvas:
+    doc:
+      type: git
+      url: https://github.com/corot/world_canvas.git
+      version: master
+    release:
+      packages:
+      - world_canvas_server
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/corot/world_canvas-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/corot/world_canvas.git
+      version: master
+    status: developed
+  world_canvas_libs:
+    doc:
+      type: git
+      url: https://github.com/corot/world_canvas_libs.git
+      version: master
+    release:
+      packages:
+      - world_canvas_client_cpp
+      - world_canvas_client_examples
+      - world_canvas_client_py
+      - world_canvas_utils
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/corot/world_canvas_libs-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/corot/world_canvas_libs.git
+      version: master
+    status: developed
+  world_canvas_msgs:
+    doc:
+      type: git
+      url: https://github.com/corot/world_canvas_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/corot/world_canvas_msgs-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/corot/world_canvas_msgs.git
+      version: master
+    status: developed
   wpi_jaco:
     doc:
       type: git
