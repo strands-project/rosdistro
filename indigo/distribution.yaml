@@ -4379,7 +4379,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/robot_model-release.git
-      version: 1.11.5-0
+      version: 1.11.6-0
     source:
       type: git
       url: https://github.com/ros/robot_model.git
@@ -4409,7 +4409,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/robot_state_publisher-release.git
-      version: 1.10.3-0
+      version: 1.10.4-0
     source:
       type: git
       url: https://github.com/ros/robot_state_publisher.git
@@ -6224,6 +6224,26 @@ repositories:
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/topic_proxy-release.git
       version: 0.1.1-0
     status: maintained
+  turtlebot:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot.git
+      version: indigo
+    release:
+      packages:
+      - turtlebot
+      - turtlebot_bringup
+      - turtlebot_capabilities
+      - turtlebot_description
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/turtlebot-release/turtlebot-release.git
+      version: 2.3.0-0
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot.git
+      version: indigo
+    status: developed
   turtlebot_arm:
     doc:
       type: git
@@ -6248,6 +6268,26 @@ repositories:
       url: https://github.com/turtlebot/turtlebot_arm.git
       version: indigo-devel
     status: developed
+  turtlebot_create:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot_create.git
+      version: indigo
+    release:
+      packages:
+      - create_description
+      - create_driver
+      - create_node
+      - turtlebot_create
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/turtlebot-release/turtlebot_create-release.git
+      version: 2.3.0-0
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot_create.git
+      version: indigo
+    status: maintained
   turtlebot_msgs:
     doc:
       type: git
@@ -6878,15 +6918,20 @@ repositories:
       - yocs_cmd_vel_mux
       - yocs_controllers
       - yocs_diff_drive_pose_controller
+      - yocs_joyop
+      - yocs_keyop
       - yocs_math_toolkit
+      - yocs_rapps
+      - yocs_safety_controller
       - yocs_velocity_smoother
       - yocs_virtual_sensor
+      - yocs_waypoint_provider
       - yocs_waypoints_navi
       - yujin_ocs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/yujin_ocs-release.git
-      version: 0.6.1-1
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/yujinrobot/yujin_ocs.git
