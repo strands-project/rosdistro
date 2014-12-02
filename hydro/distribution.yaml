@@ -5082,7 +5082,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tstoyanov/perception_oru-release.git
-      version: 1.0.24-0
+      version: 1.0.25-0
     source:
       type: git
       url: https://github.com/tstoyanov/perception_oru-release.git
@@ -5781,6 +5781,17 @@ repositories:
       url: https://github.com/ros-visualization/python_qt_binding.git
       version: groovy-devel
     status: maintained
+  python_trep:
+    doc:
+      type: git
+      url: https://github.com/MurpheyLab/trep-release.git
+      version: release/hydro/python_trep
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/MurpheyLab/trep-release.git
+      version: 0.93.1-0
+    status: developed
   qt_gui_core:
     doc:
       type: git
@@ -6839,6 +6850,7 @@ repositories:
       packages:
       - actionlib_lisp
       - cl_tf
+      - cl_tf2
       - cl_transforms
       - cl_utils
       - roslisp_common
@@ -6846,7 +6858,11 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/roslisp_common-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
+    source:
+      type: git
+      url: https://github.com/ros/roslisp_common.git
+      version: master
     status: maintained
   roslisp_repl:
     doc:
@@ -8598,7 +8614,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/anqixu/ueye_cam-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/anqixu/ueye_cam.git
