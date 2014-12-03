@@ -192,6 +192,21 @@ repositories:
       url: https://github.com/ROS-PSE/arni.git
       version: master
     status: maintained
+  async_web_server_cpp:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/async_web_server_cpp.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/wpi-rail-release/async_web_server_cpp-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/async_web_server_cpp.git
+      version: develop
+    status: maintained
   audio_common:
     doc:
       type: git
@@ -468,7 +483,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_bot-release.git
-      version: 0.0.9-0
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_bot.git
@@ -513,7 +528,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_moveit-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_moveit.git
@@ -528,7 +543,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_navigation-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_navigation.git
@@ -1902,58 +1917,29 @@ repositories:
       url: https://github.com/code-iai-release/iai_common_msgs-release.git
       version: 0.0.3-0
     status: developed
-  icart_mini_core:
+  icart_mini:
     doc:
       type: git
-      url: https://github.com/open-rdc/icart_mini_core.git
+      url: https://github.com/open-rdc/icart_mini.git
       version: indigo-devel
     release:
       packages:
       - combine_dr_measurements
+      - force_rotate_recovery
+      - icart_mini
       - icart_mini_control
       - icart_mini_description
       - icart_mini_driver
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/open-rdc/icart_mini_core-release.git
-      version: 0.0.1-1
-    source:
-      type: git
-      url: https://github.com/open-rdc/icart_mini_core.git
-      version: indigo-devel
-    status: developed
-  icart_mini_gazebo:
-    doc:
-      type: git
-      url: https://github.com/open-rdc/icart_mini_gazebo.git
-      version: indigo-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/open-rdc/icart_mini_gazebo-release.git
-      version: 0.0.1-1
-    source:
-      type: git
-      url: https://github.com/open-rdc/icart_mini_gazebo.git
-      version: indigo-devel
-    status: developed
-  icart_mini_navigation:
-    doc:
-      type: git
-      url: https://github.com/open-rdc/icart_mini_navigation.git
-      version: indigo-devel
-    release:
-      packages:
-      - force_rotate_recovery
+      - icart_mini_gazebo
       - icart_mini_navigation
       - waypoints_navigation
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/open-rdc/icart_mini_navigation-release.git
-      version: 0.0.1-1
+      url: https://github.com/open-rdc/icart_mini-release.git
+      version: 0.0.3-0
     source:
       type: git
-      url: https://github.com/open-rdc/icart_mini_navigation.git
+      url: https://github.com/open-rdc/icart_mini.git
       version: indigo-devel
     status: developed
   image_common:
@@ -2304,6 +2290,24 @@ repositories:
       url: https://github.com/lrse/ros-keyboard.git
       version: master
     status: developed
+  kingfisher:
+    doc:
+      type: git
+      url: https://github.com/kf/kingfisher.git
+      version: indigo-devel
+    release:
+      packages:
+      - kingfisher_description
+      - kingfisher_msgs
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/kingfisher-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/kf/kingfisher.git
+      version: indigo-devel
+    status: maintained
   kobuki:
     doc:
       type: git
@@ -2571,6 +2575,21 @@ repositories:
       url: https://github.com/ethz-asl/libpointmatcher.git
       version: master
     status: developed
+  librms:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/librms.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/wpi-rail-release/librms-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/librms.git
+      version: develop
+    status: maintained
   libuvc:
     release:
       tags:
@@ -3020,11 +3039,19 @@ repositories:
       version: indigo-devel
     status: maintained
   moveit_setup_assistant:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_setup_assistant.git
+      version: indigo-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_setup_assistant-release.git
-      version: 0.5.9-0
+      version: 0.6.0-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit_setup_assistant.git
+      version: indigo-devel
     status: maintained
   moveit_simple_grasps:
     doc:
@@ -3110,7 +3137,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 3.3.7-0
+      version: 3.3.8-0
     source:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
@@ -4152,7 +4179,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_ceiling-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_ceiling.git
@@ -4167,7 +4194,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_maps-release.git
-      version: 0.2.4-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_maps.git
@@ -4508,7 +4535,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_concert-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_concert.git
@@ -4619,7 +4646,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_tools-release.git
-      version: 0.1.10-0
+      version: 0.1.11-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_tools.git
@@ -4963,7 +4990,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rosauth-release.git
-      version: 0.1.4-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rosauth.git
@@ -5005,7 +5032,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.6.8-0
+      version: 0.7.0-0
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -5393,7 +5420,12 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.7.2-0
+      version: 0.7.3-0
+    source:
+      type: git
+      url: https://github.com/introlab/rtabmap.git
+      version: master
+    status: maintained
   rtabmap_ros:
     doc:
       type: git
@@ -5403,7 +5435,12 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.7.2-0
+      version: 0.7.3-0
+    source:
+      type: git
+      url: https://github.com/introlab/rtabmap_ros.git
+      version: master
+    status: maintained
   rtt:
     doc:
       type: git
@@ -6567,7 +6604,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/bosch-ros-pkg-release/usb_cam-release.git
-      version: 0.1.12-0
+      version: 0.1.13-0
     source:
       type: git
       url: https://github.com/bosch-ros-pkg/usb_cam.git
@@ -6859,7 +6896,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/wpi_jaco-release.git
-      version: 0.0.8-0
+      version: 0.0.9-0
     source:
       type: git
       url: https://github.com/RIVeR-Lab/wpi_jaco.git
