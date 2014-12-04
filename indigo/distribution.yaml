@@ -5663,6 +5663,22 @@ repositories:
       url: https://github.com/strands-project/scitos_common.git
       version: hydro-devel
     status: developed
+  scitos_drivers:
+    release:
+      packages:
+        - flir_pantilt_d46
+        - scitos_bringup
+        - scitos_drivers
+        - scitos_mira
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/scitos_drivers.git
+      version: 0.0.12-0
+    source:
+      type: git
+      url: https://github.com/strands-project/scitos_drivers.git
+      version: indigo-release
+      status: developed
   sentis_tof_m100:
     doc:
       type: git
