@@ -982,7 +982,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/concert_services-release.git
-      version: 0.1.4-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/concert_services.git
@@ -4679,7 +4679,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-aldebaran/romeo_moveit_config-release.git
-      version: 0.2.2-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/ros-aldebaran/romeo_moveit_config.git
@@ -7006,9 +7006,6 @@ repositories:
       version: indigo
     release:
       packages:
-      - yocs_ar_marker_tracking
-      - yocs_ar_pair_approach
-      - yocs_ar_pair_tracking
       - yocs_cmd_vel_mux
       - yocs_controllers
       - yocs_diff_drive_pose_controller
@@ -7019,13 +7016,12 @@ repositories:
       - yocs_safety_controller
       - yocs_velocity_smoother
       - yocs_virtual_sensor
-      - yocs_waypoint_provider
       - yocs_waypoints_navi
       - yujin_ocs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/yujin_ocs-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       type: git
       url: https://github.com/yujinrobot/yujin_ocs.git
