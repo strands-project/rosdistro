@@ -7572,7 +7572,7 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/scitos_common.git
-      version: hydro-devel
+      version: hydro-release
     status: developed
   scitos_drivers:
     release:
