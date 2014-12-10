@@ -13,3 +13,6 @@ rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-twython:
   ubuntu: [python-strands-twython]
+lm-sensors:
+  ubuntu: [lm-sensors]
+  
