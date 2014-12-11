@@ -1096,6 +1096,13 @@ repositories:
       url: https://github.com/ros-perception/depthimage_to_laserscan.git
       version: indigo-devel
     status: maintained
+  designator_integration:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/code-iai-release/designator_integration-release.git
+      version: 0.0.1-0
+    status: developed
   diagnostics:
     doc:
       type: git
@@ -1113,7 +1120,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/diagnostics-release.git
-      version: 1.8.4-0
+      version: 1.8.6-0
     source:
       type: git
       url: https://github.com/ros/diagnostics.git
@@ -1906,16 +1913,19 @@ repositories:
       - grasp_stability_msgs
       - iai_common_msgs
       - iai_content_msgs
+      - iai_control_msgs
       - iai_kinematics_msgs
       - iai_robosherlock_actions
+      - iai_urdf_msgs
       - mln_robosherlock_msgs
+      - person_msgs
       - saphari_msgs
       - scanning_table_msgs
       - sherlock_sim_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/code-iai-release/iai_common_msgs-release.git
-      version: 0.0.3-0
+      version: 0.0.3-1
     status: developed
   icart_mini:
     doc:
@@ -2473,6 +2483,23 @@ repositories:
       url: https://github.com/ros-perception/laser_assembler.git
       version: hydro-devel
     status: maintained
+  laser_filtering:
+    doc:
+      type: git
+      url: https://github.com/DLu/laser_filtering.git
+      version: hydro_devel
+    release:
+      packages:
+      - laser_filtering
+      - map_laser
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/wu-robotics/laser_filtering_release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/DLu/laser_filtering.git
+      version: hydro_devel
   laser_filters:
     doc:
       type: git
@@ -3399,10 +3426,11 @@ repositories:
       packages:
       - navigation_layers
       - range_sensor_layer
+      - social_navigation_layers
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wu-robotics/navigation_layers_release.git
-      version: 0.2.1-1
+      version: 0.3.0-0
     source:
       type: git
       url: https://github.com/DLu/navigation_layers.git
@@ -3976,6 +4004,18 @@ repositories:
       type: git
       url: https://github.com/wg-perception/people.git
       version: indigo-devel
+    release:
+      packages:
+      - face_detector
+      - leg_detector
+      - people
+      - people_msgs
+      - people_tracking_filter
+      - people_velocity_tracker
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/OSUrobotics/people-release.git
+      version: 1.0.8-0
     source:
       type: git
       url: https://github.com/wg-perception/people.git
@@ -6933,6 +6973,30 @@ repositories:
       type: git
       url: https://github.com/RIVeR-Lab/wpi_jaco.git
       version: develop
+    status: maintained
+  wu_ros_tools:
+    doc:
+      type: git
+      url: https://github.com/DLu/wu_ros_tools.git
+      version: hydro
+    release:
+      packages:
+      - catkinize_this
+      - easy_markers
+      - joy_listener
+      - kalman_filter
+      - manifest_cleaner
+      - rosbaglive
+      - roswiki_node
+      - wu_ros_tools
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/wu-robotics/wu_ros_tools.git
+      version: 0.2.3-0
+    source:
+      type: git
+      url: https://github.com/DLu/wu_ros_tools.git
+      version: hydro
     status: maintained
   xacro:
     doc:
