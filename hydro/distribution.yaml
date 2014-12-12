@@ -169,7 +169,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/clearpath-gbp/applanix_driver-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/applanix_driver.git
@@ -1395,11 +1395,11 @@ repositories:
     doc:
       type: git
       url: https://github.com/uos/diffdrive_gazebo_plugin.git
-      version: hydro
+      version: hydro_catkin
     source:
       type: git
       url: https://github.com/uos/diffdrive_gazebo_plugin.git
-      version: hydro
+      version: hydro_catkin
   driver_common:
     doc:
       type: git
@@ -4149,7 +4149,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 3.3.9-0
+      version: 3.4.0-0
     source:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
@@ -4616,7 +4616,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_tabletop-release.git
-      version: 0.3.1-0
+      version: 0.3.2-0
     status: maintained
   object_recognition_tod:
     release:
@@ -5981,6 +5981,17 @@ repositories:
       type: hg
       url: https://bitbucket.org/rbdl/rbdl
       version: default
+    status: developed
+  read_omni_dataset:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/aamirahmad/read_omni_dataset-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/aamirahmad/read_omni_dataset.git
+      version: master
     status: developed
   realtime_tools:
     doc:
@@ -8433,7 +8444,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RobotWebTools-release/tf2_web_republisher-release.git
-      version: 0.2.2-0
+      version: 0.3.0-0
     source:
       type: git
       url: https://github.com/RobotWebTools/tf2_web_republisher.git
@@ -8693,7 +8704,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/anqixu/ueye_cam-release.git
-      version: 1.0.4-0
+      version: 1.0.5-0
     source:
       type: git
       url: https://github.com/anqixu/ueye_cam.git
@@ -9072,11 +9083,11 @@ repositories:
     doc:
       type: git
       url: https://github.com/uos/volksbot_driver.git
-      version: hydro
+      version: hydro_catkin
     source:
       type: git
       url: https://github.com/uos/volksbot_driver.git
-      version: hydro
+      version: hydro_catkin
   vrep_ros_bridge:
     doc:
       type: git
