@@ -1,3 +1,5 @@
+lm-sensors:
+  ubuntu: [lm-sensors]
 mira-scitos:
   ubuntu:
     precise: [mira-scitos]
@@ -13,6 +15,4 @@ rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-twython:
   ubuntu: [python-strands-twython]
-lm-sensors:
-  ubuntu: [lm-sensors]
   
