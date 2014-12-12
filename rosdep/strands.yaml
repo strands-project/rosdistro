@@ -7,6 +7,10 @@ mira-scitos:
 morse-blender-bundle:
   ubuntu:
     precise: [morse-blender-2.65-py-3.3]
+prism-robots:
+  ubuntu:
+    precise: [prism-robots]
+    trusty: [prism-robots]
 python-strands-requests:
   ubuntu: [python-strands-requests]
 python-webpy:
@@ -15,4 +19,3 @@ rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
 strands-twython:
   ubuntu: [python-strands-twython]
-  
