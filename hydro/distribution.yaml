@@ -2892,6 +2892,27 @@ repositories:
       url: https://github.com/ros-gbp/interactive_markers-release.git
       version: 1.10.2-0
     status: maintained
+  interactive_world:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/interactive_world.git
+      version: master
+    release:
+      packages:
+      - interactive_world
+      - interactive_world_msgs
+      - interactive_world_parser
+      - interactive_world_tools
+      - jinteractiveworld
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/wpi-rail-release/interactive_world-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/interactive_world.git
+      version: develop
+    status: maintained
   ipa_canopen:
     doc:
       type: git
@@ -3541,7 +3562,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/wpi-rail-release/librms-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/librms.git
@@ -3717,7 +3738,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2014.11.11-2
+      version: 2014.12.12-1
     status: maintained
   mavros:
     doc:
@@ -4127,7 +4148,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.3.15-0
+      version: 0.3.16-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
