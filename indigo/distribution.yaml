@@ -688,7 +688,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.6.2-0
+      version: 0.6.4-0
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -2069,6 +2069,21 @@ repositories:
       url: https://github.com/ccny-ros-pkg/imu_tools.git
       version: indigo
     status: developed
+  innok_heros_driver:
+    doc:
+      type: git
+      url: https://github.com/innokrobotics/innok_heros_driver.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/innokrobotics/innok_heros_driver-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/innokrobotics/innok_heros_driver.git
+      version: indigo
+    status: maintained
   innok_heros_lights:
     doc:
       type: git
@@ -2139,7 +2154,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/interactive_markers-release.git
-      version: 1.11.0-0
+      version: 1.11.1-0
     source:
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
@@ -2160,7 +2175,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/interactive_world-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/interactive_world.git
@@ -3887,7 +3902,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/openhrp3-release.git
-      version: 3.1.7-11
+      version: 3.1.7-12
     source:
       type: git
       url: https://github.com/fkanehiro/openhrp3.git
@@ -5205,11 +5220,10 @@ repositories:
       - rosbridge_library
       - rosbridge_server
       - rosbridge_suite
-      - rosbridge_tools
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.7.3-0
+      version: 0.7.4-0
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -6427,7 +6441,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/libswiftnav-release.git
-      version: 0.13.0-1
+      version: 0.13.0-3
     status: maintained
   teleop_twist_joy:
     doc:
