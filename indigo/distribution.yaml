@@ -6337,6 +6337,19 @@ repositories:
       url: https://github.com/strands-project/strands_executive.git
       version: hydro-devel
     status: developed
+  strands_executive_behaviours:
+    release:
+      packages:
+      - routine_behaviours
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_executive_behaviours.git
+      version: 0.0.12-1
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_executive_behaviours.git
+      version: hydro-devel
+    status: developed
   strands_hri:
     release:
       packages:
