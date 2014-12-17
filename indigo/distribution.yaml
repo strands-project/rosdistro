@@ -6391,6 +6391,23 @@ repositories:
       url: https://github.com/strands-project/strands_perception_people.git
       version: indigo-release
     status: developed
+  strands_recovery_behaviours:
+    release:
+      packages:
+      - backoff_behaviour
+      - backtrack_behaviour
+      - strands_human_help
+      - strands_monitored_nav_states
+      - strands_recovery_behaviours
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_recovery_behaviours.git
+      version: 0.0.10-1
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_recovery_behaviours.git
+      version: hydro-devel
+    status: developed
   strands_social:
     release:
       packages:
