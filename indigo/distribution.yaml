@@ -6400,7 +6400,7 @@ repositories:
       - strands_monitored_nav_states
       - strands_recovery_behaviours
       tags:
-        release: release/hydro/{package}/{version}
+        release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/strands_recovery_behaviours.git
       version: 0.0.10-1
     source:
