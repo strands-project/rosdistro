@@ -5884,14 +5884,16 @@ repositories:
       - scitos_bringup
       - scitos_drivers
       - scitos_mira
+      - scitos_pc_monitor
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/scitos_drivers.git
-      version: 0.0.16-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/strands-project/scitos_drivers.git
       version: indigo-release
+    status: developed
   sentis_tof_m100:
     doc:
       type: git
