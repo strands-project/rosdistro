@@ -17,5 +17,8 @@ python-webpy:
   ubuntu: [python-webpy]
 rubygem-jekyll:
   ubuntu: [rubygem-jekyll]
+strands-morse-simulator:
+  ubuntu:
+    trusty: [strands-morse-simulator]
 strands-twython:
   ubuntu: [python-strands-twython]
