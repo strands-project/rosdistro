@@ -480,10 +480,11 @@ repositories:
       - carl_dynamixel
       - carl_interactive_manipulation
       - carl_teleop
+      - carl_tools
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_bot-release.git
-      version: 0.0.10-0
+      version: 0.0.11-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_bot.git
@@ -498,7 +499,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_demos-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_demos.git
@@ -543,7 +544,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_navigation-release.git
-      version: 0.0.8-0
+      version: 0.0.9-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_navigation.git
@@ -688,7 +689,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.6.4-0
+      version: 0.6.6-0
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -1531,7 +1532,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.4.7-0
+      version: 2.4.7-1
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
@@ -1692,6 +1693,13 @@ repositories:
       url: https://github.com/ros/geometry_tutorials.git
       version: hydro-devel
     status: maintained
+  gperftools_21:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/gperftools_21-release.git
+      version: 2.1.0-1
+    status: maintained
   gps_umd:
     release:
       packages:
@@ -1739,6 +1747,64 @@ repositories:
       url: https://github.com/mikeferguson/grasping_msgs-gbp.git
       version: 0.3.1-0
     status: developed
+  grizzly:
+    doc:
+      type: git
+      url: https://github.com/g/grizzly.git
+      version: indigo-devel
+    release:
+      packages:
+      - grizzly_description
+      - grizzly_motion
+      - grizzly_msgs
+      - grizzly_navigation
+      - grizzly_teleop
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/grizzly-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/g/grizzly.git
+      version: indigo-devel
+    status: maintained
+  grizzly_desktop:
+    doc:
+      type: git
+      url: https://github.com/g/grizzly_desktop.git
+      version: indigo-devel
+    release:
+      packages:
+      - grizzly_desktop
+      - grizzly_viz
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/grizzly_desktop-release.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/g/grizzly_desktop.git
+      version: indigo-devel
+    status: maintained
+  grizzly_simulator:
+    doc:
+      type: git
+      url: https://github.com/g/grizzly_simulator.git
+      version: indigo-devel
+    release:
+      packages:
+      - grizzly_gazebo
+      - grizzly_gazebo_plugins
+      - grizzly_simulator
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/grizzly_simulator-release.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/g/grizzly_simulator.git
+      version: indigo-devel
+    status: maintained
   hector_gazebo:
     doc:
       type: git
@@ -2555,6 +2621,69 @@ repositories:
       type: git
       url: https://github.com/uos/kurt_navigation.git
       version: indigo
+  lama:
+    doc:
+      type: git
+      url: https://github.com/lama-imr/lama.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/lama-imr/lama.git
+      version: indigo-devel
+  lama_costmap:
+    doc:
+      type: git
+      url: https://github.com/lama-imr/lama_costmap.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/lama-imr/lama_costmap.git
+      version: indigo-devel
+  lama_featurenav:
+    doc:
+      type: git
+      url: https://github.com/lama-imr/lama_featurenav.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/lama-imr/lama_featurenav.git
+      version: indigo-devel
+  lama_laser:
+    doc:
+      type: git
+      url: https://github.com/lama-imr/lama_laser.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/lama-imr/lama_laser.git
+      version: indigo-devel
+  lama_polygon_matcher:
+    doc:
+      type: git
+      url: https://github.com/lama-imr/lama_polygon_matcher.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/lama-imr/lama_polygon_matcher.git
+      version: indigo-devel
+  lama_test:
+    doc:
+      type: git
+      url: https://github.com/lama-imr/lama_test.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/lama-imr/lama_test.git
+      version: indigo-devel
+  lama_utilities:
+    doc:
+      type: git
+      url: https://github.com/lama-imr/lama_utilities.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/lama-imr/lama_utilities.git
+      version: indigo-devel
   laser_assembler:
     doc:
       type: git
@@ -3231,7 +3360,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
-      version: 0.1.1-0
+      version: 0.1.3-0
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -4354,10 +4483,25 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_ceiling-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_ceiling.git
+      version: develop
+    status: maintained
+  rail_collada_models:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_collada_models.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/wpi-rail-release/rail_collada_models-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_collada_models.git
       version: develop
     status: maintained
   rail_maps:
@@ -4940,13 +5084,12 @@ repositories:
       - canopen_chain_node
       - canopen_master
       - canopen_motor_node
-      - canopen_test_utils
       - ros_canopen
       - socketcan_interface
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/ros_canopen-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/ipa320/ros_canopen.git
@@ -6779,7 +6922,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/anqixu/ueye_cam-release.git
-      version: 1.0.5-0
+      version: 1.0.6-0
     source:
       type: git
       url: https://github.com/anqixu/ueye_cam.git
@@ -7213,7 +7356,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/wpi_jaco-release.git
-      version: 0.0.10-0
+      version: 0.0.11-0
     source:
       type: git
       url: https://github.com/RIVeR-Lab/wpi_jaco.git

@@ -2043,6 +2043,8 @@ libusb-dev:
   fedora: [libusb-devel]
   macports: [libusb]
   ubuntu: [libusb-dev]
+libuv-dev:
+  ubuntu: [libuv-dev]
 libv4l-dev:
   arch: [v4l-utils]
   debian: [libv4l-dev]
@@ -2288,9 +2290,10 @@ mrpt:
     precise: [libmrpt-dev]
     quantal: [libmrpt-dev]
     raring: [libmrpt-dev, mrpt-apps]
-    saucy: [libmrpt-dev]
+    saucy: [libmrpt-dev, mrpt-apps]
     trusty: [libmrpt-dev]
     utopic: [libmrpt-dev]
+    vivid: [libmrpt-dev]
 muparser:
   fedora: [muParser-devel]
   ubuntu: [libmuparser-dev]
