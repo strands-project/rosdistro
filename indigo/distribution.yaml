@@ -2102,6 +2102,21 @@ repositories:
       url: https://github.com/ros-perception/image_transport_plugins.git
       version: indigo-devel
     status: maintained
+  imu_compass:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/imu_compass.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/imu_compass-release.git
+      version: 0.0.5-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/imu_compass.git
+      version: master
+    status: maintained
   imu_pipeline:
     doc:
       type: git
@@ -2249,24 +2264,11 @@ repositories:
       version: develop
     status: maintained
   ipa_canopen:
-    doc:
-      type: git
-      url: https://github.com/ipa320/ipa_canopen.git
-      version: indigo_release_candidate
-    release:
-      packages:
-      - ipa_canopen
-      - ipa_canopen_core
-      - ipa_canopen_ros
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/ipa320/ipa_canopen-release.git
-      version: 0.6.0-0
     source:
       type: git
       url: https://github.com/ipa320/ipa_canopen.git
       version: indigo_dev
-    status: maintained
+    status: end-of-life
   ira_photonfocus_driver:
     release:
       tags:
@@ -2401,6 +2403,25 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
+      version: master
+    status: developed
+  jsk_model_tools:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
+      version: master
+    release:
+      packages:
+      - eus_assimp
+      - euscollada
+      - jsk_model_tools
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/tork-a/jsk_model_tools-release.git
+      version: 0.1.7-1
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
       version: master
     status: developed
   jsk_pr2eus:
@@ -4126,7 +4147,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist-release.git
-      version: 1.1.0-23
+      version: 1.1.0-24
     status: developed
   openrtm_aist_python:
     release:
@@ -5816,6 +5837,24 @@ repositories:
       url: https://github.com/introlab/rtabmap_ros.git
       version: master
     status: maintained
+  rtctree:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/tork-a/rtctree-release.git
+      version: 3.0.1-0
+  rtshell:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/tork-a/rtshell-release.git
+      version: 3.0.1-1
+  rtsprofile:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/tork-a/rtsprofile-release.git
+      version: 2.0.0-0
   rtt:
     doc:
       type: git
