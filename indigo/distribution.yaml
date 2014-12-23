@@ -192,6 +192,15 @@ repositories:
       url: https://github.com/ROS-PSE/arni.git
       version: master
     status: maintained
+  asctec_mav_framework:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/asctec_mav_framework.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ethz-asl/asctec_mav_framework.git
+      version: master
   async_web_server_cpp:
     doc:
       type: git
@@ -6978,7 +6987,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/anqixu/ueye_cam-release.git
-      version: 1.0.6-0
+      version: 1.0.7-0
     source:
       type: git
       url: https://github.com/anqixu/ueye_cam.git
