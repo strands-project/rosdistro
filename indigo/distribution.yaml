@@ -610,7 +610,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/cmake_modules-release.git
-      version: 0.3.2-0
+      version: 0.3.3-0
     source:
       type: git
       url: https://github.com/ros/cmake_modules.git
@@ -2416,7 +2416,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.56-0
+      version: 1.0.57-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -2484,7 +2484,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.1-0
+      version: 1.0.1-1
   katana_driver:
     doc:
       type: git
@@ -2506,6 +2506,11 @@ repositories:
       type: git
       url: https://github.com/mrpt-ros-pkg/kinect_2d_scanner.git
       version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/kinect_2d_scanner-release.git
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/kinect_2d_scanner.git
@@ -3398,7 +3403,6 @@ repositories:
       - mrpt_navigation
       - mrpt_rawlog
       - mrpt_tutorials
-      - pose_cov_ops
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
@@ -4388,6 +4392,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/pointgrey_camera_driver.git
+      version: master
+    status: maintained
+  pose_cov_ops:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/pose_cov_ops-release.git
+      version: 0.1.5-0
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
       version: master
     status: maintained
   pr2_mechanism_msgs:
@@ -5864,6 +5883,20 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtctree-release.git
       version: 3.0.1-0
+  rtmros_common:
+    release:
+      packages:
+      - hrpsys_ros_bridge
+      - hrpsys_tools
+      - openrtm_ros_bridge
+      - openrtm_tools
+      - rosnode_rtc
+      - rtmbuild
+      - rtmros_common
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/tork-a/rtmros_common-release.git
+      version: 1.2.6-2
   rtshell:
     release:
       tags:

@@ -68,6 +68,7 @@ python:
     trusty: [python-dev]
     trusty_python3: [python3-dev]
     utopic: [python-dev]
+    vivid: [python-dev]
 python-argparse:
   arch: [python2]
   debian:
@@ -97,6 +98,8 @@ python-argparse:
     trusty_python3:
       packages: []
     utopic:
+      packages: []
+    vivid:
       packages: []
 python-avahi:
   arch: [avahi]
@@ -185,6 +188,7 @@ python-catkin-pkg:
     trusty: [python-catkin-pkg]
     trusty_python3: [python3-catkin-pkg]
     utopic: [python-catkin-pkg]
+    vivid: [python-catkin-pkg]
 python-cherrypy:
   fedora: [python-cherrypy]
   ubuntu:
@@ -239,6 +243,7 @@ python-coverage:
     trusty: [python-coverage]
     trusty_python3: [python3-coverage]
     utopic: [python-coverage]
+    vivid: [python-coverage]
 python-cpplint:
   debian:
     pip:
@@ -335,6 +340,7 @@ python-empy:
     saucy: [python-empy]
     trusty: [python-empy]
     utopic: [python-empy]
+    vivid: [python-empy]
 python-enum:
   fedora: [python-enum]
   ubuntu:
@@ -573,6 +579,7 @@ python-mock:
     trusty: [python-mock]
     trusty_python3: [python3-mock]
     utopic: [python-mock]
+    vivid: [python-mock]
 python-msgpack:
   debian: [python-msgpack]
   fedora: [python-msgpack]
@@ -641,6 +648,7 @@ python-nose:
     trusty: [python-nose]
     trusty_python3: [python3-nose]
     utopic: [python-nose]
+    vivid: [python-nose]
 python-numpy:
   arch: [python2-numpy]
   debian: [python-numpy]
@@ -1105,6 +1113,7 @@ python-rosdep:
     trusty: [python-rosdep]
     trusty_python3: [python3-rosdep]
     utopic: [python-rosdep]
+    vivid: [python-rosdep]
 python-rosdistro:
   debian: [python-rosdistro]
   fedora: [python-rosdistro]
@@ -1533,6 +1542,7 @@ python-yaml:
     trusty: [python-yaml]
     trusty_python3: [python3-yaml]
     utopic: [python-yaml]
+    vivid: [python-yaml]
 python-zmq:
   debian: [python-zmq]
   fedora: [python-zmq]
