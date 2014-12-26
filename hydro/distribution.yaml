@@ -766,7 +766,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/cmake_modules-release.git
-      version: 0.3.2-0
+      version: 0.3.3-0
     source:
       type: git
       url: https://github.com/ros/cmake_modules.git
@@ -1490,6 +1490,21 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/dynamixel_pro_moveit_controller-release.git
       version: 0.8.1-0
+  dynpick_driver:
+    doc:
+      type: git
+      url: https://github.com/tork-a/dynpick_driver.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/dynpick_driver-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/tork-a/dynpick_driver.git
+      version: master
+    status: maintained
   eband_local_planner:
     release:
       tags:
@@ -3133,12 +3148,40 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.1.28-0
+      version: 0.1.30-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
       version: master
     status: maintained
+  jsk_robot:
+    doc:
+      type: git
+      url: https://github.com/tork-a/jsk_robot-release.git
+      version: master
+    release:
+      packages:
+      - baxtereus
+      - jsk_baxter_desktop
+      - jsk_baxter_startup
+      - jsk_baxter_web
+      - jsk_nao_startup
+      - jsk_pepper_startup
+      - jsk_pr2_calibration
+      - jsk_pr2_startup
+      - jsk_robot_startup
+      - pepper_bringup
+      - pepper_description
+      - pr2_base_trajectory_action
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/jsk_robot-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/tork-a/jsk_robot-release.git
+      version: master
+    status: developed
   jsk_roseus:
     doc:
       type: git
@@ -3486,7 +3529,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/leap_motion-release.git
-      version: 0.0.4-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/ros-drivers/leap_motion.git
