@@ -3492,6 +3492,10 @@ repositories:
       type: git
       url: https://github.com/ual-arm-ros-pkg/multivehicle-simulator.git
       version: master
+    source:
+      type: git
+      url: https://github.com/ual-arm-ros-pkg/multivehicle-simulator.git
+      version: master
     status: maintained
   nanomsg:
     release:
@@ -5475,10 +5479,11 @@ repositories:
       - rosbridge_library
       - rosbridge_server
       - rosbridge_suite
+      - rosbridge_tools
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.7.4-0
+      version: 0.7.6-0
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -5617,6 +5622,10 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/roslisp-release.git
       version: 1.9.17-0
+    source:
+      type: git
+      url: https://github.com/ros/roslisp.git
+      version: master
     status: maintained
   roslisp_common:
     doc:

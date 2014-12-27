@@ -33,6 +33,8 @@ paramiko:
     raring: [python-paramiko]
     saucy: [python-paramiko]
     trusty: [python-paramiko]
+    utopic: [python-paramiko]
+    vivid: [python-paramiko]
 pyside-tools:
   debian: [pyside-tools]
   fedora: [pyside-tools]
@@ -461,6 +463,7 @@ python-imaging:
   debian: [python-imaging]
   fedora:
     '21': [python-pillow, python-pillow-qt]
+    '22': [python-pillow, python-pillow-qt]
     beefy: [python-imaging]
     heisenbug: [python-pillow, python-pillow-qt]
     schrödinger’s: [python-pillow, python-pillow-qt]
@@ -482,6 +485,7 @@ python-imaging:
     trusty: [python-imaging]
     trusty_python3: [python3-imaging]
     utopic: [python-imaging]
+    vivid: [python-imaging]
 python-impacket:
   debian: [python-impacket]
   fedora: [python-impacket]
@@ -614,6 +618,7 @@ python-netifaces:
     trusty: [python-netifaces]
     trusty_python3: [python3-netifaces]
     utopic: [python-netifaces]
+    vivid: [python-netifaces]
 python-networkx:
   fedora: [python-networkx]
   ubuntu:
@@ -670,6 +675,7 @@ python-numpy:
     trusty: [python-numpy]
     trusty_python3: [python3-numpy]
     utopic: [python-numpy]
+    vivid: [python-numpy]
 python-oauth2:
   debian: [python-oauth2]
   fedora: [python-oauth2]
@@ -733,6 +739,7 @@ python-paramiko:
     saucy: [python-paramiko]
     trusty: [python-paramiko]
     utopic: [python-paramiko]
+    vivid: [python-paramiko]
 python-pcapy:
   debian: [python-pcapy]
   fedora: [pcapy]
@@ -1181,6 +1188,7 @@ python-rospkg:
     trusty: [python-rospkg]
     trusty_python3: [python3-rospkg]
     utopic: [python-rospkg]
+    vivid: [python-rospkg]
 python-scapy:
   debian: [python-scapy]
   fedora: [scapy]
