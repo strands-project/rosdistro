@@ -11,6 +11,21 @@ release_platforms:
   - utopic
   - vivid
 repositories:
+  angles:
+    doc:
+      type: git
+      url: https://github.com/ros/angles.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/geometry_angles_utils-release.git
+      version: 1.9.10-0
+    source:
+      type: git
+      url: https://github.com/ros/angles.git
+      version: master
+    status: maintained
   catkin:
     doc:
       type: git
@@ -40,6 +55,43 @@ repositories:
       type: git
       url: https://github.com/ros/cmake_modules.git
       version: 0.4-devel
+    status: maintained
+  common_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros/common_msgs.git
+      version: jade-devel
+    release:
+      packages:
+      - actionlib_msgs
+      - common_msgs
+      - diagnostic_msgs
+      - geometry_msgs
+      - nav_msgs
+      - sensor_msgs
+      - shape_msgs
+      - stereo_msgs
+      - trajectory_msgs
+      - visualization_msgs
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/common_msgs-release.git
+      version: 1.12.0-0
+    source:
+      type: git
+      url: https://github.com/ros/common_msgs.git
+      version: jade-devel
+    status: maintained
+  ecto:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/ecto-release.git
+      version: 0.6.7-0
+    source:
+      type: git
+      url: https://github.com/plasmodic/ecto.git
+      version: master
     status: maintained
   gencpp:
     doc:
@@ -299,6 +351,25 @@ repositories:
       type: git
       url: https://github.com/ros/std_msgs.git
       version: groovy-devel
+    status: maintained
+  vision_opencv:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/vision_opencv.git
+      version: indigo
+    release:
+      packages:
+      - cv_bridge
+      - image_geometry
+      - vision_opencv
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/vision_opencv-release.git
+      version: 1.11.7-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/vision_opencv.git
+      version: indigo
     status: maintained
 type: distribution
 version: 1
