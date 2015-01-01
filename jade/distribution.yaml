@@ -11,6 +11,21 @@ release_platforms:
   - utopic
   - vivid
 repositories:
+  actionlib:
+    doc:
+      type: git
+      url: https://github.com/ros/actionlib.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/actionlib-release.git
+      version: 1.11.3-0
+    source:
+      type: git
+      url: https://github.com/ros/actionlib.git
+      version: indigo-devel
+    status: maintained
   angles:
     doc:
       type: git
@@ -26,6 +41,27 @@ repositories:
       url: https://github.com/ros/angles.git
       version: master
     status: maintained
+  bond_core:
+    doc:
+      type: git
+      url: https://github.com/ros/bond_core.git
+      version: master
+    release:
+      packages:
+      - bond
+      - bond_core
+      - bondcpp
+      - bondpy
+      - smclib
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/bond_core-release.git
+      version: 1.7.16-0
+    source:
+      type: git
+      url: https://github.com/ros/bond_core.git
+      version: master
+    status: maintained
   catkin:
     doc:
       type: git
@@ -39,6 +75,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/catkin.git
+      version: indigo-devel
+    status: maintained
+  class_loader:
+    doc:
+      type: git
+      url: https://github.com/ros/class_loader.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/class_loader-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/ros/class_loader.git
       version: indigo-devel
     status: maintained
   cmake_modules:
@@ -81,6 +132,42 @@ repositories:
       type: git
       url: https://github.com/ros/common_msgs.git
       version: jade-devel
+    status: maintained
+  common_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros/common_tutorials.git
+      version: hydro-devel
+    release:
+      packages:
+      - actionlib_tutorials
+      - common_tutorials
+      - nodelet_tutorial_math
+      - pluginlib_tutorials
+      - turtle_actionlib
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/common_tutorials-release.git
+      version: 0.1.8-0
+    source:
+      type: git
+      url: https://github.com/ros/common_tutorials.git
+      version: hydro-devel
+    status: maintained
+  dynamic_reconfigure:
+    doc:
+      type: git
+      url: https://github.com/ros/dynamic_reconfigure.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
+      version: 1.5.38-1
+    source:
+      type: git
+      url: https://github.com/ros/dynamic_reconfigure.git
+      version: master
     status: maintained
   ecto:
     release:
@@ -183,6 +270,40 @@ repositories:
       url: https://github.com/ros/message_runtime.git
       version: groovy-devel
     status: maintained
+  nodelet_core:
+    doc:
+      type: git
+      url: https://github.com/ros/nodelet_core.git
+      version: indigo-devel
+    release:
+      packages:
+      - nodelet
+      - nodelet_core
+      - nodelet_topic_tools
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/nodelet_core-release.git
+      version: 1.9.2-0
+    source:
+      type: git
+      url: https://github.com/ros/nodelet_core.git
+      version: indigo-devel
+    status: maintained
+  pluginlib:
+    doc:
+      type: git
+      url: https://github.com/ros/pluginlib.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/pluginlib-release.git
+      version: 1.10.1-0
+    source:
+      type: git
+      url: https://github.com/ros/pluginlib.git
+      version: indigo-devel
+    status: maintained
   ros:
     doc:
       type: git
@@ -263,6 +384,26 @@ repositories:
     source:
       type: git
       url: https://github.com/ros/ros_comm_msgs.git
+      version: indigo-devel
+    status: maintained
+  ros_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
+      version: indigo-devel
+    release:
+      packages:
+      - ros_tutorials
+      - roscpp_tutorials
+      - rospy_tutorials
+      - turtlesim
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/ros_tutorials-release.git
+      version: 0.5.2-0
+    source:
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
       version: indigo-devel
     status: maintained
   rosbag_migration_rule:
