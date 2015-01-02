@@ -180,6 +180,39 @@ repositories:
       url: https://github.com/plasmodic/ecto.git
       version: master
     status: maintained
+  ecto_opencv:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/ecto_opencv-release.git
+      version: 0.5.3-0
+    source:
+      type: git
+      url: https://github.com/plasmodic/ecto_opencv.git
+      version: master
+    status: maintained
+  ecto_openni:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/ecto_openni-release.git
+      version: 0.4.0-0
+    source:
+      type: git
+      url: https://github.com/plasmodic/ecto_openni.git
+      version: master
+    status: maintained
+  ecto_ros:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/ecto_ros-release.git
+      version: 0.4.5-0
+    source:
+      type: git
+      url: https://github.com/plasmodic/ecto_ros.git
+      version: master
+    status: maintained
   gencpp:
     doc:
       type: git
@@ -240,6 +273,27 @@ repositories:
       url: https://github.com/ros/genpy.git
       version: indigo-devel
     status: maintained
+  image_common:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_common.git
+      version: hydro-devel
+    release:
+      packages:
+      - camera_calibration_parsers
+      - camera_info_manager
+      - image_common
+      - image_transport
+      - polled_camera
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/image_common-release.git
+      version: 1.11.4-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/image_common.git
+      version: hydro-devel
+    status: maintained
   message_generation:
     doc:
       type: git
@@ -288,6 +342,32 @@ repositories:
       type: git
       url: https://github.com/ros/nodelet_core.git
       version: indigo-devel
+    status: maintained
+  object_recognition_msgs:
+    doc:
+      type: git
+      url: https://github.com/wg-perception/object_recognition_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/object_recognition_msgs-release.git
+      version: 0.4.1-0
+    source:
+      type: git
+      url: https://github.com/wg-perception/object_recognition_msgs.git
+      version: master
+    status: maintained
+  opencv_candidate:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/opencv_candidate-release.git
+      version: 0.2.3-0
+    source:
+      type: git
+      url: https://github.com/wg-perception/opencv_candidate.git
+      version: master
     status: maintained
   pluginlib:
     doc:
