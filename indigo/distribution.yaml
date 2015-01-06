@@ -6724,6 +6724,12 @@ repositories:
       url: https://github.com/strands-project/strands_hri.git
       version: hydro-devel
     status: developed
+  strands_morse:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_morse.git
+      version: 0.0.10-0
   strands_movebase:
     release:
       packages:
