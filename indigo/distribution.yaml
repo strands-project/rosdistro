@@ -4213,6 +4213,12 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/openni_launch.git
       version: indigo-devel
+  openni_wrapper:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/openni_wrapper.git
+      version: 0.0.7-0
   openrtm_aist:
     release:
       tags:
