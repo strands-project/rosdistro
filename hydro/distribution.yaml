@@ -3057,7 +3057,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.57-0
+      version: 1.0.58-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -3100,7 +3100,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.1.7-1
+      version: 0.1.8-0
     source:
       type: git
       url: https://github.com/tork-a/jsk_model_tools-release.git
@@ -7058,7 +7058,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://bitbucket.org/rospeex/rospeex-release.git
-      version: 2.12.0-0
+      version: 2.12.1-0
     source:
       type: git
       url: https://bitbucket.org/rospeex/rospeex.git

@@ -892,7 +892,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_robots-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/ipa320/cob_robots.git
@@ -1109,6 +1109,11 @@ repositories:
       url: https://github.com/stonier/cv_backports.git
       version: indigo
     status: maintained
+  cyton_gamma_1500_description:
+    doc:
+      type: git
+      url: https://github.com/GertKanter/cyton_gamma_1500_description.git
+      version: master
   demo_lidar:
     doc:
       type: git
@@ -2377,13 +2382,12 @@ repositories:
       packages:
       - jackal_control
       - jackal_description
-      - jackal_diff_drive_controller
       - jackal_msgs
       - jackal_navigation
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.4.0-0
+      version: 0.4.1-0
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -2487,7 +2491,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.57-0
+      version: 1.0.58-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -2506,7 +2510,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.1.7-1
+      version: 0.1.8-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
@@ -4998,7 +5002,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_app_platform-release.git
-      version: 0.7.4-0
+      version: 0.7.5-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_app_platform.git
@@ -5134,7 +5138,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_tools-release.git
-      version: 0.1.11-0
+      version: 0.1.12-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_tools.git
@@ -5156,7 +5160,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_tutorials-release.git
-      version: 0.6.3-0
+      version: 0.6.4-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_tutorials.git
