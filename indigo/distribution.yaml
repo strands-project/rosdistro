@@ -6853,6 +6853,14 @@ repositories:
       url: https://github.com/strands-project/strands_social.git
       version: hydro-devel
     status: developed
+  strands_systems:
+    release:
+      packages:
+      - strands_bringup
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_systems.git
+      version: 0.0.8-0
   strands_ui:
     release:
       packages:
