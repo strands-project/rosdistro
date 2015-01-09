@@ -6,19 +6,6 @@ release_platforms:
   ubuntu:
   - precise
 repositories:
-  CMP2020M:
-    release:
-      packages:
-      - catkinized_downward
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/strands-project-releases/CMP2020M.git
-      version: 0.0.3-0
-    source:
-      type: git
-      url: https://github.com/LCAS/CMP2020M.git
-      version: hydro-devel
-    status: maintained
   aau_multi_robot:
     doc:
       type: git
