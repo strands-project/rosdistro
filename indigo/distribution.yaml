@@ -6,19 +6,6 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
-  CMP2020M:
-    release:
-      packages:
-      - catkinized_downward
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/strands-project-releases/CMP2020M.git
-      version: 0.0.2-0
-    source:
-      type: git
-      url: https://github.com/LCAS/CMP2020M.git
-      version: indigo-devel
-    status: maintained
   ackermann_msgs:
     doc:
       type: git
