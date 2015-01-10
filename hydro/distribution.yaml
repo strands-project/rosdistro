@@ -1381,7 +1381,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/diagnostics-release.git
-      version: 1.8.6-0
+      version: 1.8.7-0
     source:
       type: git
       url: https://github.com/ros/diagnostics.git
@@ -3189,7 +3189,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_robot-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/tork-a/jsk_robot-release.git
@@ -7362,7 +7362,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.8.0-0
+      version: 0.8.1-0
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -7420,7 +7420,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_gazebo-release.git
-      version: 0.1.7-0
+      version: 0.1.8-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_gazebo.git
@@ -7967,7 +7967,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/uos/sick_tim.git

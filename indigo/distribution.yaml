@@ -1171,7 +1171,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/diagnostics-release.git
-      version: 1.8.6-0
+      version: 1.8.7-0
     source:
       type: git
       url: https://github.com/ros/diagnostics.git
@@ -1848,7 +1848,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/grizzly-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/g/grizzly.git
@@ -4275,7 +4275,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist-release.git
-      version: 1.1.0-24
+      version: 1.1.0-25
     status: developed
   openrtm_aist_python:
     release:
@@ -4968,7 +4968,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/roboteq-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/g/roboteq.git
@@ -6395,7 +6395,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/uos/sick_tim.git
