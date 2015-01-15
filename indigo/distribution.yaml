@@ -2130,7 +2130,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_description-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/husky/husky_description.git
@@ -2163,10 +2163,25 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_simulator-release.git
-      version: 0.1.0-0
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/husky/husky_simulator.git
+      version: indigo-devel
+    status: maintained
+  husky_viz:
+    doc:
+      type: git
+      url: https://github.com/husky/husky_viz.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/husky_viz-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/husky/husky_viz.git
       version: indigo-devel
     status: maintained
   iai_common_msgs:
@@ -2650,7 +2665,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.2-0
+      version: 1.0.2-2
   katana_driver:
     doc:
       type: git
@@ -2926,7 +2941,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/lama-imr/lama_utilities-release.git
-      version: 0.1.1-1
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/lama-imr/lama_utilities.git
@@ -3449,6 +3464,20 @@ repositories:
       url: https://github.com/ros-planning/moveit_ikfast.git
       version: indigo-devel
     status: maintained
+  moveit_metapackages:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_metapackages.git
+      version: master
+    release:
+      packages:
+      - moveit_full
+      - moveit_full_pr2
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_metapackages-release.git
+      version: 0.6.0-0
+    status: maintained
   moveit_msgs:
     doc:
       type: git
@@ -3495,6 +3524,26 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/moveit_plugins.git
+      version: indigo-devel
+    status: maintained
+  moveit_pr2:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_pr2.git
+      version: indigo-devel
+    release:
+      packages:
+      - moveit_pr2
+      - pr2_moveit_config
+      - pr2_moveit_plugins
+      - pr2_moveit_tutorials
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_pr2-release.git
+      version: 0.6.0-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit_pr2.git
       version: indigo-devel
     status: maintained
   moveit_python:
@@ -6407,6 +6456,11 @@ repositories:
       url: https://github.com/ros-visualization/rviz_fixed_view_controller.git
       version: indigo-devel
     status: developed
+  rviz_fps_plugin:
+    doc:
+      type: git
+      url: https://github.com/uos/rviz_fps_plugin.git
+      version: indigo
   rviz_visual_tools:
     doc:
       type: git
@@ -7947,7 +8001,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/xacro-release.git
-      version: 1.9.2-0
+      version: 1.9.3-0
     source:
       type: git
       url: https://github.com/ros/xacro.git
