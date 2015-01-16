@@ -2136,6 +2136,24 @@ repositories:
       url: https://github.com/husky/husky_description.git
       version: indigo-devel
     status: maintained
+  husky_metapackages:
+    doc:
+      type: git
+      url: https://github.com/husky/husky_metapackages.git
+      version: indigo-devel
+    release:
+      packages:
+      - husky_desktop
+      - husky_robot
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/husky_metapackages-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/husky/husky_metapackages.git
+      version: indigo-devel
+    status: maintained
   husky_msgs:
     doc:
       type: git
@@ -2149,6 +2167,21 @@ repositories:
     source:
       type: git
       url: https://github.com/husky/husky_msgs.git
+      version: indigo-devel
+    status: maintained
+  husky_navigation:
+    doc:
+      type: git
+      url: https://github.com/husky/husky_navigation.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/husky_navigation-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/husky/husky_navigation.git
       version: indigo-devel
     status: maintained
   husky_simulator:
@@ -2494,7 +2527,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.4.1-0
+      version: 0.4.2-0
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -2696,6 +2729,21 @@ repositories:
       type: git
       url: https://github.com/mrpt-ros-pkg/kinect_2d_scanner.git
       version: master
+    status: maintained
+  kinect_aux:
+    doc:
+      type: git
+      url: https://github.com/muhrix/kinect_aux.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/muhrix/kinect_aux-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/muhrix/kinect_aux.git
+      version: indigo
     status: maintained
   kingfisher:
     doc:
@@ -2910,10 +2958,20 @@ repositories:
       type: git
       url: https://github.com/lama-imr/lama_polygon_matcher.git
       version: indigo-devel
+    release:
+      packages:
+      - pm_fourier
+      - pm_mcc
+      - polygon_matcher
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/lama-imr/lama_polygon_matcher-release.git
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/lama-imr/lama_polygon_matcher.git
       version: indigo-devel
+    status: developed
   lama_test:
     doc:
       type: git
@@ -2941,7 +2999,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/lama-imr/lama_utilities-release.git
-      version: 0.1.5-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/lama-imr/lama_utilities.git
@@ -3460,7 +3518,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_core-release.git
-      version: 0.6.13-0
+      version: 0.6.14-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_core.git
@@ -4648,11 +4706,31 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/perception_pcl-release.git
-      version: 1.2.3-0
+      version: 1.2.4-0
     source:
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
       version: indigo-devel
+    status: maintained
+  phidgets_drivers:
+    doc:
+      type: git
+      url: https://github.com/ccny-ros-pkg/phidgets_drivers.git
+      version: indigo
+    release:
+      packages:
+      - phidgets_api
+      - phidgets_drivers
+      - phidgets_imu
+      - phidgets_ir
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/muhrix/phidgets_drivers-release.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/ccny-ros-pkg/phidgets_drivers.git
+      version: indigo
     status: maintained
   pluginlib:
     doc:
