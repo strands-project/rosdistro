@@ -540,7 +540,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_moveit-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_moveit.git
@@ -2481,10 +2481,11 @@ repositories:
       - interactive_world_parser
       - interactive_world_tools
       - jinteractiveworld
+      - spatial_world_model
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/interactive_world-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/interactive_world.git
@@ -3956,13 +3957,15 @@ repositories:
       version: master
     release:
       packages:
+      - naoqi_bridge
       - naoqi_driver
       - naoqi_msgs
       - naoqi_sensors
+      - naoqi_tools
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_bridge-release.git
-      version: 0.4.3-1
+      version: 0.4.4-0
     source:
       type: git
       url: https://github.com/ros-naoqi/naoqi_bridge.git
@@ -5957,7 +5960,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.7.7-0
+      version: 0.7.8-0
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -7765,7 +7768,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/bosch-ros-pkg-release/usb_cam-release.git
-      version: 0.1.13-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/bosch-ros-pkg/usb_cam.git
@@ -8206,7 +8209,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/zbar_ros-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/zbar_ros.git
