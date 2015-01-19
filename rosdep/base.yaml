@@ -119,6 +119,9 @@ assimp:
     utopic:
       apt:
         packages: [libassimp-dev]
+    vivid:
+      apt:
+        packages: [libassimp-dev]
 assimp-dev:
   arch: [assimp]
   debian:
@@ -160,6 +163,9 @@ assimp-dev:
       apt:
         packages: [libassimp-dev]
     utopic:
+      apt:
+        packages: [libassimp-dev]
+    vivid:
       apt:
         packages: [libassimp-dev]
 atlas:
