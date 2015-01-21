@@ -2086,7 +2086,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_base-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/husky/husky_base.git
@@ -2388,7 +2388,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/innokrobotics/innok_heros_driver-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/innokrobotics/innok_heros_driver.git
@@ -2403,7 +2403,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/innokrobotics/innok_heros_lights-release.git
-      version: 1.0.0-1
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/innokrobotics/innok_heros_lights.git
@@ -2529,7 +2529,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.4.2-0
+      version: 0.5.0-0
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -2700,7 +2700,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.2-2
+      version: 1.0.2-3
   katana_driver:
     doc:
       type: git
@@ -2924,10 +2924,20 @@ repositories:
       type: git
       url: https://github.com/lama-imr/lama_costmap.git
       version: indigo-devel
+    release:
+      packages:
+      - lj_costmap
+      - nj_costmap
+      - nj_oa_costmap
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/lama-imr/lama_costmap-release.git
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/lama-imr/lama_costmap.git
       version: indigo-devel
+    status: developed
   lama_featurenav:
     doc:
       type: git
@@ -3012,7 +3022,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/lama-imr/lama_utilities-release.git
-      version: 0.1.6-0
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/lama-imr/lama_utilities.git
@@ -3255,7 +3265,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/lms1xx-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/lms1xx.git
@@ -3531,7 +3541,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_core-release.git
-      version: 0.6.14-0
+      version: 0.6.15-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_core.git
@@ -4222,10 +4232,21 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_core-release.git
-      version: 0.6.3-0
+      version: 0.6.4-0
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_core.git
+      version: master
+    status: maintained
+  object_recognition_linemod:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/object_recognition_linemod-release.git
+      version: 0.3.3-0
+    source:
+      type: git
+      url: https://github.com/wg-perception/linemod.git
       version: master
     status: maintained
   object_recognition_msgs:
@@ -4259,7 +4280,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_renderer-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/wg-perception/ork_renderer.git
@@ -4738,7 +4759,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/perception_pcl-release.git
-      version: 1.2.4-0
+      version: 1.2.5-0
     source:
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
@@ -5360,7 +5381,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/robot_upstart-release.git
-      version: 0.0.6-1
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/robot_upstart.git
@@ -7670,7 +7691,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-drivers-gbp/um6-release.git
-      version: 1.0.0-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/ros-drivers/um6.git
@@ -8089,7 +8110,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/wpi_jaco-release.git
-      version: 0.0.11-0
+      version: 0.0.12-0
     source:
       type: git
       url: https://github.com/RIVeR-Lab/wpi_jaco.git
