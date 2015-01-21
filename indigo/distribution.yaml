@@ -3450,10 +3450,20 @@ repositories:
       version: groovy-devel
     status: maintained
   metapackages:
+    release:
+      packages:
+      - strands_base
+      - strands_desktop
+      - strands_robot
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/metapackages.git
+      version: 0.0.9-0
     source:
       type: git
       url: https://github.com/strands-project/metapackages.git
       version: indigo-devel
+    status: developed
   metaruby:
     release:
       tags:
