@@ -3128,11 +3128,12 @@ repositories:
       - uol_cmp3641m
       - uol_kobuki_gazebo_plugins
       - uol_morse_simulator
+      - uol_turtlebot_common
       - uol_turtlebot_simulator
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/lcas_teaching.git
-      version: 0.1.6-0
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/LCAS/teaching.git
