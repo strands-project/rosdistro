@@ -1786,6 +1786,12 @@ repositories:
       url: https://github.com/ethz-asl/ethzasl_icp_mapping.git
       version: hydro_devel
     status: maintained
+  euslisp:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/euslisp-release.git
+      version: 9.1.0-0
   executive_smach:
     release:
       packages:
@@ -2010,6 +2016,12 @@ repositories:
       url: https://github.com/ros/gencpp.git
       version: groovy-devel
     status: maintained
+  geneus:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/geneus-release.git
+      version: 2.0.0-1
   genlisp:
     doc:
       type: git
@@ -3202,16 +3214,14 @@ repositories:
       version: master
     release:
       packages:
-      - euslisp
-      - geneus
       - jsk_roseus
       - roseus
-      - roseus_msgs
       - roseus_smach
+      - roseus_tutorials
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.1.30-0
+      version: 1.1.31-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -3238,6 +3248,12 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
       version: master
     status: developed
+  jskeus:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/jskeus-release.git
+      version: 1.0.2-0
   katana_driver:
     doc:
       type: git
@@ -3754,6 +3770,10 @@ repositories:
       url: https://github.com/jizhang-cmu/loam_velodyne.git
       version: hydro-indigo
   log4cpp:
+    doc:
+      type: git
+      url: https://github.com/orocos-toolchain/log4cpp.git
+      version: toolchain-2.7
     release:
       tags:
         release: release/hydro/{package}/{version}
@@ -5104,12 +5124,20 @@ repositories:
       version: master
     status: maintained
   orocos_toolchain:
+    doc:
+      type: git
+      url: https://github.com/orocos-toolchain/orocos_toolchain.git
+      version: toolchain-2.7
     release:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/orocos-gbp/orocos_toolchain-release.git
       version: 2.7.0-1
   orogen:
+    doc:
+      type: git
+      url: https://github.com/orocos-toolchain/orogen.git
+      version: toolchain-2.7
     release:
       tags:
         release: release/hydro/{package}/{version}
@@ -7587,6 +7615,10 @@ repositories:
       version: hydro-devel
     status: developed
   rtt_typelib:
+    doc:
+      type: git
+      url: https://github.com/orocos-toolchain/rtt_typelib.git
+      version: toolchain-2.7
     release:
       tags:
         release: release/hydro/{package}/{version}
@@ -8824,6 +8856,10 @@ repositories:
       version: master
     status: maintained
   typelib:
+    doc:
+      type: git
+      url: https://github.com/orocos-toolchain/typelib.git
+      version: toolchain-2.7
     release:
       tags:
         release: release/hydro/{package}/{version}
@@ -9048,6 +9084,10 @@ repositories:
       version: develop
     status: maintained
   utilmm:
+    doc:
+      type: git
+      url: https://github.com/orocos-toolchain/utilmm.git
+      version: toolchain-2.7
     release:
       tags:
         release: release/hydro/{package}/{version}
@@ -9059,6 +9099,10 @@ repositories:
       version: toolchain-2.7
     status: maintained
   utilrb:
+    doc:
+      type: git
+      url: https://github.com/orocos-toolchain/utilrb.git
+      version: toolchain-2.7
     release:
       tags:
         release: release/hydro/{package}/{version}
