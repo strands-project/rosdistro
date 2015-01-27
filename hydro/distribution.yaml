@@ -3897,11 +3897,12 @@ repositories:
       packages:
       - strands_base
       - strands_desktop
+      - strands_extras
       - strands_robot
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/strands-project-releases/metapackages.git
-      version: 0.0.8-0
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/strands-project/metapackages.git
