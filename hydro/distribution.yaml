@@ -7699,6 +7699,16 @@ repositories:
       url: https://github.com/DLu/rwi_ros.git
       version: hydro
     status: maintained
+  rwt_ros:
+    doc:
+      type: git
+      url: https://github.com/tork-a/rwt_ros.git
+      version: hydro-devel
+    source:
+      type: git
+      url: https://github.com/tork-a/rwt_ros.git
+      version: hydro-devel
+    status: developed
   s3000_laser:
     doc:
       type: git
@@ -9281,6 +9291,16 @@ repositories:
       type: git
       url: https://github.com/lagadic/visp_ros.git
       version: master
+  visualization_rwt:
+    doc:
+      type: git
+      url: https://github.com/tork-a/visualization_rwt.git
+      version: hydro-devel
+    source:
+      type: git
+      url: https://github.com/tork-a/visualization_rwt.git
+      version: hydro-devel
+    status: developed
   visualization_tutorials:
     doc:
       type: git
