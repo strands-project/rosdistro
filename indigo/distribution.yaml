@@ -2057,7 +2057,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.2.8-2
+      version: 315.2.8-3
     status: developed
   humanoid_msgs:
     doc:
@@ -2373,7 +2373,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.0.1-0
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
@@ -2690,7 +2690,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.2.1-0
+      version: 1.2.2-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -3001,10 +3001,16 @@ repositories:
       type: git
       url: https://github.com/lama-imr/lama_test.git
       version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/lama-imr/lama_test-release.git
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/lama-imr/lama_test.git
       version: indigo-devel
+    status: developed
   lama_utilities:
     doc:
       type: git
@@ -4891,7 +4897,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/power_msgs-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     status: developed
   pr2_common:
     doc:
@@ -6609,7 +6615,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/rtt_soem-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/orocos/rtt_soem.git
