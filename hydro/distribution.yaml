@@ -1910,6 +1910,11 @@ repositories:
       type: git
       url: https://github.com/kth-ros-pkg/force_torque_tools.git
       version: hydro
+  foscam_8918_driver:
+    doc:
+      type: git
+      url: https://github.com/tdenewiler/foscam_8918_driver.git
+      version: hydro-devel
   freenect_stack:
     doc:
       type: git
@@ -2826,7 +2831,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.0.2-0
+      version: 1.0.3-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
@@ -3173,7 +3178,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.1.33-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -3243,7 +3248,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.16-0
+      version: 1.0.18-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
@@ -5406,7 +5411,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_apps-release.git
-      version: 0.5.14-0
+      version: 0.5.15-0
     source:
       type: git
       url: https://github.com/pr2/pr2_apps.git
@@ -7242,16 +7247,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/tork-a/roswww.git
-      version: hydro-devel
+      version: develop
     release:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/roswww-release.git
-      version: 0.1.3-2
+      version: 0.1.4-0
     source:
       type: git
       url: https://github.com/tork-a/roswww.git
-      version: hydro-devel
+      version: develop
     status: developed
   rovio:
     doc:
@@ -7828,6 +7833,21 @@ repositories:
       url: https://github.com/strands-project/scitos_drivers.git
       version: hydro-release
     status: developed
+  screenrun:
+    doc:
+      type: git
+      url: https://github.com/dornhege/screenrun.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/dornhege/screenrun-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/dornhege/screenrun.git
+      version: hydro-devel
+    status: maintained
   scriptable_monitoring:
     doc:
       type: git
@@ -8910,7 +8930,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/kmhallen/ueye-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: hg
       url: https://bitbucket.org/kmhallen/ueye
