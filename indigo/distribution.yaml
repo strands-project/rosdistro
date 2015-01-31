@@ -1561,7 +1561,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-drivers-gbp/freenect_stack-release.git
-      version: 0.3.2-1
+      version: 0.4.0-0
     source:
       type: git
       url: https://github.com/ros-drivers/freenect_stack.git
@@ -2086,7 +2086,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_base-release.git
-      version: 0.1.2-0
+      version: 0.1.3-0
     source:
       type: git
       url: https://github.com/husky/husky_base.git
@@ -2101,7 +2101,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_bringup-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/husky/husky_bringup.git
@@ -2116,7 +2116,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_control-release.git
-      version: 0.0.2-0
+      version: 0.0.2-1
     source:
       type: git
       url: https://github.com/husky/husky_control.git
@@ -2131,7 +2131,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_description-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/husky/husky_description.git
@@ -2164,7 +2164,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_msgs-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/husky/husky_msgs.git
@@ -2179,7 +2179,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_navigation-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/husky/husky_navigation.git
@@ -2197,7 +2197,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_simulator-release.git
-      version: 0.1.1-1
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/husky/husky_simulator.git
@@ -2351,10 +2351,14 @@ repositories:
       url: https://github.com/ros-perception/imu_pipeline.git
       version: indigo-devel
     release:
+      packages:
+      - imu_pipeline
+      - imu_processors
+      - imu_transformer
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/imu_pipeline-release.git
-      version: 0.1.3-1
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/ros-perception/imu_pipeline.git
@@ -2677,6 +2681,10 @@ repositories:
       version: master
     status: developed
   jsk_recognition:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_recognition.git
+      version: master
     release:
       packages:
       - checkerboard_detector
@@ -2689,7 +2697,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_recognition.git
+      version: master
     status: developed
   jsk_robot:
     doc:
@@ -3228,8 +3240,8 @@ repositories:
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/libfreenect-release.git
-      version: 0.1.2-2
+      url: https://github.com/ros-drivers-gbp/libfreenect-ros-release.git
+      version: 0.5.1-0
     status: maintained
   libg2o:
     release:
@@ -3898,7 +3910,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 3.4.1-0
+      version: 3.4.2-0
     source:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
