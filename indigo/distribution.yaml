@@ -1454,6 +1454,24 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/eigen_stl_containers-release.git
       version: 0.1.4-0
+  epos_hardware:
+    doc:
+      type: git
+      url: https://github.com/RIVeR-Lab/epos_hardware.git
+      version: indigo-devel
+    release:
+      packages:
+      - epos_hardware
+      - epos_library
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RIVeR-Lab-release/epos_hardware-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/RIVeR-Lab/epos_hardware.git
+      version: indigo-devel
+    status: maintained
   euslisp:
     doc:
       type: git
@@ -2660,6 +2678,27 @@ repositories:
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
+      version: master
+    status: developed
+  jsk_planning:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_planning.git
+      version: master
+    release:
+      packages:
+      - jsk_planning
+      - pddl_msgs
+      - pddl_planner
+      - pddl_planner_viewer
+      - task_compiler
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/tork-a/jsk_planning-release.git
+      version: 0.1.3-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_planning.git
       version: master
     status: developed
   jsk_pr2eus:
