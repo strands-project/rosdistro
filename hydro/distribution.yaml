@@ -3178,7 +3178,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -7046,7 +7046,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/rosjava-release/rosjava_messages-release.git
-      version: 0.1.63-0
+      version: 0.1.317-0
     source:
       type: git
       url: https://github.com/rosjava/rosjava_messages.git
