@@ -297,6 +297,48 @@ repositories:
       url: https://github.com/WPI-RAIL/battery_monitor_rmp.git
       version: develop
     status: maintained
+  baxter:
+    release:
+      packages:
+      - baxter_sdk
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RethinkRobotics-release/baxter-release.git
+      version: 1.1.0-0
+    status: developed
+  baxter_common:
+    release:
+      packages:
+      - baxter_common
+      - baxter_core_msgs
+      - baxter_description
+      - baxter_maintenance_msgs
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RethinkRobotics-release/baxter_common-release.git
+      version: 1.1.0-1
+    status: developed
+  baxter_examples:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RethinkRobotics-release/baxter_examples-release.git
+      version: 1.1.0-0
+    status: developed
+  baxter_interface:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RethinkRobotics-release/baxter_interface-release.git
+      version: 1.1.0-0
+    status: developed
+  baxter_tools:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RethinkRobotics-release/baxter_tools-release.git
+      version: 1.1.0-0
+    status: developed
   bayes_tracking:
     release:
       tags:
@@ -2551,7 +2593,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.5.0-0
+      version: 0.5.1-0
     source:
       type: git
       url: https://github.com/jackal/jackal.git
@@ -2655,7 +2697,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.58-0
+      version: 1.0.60-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -2785,7 +2827,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.2.2-0
+      version: 1.2.3-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -8436,6 +8478,17 @@ repositories:
       type: git
       url: https://github.com/rohbotics/xv_11_laser_driver.git
       version: indigo-devel
+    status: maintained
+  yaml_cpp_0_3:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/yujinrobot-release/yaml_cpp_0_3-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/stonier/yaml_cpp_0_3.git
+      version: indigo
     status: maintained
   yocs_msgs:
     doc:

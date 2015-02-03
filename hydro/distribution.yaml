@@ -380,7 +380,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter-release.git
-      version: 1.0.0-1
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter.git
@@ -400,7 +400,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_common-release.git
-      version: 1.0.1-1
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_common.git
@@ -415,7 +415,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_examples-release.git
-      version: 1.0.0-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_examples.git
@@ -430,7 +430,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_interface-release.git
-      version: 1.0.0-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_interface.git
@@ -445,7 +445,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_tools-release.git
-      version: 1.0.0-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/RethinkRobotics/baxter_tools.git
@@ -3037,13 +3037,11 @@ repositories:
       - assimp_devel
       - bayesian_belief_networks
       - collada_urdf_jsk_patch
-      - depth_image_proc_jsk_patch
       - downward
       - dynamic_tf_publisher
       - ff
       - ffha
       - image_view2
-      - image_view_jsk_patch
       - jsk_common
       - jsk_footstep_msgs
       - jsk_gui_msgs
@@ -3058,10 +3056,8 @@ repositories:
       - mini_maxwell
       - multi_map_server
       - nlopt
-      - openni_tracker_jsk_patch
       - opt_camera
       - posedetection_msgs
-      - pr2_groovy_patches
       - rospatlite
       - rosping
       - rostwitter
@@ -3072,7 +3068,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.58-0
+      version: 1.0.60-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -3227,7 +3223,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.2.2-0
+      version: 1.2.3-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -7046,7 +7042,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/rosjava-release/rosjava_messages-release.git
-      version: 0.1.317-0
+      version: 0.1.318-0
     source:
       type: git
       url: https://github.com/rosjava/rosjava_messages.git
