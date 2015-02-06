@@ -1501,7 +1501,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/eml-release.git
-      version: 0.36.0-5
+      version: 1.8.15-0
     status: maintained
   epos_hardware:
     doc:
@@ -2840,6 +2840,11 @@ repositories:
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
       version: master
     status: maintained
+  jsk_smart_apps:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_smart_apps.git
+      version: master
   jsk_visualization:
     doc:
       type: git
@@ -4232,7 +4237,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.11.14-0
+      version: 1.12.0-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation.git
@@ -8127,7 +8132,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uji-ros-pkg/uwsim_osgocean-release.git
-      version: 1.0.3-5
+      version: 1.0.3-8
     status: maintained
   uwsim_osgworks:
     release:
