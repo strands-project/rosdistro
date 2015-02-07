@@ -3255,7 +3255,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.2-0
+      version: 1.0.2-1
   katana_driver:
     doc:
       type: git
@@ -7507,12 +7507,11 @@ repositories:
       - hironx_calibration
       - hironx_moveit_config
       - hironx_ros_bridge
-      - hironx_tutorial
       - rtmros_hironx
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.0.27-0
+      version: 1.0.28-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
@@ -7532,7 +7531,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_nextage-release.git
-      version: 0.5.3-0
+      version: 0.6.0-0
     source:
       type: git
       url: https://github.com/tork-a/rtmros_nextage.git
