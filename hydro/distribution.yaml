@@ -7463,6 +7463,21 @@ repositories:
       url: https://github.com/introlab/rtabmap_ros.git
       version: master
     status: maintained
+  rtctree:
+    doc:
+      type: git
+      url: https://github.com/gbiggs/rtctree.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/rtctree-release.git
+      version: 3.0.1-1
+    source:
+      type: git
+      url: https://github.com/gbiggs/rtctree.git
+      version: master
+    status: developed
   rtmros_common:
     doc:
       type: git
@@ -7546,26 +7561,36 @@ repositories:
       url: https://github.com/tork-a/rtmros_nextage.git
       version: hydro-devel
     status: developed
-  rtshell_core:
+  rtshell:
     doc:
       type: git
-      url: https://github.com/start-jsk/rtshell_core.git
+      url: https://github.com/gbiggs/rtshell.git
       version: master
     release:
-      packages:
-      - rtctree
-      - rtshell
-      - rtshell_core
-      - rtsprofile
       tags:
         release: release/hydro/{package}/{version}
-      url: https://github.com/tork-a/rtshell_core-release.git
-      version: 3.0.3-0
+      url: https://github.com/tork-a/rtshell-release.git
+      version: 3.0.1-1
     source:
       type: git
-      url: https://github.com/start-jsk/rtshell_core.git
+      url: https://github.com/gbiggs/rtshell.git
       version: master
-    status: maintained
+    status: developed
+  rtsprofile:
+    doc:
+      type: git
+      url: https://github.com/gbiggs/rtsprofile.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/rtsprofile-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/gbiggs/rtsprofile.git
+      version: master
+    status: developed
   rtt:
     doc:
       type: git
