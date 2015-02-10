@@ -1071,10 +1071,28 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/concert_services-release.git
-      version: 0.1.6-0
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/concert_services.git
+      version: indigo
+    status: developed
+  concert_software_farm:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/concert_software_farm.git
+      version: indigo
+    release:
+      packages:
+      - concert_software_common
+      - concert_software_farm
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/yujinrobot-release/concert_software_farm-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/concert_software_farm.git
       version: indigo
     status: developed
   control_msgs:
@@ -1715,7 +1733,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/geneus-release.git
-      version: 2.0.0-0
+      version: 2.0.1-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/geneus.git
@@ -5195,7 +5213,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_controllers-release.git
-      version: 1.10.12-0
+      version: 1.10.13-0
     source:
       type: git
       url: https://github.com/pr2/pr2_controllers.git
@@ -5840,13 +5858,14 @@ repositories:
       - concert_service_link_graph
       - concert_service_manager
       - concert_service_utilities
+      - concert_software_farmer
       - concert_utilities
       - rocon_concert
       - rocon_tf_reconstructor
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_concert-release.git
-      version: 0.6.3-0
+      version: 0.6.4-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_concert.git
@@ -5873,7 +5892,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_msgs-release.git
-      version: 0.7.8-0
+      version: 0.7.9-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_msgs.git
@@ -5927,7 +5946,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_qt_gui-release.git
-      version: 0.7.4-0
+      version: 0.7.5-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_qt_gui.git
@@ -5957,7 +5976,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_tools-release.git
-      version: 0.1.13-0
+      version: 0.1.14-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_tools.git
@@ -5979,7 +5998,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_tutorials-release.git
-      version: 0.6.4-0
+      version: 0.6.5-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_tutorials.git
@@ -8709,7 +8728,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/yocs_msgs-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       type: git
       url: https://github.com/yujinrobot/yocs_msgs.git
@@ -8737,22 +8756,28 @@ repositories:
       version: indigo
     release:
       packages:
+      - yocs_ar_marker_tracking
+      - yocs_ar_pair_approach
+      - yocs_ar_pair_tracking
       - yocs_cmd_vel_mux
       - yocs_controllers
       - yocs_diff_drive_pose_controller
       - yocs_joyop
       - yocs_keyop
+      - yocs_localization_manager
       - yocs_math_toolkit
+      - yocs_navigator
       - yocs_rapps
       - yocs_safety_controller
       - yocs_velocity_smoother
       - yocs_virtual_sensor
+      - yocs_waypoint_provider
       - yocs_waypoints_navi
       - yujin_ocs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/yujin_ocs-release.git
-      version: 0.6.3-0
+      version: 0.6.4-0
     source:
       type: git
       url: https://github.com/yujinrobot/yujin_ocs.git

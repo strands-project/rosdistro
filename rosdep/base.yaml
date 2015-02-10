@@ -1376,6 +1376,7 @@ libjpeg:
     trusty: [libjpeg-dev]
     trusty_python3: [libjpeg-dev]
     utopic: [libjpeg-dev]
+    vivid: [libjpeg-dev]
 libjson-glib:
   arch: [json-glib]
   debian: [libjson-glib-dev]
@@ -2774,7 +2775,7 @@ swi-prolog-clib:
   fedora: [pl-devel]
   ubuntu:
     lucid: [swi-prolog-clib]
-    maveric: [swi-prolog]
+    maverick: [swi-prolog]
     natty: [swi-prolog]
     oneiric: [swi-prolog]
     precise: [swi-prolog]
