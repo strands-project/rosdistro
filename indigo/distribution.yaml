@@ -553,7 +553,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_bot-release.git
-      version: 0.0.14-0
+      version: 0.0.15-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_bot.git
@@ -2153,11 +2153,19 @@ repositories:
       version: 0.1.1-2
     status: maintained
   hrpsys:
+    doc:
+      type: git
+      url: https://github.com/fkanehiro/hrpsys-base.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.2.8-3
+      version: 315.2.8-4
+    source:
+      type: git
+      url: https://github.com/fkanehiro/hrpsys-base.git
+      version: master
     status: developed
   humanoid_msgs:
     doc:
@@ -2713,6 +2721,7 @@ repositories:
       - ffha
       - image_view2
       - jsk_common
+      - jsk_data
       - jsk_footstep_msgs
       - jsk_gui_msgs
       - jsk_hark_msgs
@@ -2737,7 +2746,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.60-1
+      version: 1.0.61-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -2795,7 +2804,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.1.6-1
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
@@ -3482,21 +3491,6 @@ repositories:
       url: https://github.com/clearpathrobotics/lms1xx.git
       version: master
     status: maintained
-  loam_back_and_forth:
-    doc:
-      type: git
-      url: https://github.com/jizhang-cmu/loam_back_and_forth.git
-      version: indigo
-  loam_continuous:
-    doc:
-      type: git
-      url: https://github.com/jizhang-cmu/loam_continuous.git
-      version: indigo
-  loam_velodyne:
-    doc:
-      type: git
-      url: https://github.com/jizhang-cmu/loam_velodyne.git
-      version: hydro-indigo
   log4cpp:
     doc:
       type: git
@@ -4754,11 +4748,15 @@ repositories:
       version: master
     status: maintained
   openhrp3:
+    doc:
+      type: git
+      url: https://github.com/fkanehiro/openhrp3.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/openhrp3-release.git
-      version: 3.1.7-12
+      version: 3.1.7-13
     source:
       type: git
       url: https://github.com/fkanehiro/openhrp3.git
@@ -5143,7 +5141,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_apps-release.git
-      version: 0.5.17-0
+      version: 0.5.18-0
     source:
       type: git
       url: https://github.com/pr2/pr2_apps.git
@@ -5164,7 +5162,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_common-release.git
-      version: 1.11.8-0
+      version: 1.11.9-0
     source:
       type: git
       url: https://github.com/pr2/pr2_common.git
@@ -5187,7 +5185,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_common_actions-release.git
-      version: 0.0.5-0
+      version: 0.0.5-1
     source:
       type: git
       url: https://github.com/pr2/pr2_common_actions.git
@@ -5254,6 +5252,78 @@ repositories:
       url: https://github.com/PR2/pr2_gripper_sensor.git
       version: hydro-devel
     status: maintained
+  pr2_hack_the_future:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_hack_the_future.git
+      version: hydro-devel
+    release:
+      packages:
+      - hack_the_web_program_executor
+      - pr2_hack_the_future
+      - pr2_joint_teleop
+      - pr2_simple_interface
+      - program_queue
+      - queue_web
+      - rviz_backdrop
+      - slider_gui
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_hack_the_future-release.git
+      version: 1.0.9-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_hack_the_future.git
+      version: hydro-devel
+    status: maintained
+  pr2_kinematics:
+    doc:
+      type: git
+      url: https://github.com/pr2/pr2_kinematics.git
+      version: hydro-devel
+    release:
+      packages:
+      - pr2_arm_kinematics
+      - pr2_kinematics
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_kinematics-release.git
+      version: 1.0.7-1
+    source:
+      type: git
+      url: https://github.com/pr2/pr2_kinematics.git
+      version: hydro-devel
+    status: maintained
+  pr2_make_a_map_app:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_make_a_map_app.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_make_a_map_app-release.git
+      version: 1.0.4-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_make_a_map_app.git
+      version: hydro-devel
+    status: maintained
+  pr2_map_navigation_app:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_map_navigation_app.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_map_navigation_app-release.git
+      version: 1.0.2-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_map_navigation_app.git
+      version: hydro-devel
+    status: maintained
   pr2_mechanism:
     doc:
       type: git
@@ -5304,7 +5374,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_navigation-release.git
-      version: 0.1.25-0
+      version: 0.1.26-0
     source:
       type: git
       url: https://github.com/pr2/pr2_navigation.git
@@ -5343,6 +5413,53 @@ repositories:
     source:
       type: git
       url: https://github.com/PR2/pr2_precise_trajectory.git
+      version: hydro-devel
+    status: maintained
+  pr2_props_app:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_props_app.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_props_app-release.git
+      version: 1.0.4-0
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_props_app.git
+      version: hydro-devel
+    status: maintained
+  pr2_props_stack:
+    doc:
+      type: git
+      url: https://github.com/pr2/pr2_props_stack.git
+      version: hydro-devel
+    release:
+      packages:
+      - pr2_props
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_props_stack-release.git
+      version: 1.0.4-0
+    source:
+      type: git
+      url: https://github.com/pr2/pr2_props_stack.git
+      version: hydro-devel
+    status: maintained
+  pr2_ps3_joystick_app:
+    doc:
+      type: git
+      url: https://github.com/PR2/pr2_ps3_joystick_app.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/pr2-gbp/pr2_ps3_joystick_app-release.git
+      version: 1.0.2-1
+    source:
+      type: git
+      url: https://github.com/PR2/pr2_ps3_joystick_app.git
       version: hydro-devel
     status: maintained
   prosilica_camera:
@@ -6246,7 +6363,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/ros_ethernet_rmp-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/ros_ethernet_rmp.git
@@ -6894,11 +7011,20 @@ repositories:
       version: hydro-devel
     status: developed
   rtshell:
+    doc:
+      type: git
+      url: https://github.com/gbiggs/rtshell.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtshell-release.git
-      version: 3.0.1-1
+      version: 3.0.1-2
+    source:
+      type: git
+      url: https://github.com/gbiggs/rtshell.git
+      version: master
+    status: developed
   rtsprofile:
     release:
       tags:
