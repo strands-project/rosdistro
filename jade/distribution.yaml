@@ -453,8 +453,8 @@ repositories:
   jskeus:
     doc:
       type: git
-      url: https://github.com/euslisp/jskeus.git
-      version: master
+      url: https://github.com/tork-a/jskeus-release.git
+      version: release/jade/jskeus
     release:
       tags:
         release: release/jade/{package}/{version}
@@ -462,8 +462,8 @@ repositories:
       version: 1.0.2-1
     source:
       type: git
-      url: https://github.com/euslisp/jskeus.git
-      version: master
+      url: https://github.com/tork-a/jskeus-release.git
+      version: release/jade/jskeus
     status: developed
   message_generation:
     doc:
@@ -582,6 +582,17 @@ repositories:
     source:
       type: git
       url: https://github.com/wg-perception/opencv_candidate.git
+      version: master
+    status: maintained
+  openslam_gmapping:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/openslam_gmapping-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/openslam_gmapping.git
       version: master
     status: maintained
   orocos_kinematics_dynamics:
@@ -803,6 +814,20 @@ repositories:
       url: https://github.com/ros/rospack.git
       version: indigo-devel
     status: maintained
+  slam_gmapping:
+    release:
+      packages:
+      - gmapping
+      - slam_gmapping
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/slam_gmapping-release.git
+      version: 1.3.5-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/slam_gmapping.git
+      version: hydro-devel
+    status: developed
   std_msgs:
     doc:
       type: git
@@ -827,7 +852,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/kmhallen/ueye-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: hg
       url: https://bitbucket.org/kmhallen/ueye
