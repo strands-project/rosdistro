@@ -254,8 +254,8 @@ repositories:
   euslisp:
     doc:
       type: git
-      url: https://github.com/euslisp/EusLisp.git
-      version: master
+      url: https://github.com/tork-a/euslisp-release.git
+      version: release/jade/euslisp
     release:
       tags:
         release: release/jade/{package}/{version}
@@ -263,8 +263,8 @@ repositories:
       version: 9.1.0-0
     source:
       type: git
-      url: https://github.com/euslisp/EusLisp.git
-      version: master
+      url: https://github.com/tork-a/euslisp-release.git
+      version: release/jade/euslisp
     status: developed
   gencpp:
     doc:
@@ -290,7 +290,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/geneus-release.git
-      version: 2.0.1-0
+      version: 2.1.0-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/geneus.git
@@ -444,7 +444,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.2.3-0
+      version: 1.2.5-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -495,6 +495,24 @@ repositories:
       url: https://github.com/ros/message_runtime.git
       version: groovy-devel
     status: maintained
+  multisense_ros:
+    doc:
+      type: hg
+      url: https://bitbucket.org/crl/multisense_ros
+      version: default
+    release:
+      packages:
+      - multisense
+      - multisense_bringup
+      - multisense_cal_check
+      - multisense_description
+      - multisense_lib
+      - multisense_ros
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
+      version: 3.4.3-0
+    status: developed
   nodelet_core:
     doc:
       type: git
@@ -530,7 +548,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_core-release.git
-      version: 0.6.4-0
+      version: 0.6.5-0
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_core.git

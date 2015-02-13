@@ -1557,8 +1557,8 @@ repositories:
   euslisp:
     doc:
       type: git
-      url: https://github.com/euslisp/EusLisp.git
-      version: master
+      url: https://github.com/tork-a/euslisp-release.git
+      version: release/indigo/euslisp
     release:
       tags:
         release: release/indigo/{package}/{version}
@@ -1566,8 +1566,8 @@ repositories:
       version: 9.1.0-3
     source:
       type: git
-      url: https://github.com/euslisp/EusLisp.git
-      version: master
+      url: https://github.com/tork-a/euslisp-release.git
+      version: release/indigo/euslisp
     status: developed
   executive_smach:
     release:
@@ -1733,7 +1733,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/geneus-release.git
-      version: 2.0.1-1
+      version: 2.1.0-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/geneus.git
@@ -2161,7 +2161,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.2.8-4
+      version: 315.2.8-5
     source:
       type: git
       url: https://github.com/fkanehiro/hrpsys-base.git
@@ -2209,7 +2209,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_bringup-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/husky/husky_bringup.git
@@ -2224,7 +2224,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_control-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/husky/husky_control.git
@@ -2876,7 +2876,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.2.3-0
+      version: 1.2.5-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -4030,7 +4030,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 3.4.2-0
+      version: 3.4.3-0
     source:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
@@ -4480,7 +4480,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_core-release.git
-      version: 0.6.4-0
+      version: 0.6.5-0
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_core.git
@@ -4757,7 +4757,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/openhrp3-release.git
-      version: 3.1.7-13
+      version: 3.1.7-14
     source:
       type: git
       url: https://github.com/fkanehiro/openhrp3.git
@@ -6412,7 +6412,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/code-iai-release/ros_emacs_utils-release.git
-      version: 0.4.5-0
+      version: 0.4.6-0
     source:
       type: git
       url: https://github.com/code-iai/ros_emacs_utils.git
