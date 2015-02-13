@@ -7910,12 +7910,13 @@ repositories:
     release:
       packages:
       - calibrate_chest
+      - movebase_state_service
       - strands_description
       - strands_movebase
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/strands_movebase.git
-      version: 0.0.14-0
+      version: 0.0.15-0
     source:
       type: git
       url: https://github.com/strands-project/strands_movebase.git
