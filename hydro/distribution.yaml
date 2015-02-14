@@ -2589,7 +2589,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.2.8-2
+      version: 315.2.8-3
     source:
       type: git
       url: https://github.com/start-jsk/hrpsys.git
@@ -4968,7 +4968,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/openhrp3-release.git
-      version: 3.1.7-2
+      version: 3.1.7-3
     source:
       type: git
       url: https://github.com/start-jsk/openhrp3.git
@@ -5059,7 +5059,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist-release.git
-      version: 1.1.0-11
+      version: 1.1.0-13
     source:
       type: git
       url: https://github.com/tork-a/openrtm_aist-release.git
@@ -7148,7 +7148,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://bitbucket.org/rospeex/rospeex-release.git
-      version: 2.12.2-0
+      version: 2.12.3-0
     source:
       type: git
       url: https://bitbucket.org/rospeex/rospeex.git
@@ -7493,7 +7493,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.2.6-0
+      version: 1.2.7-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
@@ -7690,7 +7690,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.10.18-4
+      version: 1.10.19-0
     source:
       type: git
       url: https://github.com/ros-visualization/rviz.git
@@ -7751,10 +7751,6 @@ repositories:
     status: maintained
   rwt_ros:
     doc:
-      type: git
-      url: https://github.com/tork-a/rwt_ros.git
-      version: hydro-devel
-    source:
       type: git
       url: https://github.com/tork-a/rwt_ros.git
       version: hydro-devel
@@ -9358,10 +9354,6 @@ repositories:
       version: master
   visualization_rwt:
     doc:
-      type: git
-      url: https://github.com/tork-a/visualization_rwt.git
-      version: hydro-devel
-    source:
       type: git
       url: https://github.com/tork-a/visualization_rwt.git
       version: hydro-devel
