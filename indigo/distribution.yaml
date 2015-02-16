@@ -6,6 +6,11 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  aaf_deployment:
+    source:
+      type: git
+      url: https://github.com/strands-project/aaf_deployment.git
+      version: indigo-devel
   ackermann_msgs:
     doc:
       type: git
