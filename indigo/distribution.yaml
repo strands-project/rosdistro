@@ -7905,7 +7905,7 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/strands_apps.git
-      version: hydro-devel
+      version: indigo-devel
     status: developed
   strands_executive:
     release:
