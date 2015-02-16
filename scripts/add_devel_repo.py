@@ -32,7 +32,7 @@ def add_devel_repository(yaml_file, name, vcs_type, url, version='master'):
     except ImportError as e:
         raise ImportError(str(e) + ' - you need to install the latest version of python-rosdistro.')
     data = _to_yaml(data)
-    data = '\n'.join(_yaml_header_lines('distribution')) + '\n' + data
+    data = '\n'.join(_yaml_header_lines('distribution',1)) + '\n' + data
     with open(yaml_file, 'w') as f:
         f.write(data)
 
