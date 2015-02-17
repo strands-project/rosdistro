@@ -8021,7 +8021,7 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/strands_perception_people.git
-      version: indigo-release
+      version: indigo-devel
     status: developed
   strands_qsr_lib:
     release:
