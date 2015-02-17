@@ -8583,10 +8583,11 @@ repositories:
       - strands_human_help
       - strands_monitored_nav_states
       - strands_recovery_behaviours
+      - walking_group_recovery
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/strands-project-releases/strands_recovery_behaviours.git
-      version: 0.0.10-1
+      version: 0.0.11-0
     source:
       type: git
       url: https://github.com/strands-project/strands_recovery_behaviours.git
