@@ -603,7 +603,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_moveit-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_moveit.git
@@ -633,7 +633,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_safety-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_safety.git
@@ -2292,7 +2292,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_navigation-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/husky/husky_navigation.git
@@ -2603,7 +2603,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/interactive_world-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/interactive_world.git
@@ -2751,7 +2751,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.61-0
+      version: 1.0.62-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -4184,7 +4184,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/nao_robot-release.git
-      version: 0.5.3-0
+      version: 0.5.5-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_robot.git
@@ -5752,7 +5752,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_collada_models-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_collada_models.git
@@ -5800,7 +5800,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_segmentation.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_segmentation.git
@@ -8948,7 +8948,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/wpi_jaco-release.git
-      version: 0.0.14-0
+      version: 0.0.15-0
     source:
       type: git
       url: https://github.com/RIVeR-Lab/wpi_jaco.git
