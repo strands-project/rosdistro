@@ -8010,14 +8010,16 @@ repositories:
       - ground_plane_estimation
       - mdl_people_tracker
       - odometry_to_motion_matrix
+      - opencv_warco
       - perception_people_launch
+      - strands_head_orientation
       - strands_perception_people
       - upper_body_detector
       - visual_odometry
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/strands_perception_people.git
-      version: 0.0.13-0
+      version: 0.1.0-0
     source:
       type: git
       url: https://github.com/strands-project/strands_perception_people.git
