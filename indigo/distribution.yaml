@@ -1528,6 +1528,17 @@ repositories:
       url: https://github.com/plasmodic/ecto_ros.git
       version: master
     status: maintained
+  edge_leg_detector:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/edge_leg_detector.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/strands-project/edge_leg_detector.git
+      version: master
+    status: maintained
   eigen_stl_containers:
     release:
       tags:
