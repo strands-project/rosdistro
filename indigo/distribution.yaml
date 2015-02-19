@@ -558,7 +558,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_bot-release.git
-      version: 0.0.15-0
+      version: 0.0.16-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_bot.git
@@ -2614,7 +2614,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/interactive_world-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/interactive_world.git
@@ -5791,12 +5791,16 @@ repositories:
       version: master
     release:
       packages:
+      - rail_grasp_collection
+      - rail_grasping
       - rail_pick_and_place
       - rail_pick_and_place_msgs
+      - rail_pick_and_place_wrapper
+      - rail_recognition
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_pick_and_place-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_pick_and_place.git
