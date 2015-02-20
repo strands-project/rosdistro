@@ -8023,6 +8023,7 @@ repositories:
       - bayes_people_tracker_logging
       - detector_msg_to_pose_array
       - ground_plane_estimation
+      - human_trajectory
       - mdl_people_tracker
       - odometry_to_motion_matrix
       - opencv_warco
@@ -8034,7 +8035,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/strands_perception_people.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/strands-project/strands_perception_people.git
