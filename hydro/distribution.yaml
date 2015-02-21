@@ -3023,6 +3023,21 @@ repositories:
       url: https://github.com/Kinovarobotics/jaco-ros.git
       version: hydro-devel
     status: maintained
+  joint_state_publisher_js:
+    doc:
+      type: git
+      url: https://github.com/DLu/joint_state_publisher_js.git
+      version: hydro
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/wu-robotics/joint_state_publisher_js_release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/DLu/joint_state_publisher_js.git
+      version: hydro
+    status: developed
   joy_teleop:
     doc:
       type: git
@@ -9181,7 +9196,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/bosch-ros-pkg-release/usb_cam-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/bosch-ros-pkg/usb_cam.git
@@ -9440,7 +9455,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RobotWebTools-release/web_video_server-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/RobotWebTools/web_video_server.git
