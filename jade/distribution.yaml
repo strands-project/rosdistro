@@ -284,10 +284,6 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
       version: 9.11.0-1
-    source:
-      type: git
-      url: https://github.com/tork-a/euslisp-release.git
-      version: release/jade/euslisp
     status: developed
   gencpp:
     doc:
@@ -313,7 +309,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/geneus-release.git
-      version: 2.1.1-0
+      version: 2.1.2-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/geneus.git
@@ -483,10 +479,6 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
       version: 1.0.3-0
-    source:
-      type: git
-      url: https://github.com/tork-a/jskeus-release.git
-      version: release/jade/jskeus
     status: developed
   korg_nanokontrol:
     doc:
