@@ -2880,10 +2880,11 @@ repositories:
       packages:
       - jsk_pr2eus
       - pr2eus
+      - pr2eus_moveit
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.1.7-0
+      version: 0.1.8-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
@@ -3660,7 +3661,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2015.2.2-0
+      version: 2015.2.25-0
     status: maintained
   mavros:
     doc:
@@ -3675,7 +3676,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.10.1-0
+      version: 0.10.2-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -4102,7 +4103,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.3.17-0
+      version: 0.4.0-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -6891,6 +6892,28 @@ repositories:
       url: https://github.com/rosjava/rosjava_build_tools.git
       version: indigo
     status: developed
+  rosjava_core:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/rosjava-release/rosjava_core-release.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/rosjava/rosjava_core.git
+      version: indigo
+    status: maintained
+  rosjava_extras:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/rosjava-release/rosjava_extras-release.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/rosjava/rosjava_extras.git
+      version: indigo
+    status: maintained
   rosjava_messages:
     release:
       tags:
@@ -9310,6 +9333,17 @@ repositories:
       url: https://github.com/stonier/zeroconf_avahi_suite.git
       version: indigo
     status: developed
+  zeroconf_jmdns_suite:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/rosjava-release/zeroconf_jmdns_suite-release.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/rosjava/zeroconf_jmdns_suite.git
+      version: indigo
+    status: maintained
   zeroconf_msgs:
     doc:
       type: git

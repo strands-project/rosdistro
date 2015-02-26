@@ -495,6 +495,36 @@ repositories:
       url: https://github.com/ros-drivers/korg_nanokontrol.git
       version: master
     status: maintained
+  mavlink:
+    doc:
+      type: git
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: release/jade/mavlink
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: 2015.2.25-0
+    status: maintained
+  mavros:
+    doc:
+      type: git
+      url: https://github.com/mavlink/mavros.git
+      version: master
+    release:
+      packages:
+      - libmavconn
+      - mavros
+      - mavros_extras
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/mavlink/mavros-release.git
+      version: 0.10.2-0
+    source:
+      type: git
+      url: https://github.com/mavlink/mavros.git
+      version: master
+    status: developed
   message_generation:
     doc:
       type: git
@@ -571,6 +601,21 @@ repositories:
       type: git
       url: https://github.com/ros/nodelet_core.git
       version: indigo-devel
+    status: maintained
+  ntpd_driver:
+    doc:
+      type: git
+      url: https://github.com/vooon/ntpd_driver.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/vooon/ntpd_driver-release.git
+      version: 1.0.2-0
+    source:
+      type: git
+      url: https://github.com/vooon/ntpd_driver.git
+      version: master
     status: maintained
   object_recognition_capture:
     release:
