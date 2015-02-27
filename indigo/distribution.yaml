@@ -1710,6 +1710,21 @@ repositories:
       url: https://github.com/ros-drivers/freenect_stack.git
       version: master
     status: maintained
+  fremen:
+    release:
+      packages:
+      - fremengrid
+      - frenap
+      - froctomap
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/fremen.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/strands-project/fremen.git
+      version: master
+    status: developed
   frontier_exploration:
     doc:
       type: git
