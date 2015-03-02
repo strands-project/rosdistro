@@ -73,6 +73,26 @@ repositories:
       url: https://github.com/strands-project/activity_analysis.git
       version: hydro-devel
     status: developed
+  android_apps:
+    doc:
+      type: git
+      url: https://github.com/rosjava/android_apps.git
+      version: indigo
+  android_core:
+    doc:
+      type: git
+      url: https://github.com/rosjava/android_core.git
+      version: indigo
+  android_extras:
+    doc:
+      type: git
+      url: https://github.com/rosjava/android_extras.git
+      version: indigo
+  android_remocons:
+    doc:
+      type: git
+      url: https://github.com/rosjava/android_remocons.git
+      version: indigo
   angles:
     doc:
       type: git
@@ -1802,7 +1822,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rosjava-release/genjava-release.git
-      version: 0.1.3-0
+      version: 0.1.4-0
     source:
       type: git
       url: https://github.com/rosjava/genjava.git
@@ -6317,6 +6337,17 @@ repositories:
       url: https://github.com/robotics-in-concert/rocon_qt_gui.git
       version: indigo
     status: developed
+  rocon_rosjava_core:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/yujinrobot-release/rocon_rosjava_core-release.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_rosjava_core.git
+      version: indigo
+    status: developed
   rocon_tools:
     doc:
       type: git
@@ -6892,11 +6923,19 @@ repositories:
       version: master
     status: maintained
   rosjava:
+    doc:
+      type: git
+      url: https://github.com/rosjava/rosjava.git
+      version: indigo
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rosjava-release/rosjava-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/rosjava/rosjava.git
+      version: indigo
     status: maintained
   rosjava_bootstrap:
     release:
@@ -6914,7 +6953,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rosjava-release/rosjava_build_tools-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/rosjava/rosjava_build_tools.git
@@ -7048,7 +7087,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rospilot/rospilot_deps-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/rospilot/rospilot_deps.git
