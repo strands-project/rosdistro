@@ -3157,7 +3157,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki_desktop-release.git
-      version: 0.4.1-0
+      version: 0.4.2-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki_desktop.git
@@ -6331,7 +6331,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_qt_gui-release.git
-      version: 0.7.6-0
+      version: 0.7.7-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_qt_gui.git
@@ -6372,7 +6372,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_tools-release.git
-      version: 0.1.15-0
+      version: 0.1.16-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_tools.git
@@ -8475,7 +8475,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot-release.git
-      version: 2.3.6-0
+      version: 2.3.7-0
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot.git
