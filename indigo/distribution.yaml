@@ -1734,12 +1734,13 @@ repositories:
     release:
       packages:
       - fremengrid
+      - fremenserver
       - frenap
       - froctomap
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/fremen.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/strands-project/fremen.git
