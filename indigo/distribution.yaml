@@ -5948,6 +5948,11 @@ repositories:
       url: https://github.com/WPI-RAIL/rmp_msgs.git
       version: develop
     status: maintained
+  robomongo_ros:
+    source:
+      type: git
+      url: https://github.com/strands-project/robomongo.git
+      version: master
   robot_localization:
     doc:
       type: git
