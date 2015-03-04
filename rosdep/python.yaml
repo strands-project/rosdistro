@@ -215,7 +215,10 @@ python-clearsilver:
     trusty: [python-clearsilver]
 python-colorama:
   fedora: [python-colorama]
-  ubuntu: [python-colorama]
+  ubuntu:
+    trusty: [python-colorama]
+    utopic: [python-colorama]
+    vivid: [python-colorama]
 python-couchdb:
   debian: [python-couchdb]
   fedora: [python-couchdb]
@@ -527,6 +530,8 @@ python-kitchen:
     raring: [python-kitchen]
     saucy: [python-kitchen]
     trusty: [python-kitchen]
+    utopic: [python-kitchen]
+    vivid: [python-kitchen]
 python-libpcap:
   debian: [python-libpcap]
   fedora: [pylibpcap]
@@ -962,8 +967,7 @@ python-pymavlink:
     pip:
       packages: [pymavlink]
 python-pymodbus:
-  debian:
-    precise: [python-pymodbus]
+  debian: [python-pymodbus]
   fedora: [pymodbus]
   ubuntu:
     precise: [python-pymodbus]
@@ -1388,6 +1392,8 @@ python-sphinx:
     saucy: [python-sphinx]
     trusty: [python-sphinx]
     trusty_python3: [python3-sphinx]
+    utopic: [python-sphinx]
+    vivid: [python-sphinx]
 python-sqlalchemy:
   debian: [python-sqlalchemy]
   fedora: [python-sqlalchemy]
