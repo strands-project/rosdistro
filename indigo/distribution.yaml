@@ -6078,10 +6078,18 @@ repositories:
       version: develop
     status: maintained
   robomongo_ros:
+    release:
+      packages:
+      - robomongo
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/robomongo_ros.git
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/strands-project/robomongo.git
       version: master
+    status: developed
   robot_localization:
     doc:
       type: git
