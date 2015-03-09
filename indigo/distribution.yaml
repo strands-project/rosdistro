@@ -8294,7 +8294,7 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/strands_movebase.git
-      version: hydro-devel
+      version: indigo-devel
     status: developed
   strands_navigation:
     release:
