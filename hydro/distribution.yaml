@@ -2621,7 +2621,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.2.8-4
+      version: 315.3.0-0
     source:
       type: git
       url: https://github.com/start-jsk/hrpsys.git
@@ -3232,7 +3232,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -6163,7 +6163,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/KristofRobot/razor_imu_9dof-release.git
-      version: 1.1.0-0
+      version: 1.1.0-1
     source:
       type: git
       url: https://github.com/KristofRobot/razor_imu_9dof.git
@@ -7529,7 +7529,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.2.7-0
+      version: 1.2.8-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
