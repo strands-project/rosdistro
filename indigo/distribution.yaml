@@ -941,6 +941,16 @@ repositories:
       url: https://github.com/ipa320/cob_navigation.git
       version: indigo_dev
     status: maintained
+  cob_people_perception:
+    doc:
+      type: git
+      url: https://github.com/ipa-rmb/cob_people_perception.git
+      version: indigo_dev
+    source:
+      type: git
+      url: https://github.com/ipa-rmb/cob_people_perception.git
+      version: indigo_dev
+    status: developed
   cob_perception_common:
     doc:
       type: git
@@ -2043,7 +2053,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/graft-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     status: developed
   graph_msgs:
     doc:
@@ -2628,6 +2638,16 @@ repositories:
       url: https://github.com/ccny-ros-pkg/imu_tools.git
       version: indigo
     status: developed
+  industrial_core:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/industrial_core.git
+      version: indigo
+    source:
+      type: git
+      url: https://github.com/ros-industrial/industrial_core.git
+      version: indigo
+    status: maintained
   innok_heros_driver:
     doc:
       type: git
@@ -3693,7 +3713,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AndyZelenak/lyap_control-release.git
-      version: 0.0.6-2
+      version: 0.0.8-0
     source:
       type: git
       url: https://AndyZe@bitbucket.org/AndyZe/lyap_control.git
@@ -4159,7 +4179,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: indigo-devel
+      version: master
     release:
       packages:
       - mrpt_bridge
@@ -4178,7 +4198,7 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
-      version: indigo-devel
+      version: master
     status: maintained
   mtig_driver:
     doc:
@@ -4474,7 +4494,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.12.0-0
+      version: 1.12.1-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation.git
@@ -5294,7 +5314,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.1-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://AndyZe@bitbucket.org/AndyZe/pid.git
@@ -6178,7 +6198,16 @@ repositories:
       url: https://github.com/strands-project/robomongo.git
       version: master
     status: developed
+  robo_rescue:
+    doc:
+      type: git
+      url: https://github.com/hrnr/robo-rescue.git
+      version: master
   robot_calibration:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/robot_calibration.git
+      version: indigo-devel
     release:
       packages:
       - robot_calibration
@@ -6186,7 +6215,8 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/robot_calibration-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
+    status: developed
   robot_localization:
     doc:
       type: git
@@ -8147,6 +8177,10 @@ repositories:
       version: indigo-devel
     status: developed
   srdfdom:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/srdfdom.git
+      version: indigo-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
@@ -8284,7 +8318,7 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/strands_executive.git
-      version: hydro-devel
+      version: hydro-release
     status: developed
   strands_executive_behaviours:
     release:
