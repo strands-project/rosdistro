@@ -6185,6 +6185,11 @@ repositories:
       url: https://github.com/WPI-RAIL/rmp_msgs.git
       version: develop
     status: maintained
+  robo_rescue:
+    doc:
+      type: git
+      url: https://github.com/hrnr/robo-rescue.git
+      version: master
   robomongo_ros:
     release:
       packages:
@@ -6198,11 +6203,6 @@ repositories:
       url: https://github.com/strands-project/robomongo.git
       version: master
     status: developed
-  robo_rescue:
-    doc:
-      type: git
-      url: https://github.com/hrnr/robo-rescue.git
-      version: master
   robot_calibration:
     doc:
       type: git
