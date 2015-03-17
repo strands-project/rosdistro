@@ -20,7 +20,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/acado-release.git
-      version: 1.2.1-1
+      version: 1.2.1-3
     source:
       type: git
       url: https://github.com/clearpath-gbp/acado-release.git
@@ -406,6 +406,10 @@ repositories:
       version: master
     status: developed
   bfl:
+    doc:
+      type: git
+      url: https://github.com/ros-gbp/bfl-release.git
+      version: upstream
     release:
       tags:
         release: release/indigo/{package}/{version}
@@ -486,7 +490,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/uos/calvin_robot.git
-      version: indigo
+      version: indigo_catkin
   camera1394:
     doc:
       type: git
@@ -3101,7 +3105,28 @@ repositories:
     doc:
       type: git
       url: https://github.com/uos/katana_driver.git
-      version: indigo
+      version: indigo_catkin
+    release:
+      packages:
+      - katana
+      - katana_arm_gazebo
+      - katana_description
+      - katana_driver
+      - katana_gazebo_plugins
+      - katana_moveit_ikfast_plugin
+      - katana_msgs
+      - katana_teleop
+      - katana_tutorials
+      - kni
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/uos-gbp/katana_driver-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/uos/katana_driver.git
+      version: indigo_catkin
+    status: developed
   keyboard:
     release:
       tags:
@@ -3289,7 +3314,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/uos/kurt_driver.git
-      version: indigo
+      version: indigo_catkin
   kurt_navigation:
     doc:
       type: git
@@ -3707,7 +3732,7 @@ repositories:
   lyap_control:
     doc:
       type: git
-      url: https://AndyZe@bitbucket.org/AndyZe/lyap_control.git
+      url: https://bitbucket.org/AndyZe/lyap_control.git
       version: public
     release:
       tags:
@@ -3716,7 +3741,7 @@ repositories:
       version: 0.0.8-0
     source:
       type: git
-      url: https://AndyZe@bitbucket.org/AndyZe/lyap_control.git
+      url: https://bitbucket.org/AndyZe/lyap_control.git
       version: public
     status: developed
   m4atx_battery_monitor:
@@ -5308,7 +5333,7 @@ repositories:
   pid:
     doc:
       type: git
-      url: https://AndyZe@bitbucket.org/AndyZe/pid.git
+      url: https://bitbucket.org/AndyZe/pid.git
       version: master
     release:
       tags:
@@ -5317,7 +5342,7 @@ repositories:
       version: 0.0.3-0
     source:
       type: git
-      url: https://AndyZe@bitbucket.org/AndyZe/pid.git
+      url: https://bitbucket.org/AndyZe/pid.git
       version: master
     status: developed
   pluginlib:
@@ -6215,7 +6240,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/robot_calibration-release.git
-      version: 0.1.2-0
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/mikeferguson/robot_calibration.git
+      version: indigo-devel
     status: developed
   robot_localization:
     doc:
@@ -7630,7 +7659,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/rtt_ros_integration-release.git
-      version: 2.8.0-0
+      version: 2.8.1-0
     source:
       type: git
       url: https://github.com/orocos/rtt_ros_integration.git
@@ -7973,7 +8002,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/uos/sick_tim.git
