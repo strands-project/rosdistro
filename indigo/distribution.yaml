@@ -1843,7 +1843,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.4.7-1
+      version: 2.4.8-0
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
@@ -1980,7 +1980,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/geometry-release.git
-      version: 1.11.4-0
+      version: 1.11.5-0
     source:
       type: git
       url: https://github.com/ros/geometry.git
@@ -2006,7 +2006,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/geometry_experimental-release.git
-      version: 0.5.7-0
+      version: 0.5.8-0
     source:
       type: git
       url: https://github.com/ros/geometry_experimental.git
@@ -3014,7 +3014,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.2.4-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -3121,7 +3121,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/katana_driver-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/uos/katana_driver.git
@@ -9209,7 +9209,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/lagadic/visp-release.git
-      version: 2.9.0-11
+      version: 2.10.0-2
     status: maintained
   visp_ros:
     doc:
