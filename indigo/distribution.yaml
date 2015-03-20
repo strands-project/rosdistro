@@ -8130,6 +8130,12 @@ repositories:
       url: https://github.com/ipa320/softkinetic.git
       version: indigo_dev
     status: maintained
+  soma:
+    source:
+      type: git
+      url: https://github.com/strands-project/soma.git
+      version: master
+    status: maintained
   sophus:
     release:
       tags:
@@ -8673,6 +8679,12 @@ repositories:
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/topic_proxy-release.git
       version: 0.1.1-0
     status: maintained
+  trajectory_behaviours:
+    source:
+      type: git
+      url: https://github.com/strands-project/trajectory_behaviours.git
+      version: master
+    status: maintained
   turtlebot:
     doc:
       type: git
@@ -9179,6 +9191,12 @@ repositories:
       url: https://github.com/ros-visualization/view_controller_msgs.git
       version: indigo-devel
     status: developed
+  viper:
+    source:
+      type: git
+      url: https://github.com/strands-project/viper.git
+      version: master
+    status: maintained
   vision_opencv:
     doc:
       type: git
