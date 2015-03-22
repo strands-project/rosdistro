@@ -1329,6 +1329,15 @@ repositories:
       url: https://github.com/ros-perception/depthimage_to_laserscan.git
       version: indigo-devel
     status: maintained
+  descartes:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial-consortium/descartes.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/ros-industrial-consortium/descartes.git
+      version: indigo-devel
   designator_integration:
     release:
       tags:
@@ -2143,6 +2152,26 @@ repositories:
       url: https://github.com/g/grizzly_simulator.git
       version: indigo-devel
     status: maintained
+  hakuto:
+    doc:
+      type: git
+      url: https://github.com/tork-a/hakuto.git
+      version: master
+    release:
+      packages:
+      - hakuto
+      - tetris_description
+      - tetris_gazebo
+      - tetris_launch
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/tork-a/hakuto-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/tork-a/hakuto.git
+      version: master
+    status: developed
   hector_gazebo:
     doc:
       type: git
@@ -2158,7 +2187,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_gazebo-release.git
-      version: 0.3.5-0
+      version: 0.3.6-0
     status: maintained
   hector_localization:
     doc:
@@ -2648,6 +2677,20 @@ repositories:
       type: git
       url: https://github.com/ros-industrial/industrial_core.git
       version: indigo
+    release:
+      packages:
+      - industrial_core
+      - industrial_deprecated
+      - industrial_msgs
+      - industrial_robot_client
+      - industrial_robot_simulator
+      - industrial_trajectory_filters
+      - industrial_utils
+      - simple_message
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-industrial-release/industrial_core-release.git
+      version: 0.3.4-0
     source:
       type: git
       url: https://github.com/ros-industrial/industrial_core.git
