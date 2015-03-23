@@ -8592,12 +8592,13 @@ repositories:
       - mongodb_media_server
       - music_player
       - pygame_managed_player
+      - sound_player_server
       - strands_ui
       - strands_webserver
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/strands_ui.git
-      version: 0.0.15-0
+      version: 0.0.16-0
     source:
       type: git
       url: https://github.com/strands-project/strands_ui.git
