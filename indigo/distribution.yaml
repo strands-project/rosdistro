@@ -1125,7 +1125,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/concert_services-release.git
-      version: 0.1.8-0
+      version: 0.1.9-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/concert_services.git
@@ -1449,7 +1449,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/dynpick_driver-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/tork-a/dynpick_driver.git
@@ -2325,6 +2325,17 @@ repositories:
       url: https://github.com/ros-drivers/hokuyo_node.git
       version: indigo-devel
     status: maintained
+  household_objects_database:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/household_objects_database-release.git
+      version: 0.1.4-0
+    source:
+      type: git
+      url: https://github.com/ros-interactive-manipulation/household_objects_database.git
+      version: hydro-devel
+    status: maintained
   household_objects_database_msgs:
     release:
       tags:
@@ -2365,112 +2376,62 @@ repositories:
       url: https://github.com/ahornung/humanoid_msgs.git
       version: devel
     status: maintained
-  husky_base:
+  husky:
     doc:
       type: git
-      url: https://github.com/husky/husky_base.git
+      url: https://github.com/husky/husky.git
       version: indigo-devel
     release:
+      packages:
+      - husky_control
+      - husky_description
+      - husky_msgs
+      - husky_navigation
+      - husky_ur5_moveit_config
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/husky_base-release.git
-      version: 0.1.5-0
+      url: https://github.com/clearpath-gbp/husky-release.git
+      version: 0.2.2-0
     source:
       type: git
-      url: https://github.com/husky/husky_base.git
+      url: https://github.com/husky/husky.git
       version: indigo-devel
     status: maintained
-  husky_bringup:
+  husky_desktop:
     doc:
       type: git
-      url: https://github.com/husky/husky_bringup.git
-      version: indigo-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/husky_bringup-release.git
-      version: 0.1.2-0
-    source:
-      type: git
-      url: https://github.com/husky/husky_bringup.git
-      version: indigo-devel
-    status: maintained
-  husky_control:
-    doc:
-      type: git
-      url: https://github.com/husky/husky_control.git
-      version: indigo-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/husky_control-release.git
-      version: 0.0.4-0
-    source:
-      type: git
-      url: https://github.com/husky/husky_control.git
-      version: indigo-devel
-    status: maintained
-  husky_description:
-    doc:
-      type: git
-      url: https://github.com/husky/husky_description.git
-      version: indigo-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/husky_description-release.git
-      version: 0.1.2-0
-    source:
-      type: git
-      url: https://github.com/husky/husky_description.git
-      version: indigo-devel
-    status: maintained
-  husky_metapackages:
-    doc:
-      type: git
-      url: https://github.com/husky/husky_metapackages.git
+      url: https://github.com/husky/husky_desktop.git
       version: indigo-devel
     release:
       packages:
       - husky_desktop
+      - husky_viz
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/husky_desktop-release.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/husky/husky_desktop.git
+      version: indigo-devel
+    status: maintained
+  husky_robot:
+    doc:
+      type: git
+      url: https://github.com/husky/husky_robot.git
+      version: indigo-devel
+    release:
+      packages:
+      - husky_base
+      - husky_bringup
       - husky_robot
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/husky_metapackages-release.git
-      version: 0.1.1-0
+      url: https://github.com/clearpath-gbp/husky_robot-release.git
+      version: 0.2.2-0
     source:
       type: git
-      url: https://github.com/husky/husky_metapackages.git
-      version: indigo-devel
-    status: maintained
-  husky_msgs:
-    doc:
-      type: git
-      url: https://github.com/husky/husky_msgs.git
-      version: indigo-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/husky_msgs-release.git
-      version: 0.0.2-0
-    source:
-      type: git
-      url: https://github.com/husky/husky_msgs.git
-      version: indigo-devel
-    status: maintained
-  husky_navigation:
-    doc:
-      type: git
-      url: https://github.com/husky/husky_navigation.git
-      version: indigo-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/husky_navigation-release.git
-      version: 0.1.2-0
-    source:
-      type: git
-      url: https://github.com/husky/husky_navigation.git
+      url: https://github.com/husky/husky_robot.git
       version: indigo-devel
     status: maintained
   husky_simulator:
@@ -2485,25 +2446,10 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_simulator-release.git
-      version: 0.1.4-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/husky/husky_simulator.git
-      version: indigo-devel
-    status: maintained
-  husky_viz:
-    doc:
-      type: git
-      url: https://github.com/husky/husky_viz.git
-      version: indigo-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/husky_viz-release.git
-      version: 0.1.1-0
-    source:
-      type: git
-      url: https://github.com/husky/husky_viz.git
       version: indigo-devel
     status: maintained
   iai_common_msgs:
@@ -5368,7 +5314,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/muhrix/phidgets_drivers-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/phidgets_drivers.git
@@ -6445,7 +6391,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_app_platform-release.git
-      version: 0.7.7-0
+      version: 0.7.8-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_app_platform.git
@@ -6471,7 +6417,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_concert-release.git
-      version: 0.6.5-0
+      version: 0.6.6-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_concert.git
@@ -6522,7 +6468,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_multimaster-release.git
-      version: 0.7.6-0
+      version: 0.7.7-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_multimaster.git
@@ -6552,7 +6498,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_qt_gui-release.git
-      version: 0.7.7-0
+      version: 0.7.8-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_qt_gui.git
@@ -7029,7 +6975,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.7.10-0
+      version: 0.7.11-0
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -8750,7 +8696,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot-release.git
-      version: 2.3.7-0
+      version: 2.3.8-0
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot.git
@@ -8776,7 +8722,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot_apps-release.git
-      version: 2.3.2-0
+      version: 2.3.3-0
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot_apps.git
@@ -8859,7 +8805,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot_interactions-release.git
-      version: 2.3.0-0
+      version: 2.3.1-0
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot_interactions.git
