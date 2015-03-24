@@ -7871,7 +7871,7 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/scitos_drivers.git
-      version: indigo-release
+      version: indigo-devel
     status: developed
   sentis_tof_m100:
     doc:
