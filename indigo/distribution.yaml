@@ -597,7 +597,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_bot-release.git
-      version: 0.0.16-0
+      version: 0.0.17-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_bot.git
@@ -642,7 +642,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_moveit-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_moveit.git
@@ -2636,7 +2636,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-industrial-release/industrial_core-release.git
-      version: 0.4.0-0
+      version: 0.4.1-0
     source:
       type: git
       url: https://github.com/ros-industrial/industrial_core.git
@@ -2840,6 +2840,21 @@ repositories:
       url: https://github.com/jackal/jackal_simulator.git
       version: indigo-devel
     status: developed
+  jaco_gazebo:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/jaco_gazebo.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/wpi-rail-release/jaco_gazebo-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/jaco_gazebo.git
+      version: develop
+    status: maintained
   joystick_drivers:
     doc:
       type: git
@@ -3809,7 +3824,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.10.2-0
+      version: 0.11.0-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -6000,10 +6015,25 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_collada_models-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_collada_models.git
+      version: develop
+    status: maintained
+  rail_manipulation_msgs:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_manipulation_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/wpi-rail-release/rail_manipulation_msgs-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_manipulation_msgs.git
       version: develop
     status: maintained
   rail_maps:
@@ -6052,7 +6082,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_segmentation.git
-      version: 0.0.5-0
+      version: 0.1.0-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_segmentation.git
@@ -6933,7 +6963,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rosauth-release.git
-      version: 0.1.5-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rosauth.git
@@ -8258,7 +8288,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/stage-release.git
-      version: 4.1.1-3
+      version: 4.1.1-4
     status: maintained
   stage_ros:
     doc:
@@ -9088,7 +9118,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/bosch-ros-pkg-release/usb_cam-release.git
-      version: 0.3.1-0
+      version: 0.3.2-0
     source:
       type: git
       url: https://github.com/bosch-ros-pkg/usb_cam.git
@@ -9428,15 +9458,18 @@ repositories:
       packages:
       - jaco_description
       - jaco_interaction
+      - jaco_moveit_config
       - jaco_sdk
       - jaco_teleop
+      - mico_description
+      - mico_moveit_config
       - wpi_jaco
       - wpi_jaco_msgs
       - wpi_jaco_wrapper
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/wpi_jaco-release.git
-      version: 0.0.15-0
+      version: 0.0.16-0
     source:
       type: git
       url: https://github.com/RIVeR-Lab/wpi_jaco.git
