@@ -387,7 +387,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/genlisp-release.git
-      version: 0.4.14-0
+      version: 0.4.15-0
     source:
       type: git
       url: https://github.com/ros/genlisp.git
@@ -438,7 +438,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/geometry-release.git
-      version: 1.11.5-0
+      version: 1.11.6-0
     source:
       type: git
       url: https://github.com/ros/geometry.git
@@ -464,7 +464,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/geometry_experimental-release.git
-      version: 0.5.8-0
+      version: 0.5.9-0
     source:
       type: git
       url: https://github.com/ros/geometry_experimental.git
@@ -820,6 +820,13 @@ repositories:
       type: git
       url: https://github.com/wg-perception/ork_renderer.git
       version: master
+    status: maintained
+  opencv3:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/vrabaud/opencv3-release.git
+      version: 2.9.4-1
     status: maintained
   opencv_candidate:
     release:
