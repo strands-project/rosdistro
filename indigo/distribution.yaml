@@ -8446,6 +8446,11 @@ repositories:
       type: git
       url: https://github.com/wunderkammer-laboratory/steered_wheel_base_controller.git
       version: master
+  strands_3d_mapping:
+    source:
+      type: git
+      url: https://github.com/strands-project/strands_3d_mapping.git
+      version: hydro-devel
   strands_apps:
     release:
       packages:
