@@ -620,7 +620,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_bot-release.git
-      version: 0.0.17-0
+      version: 0.0.18-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_bot.git
@@ -665,7 +665,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_moveit-release.git
-      version: 0.0.8-0
+      version: 0.0.9-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_moveit.git
@@ -680,7 +680,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_navigation-release.git
-      version: 0.0.9-0
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_navigation.git
@@ -3143,7 +3143,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.3-0
+      version: 1.0.4-1
   katana_driver:
     doc:
       type: git
@@ -6123,16 +6123,16 @@ repositories:
       version: master
     release:
       packages:
+      - graspdb
       - rail_grasp_collection
-      - rail_grasping
       - rail_pick_and_place
       - rail_pick_and_place_msgs
-      - rail_pick_and_place_wrapper
+      - rail_pick_and_place_tools
       - rail_recognition
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_pick_and_place-release.git
-      version: 0.0.2-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_pick_and_place.git
@@ -9562,7 +9562,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/wpi_jaco-release.git
-      version: 0.0.16-0
+      version: 0.0.17-0
     source:
       type: git
       url: https://github.com/RIVeR-Lab/wpi_jaco.git
