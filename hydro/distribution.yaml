@@ -2842,6 +2842,12 @@ repositories:
       url: https://github.com/code-iai/iai_common_msgs.git
       version: master
     status: developed
+  iiwa:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/stanfordroboticslab/iiwa-release.git
+      version: 2.0.0-1
   image_common:
     doc:
       type: git
@@ -4615,7 +4621,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_bridge-release.git
-      version: 0.4.6-1
+      version: 0.4.7-0
     source:
       type: git
       url: https://github.com/ros-naoqi/naoqi_bridge.git
@@ -4948,7 +4954,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_tod-release.git
-      version: 0.5.0-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/wg-perception/tod.git
@@ -5148,13 +5154,6 @@ repositories:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/opencv2_doc-release.git
       version: 2.4.6-0
-    status: maintained
-  opencv3:
-    release:
-      tags:
-        release: release/hydro/{package}/{version}
-      url: https://github.com/vrabaud/opencv3-release.git
-      version: 2.9.4-1
     status: maintained
   opencv_candidate:
     release:
@@ -6172,7 +6171,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/ps4eye-release.git
-      version: 0.0.2-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/longjie/ps4eye.git
@@ -9289,6 +9288,15 @@ repositories:
       url: https://github.com/lrse/ros-universal-teleop.git
       version: master
     status: maintained
+  uos_rotunit:
+    doc:
+      type: git
+      url: https://github.com/uos/uos_rotunit.git
+      version: hydro
+    source:
+      type: git
+      url: https://github.com/uos/uos_rotunit.git
+      version: hydro
   uos_slam:
     doc:
       type: git
@@ -9298,11 +9306,11 @@ repositories:
     doc:
       type: git
       url: https://github.com/uos/uos_tools.git
-      version: hydro
+      version: hydro_catkin
     source:
       type: git
       url: https://github.com/uos/uos_tools.git
-      version: hydro
+      version: hydro_catkin
   ur_kin_py:
     doc:
       type: git

@@ -2778,6 +2778,7 @@ repositories:
       version: master
     release:
       packages:
+      - informed_object_search
       - interactive_world
       - interactive_world_msgs
       - interactive_world_parser
@@ -2787,7 +2788,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/interactive_world-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/interactive_world.git
@@ -4535,7 +4536,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_bridge-release.git
-      version: 0.4.6-0
+      version: 0.4.7-0
     source:
       type: git
       url: https://github.com/ros-naoqi/naoqi_bridge.git
@@ -4892,7 +4893,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_tod-release.git
-      version: 0.5.0-1
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/wg-perception/tod.git
@@ -6132,7 +6133,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_pick_and_place-release.git
-      version: 1.0.1-0
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_pick_and_place.git
@@ -6593,7 +6594,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_qt_gui-release.git
-      version: 0.7.8-0
+      version: 0.7.9-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_qt_gui.git
@@ -8844,7 +8845,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot-release.git
-      version: 2.3.8-0
+      version: 2.3.9-0
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot.git
@@ -9169,6 +9170,15 @@ repositories:
       url: https://github.com/ros-industrial/universal_robot.git
       version: indigo-devel
     status: developed
+  uos_rotunit:
+    doc:
+      type: git
+      url: https://github.com/uos/uos_rotunit.git
+      version: indigo
+    source:
+      type: git
+      url: https://github.com/uos/uos_rotunit.git
+      version: indigo
   uos_slam:
     doc:
       type: git
