@@ -558,7 +558,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/bwi-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/utexas-bwi/bwi.git
@@ -1583,7 +1583,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/eband_local_planner-release.git
-      version: 0.2.2-0
+      version: 0.3.0-0
     source:
       type: git
       url: https://github.com/utexas-bwi/eband_local_planner.git
@@ -4954,7 +4954,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_tod-release.git
-      version: 0.5.2-0
+      version: 0.5.3-0
     source:
       type: git
       url: https://github.com/wg-perception/tod.git
@@ -5613,7 +5613,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_apps-release.git
-      version: 0.5.15-0
+      version: 0.5.18-0
     source:
       type: git
       url: https://github.com/pr2/pr2_apps.git
@@ -8100,7 +8100,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/segbot-release.git
-      version: 0.3.1-0
+      version: 0.3.2-0
     source:
       type: git
       url: https://github.com/utexas-bwi/segbot.git
@@ -8120,7 +8120,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/segbot_apps-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/utexas-bwi/segbot_apps.git
@@ -8145,7 +8145,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/segbot_simulator-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/utexas-bwi/segbot_simulator.git
@@ -9546,7 +9546,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/lagadic/vision_visp-release.git
-      version: 0.7.5-0
+      version: 0.8.0-0
     source:
       type: git
       url: https://github.com/lagadic/vision_visp.git
@@ -9562,7 +9562,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/lagadic/visp-release.git
-      version: 2.10.0-2
+      version: 2.10.0-3
     status: maintained
   visp_ros:
     doc:
@@ -9886,7 +9886,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/clearpath-gbp/zbar_ros-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/zbar_ros.git

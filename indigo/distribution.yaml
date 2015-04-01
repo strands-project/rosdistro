@@ -459,6 +459,25 @@ repositories:
       type: git
       url: https://github.com/voxel-dot-at/bta_ros.git
       version: master
+  bwi:
+    doc:
+      type: git
+      url: https://github.com/utexas-bwi/bwi.git
+      version: master
+    release:
+      packages:
+      - bwi_desktop
+      - bwi_desktop_full
+      - bwi_launch
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/utexas-bwi-gbp/bwi-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/utexas-bwi/bwi.git
+      version: master
+    status: developed
   bwi_common:
     release:
       packages:
@@ -620,7 +639,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_bot-release.git
-      version: 0.0.19-0
+      version: 0.0.21-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_bot.git
@@ -665,7 +684,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_moveit-release.git
-      version: 0.0.9-0
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_moveit.git
@@ -1487,7 +1506,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/eband_local_planner-release.git
-      version: 0.2.2-0
+      version: 0.3.0-0
     source:
       type: git
       url: https://github.com/utexas-bwi/eband_local_planner.git
@@ -2131,6 +2150,16 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/mikeferguson/grasping_msgs-gbp.git
       version: 0.3.1-0
+    status: developed
+  grid_map:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/grid_map.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ethz-asl/grid_map.git
+      version: master
     status: developed
   grizzly:
     doc:
@@ -2788,7 +2817,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/interactive_world-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/interactive_world.git
@@ -4009,6 +4038,11 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/jolting/ml_classifiers-release.git
       version: 0.3.1-2
+  modbus:
+    doc:
+      type: git
+      url: https://github.com/HumaRobotics/modbus.git
+      version: master
   mongodb_store:
     release:
       packages:
@@ -4590,7 +4624,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.12.1-0
+      version: 1.12.2-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation.git
@@ -4893,7 +4927,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_tod-release.git
-      version: 0.5.2-0
+      version: 0.5.3-0
     source:
       type: git
       url: https://github.com/wg-perception/tod.git
@@ -6096,7 +6130,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_manipulation_msgs-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_manipulation_msgs.git
@@ -6133,7 +6167,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_pick_and_place-release.git
-      version: 1.0.2-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_pick_and_place.git
@@ -6148,7 +6182,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_segmentation.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_segmentation.git
@@ -7984,10 +8018,49 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/segbot-release.git
-      version: 0.3.1-0
+      version: 0.3.2-0
     source:
       type: git
       url: https://github.com/utexas-bwi/segbot.git
+      version: master
+    status: developed
+  segbot_apps:
+    doc:
+      type: git
+      url: https://github.com/utexas-bwi/segbot_apps.git
+      version: master
+    release:
+      packages:
+      - segbot_apps
+      - segbot_gui
+      - segbot_logical_translator
+      - segbot_navigation
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/utexas-bwi-gbp/segbot_apps-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/utexas-bwi/segbot_apps.git
+      version: master
+    status: developed
+  segbot_simulator:
+    doc:
+      type: git
+      url: https://github.com/utexas-bwi/segbot_simulator.git
+      version: master
+    release:
+      packages:
+      - segbot_gazebo
+      - segbot_simulation_apps
+      - segbot_simulator
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/utexas-bwi-gbp/segbot_simulator-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/utexas-bwi/segbot_simulator.git
       version: master
     status: developed
   segway_rmp:
@@ -9388,7 +9461,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/lagadic/vision_visp-release.git
-      version: 0.7.5-0
+      version: 0.8.0-0
     source:
       type: git
       url: https://github.com/lagadic/vision_visp.git
@@ -9399,7 +9472,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/lagadic/visp-release.git
-      version: 2.10.0-2
+      version: 2.10.0-3
     status: maintained
   visp_ros:
     doc:
@@ -9765,7 +9838,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/zbar_ros-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/zbar_ros.git
