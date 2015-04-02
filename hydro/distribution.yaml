@@ -231,7 +231,7 @@ repositories:
   ar_tools:
     doc:
       type: git
-      url: https://github.com/LucidOne/ar_tools.git
+      url: https://github.com/ar-tools/ar_tools.git
       version: master
   ar_track_alvar:
     release:
@@ -1568,7 +1568,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/dynpick_driver-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/tork-a/dynpick_driver.git
@@ -3199,7 +3199,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.63-0
+      version: 1.0.64-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -3306,7 +3306,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.2.7-0
+      version: 0.2.9-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -5497,6 +5497,21 @@ repositories:
       url: https://github.com/ros-perception/perception_pcl.git
       version: hydro-devel
     status: maintained
+  phantomx_control:
+    doc:
+      type: git
+      url: https://github.com/HumaRobotics/phantomx_control.git
+      version: master
+  phantomx_description:
+    doc:
+      type: git
+      url: https://github.com/HumaRobotics/phantomx_description.git
+      version: master
+  phantomx_gazebo:
+    doc:
+      type: git
+      url: https://github.com/HumaRobotics/phantomx_gazebo.git
+      version: master
   phidgets_drivers:
     doc:
       type: git
@@ -8978,6 +8993,13 @@ repositories:
       url: https://github.com/turtlebot/turtlebot.git
       version: hydro
     status: developed
+  turtlebot_2dnav:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/pexison/turtlebot_2dnav-release.git
+      version: 1.0.1-0
+    status: maintained
   turtlebot_android:
     doc:
       type: git
