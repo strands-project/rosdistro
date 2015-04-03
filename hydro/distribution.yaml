@@ -1427,10 +1427,21 @@ repositories:
       type: git
       url: https://github.com/ros-industrial-consortium/descartes.git
       version: hydro-devel
+    release:
+      packages:
+      - descartes_core
+      - descartes_moveit
+      - descartes_planner
+      - descartes_trajectory
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-industrial-release/descartes-release.git
+      version: 0.0.1-0
     source:
       type: git
       url: https://github.com/ros-industrial-consortium/descartes.git
       version: hydro-devel
+    status: developed
   designator_integration:
     release:
       tags:
@@ -3199,7 +3210,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.64-0
+      version: 1.0.65-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -3243,7 +3254,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.1.8-0
+      version: 0.1.10-0
     source:
       type: git
       url: https://github.com/tork-a/jsk_model_tools-release.git
@@ -8998,7 +9009,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/pexison/turtlebot_2dnav-release.git
-      version: 1.0.1-0
+      version: 1.0.1-1
     status: maintained
   turtlebot_android:
     doc:
