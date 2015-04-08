@@ -1888,7 +1888,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.11.0-1
+      version: 9.11.1-0
     status: developed
   executive_smach:
     release:
@@ -2858,7 +2858,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/stanfordroboticslab/iiwa-release.git
-      version: 2.0.0-1
+      version: 2.0.0-2
   image_common:
     doc:
       type: git
@@ -3339,14 +3339,12 @@ repositories:
       - jsk_pr2_calibration
       - jsk_pr2_startup
       - jsk_robot_startup
-      - pepper_bringup
-      - pepper_description
       - peppereus
       - pr2_base_trajectory_action
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_robot-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_robot.git
@@ -5442,6 +5440,17 @@ repositories:
       type: git
       url: https://github.com/wg-perception/people.git
       version: hydro-devel
+    status: maintained
+  pepper_meshes:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-naoqi/pepper_meshes-installer.git
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/pepper_meshes.git
+      version: master
     status: maintained
   pepperl_fuchs:
     doc:

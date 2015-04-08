@@ -78,6 +78,36 @@ repositories:
       url: https://github.com/vanadiumlabs/arbotix_ros.git
       version: indigo-devel
     status: maintained
+  async_web_server_cpp:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/async_web_server_cpp.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/async_web_server_cpp-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/async_web_server_cpp.git
+      version: develop
+    status: maintained
+  battery_monitor_rmp:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/battery_monitor_rmp.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/battery_monitor_rmp-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/battery_monitor_rmp.git
+      version: develop
+    status: maintained
   bfl:
     doc:
       type: git
@@ -136,6 +166,21 @@ repositories:
       type: git
       url: https://github.com/ros-perception/calibration.git
       version: hydro
+    status: maintained
+  carl_estop:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/carl_estop.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/carl_estop-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/carl_estop.git
+      version: develop
     status: maintained
   catkin:
     doc:
@@ -244,6 +289,21 @@ repositories:
       url: https://github.com/ros-controls/control_msgs.git
       version: indigo-devel
     status: maintained
+  depthcloud_encoder:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/depthcloud_encoder.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/RobotWebTools-release/depthcloud_encoder-release.git
+      version: 0.0.4-0
+    source:
+      type: git
+      url: https://github.com/RobotWebTools/depthcloud_encoder.git
+      version: develop
+    status: maintained
   diagnostics:
     doc:
       type: git
@@ -346,7 +406,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.11.0-1
+      version: 9.11.1-0
     status: developed
   gencpp:
     doc:
@@ -568,6 +628,36 @@ repositories:
       type: git
       url: https://github.com/ros-perception/laser_geometry.git
       version: indigo-devel
+    status: maintained
+  librms:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/librms.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/librms-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/librms.git
+      version: develop
+    status: maintained
+  m4atx_battery_monitor:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/m4atx_battery_monitor.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/m4atx_battery_monitor-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/m4atx_battery_monitor.git
+      version: develop
     status: maintained
   mavlink:
     doc:
@@ -899,6 +989,17 @@ repositories:
       url: https://github.com/ros-perception/pcl_msgs.git
       version: indigo-devel
     status: maintained
+  pepper_meshes:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-naoqi/pepper_meshes-installer.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/pepper_meshes.git
+      version: master
+    status: maintained
   perception_pcl:
     doc:
       type: git
@@ -932,6 +1033,96 @@ repositories:
       type: git
       url: https://github.com/ros/pluginlib.git
       version: indigo-devel
+    status: maintained
+  python_ethernet_rmp:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/python_ethernet_rmp.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/python_ethernet_rmp-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/python_ethernet_rmp.git
+      version: develop
+    status: maintained
+  rail_manipulation_msgs:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_manipulation_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/rail_manipulation_msgs-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_manipulation_msgs.git
+      version: develop
+    status: maintained
+  rail_maps:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_maps.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/rail_maps-release.git
+      version: 0.2.5-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_maps.git
+      version: develop
+    status: maintained
+  rail_segmentation:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_segmentation.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/rail_segmentation.git
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_segmentation.git
+      version: develop
+    status: maintained
+  rmp_msgs:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/rmp_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/rmp_msgs-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/rmp_msgs.git
+      version: develop
+    status: maintained
+  robot_pose_publisher:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/robot_pose_publisher.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/robot_pose_publisher-release.git
+      version: 0.2.3-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/robot_pose_publisher.git
+      version: develop
     status: maintained
   robot_upstart:
     doc:
@@ -1030,6 +1221,21 @@ repositories:
       url: https://github.com/ros/ros_comm_msgs.git
       version: indigo-devel
     status: maintained
+  ros_ethernet_rmp:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/ros_ethernet_rmp.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/ros_ethernet_rmp-release.git
+      version: 0.0.8-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/ros_ethernet_rmp.git
+      version: develop
+    status: maintained
   ros_tutorials:
     doc:
       type: git
@@ -1050,12 +1256,47 @@ repositories:
       url: https://github.com/ros/ros_tutorials.git
       version: indigo-devel
     status: maintained
+  rosauth:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/rosauth.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/rosauth-release.git
+      version: 0.1.6-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/rosauth.git
+      version: develop
+    status: maintained
   rosbag_migration_rule:
     release:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rosbag_migration_rule-release.git
       version: 1.0.0-0
+    status: maintained
+  rosbridge_suite:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/rosbridge_suite.git
+      version: master
+    release:
+      packages:
+      - rosapi
+      - rosbridge_library
+      - rosbridge_server
+      - rosbridge_suite
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
+      version: 0.7.12-0
+    source:
+      type: git
+      url: https://github.com/RobotWebTools/rosbridge_suite.git
+      version: develop
     status: maintained
   rosconsole_bridge:
     doc:
@@ -1247,6 +1488,21 @@ repositories:
       url: https://github.com/ros-teleop/teleop_twist_keyboard.git
       version: master
     status: maintained
+  tf2_web_republisher:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/tf2_web_republisher.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/RobotWebTools-release/tf2_web_republisher-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/RobotWebTools/tf2_web_republisher.git
+      version: develop
+    status: maintained
   ueye:
     doc:
       type: hg
@@ -1303,6 +1559,21 @@ repositories:
       url: https://github.com/ros-gbp/urdfdom_py-release.git
       version: 0.3.0-1
     status: maintained
+  usb_cam:
+    doc:
+      type: git
+      url: https://github.com/bosch-ros-pkg/usb_cam.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/bosch-ros-pkg-release/usb_cam-release.git
+      version: 0.3.2-0
+    source:
+      type: git
+      url: https://github.com/bosch-ros-pkg/usb_cam.git
+      version: develop
+    status: maintained
   vision_opencv:
     doc:
       type: git
@@ -1328,6 +1599,21 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/lagadic/visp-release.git
       version: 2.10.0-3
+    status: maintained
+  web_video_server:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/web_video_server.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/RobotWebTools-release/web_video_server-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/RobotWebTools/web_video_server.git
+      version: develop
     status: maintained
   xacro:
     doc:
