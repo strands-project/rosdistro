@@ -2067,7 +2067,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/paulbovbel/frontier_exploration-release.git
-      version: 0.2.2-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/paulbovbel/frontier_exploration.git
@@ -3978,6 +3978,14 @@ repositories:
       type: git
       url: https://github.com/UC3MSocialRobots/maggie_robot.git
       version: hydro-devel
+    release:
+      packages:
+      - maggie_bringup
+      - maggie_robot
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/UC3MSocialRobots/maggie_robot-release.git
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/UC3MSocialRobots/maggie_robot.git
@@ -5450,6 +5458,22 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-naoqi/pepper_meshes.git
+      version: master
+    status: maintained
+  pepper_robot:
+    release:
+      packages:
+      - pepper_bringup
+      - pepper_description
+      - pepper_robot
+      - pepper_sensors
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-naoqi/pepper_robot-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/pepper_robot.git
       version: master
     status: maintained
   pepperl_fuchs:
@@ -9588,7 +9612,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/lagadic/vision_visp-release.git
-      version: 0.8.0-0
+      version: 0.8.1-1
     source:
       type: git
       url: https://github.com/lagadic/vision_visp.git
