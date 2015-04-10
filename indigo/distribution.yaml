@@ -2276,7 +2276,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hakuto-release.git
-      version: 0.1.0-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/tork-a/hakuto.git
@@ -3067,7 +3067,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.1.10-0
+      version: 0.1.11-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_model_tools.git
@@ -3130,7 +3130,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.2.9-0
+      version: 0.2.10-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -3203,7 +3203,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.18-1
+      version: 1.0.19-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
@@ -3916,6 +3916,19 @@ repositories:
       url: https://github.com/ros-planning/map_store.git
       version: hydro-devel
     status: maintained
+  mav_comm:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/mav_comm.git
+      version: master
+    release:
+      packages:
+      - mav_comm
+      - mav_msgs
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ethz-asl/mav_comm-release.git
+      version: 2.0.0-0
   mavlink:
     doc:
       type: git
@@ -5448,6 +5461,10 @@ repositories:
       version: master
     status: maintained
   pepper_robot:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/pepper_robot.git
+      version: master
     release:
       packages:
       - pepper_bringup
@@ -5457,7 +5474,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/pepper_robot-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/ros-naoqi/pepper_robot.git
@@ -9142,7 +9159,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot_msgs-release.git
-      version: 2.2.0-0
+      version: 2.2.1-0
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot_msgs.git
