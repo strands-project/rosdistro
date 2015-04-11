@@ -112,6 +112,21 @@ repositories:
       url: https://github.com/strands-project/activity_analysis.git
       version: hydro-devel
     status: developed
+  agile_grasp:
+    doc:
+      type: git
+      url: https://github.com/atenpas/agile_grasp.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/atenpas/agile_grasp-release.git
+      version: 0.6.1-3
+    source:
+      type: git
+      url: https://github.com/atenpas/agile_grasp.git
+      version: master
+    status: maintained
   android_apps:
     doc:
       type: git
@@ -663,7 +678,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_bot-release.git
-      version: 0.0.24-0
+      version: 0.0.25-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_bot.git
@@ -1770,7 +1785,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/shadow-robot/ethercat_grant-release.git
-      version: 0.1.0-1
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/shadow-robot/ethercat_grant.git
@@ -2860,7 +2875,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/interactive_world-release.git
-      version: 0.0.8-0
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/interactive_world.git
@@ -3157,7 +3172,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_robot-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_robot.git
@@ -3928,7 +3943,12 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/mav_comm-release.git
-      version: 2.0.0-0
+      version: 2.0.1-0
+    source:
+      type: git
+      url: https://github.com/ethz-asl/mav_comm.git
+      version: master
+    status: maintained
   mavlink:
     doc:
       type: git
@@ -6239,7 +6259,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_manipulation_msgs-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_manipulation_msgs.git
@@ -6276,7 +6296,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_pick_and_place-release.git
-      version: 1.1.1-0
+      version: 1.1.2-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_pick_and_place.git
@@ -6291,7 +6311,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_segmentation.git
-      version: 0.1.2-0
+      version: 0.1.3-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_segmentation.git
@@ -9788,7 +9808,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/wpi_jaco-release.git
-      version: 0.0.18-0
+      version: 0.0.19-0
     source:
       type: git
       url: https://github.com/RIVeR-Lab/wpi_jaco.git
