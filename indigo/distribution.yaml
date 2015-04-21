@@ -797,6 +797,21 @@ repositories:
       url: https://github.com/ros/cmake_modules.git
       version: 0.3-devel
     status: maintained
+  cmake_nodejs_hook:
+    doc:
+      type: git
+      url: https://github.com/jihoonl/cmake_nodejs_hook.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/jihoonl/cmake_nodejs_hook-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/jihoonl/cmake_nodejs_hook.git
+      version: master
+    status: developed
   cob_calibration_data:
     doc:
       type: git
@@ -3948,7 +3963,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/mav_comm-release.git
-      version: 2.0.1-0
+      version: 2.0.2-0
     source:
       type: git
       url: https://github.com/ethz-asl/mav_comm.git
@@ -4929,7 +4944,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_linemod-release.git
-      version: 0.3.5-0
+      version: 0.3.6-0
     source:
       type: git
       url: https://github.com/wg-perception/linemod.git
@@ -4955,7 +4970,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_reconstruction-release.git
-      version: 0.3.3-0
+      version: 0.3.4-0
     source:
       type: git
       url: https://github.com/wg-perception/reconstruction.git
@@ -7501,6 +7516,16 @@ repositories:
       type: git
       url: https://github.com/ros/rospack.git
       version: indigo-devel
+    status: maintained
+  rospeex:
+    doc:
+      type: git
+      url: https://bitbucket.org/rospeex/rospeex.git
+      version: indigo
+    source:
+      type: git
+      url: https://bitbucket.org/rospeex/rospeex.git
+      version: indigo
     status: maintained
   rospilot:
     release:
