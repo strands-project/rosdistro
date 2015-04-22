@@ -8811,13 +8811,14 @@ repositories:
       packages:
       - calibrate_chest
       - movebase_state_service
+      - param_loader
       - strands_description
       - strands_movebase
       - strands_navfn
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/strands_movebase.git
-      version: 0.0.19-0
+      version: 0.0.20-0
     source:
       type: git
       url: https://github.com/strands-project/strands_movebase.git
