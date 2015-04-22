@@ -1460,10 +1460,14 @@ repositories:
     status: developed
   designator_integration:
     release:
+      packages:
+      - designator_integration
+      - designator_integration_cpp
+      - designator_integration_lisp
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/code-iai-release/designator_integration-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     status: developed
   diagnostics:
     doc:
@@ -2155,7 +2159,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/geneus-release.git
-      version: 2.1.2-0
+      version: 2.2.0-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/geneus.git

@@ -423,6 +423,21 @@ repositories:
       url: https://github.com/plasmodic/ecto_ros.git
       version: master
     status: maintained
+  eigen_stl_containers:
+    doc:
+      type: git
+      url: https://github.com/ros/eigen_stl_containers.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/eigen_stl_containers-release.git
+      version: 0.1.4-0
+    source:
+      type: git
+      url: https://github.com/ros/eigen_stl_containers.git
+      version: master
+    status: maintained
   euslisp:
     doc:
       type: git
@@ -458,7 +473,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/geneus-release.git
-      version: 2.1.2-0
+      version: 2.2.0-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/geneus.git
@@ -600,6 +615,36 @@ repositories:
       url: https://github.com/ros-perception/image_pipeline.git
       version: indigo
     status: maintained
+  interactive_marker_proxy:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/interactive_marker_proxy.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/RobotWebTools-release/interactive_marker_proxy-release.git
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/RobotWebTools/interactive_marker_proxy.git
+      version: develop
+    status: maintained
+  interactive_markers:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/interactive_markers.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/interactive_markers-release.git
+      version: 1.11.1-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/interactive_markers.git
+      version: indigo-devel
+    status: maintained
   jsk_roseus:
     doc:
       type: git
@@ -715,6 +760,21 @@ repositories:
       url: https://github.com/mavlink/mavros.git
       version: master
     status: developed
+  media_export:
+    doc:
+      type: git
+      url: https://github.com/ros/media_export.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/media_export-release.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/ros/media_export.git
+      version: indigo-devel
+    status: maintained
   message_generation:
     doc:
       type: git
@@ -1175,6 +1235,21 @@ repositories:
       type: git
       url: https://github.com/clearpathrobotics/robot_upstart.git
       version: jade-devel
+    status: maintained
+  robot_web_tools:
+    doc:
+      type: git
+      url: https://github.com/RobotWebTools/robot_web_tools.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/RobotWebTools-release/robot_web_tools-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/RobotWebTools/robot_web_tools.git
+      version: develop
     status: maintained
   ros:
     doc:
