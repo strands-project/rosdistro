@@ -757,6 +757,8 @@ python-omniorb:
     raring: [python-omniorb, python-omniorb-omg, omniidl-python]
     saucy: [python-omniorb, python-omniorb-omg, omniidl-python]
     trusty: [python-omniorb, python-omniorb-omg, omniidl-python]
+    utopic: [python-omniorb, python-omniorb-omg, omniidl-python]
+    vivid: [python-omniorb, python-omniorb-omg, omniidl-python]
 python-opencv:
   arch: [opencv, python2-numpy]
   debian: [python-opencv]
@@ -933,6 +935,7 @@ python-pydot:
     saucy: [python-pydot]
     trusty: [python-pydot]
     utopic: [python-pydot]
+    vivid: [python-pydot]
 python-pygame:
   debian: [python-pygame]
   fedora: [pygame-devel]
@@ -1094,6 +1097,7 @@ python-qt-bindings:
     trusty: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
     trusty_python3: [python3-pyside, libpyside-dev, libshiboken-dev, shiboken, python3-pyqt4, python3-sip-dev]
     utopic: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
+    vivid: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
 python-qt-bindings-gl:
   arch: [python2-pyqt4]
   debian: [python-qt4-gl]
@@ -1349,6 +1353,10 @@ python-setuptools:
     saucy: [python-setuptools]
     trusty: [python-setuptools]
     trusty_python3: [python3-setuptools]
+    utopic: [python-setuptools]
+    utopic_python3: [python3-setuptools]
+    vivid: [python-setuptools]
+    vivid_python3: [python3-setuptools]
 python-shapely:
   debian: [python-shapely]
   fedora: [python-shapely]
