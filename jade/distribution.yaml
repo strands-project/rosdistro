@@ -467,7 +467,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.12.1-0
+      version: 9.12.2-0
     status: developed
   filters:
     release:
@@ -679,6 +679,21 @@ repositories:
       url: https://github.com/RobotWebTools/interactive_marker_proxy.git
       version: develop
     status: maintained
+  interactive_marker_twist_server:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/interactive_marker_twist_server.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/interactive_marker_twist_server-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/interactive_marker_twist_server.git
+      version: indigo-devel
+    status: maintained
   interactive_markers:
     doc:
       type: git
@@ -721,7 +736,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.5-0
+      version: 1.0.6-0
     status: developed
   korg_nanokontrol:
     doc:
@@ -737,6 +752,13 @@ repositories:
       type: git
       url: https://github.com/ros-drivers/korg_nanokontrol.git
       version: master
+    status: maintained
+  laser_filters:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/laser_filters-release.git
+      version: 1.8.0-0
     status: maintained
   laser_geometry:
     release:
@@ -957,14 +979,49 @@ repositories:
       url: https://github.com/ros-planning/navigation_msgs.git
       version: jade-devel
     status: maintained
+  nmea_comms:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/nmea_comms.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/nmea_comms-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/nmea_comms.git
+      version: jade-devel
+    status: maintained
   nmea_msgs:
     doc:
       type: git
       url: https://github.com/ros-drivers/nmea_msgs.git
       version: jade-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/nmea_msgs-release.git
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/ros-drivers/nmea_msgs.git
+      version: jade-devel
+    status: maintained
+  nmea_navsat_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/nmea_navsat_driver.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/nmea_navsat_driver-release.git
+      version: 0.5.0-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/nmea_navsat_driver.git
       version: jade-devel
     status: maintained
   nodelet_core:
@@ -1281,6 +1338,21 @@ repositories:
       url: https://github.com/WPI-RAIL/python_ethernet_rmp.git
       version: develop
     status: maintained
+  python_qt_binding:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/python_qt_binding.git
+      version: groovy-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/python_qt_binding-release.git
+      version: 0.2.15-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/python_qt_binding.git
+      version: groovy-devel
+    status: maintained
   rail_manipulation_msgs:
     doc:
       type: git
@@ -1371,6 +1443,29 @@ repositories:
       url: https://github.com/WPI-RAIL/rmp_msgs.git
       version: develop
     status: maintained
+  robot_model:
+    doc:
+      type: git
+      url: https://github.com/ros/robot_model.git
+      version: indigo-devel
+    release:
+      packages:
+      - collada_parser
+      - collada_urdf
+      - joint_state_publisher
+      - kdl_parser
+      - robot_model
+      - urdf
+      - urdf_parser_plugin
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/robot_model-release.git
+      version: 1.11.7-0
+    source:
+      type: git
+      url: https://github.com/ros/robot_model.git
+      version: indigo-devel
+    status: maintained
   robot_pose_publisher:
     doc:
       type: git
@@ -1385,6 +1480,21 @@ repositories:
       type: git
       url: https://github.com/WPI-RAIL/robot_pose_publisher.git
       version: develop
+    status: maintained
+  robot_state_publisher:
+    doc:
+      type: git
+      url: https://github.com/ros/robot_state_publisher.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/robot_state_publisher-release.git
+      version: 1.10.4-0
+    source:
+      type: git
+      url: https://github.com/ros/robot_state_publisher.git
+      version: jade-devel
     status: maintained
   robot_upstart:
     doc:
@@ -1670,6 +1780,31 @@ repositories:
       url: https://github.com/ros/rospack.git
       version: indigo-devel
     status: maintained
+  rosserial:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/rosserial.git
+      version: jade-devel
+    release:
+      packages:
+      - rosserial
+      - rosserial_arduino
+      - rosserial_client
+      - rosserial_embeddedlinux
+      - rosserial_msgs
+      - rosserial_python
+      - rosserial_server
+      - rosserial_windows
+      - rosserial_xbee
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rosserial-release.git
+      version: 0.7.0-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/rosserial.git
+      version: jade-devel
+    status: maintained
   rtctree:
     release:
       tags:
@@ -1681,13 +1816,29 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/rtshell-release.git
-      version: 3.0.1-0
+      version: 3.0.1-2
+    status: developed
   rtsprofile:
     release:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/rtsprofile-release.git
       version: 2.0.0-0
+  rviz:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rviz.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rviz-release.git
+      version: 1.11.7-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rviz.git
+      version: indigo-devel
+    status: maintained
   sbpl:
     release:
       tags:
@@ -1951,6 +2102,28 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/lagadic/visp-release.git
       version: 2.10.0-4
+    status: maintained
+  visualization_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/visualization_tutorials.git
+      version: indigo-devel
+    release:
+      packages:
+      - interactive_marker_tutorials
+      - librviz_tutorial
+      - rviz_plugin_tutorials
+      - rviz_python_tutorial
+      - visualization_marker_tutorials
+      - visualization_tutorials
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/visualization_tutorials-release.git
+      version: 0.9.1-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/visualization_tutorials.git
+      version: indigo-devel
     status: maintained
   web_video_server:
     doc:

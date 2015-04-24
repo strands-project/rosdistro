@@ -222,6 +222,7 @@ python-clearsilver:
 python-colorama:
   fedora: [python-colorama]
   ubuntu:
+    saucy: [python-colorama]
     trusty: [python-colorama]
     utopic: [python-colorama]
     vivid: [python-colorama]
@@ -522,6 +523,8 @@ python-impacket:
     raring: [python-impacket]
     saucy: [python-impacket]
     trusty: [python-impacket]
+    utopic: [python-impacket]
+    vivid: [python-impacket]
 python-kitchen:
   arch: [python-kitchen]
   debian: [python-kitchen]
@@ -830,6 +833,8 @@ python-pcapy:
     raring: [python-pcapy]
     saucy: [python-pcapy]
     trusty: [python-pcapy]
+    utopic: [python-pcapy]
+    vivid: [python-pcapy]
 python-pep8:
   debian: [pep8]
   fedora: [python-pep8]
