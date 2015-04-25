@@ -56,6 +56,21 @@ repositories:
       url: https://github.com/ros/angles.git
       version: master
     status: maintained
+  ar_track_alvar:
+    doc:
+      type: git
+      url: https://github.com/sniekum/ar_track_alvar.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/ar_track_alvar-release.git
+      version: 0.5.1-0
+    source:
+      type: git
+      url: https://github.com/sniekum/ar_track_alvar.git
+      version: indigo-devel
+    status: maintained
   ar_track_alvar_msgs:
     doc:
       type: git
@@ -304,6 +319,38 @@ repositories:
       url: https://github.com/ros-controls/control_msgs.git
       version: indigo-devel
     status: maintained
+  cram_3rdparty:
+    doc:
+      type: git
+      url: https://github.com/cram-code/cram_3rdparty.git
+      version: master
+    release:
+      packages:
+      - alexandria
+      - babel
+      - cffi
+      - cl_store
+      - cl_utilities
+      - cram_3rdparty
+      - fiveam
+      - gsd
+      - gsll
+      - lisp_unit
+      - split_sequence
+      - synchronization_tools
+      - trivial_features
+      - trivial_garbage
+      - trivial_gray_streams
+      - yason
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/cram_3rdparty-release.git
+      version: 0.1.3-0
+    source:
+      type: git
+      url: https://github.com/cram-code/cram_3rdparty.git
+      version: master
+    status: maintained
   depthcloud_encoder:
     doc:
       type: git
@@ -499,7 +546,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/geneus-release.git
-      version: 2.2.0-0
+      version: 2.2.1-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/geneus.git
@@ -613,6 +660,25 @@ repositories:
       url: https://github.com/ros/geometry_experimental.git
       version: indigo-devel
     status: maintained
+  geometry_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros/geometry_tutorials.git
+      version: indigo-devel
+    release:
+      packages:
+      - geometry_tutorials
+      - turtle_tf
+      - turtle_tf2
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/geometry_tutorials-release.git
+      version: 0.2.2-0
+    source:
+      type: git
+      url: https://github.com/ros/geometry_tutorials.git
+      version: indigo-devel
+    status: maintained
   hokuyo_node:
     release:
       tags:
@@ -721,7 +787,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.2.7-0
+      version: 1.3.0-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -1353,6 +1419,21 @@ repositories:
       url: https://github.com/ros-visualization/python_qt_binding.git
       version: groovy-devel
     status: maintained
+  rail_collada_models:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_collada_models.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/rail_collada_models-release.git
+      version: 0.0.4-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_collada_models.git
+      version: develop
+    status: maintained
   rail_manipulation_msgs:
     doc:
       type: git
@@ -1759,7 +1840,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/roslisp-release.git
-      version: 1.9.17-0
+      version: 1.9.18-0
     source:
       type: git
       url: https://github.com/ros/roslisp.git

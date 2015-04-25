@@ -281,7 +281,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/AutonomyLab/ardrone_autonomy-release.git
-      version: 1.3.7-0
+      version: 1.4.0-0
     source:
       type: git
       url: https://github.com/AutonomyLab/ardrone_autonomy.git
@@ -2159,7 +2159,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/geneus-release.git
-      version: 2.2.0-0
+      version: 2.2.1-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/geneus.git
@@ -2859,6 +2859,7 @@ repositories:
       - iai_robosherlock_actions
       - iai_urdf_msgs
       - iai_wsg_50_msgs
+      - json_prolog_msgs
       - mln_robosherlock_msgs
       - person_msgs
       - saphari_msgs
@@ -2867,7 +2868,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/code-iai-release/iai_common_msgs-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/code-iai/iai_common_msgs.git
@@ -3384,7 +3385,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.2.7-0
+      version: 1.3.0-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -7417,7 +7418,11 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/roslisp-release.git
-      version: 1.9.17-0
+      version: 1.9.18-0
+    source:
+      type: git
+      url: https://github.com/ros/roslisp.git
+      version: master
     status: maintained
   roslisp_common:
     doc:
@@ -7827,7 +7832,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.2.9-0
+      version: 1.2.10-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
