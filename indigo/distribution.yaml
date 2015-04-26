@@ -1829,7 +1829,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/shadow-robot/ethercat_grant-release.git
-      version: 0.1.1-0
+      version: 0.1.1-1
     source:
       type: git
       url: https://github.com/shadow-robot/ethercat_grant.git
@@ -2753,7 +2753,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/image_transport_plugins-release.git
-      version: 1.9.1-0
+      version: 1.9.2-0
     source:
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
@@ -3663,7 +3663,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/laser_assembler-release.git
-      version: 1.7.2-0
+      version: 1.7.3-0
     source:
       type: git
       url: https://github.com/ros-perception/laser_assembler.git
@@ -7605,7 +7605,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rospilot/rospilot-release.git
-      version: 0.1.1-2
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/rospilot/rospilot.git
@@ -7897,7 +7897,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.2.10-0
+      version: 1.2.11-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
@@ -8506,7 +8506,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/simple_grasping-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/mikeferguson/simple_grasping.git

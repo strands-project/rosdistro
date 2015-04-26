@@ -869,6 +869,23 @@ python-pexpect:
     saucy: [python-pexpect]
     trusty: [python-pexpect]
     trusty_python3: [python3-pexpect]
+python-progressbar:
+  osx:
+    pip:
+      packages: [progressbar]
+  ubuntu:
+    lucid: [python-progressbar]
+    maverick: [python-progressbar]
+    natty: [python-progressbar]
+    oneiric: [python-progressbar]
+    precise: [python-progressbar]
+    quantal: [python-progressbar]
+    raring: [python-progressbar]
+    saucy: [python-progressbar]
+    trusty: [python-progressbar]
+    trusty_python3: [python3-progressbar]
+    utopic: [python-progressbar]
+    vivid: [python-progressbar]
 python-psutil:
   arch: [python2-psutil]
   debian: [python-psutil]
@@ -956,6 +973,10 @@ python-pygame:
     trusty: [python-pygame]
     utopic: [python-pygame]
     vivid: [python-pygame]
+python-pygithub3:
+  ubuntu:
+    pip:
+      packages: [pygithub3]
 python-pygraphviz:
   debian: [python-pygraphviz]
   fedora: [graphviz-python]
@@ -1415,6 +1436,13 @@ python-sip:
 python-sip4:
   fedora: [sip]
   macports: [py27-sip4]
+python-skimage:
+  osx:
+    pip:
+      packages: [scikit-image]
+  ubuntu:
+    pip:
+      packages: [scikit-image]
 python-sklearn:
   fedora: [python-scikit-learn]
   ubuntu:
