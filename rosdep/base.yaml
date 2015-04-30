@@ -694,6 +694,9 @@ gazebo:
     raring: [gazebo]
     saucy: [gazebo2]
     trusty: [gazebo2]
+gazebo5:
+  arch: [gazebo]
+  ubuntu: [gazebo5]
 gcc-avr:
   arch: [avr-gcc]
   debian: [gcc-avr]
@@ -1265,6 +1268,9 @@ libftgl-dev:
     portage:
       packages: [media-libs/ftgl]
   ubuntu: [libftgl-dev]
+libgazebo5-dev:
+  arch: [gazebo]
+  ubuntu: [libgazebo5-dev]
 libgflags-dev:
   fedora: [gflags-devel]
   gentoo:
@@ -1558,14 +1564,14 @@ libnl-3:
   gentoo:
     portage:
       packages: [dev-libs/libnl]
-  ubuntu: [libnl-3-200]
+  ubuntu: [libnl-3-200, libnl-genl-3-200]
 libnl-3-dev:
   arch: [libnl]
   fedora: [libnl3-devel]
   gentoo:
     portage:
       packages: [dev-libs/libnl]
-  ubuntu: [libnl-3-dev]
+  ubuntu: [libnl-3-dev, libnl-genl-3-dev]
 libnl-dev:
   arch: [libnl1]
   debian: [libnl-dev]
