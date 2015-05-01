@@ -170,6 +170,7 @@ python-cairo:
     saucy: [python-cairo]
     trusty: [python-cairo]
     utopic: [python-cairo]
+    vivid: [python-cairo]
 python-catkin-pkg:
   arch: [python2-catkin_pkg]
   debian: [python-catkin-pkg]
@@ -801,6 +802,7 @@ python-opengl:
     trusty: [python-opengl]
     trusty_python3: [python3-opengl]
     utopic: [python-opengl]
+    vivid: [python-opengl]
 python-pandas:
   debian: [python-pandas]
   ubuntu:
@@ -1158,6 +1160,7 @@ python-qt-bindings-gl:
     saucy: [python-qt4-gl]
     trusty: [python-qt4-gl]
     utopic: [python-qt4-gl]
+    vivid: [python-qt4-gl]
 python-qt-bindings-qwt5:
   arch: [pyqwt]
   debian: [python-qwt5-qt4]
@@ -1175,6 +1178,7 @@ python-qt-bindings-qwt5:
     saucy: [python-qwt5-qt4]
     trusty: [python-qwt5-qt4]
     utopic: [python-qwt5-qt4]
+    vivid: [python-qwt5-qt4]
 python-qt4-gl:
   debian:
     apt:
