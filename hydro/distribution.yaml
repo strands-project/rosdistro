@@ -199,7 +199,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/clearpath-gbp/applanix_driver-release.git
-      version: 0.0.9-0
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/applanix_driver.git
@@ -3235,7 +3235,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.66-0
+      version: 1.0.67-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -3342,7 +3342,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.2.11-0
+      version: 0.2.12-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -3407,10 +3407,11 @@ repositories:
       - jsk_interactive_test
       - jsk_rqt_plugins
       - jsk_rviz_plugins
+      - jsk_visualization
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.19-0
+      version: 1.0.20-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
@@ -6318,7 +6319,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.2.15-0
+      version: 0.2.16-0
     source:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
@@ -6333,7 +6334,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/MurpheyLab/trep-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     status: developed
   qt_gui_core:
     doc:

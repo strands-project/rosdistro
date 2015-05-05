@@ -1226,6 +1226,17 @@ repositories:
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
       version: master
     status: maintained
+  nao_meshes:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-naoqi/nao_meshes-release.git
+      version: 0.1.8-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/nao_meshes.git
+      version: master
+    status: maintained
   nao_robot:
     release:
       packages:
@@ -1503,6 +1514,17 @@ repositories:
       url: https://github.com/wg-perception/object_recognition_ros.git
       version: master
     status: maintained
+  object_recognition_ros_visualization:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/object_recognition_ros_visualization-release.git
+      version: 0.3.6-1
+    source:
+      type: git
+      url: https://github.com/wg-perception/object_recognition_ros_visualization.git
+      version: master
+    status: maintained
   object_recognition_tod:
     release:
       tags:
@@ -1512,6 +1534,17 @@ repositories:
     source:
       type: git
       url: https://github.com/wg-perception/tod.git
+      version: master
+    status: maintained
+  object_recognition_transparent_objects:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/object_recognition_transparent_objects-release.git
+      version: 0.4.0-0
+    source:
+      type: git
+      url: https://github.com/wg-perception/transparent_objects.git
       version: master
     status: maintained
   octomap:
@@ -1803,7 +1836,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.2.15-0
+      version: 0.2.16-0
     source:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
@@ -1830,6 +1863,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
       version: groovy-devel
+    status: maintained
+  rail_ceiling:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_ceiling.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/rail_ceiling-release.git
+      version: 0.0.4-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_ceiling.git
+      version: develop
     status: maintained
   rail_collada_models:
     doc:
@@ -1874,6 +1922,28 @@ repositories:
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_maps.git
+      version: develop
+    status: maintained
+  rail_pick_and_place:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_pick_and_place.git
+      version: master
+    release:
+      packages:
+      - graspdb
+      - rail_grasp_collection
+      - rail_pick_and_place
+      - rail_pick_and_place_msgs
+      - rail_pick_and_place_tools
+      - rail_recognition
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/wpi-rail-release/rail_pick_and_place-release.git
+      version: 1.1.5-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_pick_and_place.git
       version: develop
     status: maintained
   rail_segmentation:
@@ -2155,7 +2225,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/ros_tutorials-release.git
-      version: 0.5.2-0
+      version: 0.5.3-0
     source:
       type: git
       url: https://github.com/ros/ros_tutorials.git
