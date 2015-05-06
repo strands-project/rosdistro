@@ -2723,7 +2723,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.3.2-0
+      version: 315.4.0-0
     source:
       type: git
       url: https://github.com/start-jsk/hrpsys.git
@@ -3235,7 +3235,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.67-0
+      version: 1.0.69-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -4106,7 +4106,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2015.4.4-0
+      version: 2015.5.5-0
     status: maintained
   mavros:
     doc:
@@ -5439,16 +5439,23 @@ repositories:
       version: toolchain-2.7
     status: maintained
   p2os:
+    doc:
+      type: git
+      url: https://github.com/allenh1/p2os.git
+      version: master
     release:
       packages:
+      - p2os_doc
       - p2os_driver
       - p2os_launch
+      - p2os_msgs
       - p2os_teleop
       - p2os_urdf
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/allenh1/p2os-release.git
-      version: 1.0.10-0
+      version: 2.0.0-0
+    status: developed
   pal_vision_segmentation:
     doc:
       type: git
@@ -5740,7 +5747,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/TheDash/pr2_apps-release.git
-      version: 0.5.18-0
+      version: 0.5.20-1
     source:
       type: git
       url: https://github.com/pr2/pr2_apps.git
@@ -7763,7 +7770,11 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rqt_pr2_dashboard-release.git
-      version: 0.2.6-0
+      version: 0.2.7-0
+    source:
+      type: git
+      url: https://github.com/pr2/rqt_pr2_dashboard.git
+      version: hydro-devel
     status: maintained
   rqt_robot_plugins:
     doc:
