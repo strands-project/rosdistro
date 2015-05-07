@@ -367,7 +367,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/axis_camera-release.git
-      version: 0.1.0-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/axis_camera.git
@@ -735,7 +735,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_navigation-release.git
-      version: 0.0.10-0
+      version: 0.0.11-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_navigation.git
@@ -2811,7 +2811,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
@@ -3326,7 +3326,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/katana_driver-release.git
-      version: 1.0.1-0
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/uos/katana_driver.git
@@ -3892,6 +3892,11 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/srv/libvimba-release.git
       version: 0.0.2-0
+  libvlfeat:
+    doc:
+      type: git
+      url: https://github.com/srv/libvlfeat.git
+      version: master
   linux_peripheral_interfaces:
     doc:
       type: git
@@ -6732,7 +6737,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_app_platform-release.git
-      version: 0.7.10-0
+      version: 0.7.11-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_app_platform.git
@@ -6880,7 +6885,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_tools-release.git
-      version: 0.1.17-0
+      version: 0.1.18-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_tools.git
@@ -6902,7 +6907,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_tutorials-release.git
-      version: 0.6.6-0
+      version: 0.6.7-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_tutorials.git
@@ -8454,7 +8459,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/uos/sick_tim.git

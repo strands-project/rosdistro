@@ -62,7 +62,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/clearpath-gbp/acado-release.git
-      version: 1.2.1-6
+      version: 1.2.1-7
     source:
       type: git
       url: https://github.com/clearpath-gbp/acado-release.git
@@ -373,7 +373,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/clearpath-gbp/axis_camera-release.git
-      version: 0.1.0-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/axis_camera.git
@@ -2982,7 +2982,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
@@ -3444,7 +3444,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/uos-gbp/katana_driver-release.git
-      version: 1.0.1-0
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/uos/katana_driver.git
@@ -8466,7 +8466,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/uos/sick_tim.git
