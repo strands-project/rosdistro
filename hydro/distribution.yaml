@@ -3279,7 +3279,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.1.11-0
+      version: 0.1.12-0
     source:
       type: git
       url: https://github.com/tork-a/jsk_model_tools-release.git
@@ -6441,10 +6441,25 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_segmentation.git
-      version: 0.1.6-0
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_segmentation.git
+      version: develop
+    status: maintained
+  rail_user_queue_manager:
+    doc:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_user_queue_manager.git
+      version: master
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/wpi-rail-release/rail_user_queue_manager-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/WPI-RAIL/rail_user_queue_manager.git
       version: develop
     status: maintained
   random_numbers:
@@ -9837,7 +9852,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/RobotWebTools-release/web_video_server-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/RobotWebTools/web_video_server.git
