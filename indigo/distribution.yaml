@@ -675,7 +675,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_bot-release.git
-      version: 0.0.31-0
+      version: 0.0.32-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_bot.git
@@ -690,7 +690,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/carl_demos-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/carl_demos.git
@@ -3112,7 +3112,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.69-0
+      version: 1.0.70-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -6374,7 +6374,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_pick_and_place-release.git
-      version: 1.1.6-0
+      version: 1.1.7-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_pick_and_place.git
@@ -6404,7 +6404,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/rail_user_queue_manager-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/rail_user_queue_manager.git
@@ -8635,7 +8635,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wpi-rail-release/spatial_temporal_learning-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/WPI-RAIL/spatial_temporal_learning.git
@@ -9284,6 +9284,21 @@ repositories:
       type: git
       url: https://github.com/turtlebot/turtlebot_arm.git
       version: indigo-devel
+    status: developed
+  turtlebot_concert:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot_concert.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/turtlebot-release/turtlebot_concert-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/turtlebot/turtlebot_concert.git
+      version: indigo
     status: developed
   turtlebot_create:
     doc:
