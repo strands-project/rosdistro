@@ -1717,7 +1717,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ecto-release.git
-      version: 0.6.8-0
+      version: 0.6.9-0
     source:
       type: git
       url: https://github.com/plasmodic/ecto.git
@@ -1739,7 +1739,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ecto_opencv-release.git
-      version: 0.5.6-0
+      version: 0.6.0-0
     source:
       type: git
       url: https://github.com/plasmodic/ecto_opencv.git
@@ -8655,7 +8655,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/spur-release.git
-      version: 0.1.3-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/tork-a/spur.git
