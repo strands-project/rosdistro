@@ -5260,6 +5260,13 @@ repositories:
       type: git
       url: https://github.com/ros-geographic-info/open_street_map.git
       version: master
+  opencv3:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/opencv3-release.git
+      version: 2.9.6-1
+    status: maintained
   opencv_candidate:
     release:
       tags:
@@ -7965,7 +7972,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_nextage-release.git
-      version: 0.6.0-0
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/tork-a/rtmros_nextage.git
@@ -8659,7 +8666,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/spur-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/tork-a/spur.git
@@ -9298,7 +9305,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot_concert-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot_concert.git
@@ -10116,6 +10123,18 @@ repositories:
       url: https://github.com/yujinrobot/yocs_msgs.git
       version: indigo
     status: developed
+  youbot_description:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/youbot-release/youbot_description-release.git
+      version: 0.8.1-0
+  youbot_driver:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/youbot-release/youbot_driver-release.git
+      version: 1.1.0-0
   yujin_maps:
     doc:
       type: git
