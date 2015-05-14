@@ -121,7 +121,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/atenpas/agile_grasp-release.git
-      version: 0.6.2-0
+      version: 0.7.0-0
     source:
       type: git
       url: https://github.com/atenpas/agile_grasp.git
@@ -4735,6 +4735,13 @@ repositories:
       url: https://github.com/ros-naoqi/naoqi_bridge.git
       version: master
     status: developed
+  naoqi_libqi:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-naoqi/libqi-release.git
+      version: 2.3.0-1
+    status: maintained
   nav2_platform:
     doc:
       type: git

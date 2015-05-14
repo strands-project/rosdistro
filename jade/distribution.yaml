@@ -831,6 +831,17 @@ repositories:
       url: https://github.com/ros-gbp/hokuyo_node-release.git
       version: 1.7.8-0
     status: maintained
+  household_objects_database_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-interactive-manipulation/household_objects_database_msgs.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/household_objects_database_msgs-release.git
+      version: 0.1.1-0
+    status: maintained
   humanoid_msgs:
     doc:
       type: git
@@ -1105,6 +1116,13 @@ repositories:
       url: https://github.com/WPI-RAIL/m4atx_battery_monitor.git
       version: develop
     status: maintained
+  manipulation_msgs:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/manipulation_msgs-release.git
+      version: 0.2.0-0
+    status: maintained
   mavlink:
     doc:
       type: git
@@ -1203,6 +1221,17 @@ repositories:
       url: https://github.com/ros-gbp/microstrain_3dmgx2_imu-release.git
       version: 1.5.12-0
     status: maintained
+  moveit_core:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_core.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_core-release.git
+      version: 0.6.15-0
+    status: developed
   moveit_msgs:
     doc:
       type: git
@@ -1614,6 +1643,17 @@ repositories:
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_ros_visualization.git
+      version: master
+    status: maintained
+  object_recognition_tabletop:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/object_recognition_tabletop-release.git
+      version: 0.3.2-0
+    source:
+      type: git
+      url: https://github.com/wg-perception/tabletop.git
       version: master
     status: maintained
   object_recognition_tod:
@@ -3037,6 +3077,17 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/visualization_tutorials.git
       version: indigo-devel
+    status: maintained
+  warehouse_ros:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/warehouse_ros-release.git
+      version: 0.8.8-0
     status: maintained
   web_video_server:
     doc:
