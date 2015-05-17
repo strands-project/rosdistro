@@ -121,7 +121,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/atenpas/agile_grasp-release.git
-      version: 0.7.0-0
+      version: 0.7.2-0
     source:
       type: git
       url: https://github.com/atenpas/agile_grasp.git
@@ -2368,7 +2368,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/atenpas/handle_detector-release.git
-      version: 1.1.0-1
+      version: 1.1.0-2
     source:
       type: git
       url: https://github.com/atenpas/handle_detector.git
@@ -4735,6 +4735,17 @@ repositories:
       url: https://github.com/ros-naoqi/naoqi_bridge.git
       version: master
     status: developed
+  naoqi_bridge_msgs:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-naoqi/naoqi_bridge_msgs-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/naoqi_bridge_msgs.git
+      version: master
+    status: maintained
   naoqi_libqi:
     release:
       tags:
@@ -4747,8 +4758,14 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/libqicore-release.git
-      version: 2.3.1-1
+      version: 2.3.1-2
     status: maintained
+  naoqi_rosbridge:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/vrabaud/naoqi_robridge-release.git
+      version: 0.0.1-0
   nav2_platform:
     doc:
       type: git
