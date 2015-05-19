@@ -395,7 +395,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter-release.git
-      version: 1.1.0-0
+      version: 1.1.1-1
     status: developed
   baxter_common:
     release:
@@ -407,28 +407,32 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_common-release.git
-      version: 1.1.0-1
+      version: 1.1.1-0
     status: developed
   baxter_examples:
+    doc:
+      type: git
+      url: https://github.com/RethinkRobotics/baxter_examples.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_examples-release.git
-      version: 1.1.0-0
+      version: 1.1.1-0
     status: developed
   baxter_interface:
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_interface-release.git
-      version: 1.1.0-0
+      version: 1.1.1-0
     status: developed
   baxter_tools:
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_tools-release.git
-      version: 1.1.0-0
+      version: 1.1.1-0
     status: developed
   bayes_tracking:
     release:
@@ -2382,7 +2386,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/atenpas/handle_detector-release.git
-      version: 1.1.0-2
+      version: 1.1.0-3
     source:
       type: git
       url: https://github.com/atenpas/handle_detector.git
@@ -3130,7 +3134,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.70-1
+      version: 1.0.71-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -3479,6 +3483,21 @@ repositories:
       url: https://github.com/yujinrobot/kobuki_desktop.git
       version: indigo
     status: developed
+  kobuki_led_controller:
+    doc:
+      type: git
+      url: https://github.com/jihoonl/kobuki_led_controller.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/jihoonl/kobuki_led_controller-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/jihoonl/kobuki_led_controller.git
+      version: indigo
+    status: developed
   kobuki_msgs:
     doc:
       type: git
@@ -3734,7 +3753,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/laser_geometry-release.git
-      version: 1.6.3-0
+      version: 1.6.4-0
     source:
       type: git
       url: https://github.com/ros-perception/laser_geometry.git
@@ -4057,7 +4076,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2015.5.5-0
+      version: 2015.5.18-0
     status: maintained
   mavros:
     doc:
