@@ -829,7 +829,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/graft-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     status: developed
   grasping_msgs:
     doc:
@@ -1242,7 +1242,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/metapackages-release.git
-      version: 1.1.3-0
+      version: 1.2.0-0
     status: maintained
   microstrain_3dmgx2_imu:
     release:
@@ -1468,6 +1468,31 @@ repositories:
       type: git
       url: https://github.com/ros-naoqi/naoqi_bridge.git
       version: master
+    status: maintained
+  naoqi_bridge_msgs:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-naoqi/naoqi_bridge_msgs-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/naoqi_bridge_msgs.git
+      version: master
+    status: maintained
+  naoqi_libqi:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-naoqi/libqi-release.git
+      version: 2.3.0-1
+    status: maintained
+  naoqi_libqicore:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-naoqi/libqicore-release.git
+      version: 2.3.1-1
     status: maintained
   navigation:
     doc:
@@ -2534,7 +2559,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/roscpp_core-release.git
-      version: 0.5.5-0
+      version: 0.5.6-0
     source:
       type: git
       url: https://github.com/ros/roscpp_core.git
@@ -2947,7 +2972,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.1.2-0
+      version: 0.1.4-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
