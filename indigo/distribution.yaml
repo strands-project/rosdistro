@@ -209,6 +209,16 @@ repositories:
       url: https://github.com/Sahloul/ar_sys.git
       version: indigo-devel
     status: developed
+  ar_tools:
+    doc:
+      type: git
+      url: https://github.com/ar-tools/ar_tools.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ar-tools/ar_tools.git
+      version: master
+    status: maintained
   ar_track_alvar:
     doc:
       type: git
@@ -1274,7 +1284,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/control_toolbox-release.git
-      version: 1.13.1-0
+      version: 1.13.2-0
     source:
       type: git
       url: https://github.com/ros-controls/control_toolbox.git
@@ -4061,7 +4071,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/mav_comm-release.git
-      version: 2.0.2-0
+      version: 2.0.3-0
     source:
       type: git
       url: https://github.com/ethz-asl/mav_comm.git
@@ -4392,7 +4402,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mikeferguson/moveit_python-release.git
-      version: 0.2.13-0
+      version: 0.2.14-0
     source:
       type: git
       url: https://github.com/mikeferguson/moveit_python.git
@@ -7451,7 +7461,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/roscpp_core-release.git
-      version: 0.5.5-0
+      version: 0.5.6-0
     source:
       type: git
       url: https://github.com/ros/roscpp_core.git
@@ -9194,7 +9204,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.1.6-0
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
