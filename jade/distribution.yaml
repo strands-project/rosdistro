@@ -999,6 +999,23 @@ repositories:
       url: https://github.com/ros/ivcon.git
       version: indigo-devel
     status: maintained
+  joystick_drivers:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/joystick_drivers.git
+      version: indigo-devel
+    release:
+      packages:
+      - joy
+      - joystick_drivers
+      - ps3joy
+      - spacenav_node
+      - wiimote
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/joystick_drivers-release.git
+      version: 1.10.1-0
+    status: maintained
   jsk_roseus:
     doc:
       type: git
@@ -1384,9 +1401,29 @@ repositories:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
       version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ual-arm-ros-pkg-release/mvsim-release.git
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
+      version: master
+    status: maintained
+  nao_extras:
+    release:
+      packages:
+      - nao_extras
+      - nao_path_follower
+      - nao_teleop
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/nao_extras-release.git
+      version: 0.2.2-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/nao_extras.git
       version: master
     status: maintained
   nao_interaction:
@@ -1493,6 +1530,17 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-naoqi/libqicore-release.git
       version: 2.3.1-1
+    status: maintained
+  naoqi_rosbridge:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-naoqi/naoqi_rosbridge-release.git
+      version: 0.0.5-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/alrosbridge.git
+      version: master
     status: maintained
   navigation:
     doc:
@@ -2283,6 +2331,11 @@ repositories:
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
       version: jade-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/cra-ros-pkg/robot_localization-release.git
+      version: 2.2.0-1
     source:
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
