@@ -1169,6 +1169,21 @@ repositories:
       url: https://github.com/WPI-RAIL/librms.git
       version: develop
     status: maintained
+  lyap_control:
+    doc:
+      type: git
+      url: https://bitbucket.org/AndyZe/lyap_control.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/AndyZelenak/lyap_control-release.git
+      version: 0.0.8-0
+    source:
+      type: git
+      url: https://bitbucket.org/AndyZe/lyap_control.git
+      version: master
+    status: maintained
   m4atx_battery_monitor:
     doc:
       type: git
@@ -1200,7 +1215,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2015.5.18-0
+      version: 2015.6.6-0
     status: maintained
   mavros:
     doc:
@@ -2051,6 +2066,21 @@ repositories:
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
       version: indigo-devel
+    status: maintained
+  pid:
+    doc:
+      type: git
+      url: https://bitbucket.org/AndyZe/pid.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/AndyZelenak/pid-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://bitbucket.org/AndyZe/pid.git
+      version: master
     status: maintained
   pluginlib:
     doc:
