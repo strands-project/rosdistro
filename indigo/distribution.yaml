@@ -29,7 +29,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-industrial-release/abb-release.git
-      version: 1.1.9-0
+      version: 1.2.0-0
     source:
       type: git
       url: https://github.com/ros-industrial/abb.git
@@ -1970,7 +1970,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_ros-release.git
-      version: 0.5.7-0
+      version: 0.5.9-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_ros.git
@@ -5426,7 +5426,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 2.9.6-1
+      version: 3.0.0-0
     status: maintained
   opencv_candidate:
     release:
@@ -6763,7 +6763,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/robot_calibration-release.git
-      version: 0.3.1-0
+      version: 0.4.0-0
     source:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
