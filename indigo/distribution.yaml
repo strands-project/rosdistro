@@ -1970,7 +1970,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_ros-release.git
-      version: 0.5.9-0
+      version: 0.5.10-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_ros.git
@@ -1998,6 +1998,14 @@ repositories:
       url: https://github.com/introlab/find_object_2d-release.git
       version: 0.5.1-0
     status: maintained
+  flask-ext-catkin:
+    release:
+      packages:
+      - flask_ext_catkin
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/yujinrobot-release/flask-ext-catkin-release.git
+      version: 0.1.0-0
   flatbuffers:
     release:
       tags:
@@ -2360,6 +2368,15 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/mikeferguson/grasping_msgs-gbp.git
       version: 0.3.1-0
+    status: developed
+  graspit_ros:
+    release:
+      packages:
+      - graspit
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/graspit_ros-release.git
+      version: 0.3.0-0
     status: developed
   grid_map:
     doc:
@@ -5676,7 +5693,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/pcl_conversions-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/ros-perception/pcl_conversions.git
@@ -5773,7 +5790,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/perception_pcl-release.git
-      version: 1.2.6-0
+      version: 1.2.7-0
     source:
       type: git
       url: https://github.com/ros-perception/perception_pcl.git
@@ -9330,7 +9347,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.1.7-0
+      version: 0.1.8-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
