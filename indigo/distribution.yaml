@@ -1998,14 +1998,6 @@ repositories:
       url: https://github.com/introlab/find_object_2d-release.git
       version: 0.5.1-0
     status: maintained
-  flask-ext-catkin:
-    release:
-      packages:
-      - flask_ext_catkin
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/yujinrobot-release/flask-ext-catkin-release.git
-      version: 0.1.0-0
   flatbuffers:
     release:
       tags:
@@ -2456,6 +2448,17 @@ repositories:
       type: git
       url: https://github.com/Hacks4ROS/h4r_thermapp_camera.git
       version: 0.0.1
+  h4r_x52_joyext:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/Hacks4ROS-release/h4r_x52_joyext.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/Hacks4ROS/h4r_x52_joyext.git
+      version: develop
+    status: maintained
   hakuto:
     doc:
       type: git
@@ -4872,7 +4875,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_bridge_msgs-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/ros-naoqi/naoqi_bridge_msgs.git
@@ -5839,7 +5842,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
