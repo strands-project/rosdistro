@@ -1948,7 +1948,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_gazebo-release.git
-      version: 0.4.2-0
+      version: 0.4.3-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_gazebo.git
@@ -1970,7 +1970,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_ros-release.git
-      version: 0.5.10-0
+      version: 0.5.11-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_ros.git
@@ -1998,6 +1998,19 @@ repositories:
       url: https://github.com/introlab/find_object_2d-release.git
       version: 0.5.1-0
     status: maintained
+  flask-ext-catkin:
+    release:
+      packages:
+      - flask_ext_catkin
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/yujinrobot-release/flask-ext-catkin-release.git
+      version: 0.1.0-2
+    source:
+      type: git
+      url: https://github.com/asmodehn/flask-ext-catkin.git
+      version: indigo-devel
+    status: developed
   flatbuffers:
     release:
       tags:
@@ -2488,7 +2501,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/atenpas/handle_detector-release.git
-      version: 1.1.0-3
+      version: 1.1.0-4
     source:
       type: git
       url: https://github.com/atenpas/handle_detector.git
@@ -7983,7 +7996,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/rotors_simulator-release.git
-      version: 1.1.5-0
+      version: 1.1.6-0
     source:
       type: git
       url: https://github.com/ethz-asl/rotors_simulator.git
