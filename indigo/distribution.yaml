@@ -1948,7 +1948,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_gazebo-release.git
-      version: 0.4.3-0
+      version: 0.4.4-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_gazebo.git
@@ -1970,7 +1970,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_ros-release.git
-      version: 0.5.11-0
+      version: 0.5.12-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_ros.git
@@ -4191,7 +4191,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2015.6.6-0
+      version: 2015.6.12-0
     status: maintained
   mavros:
     doc:
@@ -6829,7 +6829,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/robot_controllers-release.git
-      version: 0.4.0-0
+      version: 0.4.1-0
     source:
       type: git
       url: https://github.com/fetchrobotics/robot_controllers.git
@@ -8260,7 +8260,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/rtt-release.git
-      version: 2.8.0-2
+      version: 2.8.1-0
     source:
       type: git
       url: https://github.com/orocos-toolchain/rtt.git
@@ -8322,7 +8322,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/rtt_ros_integration-release.git
-      version: 2.8.1-0
+      version: 2.8.2-0
     source:
       type: git
       url: https://github.com/orocos/rtt_ros_integration.git
@@ -9369,6 +9369,32 @@ repositories:
       url: https://github.com/clearpath-gbp/libswiftnav-release.git
       version: 0.13.0-3
     status: maintained
+  talos_audio:
+    doc:
+      type: git
+      url: https://github.com/openrobotics/talos_audio.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/openrobotics-gbp/talos_audio-release.git
+      version: 1.0.3-0
+    source:
+      type: git
+      url: https://github.com/openrobotics/talos_audio.git
+      version: indigo-devel
+    status: developed
+  talos_description:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/openrobotics-gbp/talos_description-release.git
+      version: 1.0.3-0
+    source:
+      type: git
+      url: https://github.com/openrobotics/talos_description.git
+      version: indigo-devel
+    status: developed
   teb_local_planner:
     doc:
       type: git
