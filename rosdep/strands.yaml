@@ -1,3 +1,6 @@
+ghmm:
+  ubuntu:
+    trusty: [libghmm-ne]
 lm-sensors:
   ubuntu: [lm-sensors]
 mira-scitos:
@@ -22,6 +25,3 @@ strands-morse-simulator:
     trusty: [strands-morse-simulator]
 strands-twython:
   ubuntu: [python-strands-twython]
-ghmm:
-  ubuntu:
-    trusty: [libghmm-ne]
