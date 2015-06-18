@@ -170,6 +170,11 @@ repositories:
       url: https://github.com/ros/bond_core.git
       version: master
     status: maintained
+  bta_ros:
+    doc:
+      type: git
+      url: https://github.com/voxel-dot-at/bta_ros.git
+      version: master
   calibration:
     doc:
       type: git
@@ -1199,6 +1204,26 @@ repositories:
       url: https://github.com/WPI-RAIL/m4atx_battery_monitor.git
       version: develop
     status: maintained
+  maggie_devices_msgs:
+    doc:
+      type: git
+      url: https://github.com/UC3MSocialRobots/maggie_devices_msgs.git
+      version: hydro-devel
+    source:
+      type: git
+      url: https://github.com/UC3MSocialRobots/maggie_devices_msgs.git
+      version: hydro-devel
+    status: maintained
+  maggie_skills_msgs:
+    doc:
+      type: git
+      url: https://github.com/UC3MSocialRobots/maggie_skills_msgs.git
+      version: hydro-devel
+    source:
+      type: git
+      url: https://github.com/UC3MSocialRobots/maggie_skills_msgs.git
+      version: hydro-devel
+    status: maintained
   manipulation_msgs:
     release:
       tags:
@@ -1912,7 +1937,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.0.0-0
+      version: 3.0.0-1
     status: maintained
   opencv_candidate:
     release:
