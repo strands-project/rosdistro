@@ -1913,7 +1913,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.12.2-0
+      version: 9.14.0-0
     status: developed
   executive_smach:
     release:
@@ -2164,7 +2164,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/geneus-release.git
-      version: 2.2.2-0
+      version: 2.2.3-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/geneus.git
@@ -3198,10 +3198,10 @@ repositories:
       url: https://github.com/ros-gbp/joystick_drivers-release.git
       version: 1.9.10-0
     status: maintained
-  jsk_common:
+  jsk_3rdparty:
     doc:
       type: git
-      url: https://github.com/jsk-ros-pkg/jsk_common.git
+      url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
       version: master
     release:
       packages:
@@ -3209,41 +3209,75 @@ repositories:
       - bayesian_belief_networks
       - collada_urdf_jsk_patch
       - downward
-      - dynamic_tf_publisher
       - ff
       - ffha
-      - image_view2
-      - jsk_common
-      - jsk_data
-      - jsk_footstep_msgs
-      - jsk_gui_msgs
-      - jsk_hark_msgs
-      - jsk_network_tools
-      - jsk_tilt_laser
-      - jsk_tools
-      - jsk_topic_tools
+      - jsk_3rdparty
       - julius
       - laser_filters_jsk_patch
       - libsiftfast
       - mini_maxwell
-      - multi_map_server
       - nlopt
       - opt_camera
-      - posedetection_msgs
       - rospatlite
       - rosping
       - rostwitter
       - sklearn
-      - speech_recognition_msgs
-      - virtual_force_publisher
       - voice_text
       tags:
         release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/jsk_3rdparty-release.git
+      version: 2.0.1-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
+      version: master
+    status: developed
+  jsk_common:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_common.git
+      version: master
+    release:
+      packages:
+      - dynamic_tf_publisher
+      - image_view2
+      - jsk_common
+      - jsk_data
+      - jsk_network_tools
+      - jsk_tilt_laser
+      - jsk_tools
+      - jsk_topic_tools
+      - multi_map_server
+      - virtual_force_publisher
+      tags:
+        release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 1.0.71-0
+      version: 2.0.0-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
+      version: master
+    status: developed
+  jsk_common_msgs:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
+      version: master
+    release:
+      packages:
+      - jsk_common_msgs
+      - jsk_footstep_msgs
+      - jsk_gui_msgs
+      - jsk_hark_msgs
+      - posedetection_msgs
+      - speech_recognition_msgs
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/tork-a/jsk_common_msgs-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
       version: master
     status: developed
   jsk_control:
@@ -3265,7 +3299,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_control-release.git
-      version: 0.1.5-0
+      version: 0.1.6-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_control.git
@@ -3305,7 +3339,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_planning-release.git
-      version: 0.1.3-0
+      version: 0.1.4-1
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_planning.git
@@ -3324,7 +3358,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.1.10-0
+      version: 0.1.11-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
@@ -3347,7 +3381,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.2.12-0
+      version: 0.2.13-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -3361,6 +3395,7 @@ repositories:
     release:
       packages:
       - baxtereus
+      - jsk_201504_miraikan
       - jsk_baxter_desktop
       - jsk_baxter_startup
       - jsk_baxter_web
@@ -3371,10 +3406,11 @@ repositories:
       - jsk_robot_startup
       - peppereus
       - pr2_base_trajectory_action
+      - roseus_remote
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_robot-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_robot.git
@@ -3394,7 +3430,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.3.5-0
+      version: 1.3.6-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_roseus.git
@@ -3416,7 +3452,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.20-0
+      version: 1.0.21-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
@@ -3427,7 +3463,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.6-0
+      version: 1.0.8-0
     status: developed
   katana_driver:
     doc:
@@ -5864,7 +5900,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/pr2_ethercat_drivers-release.git
-      version: 1.8.11-0
+      version: 1.8.15-0
     source:
       type: git
       url: https://github.com/PR2/pr2_ethercat_drivers.git
@@ -7367,7 +7403,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/rosjava-release/rosjava_bootstrap-release.git
-      version: 0.1.23-0
+      version: 0.1.24-0
     source:
       type: git
       url: https://github.com/rosjava/rosjava_bootstrap.git
@@ -7875,7 +7911,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.2.12-0
+      version: 1.2.13-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
@@ -7895,7 +7931,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_gazebo-release.git
-      version: 0.1.8-0
+      version: 0.1.9-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_gazebo.git
