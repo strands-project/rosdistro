@@ -1283,6 +1283,12 @@ python-requests:
     saucy: [python-requests]
     trusty: [python-requests]
     trusty_python3: [python3-requests]
+    utopic: [python-requests]
+    utopic_python3: [python3-requests]
+    vivid: [python-requests]
+    vivid_python3: [python3-requests]
+    wily: [python-requests]
+    wily_python3: [python3-requests]
 python-rosdep:
   debian: [python-rosdep]
   fedora: [python-rosdep]
@@ -1518,6 +1524,9 @@ python-sklearn:
     raring: [python-sklearn]
     saucy: [python-sklearn]
     trusty: [python-sklearn]
+    utopic: [python-sklearn]
+    vivid: [python-sklearn]
+    wily: [python-sklearn]
 python-smbus:
   debian: [python-smbus]
   ubuntu: [python-smbus]
