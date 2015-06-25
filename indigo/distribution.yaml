@@ -1958,7 +1958,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_gazebo-release.git
-      version: 0.5.0-0
+      version: 0.5.1-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_gazebo.git
@@ -1998,7 +1998,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_ros-release.git
-      version: 0.5.14-0
+      version: 0.6.0-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_ros.git
@@ -2976,7 +2976,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.0.4-0
+      version: 1.0.5-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
@@ -3494,7 +3494,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.21-1
+      version: 1.0.22-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_visualization.git
@@ -6285,7 +6285,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_navigation-release.git
-      version: 0.1.26-0
+      version: 0.1.27-0
     source:
       type: git
       url: https://github.com/pr2/pr2_navigation.git
@@ -6879,7 +6879,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/robot_calibration-release.git
-      version: 0.4.1-0
+      version: 0.5.0-0
     source:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
@@ -9485,7 +9485,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.1.8-0
+      version: 0.1.9-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
