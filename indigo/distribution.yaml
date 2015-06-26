@@ -1958,7 +1958,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_gazebo-release.git
-      version: 0.5.1-0
+      version: 0.6.0-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_gazebo.git
@@ -2026,19 +2026,6 @@ repositories:
       url: https://github.com/introlab/find_object_2d-release.git
       version: 0.5.1-0
     status: maintained
-  flask-ext-catkin:
-    release:
-      packages:
-      - flask_ext_catkin
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/yujinrobot-release/flask-ext-catkin-release.git
-      version: 0.1.0-2
-    source:
-      type: git
-      url: https://github.com/asmodehn/flask-ext-catkin.git
-      version: indigo-devel
-    status: developed
   flatbuffers:
     release:
       tags:
@@ -3119,6 +3106,21 @@ repositories:
       type: git
       url: https://github.com/WPI-RAIL/interactive_world.git
       version: develop
+    status: maintained
+  iot_bridge:
+    doc:
+      type: git
+      url: https://github.com/corb555/iot_bridge.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/corb555/iot_bridge-release.git
+      version: 0.8.2-0
+    source:
+      type: git
+      url: https://github.com/corb555/iot_bridge.git
+      version: master
     status: maintained
   ipa_canopen:
     source:
@@ -4745,7 +4747,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 3.4.3-0
+      version: 3.4.4-0
     source:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
@@ -4977,7 +4979,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_rosbridge-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/ros-naoqi/alrosbridge.git
@@ -5326,7 +5328,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_ros_visualization-release.git
-      version: 0.3.6-1
+      version: 0.3.7-0
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_ros_visualization.git
@@ -5653,7 +5655,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/openslam_gmapping-release.git
-      version: 0.1.0-2
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/openslam_gmapping.git
+      version: master
     status: maintained
   optris_drivers:
     doc:
@@ -5841,7 +5847,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/pepper_robot-release.git
-      version: 0.1.2-0
+      version: 0.1.3-0
     source:
       type: git
       url: https://github.com/ros-naoqi/pepper_robot.git
@@ -10382,11 +10388,12 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/wireless-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/wireless.git
       version: master
+    status: maintained
   world_canvas:
     doc:
       type: git
