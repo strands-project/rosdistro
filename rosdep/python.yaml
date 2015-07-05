@@ -1,3 +1,6 @@
+gunicorn:
+  fedora: [python-gunicorn]
+  ubuntu: [gunicorn]
 ipython:
   debian: [ipython]
   fedora: [python-ipython]
@@ -244,6 +247,9 @@ python-colorama:
     trusty: [python-colorama]
     utopic: [python-colorama]
     vivid: [python-colorama]
+python-concurrent.futures:
+  fedora: [python-futures]
+  ubuntu: [python-concurrent.futures]
 python-couchdb:
   debian: [python-couchdb]
   fedora: [python-couchdb]
@@ -1107,6 +1113,10 @@ python-pymouse:
   ubuntu:
     pip:
       packages: [pymouse]
+python-pynema2:
+  ubuntu:
+    pip:
+      packages: [pynema2]
 python-pyproj:
   debian:
     apt:
@@ -1856,6 +1866,9 @@ python-wstool:
     saucy: [python-wstool]
     trusty: [python-wstool]
     trusty_python3: [python-wstool]
+python-wtforms:
+  fedora: [python-wtforms]
+  ubuntu: [python-wtforms]
 python-yaml:
   arch: [python2-yaml]
   centos: [PyYAML]
