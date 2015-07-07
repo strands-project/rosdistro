@@ -583,6 +583,8 @@ emacs:
   fedora: [emacs]
   gentoo: [virtual/emacs]
   ubuntu: [emacs]
+enet:
+  ubuntu: [libenet-dev]
 epydoc:
   arch: [epydoc]
   debian: [python-epydoc]
@@ -2768,7 +2770,13 @@ protobuf:
   debian: [libprotobuf7]
   fedora: [protobuf]
   macports: [protobuf-cpp]
-  ubuntu: [libprotobuf7]
+  ubuntu:
+    precise: [libprotobuf7]
+    raring: [libprotobuf7]
+    saucy: [libprotobuf7]
+    trusty: [libprotobuf8]
+    utopic: [libprotobuf8]
+    vivid: [libprotobuf9]
 protobuf-dev:
   arch: [protobuf]
   debian: [libprotobuf-dev, protobuf-compiler, libprotoc-dev]
