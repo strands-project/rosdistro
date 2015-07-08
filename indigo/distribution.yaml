@@ -194,7 +194,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/app_manager-release.git
-      version: 1.0.3-0
+      version: 1.0.3-1
     source:
       type: git
       url: https://github.com/pr2/app_manager.git
@@ -3337,7 +3337,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.1-0
+      version: 2.0.2-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -7104,11 +7104,11 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/robotiq.git
-      version: hydro-devel
+      version: indigo-devel
     source:
       type: git
       url: https://github.com/ros-industrial/robotiq.git
-      version: hydro-devel
+      version: indigo-devel
   rocon:
     doc:
       type: git
@@ -10377,7 +10377,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/vrpn_client_ros-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/vrpn_client_ros.git
