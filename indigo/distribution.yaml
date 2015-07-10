@@ -1250,6 +1250,7 @@ repositories:
       packages:
       - concert_service_admin
       - concert_service_gazebo
+      - concert_service_image_stream
       - concert_service_indoor_2d_map_prep
       - concert_service_teleop
       - concert_service_turtlesim
@@ -1258,7 +1259,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/concert_services-release.git
-      version: 0.1.11-0
+      version: 0.1.12-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/concert_services.git
@@ -2050,6 +2051,16 @@ repositories:
       url: https://github.com/introlab/find_object_2d-release.git
       version: 0.5.1-0
     status: maintained
+  firos:
+    doc:
+      type: git
+      url: https://github.com/Ikergune/firos.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/Ikergune/firos.git
+      version: master
+    status: maintained
   flatbuffers:
     release:
       tags:
@@ -2747,7 +2758,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.4.0-0
+      version: 315.6.0-0
     source:
       type: git
       url: https://github.com/fkanehiro/hrpsys-base.git
@@ -3549,11 +3560,15 @@ repositories:
       version: master
     status: developed
   jskeus:
+    doc:
+      type: git
+      url: https://github.com/tork-a/jskeus-release.git
+      version: release/jade/jskeus
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.8-0
+      version: 1.0.9-0
     status: developed
   katana_driver:
     doc:
@@ -5563,6 +5578,10 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/open_karto-release.git
       version: 1.1.1-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/open_karto.git
+      version: indigo-devel
     status: maintained
   open_street_map:
     doc:
@@ -6014,6 +6033,26 @@ repositories:
       url: https://github.com/ros/pluginlib.git
       version: indigo-devel
     status: maintained
+  pmb2_robot:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/pmb2_robot.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/pal-robotics/pmb2_robot.git
+      version: indigo-devel
+    status: developed
+  pmb2_simulation:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/pmb2_simulation.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/pal-robotics/pmb2_simulation.git
+      version: indigo-devel
+    status: developed
   pocketsphinx:
     doc:
       type: git
@@ -7138,7 +7177,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_app_platform-release.git
-      version: 0.7.12-0
+      version: 0.7.13-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_app_platform.git
@@ -7164,7 +7203,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_concert-release.git
-      version: 0.6.8-0
+      version: 0.6.9-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_concert.git
@@ -7179,12 +7218,15 @@ repositories:
       packages:
       - rocon_devices
       - rocon_hue
+      - rocon_iot_bridge
+      - rocon_ninjablock_bridge
       - rocon_python_hue
       - rocon_rtsp_camera_relay
+      - rocon_smartthings_bridge
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_devices-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_devices.git
@@ -7212,7 +7254,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_msgs-release.git
-      version: 0.7.11-0
+      version: 0.7.12-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_msgs.git
@@ -7236,7 +7278,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_multimaster-release.git
-      version: 0.7.8-0
+      version: 0.7.10-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_multimaster.git
@@ -7251,6 +7293,7 @@ repositories:
       packages:
       - concert_admin_app
       - concert_conductor_graph
+      - concert_qt_image_stream
       - concert_qt_make_a_map
       - concert_qt_map_annotation
       - concert_qt_service_info
@@ -7266,7 +7309,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_qt_gui-release.git
-      version: 0.7.10-0
+      version: 0.7.11-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_qt_gui.git
@@ -7307,7 +7350,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_tools-release.git
-      version: 0.1.19-0
+      version: 0.1.21-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_tools.git
