@@ -2923,7 +2923,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/image_common-release.git
-      version: 1.11.5-0
+      version: 1.11.6-0
     source:
       type: git
       url: https://github.com/ros-perception/image_common.git
@@ -3500,13 +3500,14 @@ repositories:
       - jsk_pr2_calibration
       - jsk_pr2_startup
       - jsk_robot_startup
+      - jsk_robot_utils
       - peppereus
       - pr2_base_trajectory_action
       - roseus_remote
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_robot-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_robot.git
@@ -4204,7 +4205,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/lms1xx-release.git
-      version: 0.1.2-0
+      version: 0.1.3-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/lms1xx.git
@@ -8430,7 +8431,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.0.31-0
+      version: 1.0.32-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
