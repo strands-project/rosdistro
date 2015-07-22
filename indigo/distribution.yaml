@@ -4220,7 +4220,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/log4cpp-release.git
-      version: 2.8.0-0
+      version: 2.8.1-0
     source:
       type: git
       url: https://github.com/orocos-toolchain/log4cpp.git
@@ -5338,7 +5338,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_linemod-release.git
-      version: 0.3.6-0
+      version: 0.3.7-0
     source:
       type: git
       url: https://github.com/wg-perception/linemod.git
@@ -5441,7 +5441,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/ocl-release.git
-      version: 2.8.0-1
+      version: 2.8.1-0
     source:
       type: git
       url: https://github.com/orocos-toolchain/ocl.git
@@ -7775,6 +7775,16 @@ repositories:
       version: develop
     status: end-of-life
     status_description: Replaced by the web_video_server package.
+  rosaria:
+    doc:
+      type: git
+      url: https://github.com/amor-ros-pkg/rosaria.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/amor-ros-pkg/rosaria.git
+      version: master
+    status: maintained
   rosauth:
     doc:
       type: git
@@ -8502,7 +8512,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/rtt-release.git
-      version: 2.8.1-0
+      version: 2.8.1-1
     source:
       type: git
       url: https://github.com/orocos-toolchain/rtt.git
@@ -8521,7 +8531,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/rtt_geometry-release.git
-      version: 2.8.0-0
+      version: 2.8.1-0
     source:
       type: git
       url: https://github.com/orocos/rtt_geometry.git
