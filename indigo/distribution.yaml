@@ -1679,6 +1679,7 @@ repositories:
       - ecl_devices
       - ecl_eigen
       - ecl_exceptions
+      - ecl_filesystem
       - ecl_formatters
       - ecl_geometry
       - ecl_ipc
@@ -1695,7 +1696,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_core-release.git
-      version: 0.61.0-0
+      version: 0.61.1-0
     source:
       type: git
       url: https://github.com/stonier/ecl_core.git
@@ -1785,7 +1786,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ecto-release.git
-      version: 0.6.9-0
+      version: 0.6.10-0
     source:
       type: git
       url: https://github.com/plasmodic/ecto.git
@@ -2553,6 +2554,16 @@ repositories:
       url: https://github.com/atenpas/handle_detector.git
       version: indigo
     status: maintained
+  head_action:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/head_action.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/pal-robotics/head_action.git
+      version: indigo-devel
+    status: maintained
   hector_gazebo:
     doc:
       type: git
@@ -2749,6 +2760,21 @@ repositories:
       url: https://github.com/ros-gbp/household_objects_database_msgs-release.git
       version: 0.1.1-2
     status: maintained
+  hpcl_rtt:
+    doc:
+      type: git
+      url: https://github.com/sukha-cn/hpcl_rtt.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/sukha-cn/hpcl_rtt-release.git
+      version: 0.0.4-1
+    source:
+      type: git
+      url: https://github.com/sukha-cn/hpcl_rtt.git
+      version: master
+    status: developed
   hrpsys:
     doc:
       type: git
@@ -2946,7 +2972,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/image_pipeline-release.git
-      version: 1.12.13-0
+      version: 1.12.14-0
     source:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
@@ -6022,6 +6048,16 @@ repositories:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
       version: master
+    status: developed
+  play_motion:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/play_motion.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/pal-robotics/play_motion.git
+      version: indigo-devel
     status: developed
   pluginlib:
     doc:
@@ -9648,7 +9684,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/openrobotics-gbp/talos_audio-release.git
-      version: 1.0.3-0
+      version: 1.0.5-0
     source:
       type: git
       url: https://github.com/openrobotics/talos_audio.git
@@ -10332,6 +10368,16 @@ repositories:
     source:
       type: git
       url: https://github.com/jack-oquin/velodyne_height_map.git
+      version: master
+    status: maintained
+  video_stream_opencv:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/video_stream_opencv.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/ros-drivers/video_stream_opencv.git
       version: master
     status: maintained
   view_controller_msgs:
