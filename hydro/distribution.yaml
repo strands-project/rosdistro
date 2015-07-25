@@ -3252,7 +3252,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.2-0
+      version: 2.0.3-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -7775,7 +7775,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-visualization/rqt_common_plugins.git
-      version: groovy-devel
+      version: master
     release:
       packages:
       - rqt_action
@@ -7803,11 +7803,11 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rqt_common_plugins-release.git
-      version: 0.3.11-0
+      version: 0.3.12-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_common_plugins.git
-      version: groovy-devel
+      version: master
     status: developed
   rqt_ez_publisher:
     doc:
