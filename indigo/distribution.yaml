@@ -10353,6 +10353,11 @@ repositories:
       type: git
       url: https://github.com/strands-project/v4r.git
       version: master
+  v4r_ros_wrappers:
+    source:
+      type: git
+      url: https://github.com/strands-project/v4r_ros_wrappers.git
+      version: master
   velodyne:
     doc:
       type: git
