@@ -1719,7 +1719,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_lite-release.git
-      version: 0.61.0-0
+      version: 0.61.1-0
     source:
       type: git
       url: https://github.com/stonier/ecl_lite.git
@@ -6048,7 +6048,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
@@ -6762,7 +6762,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/qt_ros-release.git
-      version: 0.2.7-1
+      version: 0.2.8-0
     source:
       type: git
       url: https://github.com/stonier/qt_ros.git
