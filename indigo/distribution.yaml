@@ -10348,6 +10348,11 @@ repositories:
       url: https://github.com/uji-ros-pkg/uwsim_osgworks-release.git
       version: 3.0.3-0
     status: maintained
+  v4r:
+    source:
+      type: git
+      url: https://github.com/strands-project/v4r.git
+      version: master
   velodyne:
     doc:
       type: git
