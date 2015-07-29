@@ -431,6 +431,26 @@ repositories:
       url: https://github.com/clearpathrobotics/axis_camera.git
       version: master
     status: maintained
+  barrett_hand_common:
+    release:
+      packages:
+      - barrett_hand_common
+      - barrett_hand_description
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RobotnikAutomation/barrett_hand_common-release.git
+      version: 0.1.0-0
+    status: maintained
+  barrett_hand_sim:
+    release:
+      packages:
+      - barrett_hand_control
+      - barrett_hand_gazebo
+      - barrett_hand_sim
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RobotnikAutomation/barrett_hand_sim-release.git
+      version: 0.1.0-0
   battery_monitor_rmp:
     doc:
       type: git
@@ -2543,6 +2563,16 @@ repositories:
       url: https://github.com/Hacks4ROS/h4r_x52_joyext.git
       version: develop
     status: maintained
+  haf_grasping:
+    doc:
+      type: git
+      url: https://github.com/davidfischinger/haf_grasping.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/davidfischinger/haf_grasping.git
+      version: master
+    status: maintained
   hakuto:
     doc:
       type: git
@@ -2978,7 +3008,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/image_common-release.git
-      version: 1.11.6-0
+      version: 1.11.7-0
     source:
       type: git
       url: https://github.com/ros-perception/image_common.git
@@ -7339,7 +7369,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/rocon_devices-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_devices.git
@@ -9964,7 +9994,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot_concert-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/turtlebot/turtlebot_concert.git
