@@ -669,6 +669,10 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/filters-release.git
       version: 1.7.4-2
+    source:
+      type: git
+      url: https://github.com/ros/filters.git
+      version: hydro-devel
   find_object_2d:
     doc:
       type: svn
@@ -1164,10 +1168,6 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
       version: 2.0.2-0
-    source:
-      type: git
-      url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
-      version: master
     status: developed
   jsk_common:
     doc:
@@ -1190,10 +1190,6 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
       version: 2.0.2-0
-    source:
-      type: git
-      url: https://github.com/jsk-ros-pkg/jsk_common.git
-      version: master
     status: developed
   jsk_common_msgs:
     doc:
@@ -1212,10 +1208,6 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_common_msgs-release.git
       version: 2.0.0-0
-    source:
-      type: git
-      url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
-      version: master
     status: developed
   jsk_roseus:
     doc:
@@ -1230,10 +1222,6 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
       version: 1.3.6-0
-    source:
-      type: git
-      url: https://github.com/jsk-ros-pkg/jsk_roseus.git
-      version: master
     status: developed
   jskeus:
     doc:
