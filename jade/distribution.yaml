@@ -1189,7 +1189,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.2-0
+      version: 2.0.3-0
     status: developed
   jsk_common_msgs:
     doc:
@@ -2666,6 +2666,24 @@ repositories:
       url: https://github.com/WPI-RAIL/rmp_msgs.git
       version: develop
     status: maintained
+  robot_calibration:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/robot_calibration.git
+      version: indigo-devel
+    release:
+      packages:
+      - robot_calibration
+      - robot_calibration_msgs
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/fetchrobotics-gbp/robot_calibration-release.git
+      version: 0.5.2-0
+    source:
+      type: git
+      url: https://github.com/mikeferguson/robot_calibration.git
+      version: indigo-devel
+    status: developed
   robot_controllers:
     doc:
       type: git
