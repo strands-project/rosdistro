@@ -3462,6 +3462,7 @@ repositories:
       - ffha
       - jsk_3rdparty
       - julius
+      - libcmt
       - libsiftfast
       - mini_maxwell
       - nlopt
@@ -3474,7 +3475,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.0.2-0
+      version: 2.0.3-0
     status: developed
   jsk_common:
     doc:
@@ -9445,6 +9446,10 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/stage-release.git
       version: 4.1.1-4
+    source:
+      type: git
+      url: https://github.com/rtv/Stage.git
+      version: master
     status: maintained
   stage_ros:
     doc:
