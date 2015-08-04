@@ -3628,7 +3628,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_robot-release.git
-      version: 0.0.8-0
+      version: 0.0.9-0
     status: developed
   jsk_roseus:
     doc:
@@ -9842,10 +9842,11 @@ repositories:
       - joy_teleop
       - key_teleop
       - teleop_tools
+      - teleop_tools_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.1.2-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
