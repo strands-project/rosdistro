@@ -564,7 +564,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/utexas-bwi/bwi.git
-      version: master
+      version: hydro_devel
     release:
       packages:
       - bwi_desktop
@@ -577,13 +577,13 @@ repositories:
     source:
       type: git
       url: https://github.com/utexas-bwi/bwi.git
-      version: master
+      version: hydro_devel
     status: developed
   bwi_common:
     doc:
       type: git
       url: https://github.com/utexas-bwi/bwi_common.git
-      version: master
+      version: hydro_devel
     release:
       packages:
       - bwi_common
@@ -604,7 +604,7 @@ repositories:
     source:
       type: git
       url: https://github.com/utexas-bwi/bwi_common.git
-      version: master
+      version: hydro_devel
     status: developed
   bwi_planning:
     doc:
@@ -4505,7 +4505,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/utexas-bwi/multi_level_map.git
-      version: master
+      version: hydro_devel
     release:
       packages:
       - multi_level_map
@@ -4519,7 +4519,7 @@ repositories:
     source:
       type: git
       url: https://github.com/utexas-bwi/multi_level_map.git
-      version: master
+      version: hydro_devel
     status: developed
   multimaster_fkie:
     doc:
@@ -7944,7 +7944,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.0.33-0
+      version: 1.0.34-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
@@ -8093,7 +8093,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.10.19-0
+      version: 1.10.20-0
     source:
       type: git
       url: https://github.com/ros-visualization/rviz.git
@@ -8305,7 +8305,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/utexas-bwi/segbot.git
-      version: master
+      version: hydro_devel
     release:
       packages:
       - segbot
@@ -8320,7 +8320,7 @@ repositories:
     source:
       type: git
       url: https://github.com/utexas-bwi/segbot.git
-      version: master
+      version: hydro_devel
     status: developed
   segbot_apps:
     doc:

@@ -664,15 +664,20 @@ repositories:
       version: 0.3.2-1
     status: maintained
   filters:
+    doc:
+      type: git
+      url: https://github.com/ros/filters.git
+      version: hydro-devel
     release:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/filters-release.git
-      version: 1.7.4-2
+      version: 1.7.4-3
     source:
       type: git
       url: https://github.com/ros/filters.git
       version: hydro-devel
+    status: maintained
   find_object_2d:
     doc:
       type: svn
@@ -1266,11 +1271,19 @@ repositories:
       version: hydro-devel
     status: maintained
   laser_filters:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/laser_filters.git
+      version: jade-devel
     release:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/laser_filters-release.git
-      version: 1.8.0-0
+      version: 1.8.0-1
+    source:
+      type: git
+      url: https://github.com/ros-perception/laser_filters.git
+      version: jade-devel
     status: maintained
   laser_geometry:
     doc:
@@ -1450,7 +1463,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.13.0-0
+      version: 0.13.1-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -1531,6 +1544,21 @@ repositories:
       url: https://github.com/ros-gbp/mongo_cxx_driver-release.git
       version: 1.0.2-1
     status: maintained
+  mongodb_store:
+    release:
+      packages:
+      - mongodb_log
+      - mongodb_store
+      - mongodb_store_msgs
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/strands-project-releases/mongodb_store.git
+      version: 0.1.16-0
+    source:
+      type: git
+      url: https://github.com/strands-project/mongodb_store.git
+      version: hydro-devel
+    status: developed
   moveit_core:
     doc:
       type: git
@@ -1553,6 +1581,43 @@ repositories:
       url: https://github.com/ros-gbp/moveit_msgs-release.git
       version: 0.6.1-0
     status: developed
+  moveit_planners:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_planners.git
+      version: indigo-devel
+    release:
+      packages:
+      - moveit_planners
+      - moveit_planners_ompl
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_planners-release.git
+      version: 0.6.7-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit_planners.git
+      version: indigo-devel
+    status: maintained
+  moveit_plugins:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_plugins.git
+      version: indigo-devel
+    release:
+      packages:
+      - moveit_fake_controller_manager
+      - moveit_plugins
+      - moveit_simple_controller_manager
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_plugins-release.git
+      version: 0.5.6-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit_plugins.git
+      version: indigo-devel
+    status: maintained
   moveit_python:
     doc:
       type: git
@@ -1727,6 +1792,21 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_meshes.git
+      version: master
+    status: maintained
+  nao_moveit_config:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/nao_moveit_config.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-naoqi/nao_moveit_config-release.git
+      version: 0.0.5-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/nao_moveit_config.git
       version: master
     status: maintained
   nao_robot:
@@ -2157,6 +2237,13 @@ repositories:
       url: https://github.com/OctoMap/octomap_ros.git
       version: indigo-devel
     status: maintained
+  ompl:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/ompl-release.git
+      version: 1.0.0003094-2
+    status: maintained
   opencv3:
     release:
       tags:
@@ -2235,7 +2322,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/allenh1/p2os-release.git
-      version: 2.0.1-0
+      version: 2.0.2-0
     source:
       type: git
       url: https://github.com/allenh1/p2os.git
@@ -3236,7 +3323,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.9.0-0
+      version: 0.10.4-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -3246,16 +3333,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
-      version: master
+      version: jade-devel
     release:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.9.0-0
+      version: 0.10.4-0
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
-      version: master
+      version: jade-devel
     status: maintained
   rtctree:
     release:
@@ -3362,7 +3449,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.11.7-0
+      version: 1.11.8-0
     source:
       type: git
       url: https://github.com/ros-visualization/rviz.git
