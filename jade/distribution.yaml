@@ -123,10 +123,20 @@ repositories:
       type: git
       url: https://github.com/pal-robotics/aruco_ros.git
       version: indigo-devel
+    release:
+      packages:
+      - aruco
+      - aruco_msgs
+      - aruco_ros
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/bmagyar/aruco_ros-release.git
+      version: 0.0.1-0
     source:
       type: git
       url: https://github.com/pal-robotics/aruco_ros.git
       version: indigo-devel
+    status: developed
   async_web_server_cpp:
     doc:
       type: git
@@ -3141,7 +3151,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/roslint-release.git
-      version: 0.9.3-0
+      version: 0.10.0-0
     source:
       type: git
       url: https://github.com/ros/roslint.git
@@ -3635,6 +3645,16 @@ repositories:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
       version: indigo-devel
+    release:
+      packages:
+      - joy_teleop
+      - key_teleop
+      - teleop_tools
+      - teleop_tools_msgs
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/teleop_tools-release.git
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
