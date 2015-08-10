@@ -4435,7 +4435,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/mav_comm-release.git
-      version: 2.0.3-0
+      version: 3.0.0-0
     source:
       type: git
       url: https://github.com/ethz-asl/mav_comm.git
@@ -8406,7 +8406,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/rotors_simulator-release.git
-      version: 1.1.6-0
+      version: 2.0.0-0
     source:
       type: git
       url: https://github.com/ethz-asl/rotors_simulator.git
@@ -10223,6 +10223,12 @@ repositories:
       url: https://github.com/orocos-toolchain/typelib.git
       version: toolchain-2.8
     status: maintained
+  ubiquity_motor:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/UbiquityRobotics-release/ubiquity_motor-release.git
+      version: 0.2.0-0
   ublox:
     doc:
       type: git
