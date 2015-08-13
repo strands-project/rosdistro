@@ -9525,10 +9525,28 @@ repositories:
       url: https://github.com/wunderkammer-laboratory/steered_wheel_base_controller.git
       version: master
   strands_3d_mapping:
+    release:
+      packages:
+      - calibrate_sweeps
+      - cloud_merge
+      - ekz_public_lib
+      - metaroom_xml_parser
+      - object_manager
+      - scitos_ptu_sweep
+      - semantic_map
+      - semantic_map_launcher
+      - semantic_map_publisher
+      - semantic_map_to_2d
+      - strands_sweep_registration
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/strands_3d_mapping.git
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/strands-project/strands_3d_mapping.git
       version: hydro-devel
+    status: developed
   strands_apps:
     release:
       packages:
