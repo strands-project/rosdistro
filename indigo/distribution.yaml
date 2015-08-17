@@ -1760,7 +1760,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/dynpick_driver-release.git
-      version: 0.0.6-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/tork-a/dynpick_driver.git
@@ -1893,7 +1893,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_tools-release.git
-      version: 0.61.0-0
+      version: 0.61.1-0
     source:
       type: git
       url: https://github.com/stonier/ecl_tools.git
@@ -2311,7 +2311,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.4.8-0
+      version: 2.4.9-0
     source:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
@@ -3624,7 +3624,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.2.13-0
+      version: 0.2.14-0
     status: developed
   jsk_robot:
     doc:
@@ -4357,6 +4357,11 @@ repositories:
       url: https://github.com/orocos-toolchain/log4cpp.git
       version: toolchain-2.8
     status: maintained
+  lsd_slam:
+    doc:
+      type: git
+      url: https://github.com/tum-vision/lsd_slam.git
+      version: master
   lyap_control:
     doc:
       type: git
@@ -8004,11 +8009,26 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.7.12-0
+      version: 0.7.13-0
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
       version: develop
+    status: maintained
+  roscompile:
+    doc:
+      type: git
+      url: https://github.com/DLu/roscompile.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/wu-robotics/roscompile-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/DLu/roscompile.git
+      version: master
     status: maintained
   rosconsole_bridge:
     doc:
@@ -8227,7 +8247,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/roslisp-release.git
-      version: 1.9.18-0
+      version: 1.9.19-0
     source:
       type: git
       url: https://github.com/ros/roslisp.git
@@ -8624,7 +8644,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.0.34-0
+      version: 1.0.35-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
@@ -8843,6 +8863,21 @@ repositories:
       url: https://github.com/davetcoleman/rviz_visual_tools.git
       version: indigo-devel
     status: developed
+  rwt_config_generator:
+    doc:
+      type: git
+      url: https://github.com/DLu/rwt_config_generator.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/wu-robotics/rwt_config_generator-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/DLu/rwt_config_generator.git
+      version: master
+    status: maintained
   rwt_ros:
     doc:
       type: git
@@ -10016,6 +10051,11 @@ repositories:
       url: https://github.com/strands-project/trajectory_behaviours.git
       version: master
     status: maintained
+  tum_ardrone:
+    doc:
+      type: git
+      url: https://github.com/tum-vision/tum_ardrone.git
+      version: indigo-devel
   turtlebot:
     doc:
       type: git
