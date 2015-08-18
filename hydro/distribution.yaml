@@ -3386,7 +3386,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/tork-a/jsk_robot-release.git
-      version: 0.0.9-0
+      version: 0.0.10-1
     status: developed
   jsk_roseus:
     doc:
@@ -7850,7 +7850,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/introlab/rtabmap.git
-      version: master
+      version: hydro-devel
     release:
       tags:
         release: release/hydro/{package}/{version}
@@ -7859,13 +7859,13 @@ repositories:
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
-      version: master
+      version: hydro-devel
     status: maintained
   rtabmap_ros:
     doc:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
-      version: master
+      version: hydro-devel
     release:
       tags:
         release: release/hydro/{package}/{version}
@@ -7874,7 +7874,7 @@ repositories:
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
-      version: master
+      version: hydro-devel
     status: maintained
   rtctree:
     doc:
@@ -9459,7 +9459,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/anqixu/ueye_cam-release.git
-      version: 1.0.10-0
+      version: 1.0.11-0
     source:
       type: git
       url: https://github.com/anqixu/ueye_cam.git
