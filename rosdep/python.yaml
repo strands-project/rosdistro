@@ -1951,6 +1951,8 @@ python-walrus-pip:
     pip:
       packages: [walrus]
 python-websocket:
+  debian: [python-websocket]
+  fedora: [python-websocket-client]
   ubuntu:
     precise:
       pip:
@@ -1961,9 +1963,7 @@ python-websocket:
     raring:
       pip:
         packages: [websocket-client]
-    saucy:
-      pip:
-        packages: [websocket-client]
+    saucy: [python-websocket-client]
     trusty: [python-websocket]
     trusty_python3:
       pip:
