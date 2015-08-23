@@ -691,7 +691,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/bwi_common-release.git
-      version: 0.3.4-0
+      version: 0.3.5-0
     source:
       type: git
       url: https://github.com/utexas-bwi/bwi_common.git
@@ -2113,7 +2113,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/fetchrobotics/fetch_gazebo.git
-      version: master
+      version: gazebo2
     release:
       packages:
       - fetch_gazebo
@@ -2125,7 +2125,7 @@ repositories:
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_gazebo.git
-      version: master
+      version: gazebo2
     status: developed
   fetch_msgs:
     doc:
