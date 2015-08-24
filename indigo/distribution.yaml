@@ -931,6 +931,11 @@ repositories:
       url: https://github.com/ros/catkin.git
       version: indigo-devel
     status: maintained
+  circle_detection:
+    source:
+      type: git
+      url: https://github.com/LCAS/FInCoR.git
+      version: circle_only
   class_loader:
     doc:
       type: git
