@@ -9773,6 +9773,7 @@ repositories:
       - mdl_people_tracker
       - odometry_to_motion_matrix
       - opencv_warco
+      - people_tracker_emulator
       - perception_people_launch
       - strands_head_orientation
       - strands_perception_people
@@ -9782,7 +9783,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/strands_perception_people.git
-      version: 1.1.6-0
+      version: 1.1.7-0
     source:
       type: git
       url: https://github.com/strands-project/strands_perception_people.git
