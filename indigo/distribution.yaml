@@ -5365,6 +5365,21 @@ repositories:
       url: https://github.com/neobotix/neo_driver.git
       version: indigo_dev
     status: developed
+  nerian_sp1:
+    doc:
+      type: git
+      url: https://github.com/nerian-vision/nerian_sp1.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/nerian-vision/nerian_sp1-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/nerian-vision/nerian_sp1.git
+      version: master
+    status: developed
   nmea_comms:
     doc:
       type: git
@@ -8670,7 +8685,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.0.35-0
+      version: 1.0.36-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
@@ -9254,6 +9269,11 @@ repositories:
       url: https://github.com/mikeferguson/simple_grasping.git
       version: master
     status: developed
+  slam6d_exporter:
+    doc:
+      type: git
+      url: https://github.com/uos/slam6d_exporter.git
+      version: indigo_catkin
   slam_gmapping:
     doc:
       type: git
@@ -10452,11 +10472,6 @@ repositories:
       type: git
       url: https://github.com/uos/uos_rotunit.git
       version: indigo
-  uos_slam:
-    doc:
-      type: git
-      url: https://github.com/uos/uos_slam.git
-      version: indigo
   uos_tools:
     doc:
       type: git
@@ -10706,6 +10721,18 @@ repositories:
       type: git
       url: https://github.com/lagadic/visp_ros.git
       version: master
+  visualization_osg:
+    release:
+      packages:
+      - osg_interactive_markers
+      - osg_markers
+      - osg_utils
+      - visualization_osg
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/uji-ros-pkg/visualization_osg-release.git
+      version: 1.0.1-0
+    status: maintained
   visualization_rwt:
     doc:
       type: git
