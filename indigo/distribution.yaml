@@ -9662,12 +9662,13 @@ repositories:
       - scipoptsuite
       - sim_clock
       - strands_executive_msgs
+      - strands_executive_tutorial
       - task_executor
       - wait_action
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/strands_executive.git
-      version: 0.0.26-0
+      version: 0.1.0-0
     source:
       type: git
       url: https://github.com/strands-project/strands_executive.git
