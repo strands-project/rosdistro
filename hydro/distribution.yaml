@@ -4714,6 +4714,20 @@ repositories:
       url: https://github.com/ros-naoqi/naoqi_bridge.git
       version: master
     status: developed
+  naoqi_libqi:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-naoqi/libqi-release.git
+      version: 2.3.0-1
+    status: maintained
+  naoqi_libqicore:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/ros-naoqi/libqicore-release.git
+      version: 2.3.1-1
+    status: maintained
   nasa_r2_common:
     doc:
       type: git
@@ -4857,7 +4871,7 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: https://github.com/nerian-vision/nerian_sp1-release.git
-      version: 1.0.0-0
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_sp1.git
