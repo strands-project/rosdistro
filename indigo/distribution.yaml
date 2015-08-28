@@ -10598,10 +10598,16 @@ repositories:
       version: 3.0.3-0
     status: maintained
   v4r:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/v4r.git
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/strands-project/v4r.git
       version: master
+    status: developed
   v4r_ros_wrappers:
     source:
       type: git
