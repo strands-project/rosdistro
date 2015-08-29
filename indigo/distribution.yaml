@@ -10609,10 +10609,27 @@ repositories:
       version: master
     status: developed
   v4r_ros_wrappers:
+    release:
+      packages:
+      - camera_srv_definitions
+      - camera_tracker
+      - classifier_srv_definitions
+      - multiview_object_recognizer
+      - object_classifier
+      - object_perception_msgs
+      - recognition_srv_definitions
+      - segmentation
+      - segmentation_srv_definitions
+      - singleview_object_recognizer
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/v4r_ros_wrappers.git
+      version: 0.0.1-0
     source:
       type: git
       url: https://github.com/strands-project/v4r_ros_wrappers.git
       version: master
+    status: developed
   velodyne:
     doc:
       type: git
