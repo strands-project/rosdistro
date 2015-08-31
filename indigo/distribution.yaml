@@ -4143,10 +4143,19 @@ repositories:
       version: hydro-devel
     status: maintained
   laser_filtering:
+    release:
+      packages:
+      - laser_filtering
+      - map_laser
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/laser_filtering.git
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/strands-project/laser_filtering.git
       version: hydro_devel
+    status: maintained
   laser_filters:
     doc:
       type: git
