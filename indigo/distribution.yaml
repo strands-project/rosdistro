@@ -4143,21 +4143,9 @@ repositories:
       version: hydro-devel
     status: maintained
   laser_filtering:
-    doc:
-      type: git
-      url: https://github.com/DLu/laser_filtering.git
-      version: hydro_devel
-    release:
-      packages:
-      - laser_filtering
-      - map_laser
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/wu-robotics/laser_filtering_release.git
-      version: 0.0.2-0
     source:
       type: git
-      url: https://github.com/DLu/laser_filtering.git
+      url: https://github.com/strands-project/laser_filtering.git
       version: hydro_devel
   laser_filters:
     doc:
