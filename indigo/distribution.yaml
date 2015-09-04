@@ -7913,6 +7913,11 @@ repositories:
       url: https://github.com/WPI-RAIL/ros_ethernet_rmp.git
       version: develop
     status: maintained
+  ros_mbt:
+    source:
+      type: git
+      url: https://github.com/strands-project/ros_mbt
+      version: master
   ros_openlighting:
     release:
       packages:
