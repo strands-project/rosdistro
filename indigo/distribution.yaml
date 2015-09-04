@@ -7916,7 +7916,7 @@ repositories:
   ros_mbt:
     source:
       type: git
-      url: https://github.com/strands-project/ros_mbt
+      url: https://github.com/strands-project/ros_mbt.git
       version: master
   ros_openlighting:
     release:
