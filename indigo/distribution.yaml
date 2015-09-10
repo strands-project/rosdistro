@@ -9081,7 +9081,7 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/scitos_common.git
-      version: indigo-release
+      version: indigo-devel
     status: developed
   scitos_drivers:
     release:
