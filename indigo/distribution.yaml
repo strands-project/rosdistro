@@ -2987,6 +2987,28 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://gitlab.uni-koblenz.de/robbie/homer_android_speech.git
       version: 0.0.2-0
+  homer_mapnav:
+    release:
+      packages:
+      - homer_map_manager
+      - homer_mapnav_msgs
+      - homer_mapping
+      - homer_nav_libs
+      - homer_navigation
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://gitlab.uni-koblenz.de/robbie/homer_mapnav.git
+      version: 1.0.1-0
+  homer_object_recognition:
+    release:
+      packages:
+      - or_libs
+      - or_msgs
+      - or_nodes
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://gitlab.uni-koblenz.de/robbie/homer_object_recognition.git
+      version: 0.0.2-0
   homer_robot_face:
     release:
       packages:
@@ -5448,7 +5470,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/nerian-vision/nerian_sp1-release.git
-      version: 1.1.0-0
+      version: 1.1.1-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_sp1.git
@@ -10884,6 +10906,11 @@ repositories:
       url: https://github.com/lagadic/vision_visp.git
       version: indigo-devel
     status: maintained
+  viso2:
+    doc:
+      type: git
+      url: https://github.com/srv/viso2.git
+      version: indigo
   visp:
     release:
       tags:
@@ -11294,7 +11321,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/DaikiMaekawa/ypspur-release.git
-      version: 0.0.1-1
+      version: 0.0.1-2
     status: maintained
   yujin_maps:
     doc:
