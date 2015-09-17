@@ -10789,7 +10789,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/v4r.git
-      version: 1.0.7-5
+      version: 1.0.9-5
     source:
       type: git
       url: https://github.com/strands-project/v4r.git
