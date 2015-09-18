@@ -1,6 +1,8 @@
 ghmm:
   ubuntu:
     trusty: [libghmm-ne]
+libsvm:
+  ubuntu: [libsvm-dev]
 lm-sensors:
   ubuntu: [lm-sensors]
 mira-scitos:
