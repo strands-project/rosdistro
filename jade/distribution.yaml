@@ -1517,7 +1517,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.14.2-0
+      version: 0.15.0-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -3934,6 +3934,27 @@ repositories:
       url: https://github.com/bosch-ros-pkg/usb_cam.git
       version: develop
     status: maintained
+  uwsim_bullet:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/uji-ros-pkg/uwsim_bullet-release.git
+      version: 2.82.1-0
+    status: maintained
+  uwsim_osgocean:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/uji-ros-pkg/uwsim_osgocean-release.git
+      version: 1.0.3-0
+    status: maintained
+  uwsim_osgworks:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/uji-ros-pkg/uwsim_osgworks-release.git
+      version: 3.0.3-0
+    status: maintained
   vicon_bridge:
     doc:
       type: git
@@ -4003,6 +4024,18 @@ repositories:
       type: git
       url: https://github.com/lagadic/visp_ros.git
       version: master
+  visualization_osg:
+    release:
+      packages:
+      - osg_interactive_markers
+      - osg_markers
+      - osg_utils
+      - visualization_osg
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/uji-ros-pkg/visualization_osg-release.git
+      version: 1.0.2-0
+    status: maintained
   visualization_tutorials:
     doc:
       type: git
