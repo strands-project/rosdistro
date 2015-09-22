@@ -221,6 +221,8 @@ python-bluez:
     trusty: [python-bluez]
     utopic: [python-bluez]
     vivid: [python-bluez]
+python-bs4:
+  ubuntu: [python-bs4]
 python-bson:
   debian: [python-bson]
   fedora: [python-bson]
@@ -664,6 +666,10 @@ python-impacket:
 python-itsdangerous:
   fedora: [python-itsdangerous]
   ubuntu: [python-itsdangerous]
+python-jasmine-pip:
+  ubuntu:
+    pip:
+      packages: [jasmine]
 python-jinja2:
   fedora: [python-jinja2]
   ubuntu: [python-jinja2]

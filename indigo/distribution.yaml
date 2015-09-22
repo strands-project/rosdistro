@@ -959,7 +959,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.6.14-0
+      version: 0.6.15-0
     source:
       type: git
       url: https://github.com/ros/catkin.git
@@ -1975,7 +1975,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ecto-release.git
-      version: 0.6.10-0
+      version: 0.6.11-0
     source:
       type: git
       url: https://github.com/plasmodic/ecto.git
@@ -2511,7 +2511,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.5.4-0
+      version: 0.5.5-0
     source:
       type: git
       url: https://github.com/ros/genpy.git
@@ -6123,6 +6123,17 @@ repositories:
       url: https://github.com/RIVeR-Lab/orientus_driver.git
       version: hydro-devel
     status: maintained
+  orne_maps:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/open-rdc/orne_maps-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/open-rdc/orne_maps.git
+      version: master
+    status: maintained
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -7047,7 +7058,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.2.16-0
+      version: 0.2.17-0
     source:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
@@ -7080,7 +7091,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.2.28-0
+      version: 0.2.29-0
     source:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
@@ -7870,7 +7881,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ros-release.git
-      version: 1.11.8-0
+      version: 1.11.9-0
     source:
       type: git
       url: https://github.com/ros/ros.git
@@ -7954,7 +7965,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.11.13-0
+      version: 1.11.14-0
     source:
       type: git
       url: https://github.com/ros/ros_comm.git
@@ -8180,7 +8191,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ros_tutorials-release.git
-      version: 0.5.3-0
+      version: 0.5.4-0
     source:
       type: git
       url: https://github.com/ros/ros_tutorials.git
@@ -9071,7 +9082,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.11.8-0
+      version: 1.11.9-0
     source:
       type: git
       url: https://github.com/ros-visualization/rviz.git
@@ -9766,7 +9777,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/stage-release.git
-      version: 4.1.1-5
+      version: 4.1.1-6
     source:
       type: git
       url: https://github.com/rtv/Stage.git
@@ -11053,7 +11064,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/visualization_tutorials-release.git
-      version: 0.9.1-0
+      version: 0.9.2-0
     source:
       type: git
       url: https://github.com/ros-visualization/visualization_tutorials.git
