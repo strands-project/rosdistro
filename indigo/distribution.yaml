@@ -223,7 +223,7 @@ repositories:
   annotation_tool_kth:
     source:
       type: git
-      url: https://github.com/strands-project/annotation_tool_kth
+      url: https://github.com/strands-project/annotation_tool_kth.git
       version: master
   app_manager:
     doc:
