@@ -3003,7 +3003,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://gitlab.uni-koblenz.de/robbie/homer_mapnav.git
-      version: 1.0.1-0
+      version: 1.0.1-1
   homer_object_recognition:
     release:
       packages:
@@ -3040,21 +3040,6 @@ repositories:
       url: https://github.com/ros-gbp/household_objects_database_msgs-release.git
       version: 0.1.1-2
     status: maintained
-  hpcl_rtt:
-    doc:
-      type: git
-      url: https://github.com/sukha-cn/hpcl_rtt.git
-      version: master
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/sukha-cn/hpcl_rtt-release.git
-      version: 0.0.4-1
-    source:
-      type: git
-      url: https://github.com/sukha-cn/hpcl_rtt.git
-      version: master
-    status: developed
   hrpsys:
     doc:
       type: git
@@ -4593,6 +4578,34 @@ repositories:
       url: https://github.com/ros-planning/map_store.git
       version: hydro-devel
     status: maintained
+  marti_common:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/marti_common.git
+      version: indigo-devel
+    release:
+      packages:
+      - marti_data_structures
+      - swri_console_util
+      - swri_geometry_util
+      - swri_image_util
+      - swri_math_util
+      - swri_opencv_util
+      - swri_prefix_tools
+      - swri_serial_util
+      - swri_string_util
+      - swri_system_util
+      - swri_transform_util
+      - swri_yaml_util
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/marti_common-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://github.com/swri-robotics/marti_common.git
+      version: indigo-devel
+    status: developed
   marti_messages:
     release:
       packages:
@@ -7111,7 +7124,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/MurpheyLab/trep-release.git
-      version: 1.0.1-0
+      version: 1.0.2-0
     status: developed
   qt_gui_core:
     doc:
