@@ -4578,6 +4578,26 @@ repositories:
       url: https://github.com/ros-planning/map_store.git
       version: hydro-devel
     status: maintained
+  mapviz:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/mapviz.git
+      version: indigo-devel
+    release:
+      packages:
+      - mapviz
+      - mapviz_plugins
+      - multires_image
+      - tile_map
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/mapviz-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/swri-robotics/mapviz.git
+      version: indigo-devel
+    status: developed
   marti_common:
     doc:
       type: git
@@ -4600,7 +4620,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.0.2-1
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -6015,7 +6035,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.0.0-1
+      version: 3.0.0-2
     status: maintained
   opencv_candidate:
     release:
