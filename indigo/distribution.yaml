@@ -3013,7 +3013,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://gitlab.uni-koblenz.de/robbie/homer_object_recognition.git
-      version: 0.0.2-0
+      version: 0.0.2-1
   homer_robot_face:
     release:
       packages:
@@ -4592,7 +4592,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -4620,13 +4620,17 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.0.3-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
       version: indigo-devel
     status: developed
   marti_messages:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/marti_messages.git
+      version: indigo-devel
     release:
       packages:
       - marti_can_msgs
