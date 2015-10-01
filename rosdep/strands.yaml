@@ -1,3 +1,6 @@
+igraph:
+  ubuntu:
+    trusty: [python-igraph]
 ghmm:
   ubuntu:
     trusty: [libghmm-ne]
