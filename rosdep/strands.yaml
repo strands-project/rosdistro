@@ -1,9 +1,9 @@
-igraph:
-  ubuntu:
-    trusty: [python-igraph]
 ghmm:
   ubuntu:
     trusty: [libghmm-ne]
+igraph:
+  ubuntu:
+    trusty: [python-igraph]
 libsvm:
   ubuntu: [libsvm-dev]
 lm-sensors:
