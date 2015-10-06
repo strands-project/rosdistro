@@ -5616,7 +5616,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/nerian-vision/nerian_sp1-release.git
-      version: 1.1.1-0
+      version: 1.1.2-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_sp1.git
@@ -9752,7 +9752,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/spur-release.git
-      version: 0.2.4-0
+      version: 0.2.6-0
     source:
       type: git
       url: https://github.com/tork-a/spur.git
