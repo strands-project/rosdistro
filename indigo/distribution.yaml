@@ -3311,13 +3311,14 @@ repositories:
       version: indigo
     release:
       packages:
+      - imu_complementary_filter
       - imu_filter_madgwick
       - imu_tools
       - rviz_imu_plugin
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.0.5-0
+      version: 1.0.6-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
@@ -11512,6 +11513,12 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/youbot-release/youbot_driver-release.git
+      version: 1.1.0-0
+  youbot_driver_ros_interface:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/youbot-release/youbot_driver_ros_interface-release.git
       version: 1.1.0-0
   youbot_simulation:
     release:
