@@ -1207,7 +1207,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.0.9-0
+      version: 2.0.10-0
     status: developed
   jsk_common:
     doc:
@@ -3368,6 +3368,21 @@ repositories:
       url: https://github.com/ros-drivers/rosserial.git
       version: jade-devel
     status: maintained
+  roswww:
+    doc:
+      type: git
+      url: https://github.com/tork-a/roswww.git
+      version: develop
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/tork-a/roswww-release.git
+      version: 0.1.5-0
+    source:
+      type: git
+      url: https://github.com/tork-a/roswww.git
+      version: develop
+    status: maintained
   rqt:
     doc:
       type: git
@@ -3623,6 +3638,12 @@ repositories:
       url: https://github.com/DLu/rwt_config_generator.git
       version: master
     status: maintained
+  rwt_ros:
+    doc:
+      type: git
+      url: https://github.com/tork-a/rwt_ros.git
+      version: hydro-devel
+    status: developed
   sbpl:
     release:
       tags:
@@ -4149,6 +4170,12 @@ repositories:
       url: https://github.com/uji-ros-pkg/visualization_osg-release.git
       version: 1.0.2-0
     status: maintained
+  visualization_rwt:
+    doc:
+      type: git
+      url: https://github.com/tork-a/visualization_rwt.git
+      version: hydro-devel
+    status: developed
   visualization_tutorials:
     doc:
       type: git
