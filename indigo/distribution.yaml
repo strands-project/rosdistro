@@ -3053,7 +3053,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://gitlab.uni-koblenz.de/robbie/homer_mapnav.git
-      version: 1.0.1-1
+      version: 1.0.1-2
   homer_object_recognition:
     release:
       packages:
@@ -6087,10 +6087,20 @@ repositories:
       type: git
       url: https://github.com/ros-geographic-info/open_street_map.git
       version: master
+    release:
+      packages:
+      - osm_cartography
+      - route_network
+      - test_osm
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-geographic-info/open_street_map-release.git
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/ros-geographic-info/open_street_map.git
       version: master
+    status: maintained
   opencv3:
     release:
       tags:
