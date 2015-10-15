@@ -11082,7 +11082,6 @@ repositories:
       - camera_tracker
       - classifier_srv_definitions
       - multiview_object_recognizer
-      - object_classifier
       - object_perception_msgs
       - recognition_srv_definitions
       - segmentation
@@ -11092,7 +11091,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/v4r_ros_wrappers.git
-      version: 0.0.5-0
+      version: 0.0.6-5
     source:
       type: git
       url: https://github.com/strands-project/v4r_ros_wrappers.git
