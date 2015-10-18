@@ -2441,6 +2441,21 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/openhrp3-release.git
       version: 3.1.8-0
+  openni_camera:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/openni_camera.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/openni_camera-release.git
+      version: 1.9.3-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/openni_camera.git
+      version: indigo-devel
+    status: maintained
   openrtm_aist:
     release:
       tags:
@@ -3521,7 +3536,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.10.4-1
+      version: 0.10.10-0
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -3536,7 +3551,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.10.4-0
+      version: 0.10.10-0
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -3680,6 +3695,30 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/sbpl-release.git
       version: 1.2.0-3
+    status: maintained
+  scan_tools:
+    doc:
+      type: git
+      url: https://github.com/ccny-ros-pkg/scan_tools.git
+      version: indigo
+    release:
+      packages:
+      - laser_ortho_projector
+      - laser_scan_matcher
+      - laser_scan_sparsifier
+      - laser_scan_splitter
+      - ncd_parser
+      - polar_scan_matcher
+      - scan_to_cloud_converter
+      - scan_tools
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/tork-a/scan_tools-release.git
+      version: 0.2.1-0
+    source:
+      type: git
+      url: https://github.com/ccny-ros-pkg/scan_tools.git
+      version: indigo
     status: maintained
   schunk_grippers:
     doc:
