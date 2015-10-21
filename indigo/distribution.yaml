@@ -3481,6 +3481,16 @@ repositories:
       url: https://github.com/innokrobotics/innok_heros_lights.git
       version: indigo
     status: maintained
+  innok_heros_simulation:
+    doc:
+      type: git
+      url: https://github.com/innokrobotics/innok_heros_simulation.git
+      version: indigo
+    source:
+      type: git
+      url: https://github.com/innokrobotics/innok_heros_simulation.git
+      version: indigo
+    status: maintained
   interaction_cursor_3d:
     release:
       packages:
@@ -5308,7 +5318,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.4.1-0
+      version: 0.4.2-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -5330,7 +5340,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 3.4.4-0
+      version: 3.4.5-0
     source:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
@@ -5688,7 +5698,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/navigation_tutorials-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation_tutorials.git
