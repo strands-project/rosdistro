@@ -4442,11 +4442,19 @@ repositories:
       version: 1.5.0-1
     status: maintained
   libfovis:
+    doc:
+      type: git
+      url: https://github.com/srv/libfovis.git
+      version: 0.0.8
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/srv/libfovis-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
+    source:
+      type: git
+      url: https://github.com/srv/libfovis.git
+      version: indigo
     status: maintained
   libfreenect:
     release:
@@ -5458,7 +5466,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/nao_moveit_config-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_moveit_config.git
@@ -5496,7 +5504,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/nao_virtual-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_virtual.git
@@ -6182,7 +6190,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.0.0-2
+      version: 3.0.0-3
     status: maintained
   opencv_candidate:
     release:
@@ -7777,7 +7785,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/robot_state_publisher-release.git
-      version: 1.10.4-0
+      version: 1.11.0-0
     source:
       type: git
       url: https://github.com/ros/robot_state_publisher.git
@@ -8087,30 +8095,39 @@ repositories:
       version: indigo
     status: developed
   romeo_moveit_config:
+    doc:
+      type: git
+      url: https://github.com/ros-aldebaran/romeo_moveit_config.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-aldebaran/romeo_moveit_config-release.git
-      version: 0.2.4-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/ros-aldebaran/romeo_moveit_config.git
       version: master
     status: maintained
   romeo_robot:
+    doc:
+      type: git
+      url: https://github.com/ros-aldebaran/romeo_robot.git
+      version: master
     release:
       packages:
+      - romeo_bringup
       - romeo_dcm_bringup
       - romeo_dcm_control
       - romeo_dcm_driver
       - romeo_dcm_msgs
       - romeo_description
       - romeo_robot
-      - romeo_sensors
+      - romeo_sensors_py
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-aldebaran/romeo_robot-release.git
-      version: 0.1.0-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/ros-aldebaran/romeo_robot.git
@@ -9186,7 +9203,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.0.36-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
@@ -9207,7 +9224,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_nextage-release.git
-      version: 0.6.6-0
+      version: 0.7.0-0
     source:
       type: git
       url: https://github.com/tork-a/rtmros_nextage.git
