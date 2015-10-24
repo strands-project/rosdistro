@@ -3049,6 +3049,21 @@ repositories:
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_worldmodel-release.git
       version: 0.3.2-0
     status: maintained
+  hokuyo3d:
+    doc:
+      type: git
+      url: https://github.com/at-wat/hokuyo3d.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/at-wat/hokuyo3d-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/at-wat/hokuyo3d.git
+      version: indigo-devel
+    status: developed
   hokuyo_node:
     doc:
       type: git
@@ -6518,7 +6533,7 @@ repositories:
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/nlyubova/pepper_moveit_config-release.git
+      url: https://github.com/ros-naoqi/pepper_moveit_config-release.git
       version: 0.0.2-0
   pepper_robot:
     doc:
