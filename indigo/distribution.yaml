@@ -1684,7 +1684,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/start-jsk/denso.git
-      version: hydro-devel
+      version: indigo-devel
     release:
       packages:
       - denso
@@ -1695,11 +1695,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/start-jsk/denso-release.git
-      version: 0.2.9-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/start-jsk/denso.git
-      version: hydro-devel
+      version: indigo-devel
     status: developed
   depthcloud_encoder:
     doc:
@@ -5653,7 +5653,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.12.4-0
+      version: 1.12.5-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation.git
@@ -6152,7 +6152,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/start-jsk/open_industrial_ros_controllers.git
-      version: hydro-devel
+      version: indigo-devel
     release:
       packages:
       - open_controllers_interface
@@ -6160,11 +6160,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/start-jsk/open_industrial_ros_controllers-release.git
-      version: 0.1.4-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/start-jsk/open_industrial_ros_controllers.git
-      version: hydro-devel
+      version: indigo-devel
     status: developed
   open_karto:
     doc:
