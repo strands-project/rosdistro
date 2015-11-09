@@ -1597,7 +1597,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/csm-release.git
-      version: 1.0.1-0
+      version: 1.0.2-2
     source:
       type: git
       url: https://github.com/AndreaCensi/csm.git
@@ -2947,7 +2947,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_localization-release.git
-      version: 0.2.0-0
+      version: 0.2.1-1
     status: maintained
   hector_models:
     doc:
@@ -2963,7 +2963,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_models-release.git
-      version: 0.4.0-0
+      version: 0.4.1-0
     status: maintained
   hector_navigation:
     doc:
