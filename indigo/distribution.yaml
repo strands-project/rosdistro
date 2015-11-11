@@ -985,7 +985,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.6.15-0
+      version: 0.6.16-0
     source:
       type: git
       url: https://github.com/ros/catkin.git
@@ -2606,7 +2606,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.5.6-0
+      version: 0.5.7-0
     source:
       type: git
       url: https://github.com/ros/genpy.git
@@ -3052,7 +3052,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_worldmodel-release.git
-      version: 0.3.2-0
+      version: 0.3.3-0
     status: maintained
   hokuyo3d:
     doc:
@@ -8239,7 +8239,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.11.15-0
+      version: 1.11.16-0
     source:
       type: git
       url: https://github.com/ros/ros_comm.git
