@@ -996,6 +996,17 @@ repositories:
       type: git
       url: https://github.com/LCAS/FInCoR.git
       version: circle_only
+  cit_adis_imu:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/open-rdc/cit_adis_imu-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/open-rdc/cit_adis_imu.git
+      version: indigo-devel
+    status: developed
   class_loader:
     doc:
       type: git
@@ -4816,7 +4827,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2015.10.10-0
+      version: 2015.11.11-0
     status: maintained
   mavros:
     doc:
@@ -4941,6 +4952,21 @@ repositories:
       url: https://github.com/orocos-gbp/metaruby-release.git
       version: 1.0.0-3
     status: maintained
+  micros_dynamic_objects_filter:
+    doc:
+      type: git
+      url: https://github.com/yincanben/micros_dynamic_objects_filter.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/yincanben/micros_dynamic_objects_filter-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/yincanben/micros_dynamic_objects_filter.git
+      version: master
+    status: developed
   micros_rtt:
     doc:
       type: git
@@ -9198,7 +9224,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.1.1-0
+      version: 1.1.2-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
@@ -9454,15 +9480,17 @@ repositories:
     release:
       packages:
       - laser_ortho_projector
+      - laser_scan_matcher
       - laser_scan_sparsifier
       - laser_scan_splitter
       - ncd_parser
       - polar_scan_matcher
       - scan_to_cloud_converter
+      - scan_tools
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/scan_tools-release.git
-      version: 0.2.1-0
+      version: 0.3.0-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/scan_tools.git
