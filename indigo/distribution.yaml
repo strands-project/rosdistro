@@ -5565,11 +5565,15 @@ repositories:
       version: master
     status: developed
   naoqi_bridge_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/naoqi_bridge_msgs.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_bridge_msgs-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/ros-naoqi/naoqi_bridge_msgs.git
@@ -6299,11 +6303,12 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/openni_launch-release.git
-      version: 1.9.5-0
+      version: 1.9.7-0
     source:
       type: git
       url: https://github.com/ros-drivers/openni_launch.git
       version: indigo-devel
+    status: maintained
   openni_wrapper:
     release:
       tags:
@@ -6535,6 +6540,10 @@ repositories:
       version: master
     status: maintained
   pepper_moveit_config:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/pepper_moveit_config.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
@@ -10188,6 +10197,11 @@ repositories:
       type: git
       url: https://github.com/wunderkammer-laboratory/steered_wheel_base_controller.git
       version: master
+  stereo_slam:
+    doc:
+      type: git
+      url: https://github.com/srv/stereo_slam.git
+      version: indigo
   strands_3d_mapping:
     release:
       packages:
