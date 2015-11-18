@@ -1804,7 +1804,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -1824,6 +1824,7 @@ repositories:
       - swri_math_util
       - swri_opencv_util
       - swri_prefix_tools
+      - swri_roscpp
       - swri_serial_util
       - swri_string_util
       - swri_system_util
@@ -1832,7 +1833,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -1904,7 +1905,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.16.1-0
+      version: 0.16.2-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -3246,6 +3247,21 @@ repositories:
       type: git
       url: https://github.com/orocos/rFSM.git
       version: master
+    status: maintained
+  rgbd_launch:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/rgbd_launch.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/rgbd_launch-release.git
+      version: 2.1.1-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/rgbd_launch.git
+      version: indigo-devel
     status: maintained
   rmp_msgs:
     doc:
