@@ -5722,6 +5722,11 @@ repositories:
       url: https://github.com/DLu/navigation_layers.git
       version: indigo
     status: maintained
+  navigation_strands_fork:
+    source:
+      type: git
+      url: https://github.com/strands-project/navigation.git
+      version: indigo-devel
   navigation_tutorials:
     doc:
       type: git
