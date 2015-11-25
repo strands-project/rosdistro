@@ -3114,7 +3114,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://gitlab.uni-koblenz.de/robbie/homer_mapnav.git
-      version: 1.0.4-0
+      version: 1.0.5-0
   homer_object_recognition:
     release:
       packages:
@@ -7785,6 +7785,12 @@ repositories:
       url: https://github.com/WPI-RAIL/rmp_msgs.git
       version: develop
     status: maintained
+  robbie_architecture:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://gitlab.uni-koblenz.de/robbie/robbie_architecture.git
+      version: 1.0.2-0
   robo_rescue:
     doc:
       type: git
@@ -9056,12 +9062,6 @@ repositories:
       url: https://gitlab.com/OvGU-ESS/rosshell.git
       version: master
     status: maintained
-  rostful_node:
-    source:
-      type: git
-      url: https://github.com/asmodehn/rostful-node.git
-      version: indigo-devel
-    status: developed
   roswww:
     doc:
       type: git
