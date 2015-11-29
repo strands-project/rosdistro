@@ -3131,7 +3131,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://gitlab.uni-koblenz.de/robbie/homer_mapnav.git
-      version: 1.0.6-0
+      version: 1.0.7-0
   homer_object_recognition:
     release:
       packages:
@@ -6077,7 +6077,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/octomap-release.git
-      version: 1.7.0-0
+      version: 1.6.8-0
     source:
       type: git
       url: https://github.com/OctoMap/octomap.git
@@ -11111,7 +11111,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/UbiquityRobotics-release/ubiquity_motor-release.git
-      version: 0.3.1-1
+      version: 0.3.2-0
     source:
       type: git
       url: https://github.com/UbiquityRobotics/ubiquity_motor.git
