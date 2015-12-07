@@ -3811,7 +3811,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.6-0
+      version: 2.0.7-0
     status: developed
   jsk_common_msgs:
     doc:
@@ -6293,7 +6293,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.0.0-3
+      version: 3.0.0-4
     status: maintained
   opencv_candidate:
     release:
@@ -7897,7 +7897,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/robot_controllers-release.git
-      version: 0.4.2-0
+      version: 0.4.3-1
     source:
       type: git
       url: https://github.com/fetchrobotics/robot_controllers.git
