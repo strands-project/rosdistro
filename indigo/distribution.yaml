@@ -966,6 +966,21 @@ repositories:
       url: https://github.com/WPI-RAIL/carl_safety.git
       version: develop
     status: maintained
+  cartesian_msgs:
+    doc:
+      type: git
+      url: https://github.com/davetcoleman/cartesian_msgs.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/davetcoleman/cartesian_msgs-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/davetcoleman/cartesian_msgs.git
+      version: indigo-devel
+    status: developed
   cassandra_ros:
     doc:
       type: git
@@ -3150,11 +3165,13 @@ repositories:
   homer_object_recognition:
     release:
       packages:
+      - or_libs
       - or_msgs
+      - or_nodes
       tags:
         release: release/indigo/{package}/{version}
       url: https://gitlab.uni-koblenz.de/robbie/homer_object_recognition.git
-      version: 0.0.2-1
+      version: 0.0.3-0
   household_objects_database:
     release:
       tags:
@@ -3811,7 +3828,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.7-0
+      version: 2.0.8-0
     status: developed
   jsk_common_msgs:
     doc:
@@ -3986,7 +4003,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.25-0
+      version: 1.0.26-0
     status: developed
   jskeus:
     doc:
@@ -5311,7 +5328,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/moveit_simple_grasps-release.git
-      version: 1.3.0-0
+      version: 1.3.1-0
     source:
       type: git
       url: https://github.com/davetcoleman/moveit_simple_grasps.git
@@ -5326,7 +5343,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/moveit_visual_tools-release.git
-      version: 3.0.0-0
+      version: 3.0.1-0
     source:
       type: git
       url: https://github.com/davetcoleman/moveit_visual_tools.git
@@ -6213,7 +6230,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/ompl_visual_tools-release.git
-      version: 2.3.0-0
+      version: 2.3.1-0
     source:
       type: git
       url: https://github.com/davetcoleman/ompl_visual_tools.git
@@ -8478,6 +8495,21 @@ repositories:
       url: https://github.com/ros-controls/ros_control.git
       version: indigo-devel
     status: developed
+  ros_control_boilerplate:
+    doc:
+      type: git
+      url: https://github.com/davetcoleman/ros_control_boilerplate.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/davetcoleman/ros_control_boilerplate-release.git
+      version: 0.1.3-0
+    source:
+      type: git
+      url: https://github.com/davetcoleman/ros_control_boilerplate.git
+      version: indigo-devel
+    status: developed
   ros_controllers:
     doc:
       type: git
@@ -9028,7 +9060,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/rosparam_shortcuts-release.git
-      version: 0.0.2-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/davetcoleman/rosparam_shortcuts.git
@@ -9611,7 +9643,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/rviz_visual_tools-release.git
-      version: 2.0.0-0
+      version: 2.0.1-0
     source:
       type: git
       url: https://github.com/davetcoleman/rviz_visual_tools.git
@@ -10789,11 +10821,19 @@ repositories:
       version: develop
     status: maintained
   tf_keyboard_cal:
+    doc:
+      type: git
+      url: https://github.com/davetcoleman/tf_keyboard_cal.git
+      version: indigo-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/tf_keyboard_cal-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
+    source:
+      type: git
+      url: https://github.com/davetcoleman/tf_keyboard_cal.git
+      version: indigo-devel
     status: developed
   threemxl:
     doc:
