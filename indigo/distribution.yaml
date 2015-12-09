@@ -3171,7 +3171,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://gitlab.uni-koblenz.de/robbie/homer_object_recognition.git
-      version: 0.0.3-0
+      version: 0.0.4-0
   household_objects_database:
     release:
       tags:
@@ -4003,7 +4003,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.26-0
+      version: 1.0.27-0
     status: developed
   jskeus:
     doc:
@@ -7072,7 +7072,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_hack_the_future-release.git
-      version: 1.0.9-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/PR2/pr2_hack_the_future.git
@@ -9186,7 +9186,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/roswww-release.git
-      version: 0.1.6-0
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/tork-a/roswww.git
