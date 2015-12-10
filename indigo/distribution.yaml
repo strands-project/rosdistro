@@ -9794,7 +9794,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/scitos_apps.git
-      version: 0.0.20-0
+      version: 0.0.22-0
     source:
       type: git
       url: https://github.com/strands-project/scitos_apps.git
