@@ -3325,6 +3325,16 @@ repositories:
       url: https://github.com/code-iai-release/iai_common_msgs-release.git
       version: 0.0.5-1
     status: developed
+  iav_depthimage_to_laserscan:
+    doc:
+      type: git
+      url: https://github.com/iav-student/iav_depthimage_to_laserscan.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/iav-student/iav_depthimage_to_laserscan.git
+      version: master
+    status: maintained
   icart_mini:
     doc:
       type: git
@@ -5308,6 +5318,21 @@ repositories:
       url: https://github.com/ros-planning/moveit_setup_assistant.git
       version: indigo-devel
     status: maintained
+  moveit_sim_controller:
+    doc:
+      type: git
+      url: https://github.com/davetcoleman/moveit_sim_controller.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/davetcoleman/moveit_sim_controller-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/davetcoleman/moveit_sim_controller.git
+      version: indigo-devel
+    status: developed
   moveit_simple_actions:
     release:
       tags:
@@ -5333,7 +5358,7 @@ repositories:
       type: git
       url: https://github.com/davetcoleman/moveit_simple_grasps.git
       version: indigo-devel
-    status: developed
+    status: end-of-life
   moveit_visual_tools:
     doc:
       type: git
@@ -6536,6 +6561,21 @@ repositories:
       type: git
       url: https://github.com/Oriense/orsens_ros.git
       version: master
+  oxford_gps_eth:
+    doc:
+      type: hg
+      url: https://bitbucket.org/DataspeedInc/oxford_gps_eth
+      version: default
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/DataspeedInc-release/oxford_gps_eth-release.git
+      version: 0.0.1-0
+    source:
+      type: hg
+      url: https://bitbucket.org/DataspeedInc/oxford_gps_eth
+      version: default
+    status: maintained
   p2os:
     doc:
       type: git
@@ -8505,7 +8545,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/ros_control_boilerplate-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/davetcoleman/ros_control_boilerplate.git
@@ -9061,7 +9101,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/rosparam_shortcuts-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/davetcoleman/rosparam_shortcuts.git
