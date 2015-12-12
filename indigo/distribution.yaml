@@ -3505,6 +3505,11 @@ repositories:
       type: git
       url: https://github.com/innokrobotics/innok_heros_control.git
       version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/innokrobotics/innok_heros_control-release.git
+      version: 1.0.3-0
     source:
       type: git
       url: https://github.com/innokrobotics/innok_heros_control.git
@@ -3515,6 +3520,11 @@ repositories:
       type: git
       url: https://github.com/innokrobotics/innok_heros_description.git
       version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/innokrobotics/innok_heros_description-release.git
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/innokrobotics/innok_heros_description.git
@@ -3540,6 +3550,11 @@ repositories:
       type: git
       url: https://github.com/innokrobotics/innok_heros_gazebo.git
       version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/innokrobotics/innok_heros_gazebo-release.git
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/innokrobotics/innok_heros_gazebo.git
@@ -3558,16 +3573,6 @@ repositories:
     source:
       type: git
       url: https://github.com/innokrobotics/innok_heros_lights.git
-      version: indigo
-    status: maintained
-  innok_heros_simulation:
-    doc:
-      type: git
-      url: https://github.com/innokrobotics/innok_heros_simulation.git
-      version: indigo
-    source:
-      type: git
-      url: https://github.com/innokrobotics/innok_heros_simulation.git
       version: indigo
     status: maintained
   interaction_cursor_3d:
@@ -3895,7 +3900,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     status: developed
   jsk_planning:
     doc:
@@ -3947,7 +3952,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.3.6-0
+      version: 0.3.8-1
     status: developed
   jsk_robot:
     doc:
@@ -8894,7 +8899,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/OSUrobotics/rosh_core-release.git
-      version: 1.0.9-0
+      version: 1.0.9-1
     source:
       type: git
       url: https://github.com/OSUrobotics/rosh_core.git
@@ -11270,6 +11275,21 @@ repositories:
       type: git
       url: https://github.com/anqixu/ueye_cam.git
       version: master
+    status: developed
+  uga_tum_ardrone:
+    doc:
+      type: git
+      url: https://github.com/thinclab/uga_tum_ardrone.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/thinclab/uga_tum_ardrone-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/thinclab/uga_tum_ardrone.git
+      version: indigo-devel
     status: developed
   um6:
     doc:
