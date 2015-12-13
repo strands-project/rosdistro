@@ -1983,7 +1983,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2015.11.25-0
+      version: 2015.12.12-0
     status: maintained
   mavros:
     doc:
@@ -4674,7 +4674,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.1.10-0
+      version: 0.1.11-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
