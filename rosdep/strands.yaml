@@ -19,6 +19,8 @@ prism-robots:
   ubuntu:
     precise: [prism-robots]
     trusty: [prism-robots]
+pybayes:
+  ubuntu: [libpybayes]
 python-strands-requests:
   ubuntu: [python-strands-requests]
 python-webpy:
