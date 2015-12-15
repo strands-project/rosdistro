@@ -2479,6 +2479,25 @@ repositories:
       url: https://github.com/kth-ros-pkg/force_torque_tools.git
       version: indigo
     status: maintained
+  forte_rc_robot:
+    doc:
+      type: git
+      url: https://github.com/ingeniarius-ltd/forte_rc_robot.git
+      version: indigo
+    release:
+      packages:
+      - forte_rc_description
+      - forte_rc_driver
+      - forte_rc_robot
+      - forte_rc_teleop
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ingeniarius-ltd/forte_rc_robot-release.git
+      version: 1.0.4-0
+    source:
+      type: git
+      url: https://github.com/ingeniarius-ltd/forte_rc_robot.git
+      version: indigo
   freefloating_gazebo:
     release:
       tags:
@@ -3150,6 +3169,12 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://gitlab.uni-koblenz.de/robbie/homer_android_speech.git
       version: 0.0.2-0
+  homer_gui:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://gitlab.uni-koblenz.de/robbie/homer_gui.git
+      version: 1.0.4-1
   homer_mapnav:
     release:
       packages:
@@ -3843,7 +3868,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.8-0
+      version: 2.0.9-1
     status: developed
   jsk_common_msgs:
     doc:
@@ -4516,7 +4541,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/leap_motion-release.git
-      version: 0.0.8-1
+      version: 0.0.9-0
     source:
       type: git
       url: https://github.com/ros-drivers/leap_motion.git
@@ -4906,7 +4931,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.16.3-0
+      version: 0.16.4-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -5343,7 +5368,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/nlyubova/moveit_simple_actions-release.git
-      version: 0.0.3-0
+      version: 0.0.5-1
     source:
       type: git
       url: https://github.com/nlyubova/moveit_simple_actions.git
@@ -6575,7 +6600,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/DataspeedInc-release/oxford_gps_eth-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: hg
       url: https://bitbucket.org/DataspeedInc/oxford_gps_eth
@@ -7380,7 +7405,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_simulator-release.git
-      version: 2.0.6-0
+      version: 2.0.7-0
     source:
       type: git
       url: https://github.com/PR2/pr2_simulator.git
@@ -9106,7 +9131,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/rosparam_shortcuts-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/davetcoleman/rosparam_shortcuts.git
@@ -9232,7 +9257,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/roswww-release.git
-      version: 0.1.7-0
+      version: 0.1.8-0
     source:
       type: git
       url: https://github.com/tork-a/roswww.git
