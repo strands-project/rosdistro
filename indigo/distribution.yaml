@@ -3861,7 +3861,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.0.12-1
+      version: 2.0.13-0
     status: developed
   jsk_common:
     doc:
@@ -4012,13 +4012,15 @@ repositories:
       - jsk_pr2_startup
       - jsk_robot_startup
       - jsk_robot_utils
+      - naoeus
+      - naoqieus
       - peppereus
       - pr2_base_trajectory_action
       - roseus_remote
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_robot-release.git
-      version: 0.0.11-0
+      version: 1.0.1-2
     status: developed
   jsk_roseus:
     doc:
@@ -6453,7 +6455,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/openni_camera-release.git
-      version: 1.9.3-0
+      version: 1.9.4-3
     source:
       type: git
       url: https://github.com/ros-drivers/openni_camera.git
@@ -9495,7 +9497,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.3.0-0
+      version: 1.3.1-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
@@ -9515,7 +9517,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.1.2-0
+      version: 1.1.3-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
