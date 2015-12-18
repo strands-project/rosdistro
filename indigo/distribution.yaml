@@ -3992,7 +3992,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.3.9-0
+      version: 0.3.11-0
     status: developed
   jsk_robot:
     doc:
@@ -6393,12 +6393,6 @@ repositories:
     source:
       type: git
       url: https://github.com/wg-perception/opencv_candidate.git
-      version: master
-    status: maintained
-  openhab_bridge:
-    source:
-      type: git
-      url: https://github.com/corb555/openhab_bridge.git
       version: master
     status: maintained
   openhrp3:
@@ -9148,7 +9142,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/rosparam_shortcuts-release.git
-      version: 0.0.7-0
+      version: 0.1.0-0
     source:
       type: git
       url: https://github.com/davetcoleman/rosparam_shortcuts.git
@@ -12040,6 +12034,16 @@ repositories:
       url: https://github.com/jbohren/xdot.git
       version: indigo-devel
     status: developed
+  ximea_camera:
+    doc:
+      type: git
+      url: https://github.com/wavelab/ximea_camera.git
+      version: devel-indigo
+    source:
+      type: git
+      url: https://github.com/wavelab/ximea_camera.git
+      version: devel-indigo
+    status: maintained
   xsens_driver:
     release:
       tags:
