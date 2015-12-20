@@ -4735,7 +4735,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/lms1xx-release.git
-      version: 0.1.4-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/lms1xx.git
@@ -9142,7 +9142,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/rosparam_shortcuts-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/davetcoleman/rosparam_shortcuts.git
@@ -11698,7 +11698,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/lagadic/visp-release.git
-      version: 2.10.0-3
+      version: 3.0.0-2
     status: maintained
   visp_ros:
     doc:
