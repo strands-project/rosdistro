@@ -1569,7 +1569,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/costmap_converter-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/costmap_converter.git
@@ -6666,6 +6666,12 @@ repositories:
       url: https://github.com/allenh1/p2os.git
       version: master
     status: developed
+  patrolling_sim:
+    doc:
+      type: git
+      url: https://github.com/davidbsp/patrolling_sim.git
+      version: master
+    status: maintained
   pcan_topics:
     doc:
       type: git
@@ -10830,7 +10836,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.1.11-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
