@@ -6517,6 +6517,15 @@ repositories:
       url: https://github.com/strands-project/openni_wrapper.git
       version: indigo-devel
     status: maintained
+  openreroc_pwm:
+    doc:
+      type: git
+      url: https://github.com/Kumikomi/openreroc_pwm.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/Kumikomi/openreroc_pwm.git
+      version: master
   openrtm_aist:
     doc:
       type: git
