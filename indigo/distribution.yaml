@@ -5410,7 +5410,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/moveit_sim_controller-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/davetcoleman/moveit_sim_controller.git
@@ -5451,7 +5451,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/moveit_visual_tools-release.git
-      version: 3.0.1-0
+      version: 3.0.2-0
     source:
       type: git
       url: https://github.com/davetcoleman/moveit_visual_tools.git
@@ -5765,7 +5765,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_driver-release.git
-      version: 0.5.5-0
+      version: 0.5.6-0
     source:
       type: git
       url: https://github.com/ros-naoqi/naoqi_driver.git
@@ -6884,7 +6884,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.7-0
+      version: 0.0.9-0
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
@@ -8637,7 +8637,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/ros_control_boilerplate-release.git
-      version: 0.2.1-0
+      version: 0.3.0-0
     source:
       type: git
       url: https://github.com/davetcoleman/ros_control_boilerplate.git
@@ -9264,16 +9264,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/baalexander/rospy_message_converter.git
-      version: indigo-devel
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/jihoonl/rospy_message_converter-release.git
-      version: 0.3.0-2
+      url: https://github.com/baalexander/rospy_message_converter-release.git
+      version: 0.4.0-0
     source:
       type: git
       url: https://github.com/baalexander/rospy_message_converter.git
-      version: indigo-devel
+      version: master
     status: maintained
   rosserial:
     doc:
@@ -9776,7 +9776,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/rviz_visual_tools-release.git
-      version: 2.0.1-0
+      version: 2.0.2-0
     source:
       type: git
       url: https://github.com/davetcoleman/rviz_visual_tools.git
@@ -10962,7 +10962,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/tf_keyboard_cal-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/davetcoleman/tf_keyboard_cal.git
