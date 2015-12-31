@@ -2509,7 +2509,6 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ingeniarius-ltd/forte_rc_robot-release.git
-      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/ingeniarius-ltd/forte_rc_robot.git
@@ -3966,7 +3965,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     status: developed
   jsk_planning:
     doc:
@@ -8445,6 +8444,13 @@ repositories:
       url: https://github.com/robotics-in-concert/rocon_tutorials.git
       version: indigo
     status: developed
+  romeo_moveit_actions:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/nlyubova/romeo_moveit_actions-release.git
+      version: 0.0.6-0
+    status: developed
   romeo_moveit_config:
     doc:
       type: git
@@ -10863,7 +10869,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
