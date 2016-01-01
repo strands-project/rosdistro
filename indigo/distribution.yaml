@@ -578,7 +578,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter-release.git
-      version: 1.1.1-1
+      version: 1.2.0-0
     status: developed
   baxter_common:
     release:
@@ -587,10 +587,11 @@ repositories:
       - baxter_core_msgs
       - baxter_description
       - baxter_maintenance_msgs
+      - rethink_ee_description
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_common-release.git
-      version: 1.1.1-0
+      version: 1.2.0-0
     status: developed
   baxter_examples:
     doc:
@@ -601,21 +602,36 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_examples-release.git
-      version: 1.1.1-0
+      version: 1.2.0-0
     status: developed
   baxter_interface:
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_interface-release.git
-      version: 1.1.1-0
+      version: 1.2.0-0
+    status: developed
+  baxter_simulator:
+    release:
+      packages:
+      - baxter_gazebo
+      - baxter_sim_controllers
+      - baxter_sim_examples
+      - baxter_sim_hardware
+      - baxter_sim_io
+      - baxter_sim_kinematics
+      - baxter_simulator
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RethinkRobotics-release/baxter_simulator-release.git
+      version: 1.2.0-0
     status: developed
   baxter_tools:
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_tools-release.git
-      version: 1.1.1-0
+      version: 1.2.0-0
     status: developed
   bayes_tracking:
     release:
@@ -3293,7 +3309,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky-release.git
-      version: 0.2.6-0
+      version: 0.2.7-0
     source:
       type: git
       url: https://github.com/husky/husky.git
@@ -3330,7 +3346,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_robot-release.git
-      version: 0.2.4-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/husky/husky_robot.git
@@ -3348,7 +3364,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/husky_simulator-release.git
-      version: 0.2.4-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/husky/husky_simulator.git
@@ -6427,7 +6443,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.0.0-5
+      version: 3.1.0-1
     status: maintained
   opencv_candidate:
     release:
@@ -9599,7 +9615,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_nextage-release.git
-      version: 0.7.2-0
+      version: 0.7.3-0
     source:
       type: git
       url: https://github.com/tork-a/rtmros_nextage.git
