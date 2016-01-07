@@ -624,7 +624,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_simulator-release.git
-      version: 1.2.0-0
+      version: 1.2.1-0
     status: developed
   baxter_tools:
     release:
@@ -2013,7 +2013,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_core-release.git
-      version: 0.61.4-0
+      version: 0.61.6-1
     source:
       type: git
       url: https://github.com/stonier/ecl_core.git
@@ -2027,6 +2027,7 @@ repositories:
     release:
       packages:
       - ecl_config
+      - ecl_console
       - ecl_converters_lite
       - ecl_errors
       - ecl_io
@@ -2036,7 +2037,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_lite-release.git
-      version: 0.61.1-0
+      version: 0.61.3-0
     source:
       type: git
       url: https://github.com/stonier/ecl_lite.git
@@ -2055,7 +2056,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_manipulation-release.git
-      version: 0.60.0-1
+      version: 0.60.1-2
     source:
       type: git
       url: https://github.com/stonier/ecl_manipulation.git
@@ -2073,7 +2074,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_navigation-release.git
-      version: 0.60.0-1
+      version: 0.60.1-1
     source:
       type: git
       url: https://github.com/stonier/ecl_navigation.git
@@ -4891,7 +4892,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -4920,7 +4921,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -7574,7 +7575,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyros-test-release.git
-      version: 0.0.1-0
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/asmodehn/pyros-test.git
