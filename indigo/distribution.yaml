@@ -2890,6 +2890,19 @@ repositories:
       type: git
       url: https://github.com/ethz-asl/grid_map.git
       version: master
+    release:
+      packages:
+      - grid_map
+      - grid_map_core
+      - grid_map_demos
+      - grid_map_filters
+      - grid_map_loader
+      - grid_map_msgs
+      - grid_map_visualization
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ethz-asl/grid_map-release.git
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/ethz-asl/grid_map.git
@@ -4982,7 +4995,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2016.1.2-1
+      version: 2016.1.8-0
     status: maintained
   mavros:
     doc:
@@ -7438,7 +7451,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_robot-release.git
-      version: 1.6.10-1
+      version: 1.6.10-2
     source:
       type: git
       url: https://github.com/pr2/pr2_robot.git
@@ -7566,6 +7579,13 @@ repositories:
       url: https://github.com/clearpathrobotics/puma_motor_driver.git
       version: master
     status: maintained
+  pyros_setup:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/pyros-setup-release.git
+      version: 0.0.8-0
+    status: developed
   pyros_test:
     doc:
       type: git
