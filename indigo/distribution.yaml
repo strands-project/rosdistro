@@ -2013,7 +2013,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_core-release.git
-      version: 0.61.6-1
+      version: 0.61.8-0
     source:
       type: git
       url: https://github.com/stonier/ecl_core.git
@@ -2037,7 +2037,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_lite-release.git
-      version: 0.61.3-0
+      version: 0.61.4-0
     source:
       type: git
       url: https://github.com/stonier/ecl_lite.git
@@ -2093,7 +2093,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_tools-release.git
-      version: 0.61.1-0
+      version: 0.61.2-0
     source:
       type: git
       url: https://github.com/stonier/ecl_tools.git
@@ -4264,7 +4264,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki_core-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki_core.git
@@ -7584,7 +7584,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyros-setup-release.git
-      version: 0.0.8-0
+      version: 0.0.9-0
     status: developed
   pyros_test:
     doc:
