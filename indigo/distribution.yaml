@@ -624,7 +624,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RethinkRobotics-release/baxter_simulator-release.git
-      version: 1.2.1-0
+      version: 1.2.11-0
     status: developed
   baxter_tools:
     release:
@@ -5012,7 +5012,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.16.4-0
+      version: 0.16.5-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -5487,7 +5487,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/moveit_visual_tools-release.git
-      version: 3.0.2-0
+      version: 3.0.3-0
     source:
       type: git
       url: https://github.com/davetcoleman/moveit_visual_tools.git
@@ -6553,6 +6553,15 @@ repositories:
       url: https://github.com/strands-project/openni_wrapper.git
       version: indigo-devel
     status: maintained
+  openreroc_motion_sensor:
+    doc:
+      type: git
+      url: https://github.com/Kumikomi/openreroc_motion_sensor.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/Kumikomi/openreroc_motion_sensor.git
+      version: master
   openreroc_pwm:
     doc:
       type: git
@@ -7584,7 +7593,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyros-setup-release.git
-      version: 0.0.9-0
+      version: 0.0.8-0
     status: developed
   pyros_test:
     doc:
@@ -7595,7 +7604,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyros-test-release.git
-      version: 0.0.1-1
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/asmodehn/pyros-test.git
@@ -9841,7 +9850,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/rviz_visual_tools-release.git
-      version: 2.0.2-0
+      version: 2.0.3-0
     source:
       type: git
       url: https://github.com/davetcoleman/rviz_visual_tools.git
