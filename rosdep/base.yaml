@@ -636,6 +636,8 @@ festival:
     portage:
       packages: [app-accessibility/festival]
   ubuntu: [festival, festvox-kallpc16k]
+festival-dev:
+  ubuntu: [festival-dev]
 ffmpeg:
   arch: [ffmpeg]
   debian: [ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
@@ -1248,6 +1250,8 @@ libdrm-dev:
     portage:
       packages: [x11-base/nouveau-drm]
   ubuntu: [libdrm-dev]
+libesd0-dev:
+  ubuntu: [libesd0-dev]
 libespeak-dev:
   debian: [libespeak-dev]
   fedora: [espeak-devel]
