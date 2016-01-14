@@ -3245,7 +3245,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://gitlab.uni-koblenz.de/robbie/homer_robot_face.git
-      version: 1.0.6-0
+      version: 1.0.7-0
   household_objects_database:
     release:
       tags:
@@ -5438,7 +5438,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/moveit_sim_controller-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/davetcoleman/moveit_sim_controller.git
@@ -5468,7 +5468,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/moveit_visual_tools-release.git
-      version: 3.0.3-0
+      version: 3.0.4-0
     source:
       type: git
       url: https://github.com/davetcoleman/moveit_visual_tools.git
@@ -6302,7 +6302,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/octomap-release.git
-      version: 1.6.8-0
+      version: 1.6.9-0
     source:
       type: git
       url: https://github.com/OctoMap/octomap.git
@@ -6433,7 +6433,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/ompl_visual_tools-release.git
-      version: 2.3.1-0
+      version: 2.3.2-0
     source:
       type: git
       url: https://github.com/davetcoleman/ompl_visual_tools.git
@@ -8770,7 +8770,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/ros_control_boilerplate-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/davetcoleman/ros_control_boilerplate.git
@@ -11090,7 +11090,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/davetcoleman/tf_keyboard_cal-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/davetcoleman/tf_keyboard_cal.git
