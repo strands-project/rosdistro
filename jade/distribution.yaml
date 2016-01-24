@@ -20,7 +20,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-drivers-gbp/ackermann_msgs-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/ros-drivers/ackermann_msgs.git
@@ -187,7 +187,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/audio_common-release.git
-      version: 0.2.9-0
+      version: 0.2.10-0
     source:
       type: git
       url: https://github.com/ros-drivers/audio_common.git
@@ -1497,7 +1497,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/image_common-release.git
-      version: 1.11.8-0
+      version: 1.11.10-0
     source:
       type: git
       url: https://github.com/ros-perception/image_common.git
@@ -1520,13 +1520,17 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/image_pipeline-release.git
-      version: 1.12.14-0
+      version: 1.12.15-0
     source:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
       version: indigo
     status: maintained
   image_transport_plugins:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_transport_plugins.git
+      version: indigo-devel
     release:
       packages:
       - compressed_depth_image_transport
@@ -1536,7 +1540,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/image_transport_plugins-release.git
-      version: 1.9.2-0
+      version: 1.9.3-0
     source:
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
@@ -1702,7 +1706,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_common_msgs-release.git
-      version: 2.0.0-0
+      version: 2.0.1-0
     status: developed
   jsk_model_tools:
     release:
@@ -1956,7 +1960,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/AndyZelenak/lyap_control-release.git
-      version: 0.0.8-0
+      version: 0.0.12-0
     source:
       type: git
       url: https://bitbucket.org/AndyZe/lyap_control.git
@@ -2514,7 +2518,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-naoqi/nao_moveit_config-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_moveit_config.git
@@ -2530,7 +2534,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-naoqi/nao_robot-release.git
-      version: 0.5.12-0
+      version: 0.5.14-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_robot.git
@@ -2645,6 +2649,31 @@ repositories:
       type: git
       url: https://github.com/ros-planning/navigation.git
       version: jade-devel
+    status: maintained
+  navigation_2d:
+    doc:
+      type: git
+      url: https://github.com/skasperski/navigation_2d.git
+      version: jade
+    release:
+      packages:
+      - nav2d
+      - nav2d_exploration
+      - nav2d_karto
+      - nav2d_localizer
+      - nav2d_msgs
+      - nav2d_navigator
+      - nav2d_operator
+      - nav2d_remote
+      - nav2d_tutorials
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/skasperski/navigation_2d-release.git
+      version: 0.1.4-0
+    source:
+      type: git
+      url: https://github.com/skasperski/navigation_2d.git
+      version: jade
     status: maintained
   navigation_msgs:
     doc:
@@ -3274,7 +3303,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.12-0
+      version: 0.0.12-1
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
@@ -4339,7 +4368,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/rospilot/rospilot-release.git
-      version: 1.0.3-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/rospilot/rospilot.git
@@ -5247,7 +5276,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/vision_opencv-release.git
-      version: 1.11.9-0
+      version: 1.11.10-0
     source:
       type: git
       url: https://github.com/ros-perception/vision_opencv.git

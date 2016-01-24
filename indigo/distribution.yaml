@@ -78,7 +78,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-drivers-gbp/ackermann_msgs-release.git
-      version: 1.0.0-1
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/ros-drivers/ackermann_msgs.git
@@ -331,6 +331,12 @@ repositories:
       url: https://github.com/vanadiumlabs/arbotix_ros-release.git
       version: 0.10.0-0
     status: maintained
+  ardrone2islab:
+    source:
+      type: git
+      url: https://github.com/tn0432/ardrone2islab.git
+      version: master
+    status: developed
   ardrone_autonomy:
     doc:
       type: git
@@ -430,7 +436,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/audio_common-release.git
-      version: 0.2.9-0
+      version: 0.2.10-0
     source:
       type: git
       url: https://github.com/ros-drivers/audio_common.git
@@ -460,7 +466,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wjwwood/ax2550-release.git
-      version: 0.1.1-3
+      version: 0.1.1-7
     source:
       type: git
       url: https://github.com/wjwwood/ax2550.git
@@ -695,6 +701,13 @@ repositories:
       type: git
       url: https://github.com/voxel-dot-at/bta_ros.git
       version: master
+  bus_server:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/UbiquityRobotics-release/bus_server-release.git
+      version: 0.1.0-0
+    status: developed
   bwi:
     doc:
       type: git
@@ -1704,21 +1717,11 @@ repositories:
       url: https://github.com/strands-project/data_compression.git
       version: hydro-devel
     status: developed
-  demo_lidar:
-    doc:
-      type: git
-      url: https://github.com/jizhang-cmu/demo_lidar.git
-      version: indigo
   demo_pioneer:
     doc:
       type: git
       url: https://github.com/lagadic/demo_pioneer.git
       version: master
-  demo_rgbd:
-    doc:
-      type: git
-      url: https://github.com/jizhang-cmu/demo_rgbd.git
-      version: indigo
   denso:
     doc:
       type: git
@@ -2396,7 +2399,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_ros-release.git
-      version: 0.7.0-0
+      version: 0.7.1-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_ros.git
@@ -2513,11 +2516,6 @@ repositories:
       url: https://github.com/ingeniarius-ltd/forte_rc_robot.git
       version: indigo-devel
   freefloating_gazebo:
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/TheDash/freefloating_gazebo-gbp.git
-      version: 1.0.3-0
     source:
       type: git
       url: https://github.com/freefloating-gazebo/freefloating_gazebo.git
@@ -2859,15 +2857,6 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/mikeferguson/grasping_msgs-gbp.git
       version: 0.3.1-0
-    status: developed
-  graspit_ros:
-    release:
-      packages:
-      - graspit
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/ros-gbp/graspit_ros-release.git
-      version: 0.3.2-0
     status: developed
   grid_map:
     doc:
@@ -3450,7 +3439,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/image_common-release.git
-      version: 1.11.8-0
+      version: 1.11.10-0
     source:
       type: git
       url: https://github.com/ros-perception/image_common.git
@@ -3473,7 +3462,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/image_pipeline-release.git
-      version: 1.12.14-0
+      version: 1.12.15-0
     source:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
@@ -3493,7 +3482,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/image_transport_plugins-release.git
-      version: 1.9.2-0
+      version: 1.9.3-0
     source:
       type: git
       url: https://github.com/ros-perception/image_transport_plugins.git
@@ -3948,7 +3937,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common_msgs-release.git
-      version: 2.0.0-0
+      version: 2.0.1-0
     status: developed
   jsk_control:
     doc:
@@ -4813,7 +4802,7 @@ repositories:
     doc:
       type: git
       url: https://bitbucket.org/AndyZe/lyap_control.git
-      version: public
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
@@ -4822,7 +4811,7 @@ repositories:
     source:
       type: git
       url: https://bitbucket.org/AndyZe/lyap_control.git
-      version: public
+      version: master
     status: developed
   m4atx_battery_monitor:
     doc:
@@ -4874,6 +4863,16 @@ repositories:
       type: git
       url: https://github.com/ros-planning/map_store.git
       version: hydro-devel
+    status: maintained
+  mapir-ros-pkgs:
+    doc:
+      type: git
+      url: https://github.com/MAPIRlab/mapir-ros-pkgs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/MAPIRlab/mapir-ros-pkgs.git
+      version: master
     status: maintained
   mapviz:
     doc:
@@ -5128,11 +5127,6 @@ repositories:
       type: git
       url: https://github.com/yincanben/micros_dynamic_objects_filter.git
       version: master
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/yincanben/micros_dynamic_objects_filter-release.git
-      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/yincanben/micros_dynamic_objects_filter.git
@@ -5384,7 +5378,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/moveit_robots-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_robots.git
@@ -5762,7 +5756,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/nao_moveit_config-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_moveit_config.git
@@ -5782,7 +5776,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/nao_robot-release.git
-      version: 0.5.12-0
+      version: 0.5.14-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_robot.git
@@ -6801,11 +6795,6 @@ repositories:
       type: git
       url: https://github.com/najkirdneh/pcan_topics.git
       version: master
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/najkirdneh/pcan_topics-release.git
-      version: 1.0.11-0
     source:
       type: git
       url: https://github.com/najkirdneh/pcan_topics.git
@@ -6991,7 +6980,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.12-0
+      version: 0.0.12-1
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
@@ -7185,7 +7174,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_common-release.git
-      version: 1.11.10-0
+      version: 1.11.11-0
     source:
       type: git
       url: https://github.com/pr2/pr2_common.git
@@ -7522,7 +7511,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_robot-release.git
-      version: 1.6.10-2
+      version: 1.6.10-3
     source:
       type: git
       url: https://github.com/pr2/pr2_robot.git
@@ -11852,7 +11841,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/vision_opencv-release.git
-      version: 1.11.9-0
+      version: 1.11.10-0
     source:
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
