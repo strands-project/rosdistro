@@ -953,7 +953,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/kth-ros-pkg/force_torque_tools.git
-      version: indigo
+      version: jade
     release:
       packages:
       - force_torque_sensor_calib
@@ -962,11 +962,11 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/force_torque_tools-release.git
-      version: 1.0.1-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/kth-ros-pkg/force_torque_tools.git
-      version: indigo
+      version: jade
     status: maintained
   freefloating_gazebo:
     release:
@@ -4773,6 +4773,21 @@ repositories:
       url: https://github.com/SmartRoboticSystems/schunk_grippers.git
       version: master
     status: maintained
+  screen_grab:
+    doc:
+      type: git
+      url: https://github.com/lucasw/screen_grab.git
+      version: 0.0.2
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/lucasw/screen_grab-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/lucasw/screen_grab.git
+      version: master
+    status: developed
   serial:
     doc:
       type: git
