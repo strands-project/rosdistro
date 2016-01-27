@@ -11743,6 +11743,8 @@ repositories:
       - camera_srv_definitions
       - camera_tracker
       - classifier_srv_definitions
+      - incremental_object_learning
+      - incremental_object_learning_srv_definitions
       - multiview_object_recognizer
       - object_classifier
       - object_perception_msgs
@@ -11757,7 +11759,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/v4r_ros_wrappers.git
-      version: 0.0.12-0
+      version: 0.1.0-0
     source:
       type: git
       url: https://github.com/strands-project/v4r_ros_wrappers.git
