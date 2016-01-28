@@ -3414,7 +3414,6 @@ repositories:
       - icart_mini_description
       - icart_mini_gazebo
       - icart_mini_navigation
-      - waypoints_navigation
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/open-rdc/icart_mini-release.git
@@ -9706,6 +9705,7 @@ repositories:
     release:
       packages:
       - nextage_description
+      - nextage_gazebo
       - nextage_ik_plugin
       - nextage_moveit_config
       - nextage_ros_bridge
@@ -9713,7 +9713,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_nextage-release.git
-      version: 0.7.3-0
+      version: 0.7.5-0
     source:
       type: git
       url: https://github.com/tork-a/rtmros_nextage.git
