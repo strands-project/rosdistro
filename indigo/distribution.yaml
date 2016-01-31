@@ -5218,7 +5218,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_commander-release.git
-      version: 0.5.7-0
+      version: 0.5.7-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_commander.git
@@ -5233,7 +5233,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_core-release.git
-      version: 0.6.15-0
+      version: 0.7.0-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_core.git
@@ -5277,7 +5277,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_msgs-release.git
-      version: 0.6.1-0
+      version: 0.7.0-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit_msgs.git
+      version: indigo-devel
     status: maintained
   moveit_planners:
     doc:
@@ -5291,7 +5295,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_planners-release.git
-      version: 0.6.7-0
+      version: 0.7.0-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_planners.git
@@ -5310,7 +5314,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_plugins-release.git
-      version: 0.5.6-1
+      version: 0.5.6-2
     source:
       type: git
       url: https://github.com/ros-planning/moveit_plugins.git
@@ -5356,7 +5360,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_resources-release.git
-      version: 0.5.0-0
+      version: 0.6.0-0
     status: maintained
   moveit_robots:
     doc:
@@ -5404,7 +5408,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_ros-release.git
-      version: 0.6.5-0
+      version: 0.7.0-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_ros.git
@@ -5419,7 +5423,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_setup_assistant-release.git
-      version: 0.6.0-0
+      version: 0.7.0-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_setup_assistant.git
