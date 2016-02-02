@@ -65,7 +65,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/ar_track_alvar-release.git
-      version: 0.5.1-0
+      version: 0.5.3-0
     source:
       type: git
       url: https://github.com/sniekum/ar_track_alvar.git
@@ -474,7 +474,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/rst-tu-dortmund/costmap_converter-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/costmap_converter.git
@@ -3302,7 +3302,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.12-1
+      version: 0.0.13-0
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
@@ -4961,7 +4961,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/srv/stereo_slam.git
-      version: indigo-devel
+      version: indigo
   teb_local_planner:
     doc:
       type: git
@@ -4971,7 +4971,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
