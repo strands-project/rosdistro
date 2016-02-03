@@ -10409,6 +10409,19 @@ repositories:
       version: indigo_dev
     status: maintained
   soma:
+    release:
+      packages:
+      - soma_geospatial_store
+      - soma_manager
+      - soma_msgs
+      - soma_objects
+      - soma_roi_manager
+      - soma_trajectory
+      - soma_utils
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/soma.git
+      version: 0.0.1-0
     source:
       type: git
       url: https://github.com/strands-project/soma.git
