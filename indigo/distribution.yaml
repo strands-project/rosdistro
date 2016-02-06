@@ -19,8 +19,6 @@ repositories:
     release:
       packages:
       - adhoc_communication
-      - explorer
-      - map_merger
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/aau-ros/aau_multi_robot-release.git
@@ -9716,7 +9714,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.1.6-0
+      version: 1.1.7-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
@@ -10377,7 +10375,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/slam_karto-release.git
-      version: 0.7.2-0
+      version: 0.7.3-0
     source:
       type: git
       url: https://github.com/ros-perception/slam_karto.git
