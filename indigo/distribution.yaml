@@ -5223,16 +5223,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-planning/moveit_commander.git
-      version: hydro-devel
+      version: indigo-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_commander-release.git
-      version: 0.5.7-1
+      version: 0.6.0-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_commander.git
-      version: hydro-devel
+      version: indigo-devel
     status: maintained
   moveit_core:
     doc:
@@ -5320,11 +5320,12 @@ repositories:
       packages:
       - moveit_fake_controller_manager
       - moveit_plugins
+      - moveit_ros_control_interface
       - moveit_simple_controller_manager
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_plugins-release.git
-      version: 0.5.6-2
+      version: 0.5.7-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_plugins.git
@@ -5344,7 +5345,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_pr2-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_pr2.git
@@ -5938,7 +5939,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.12.6-0
+      version: 1.12.7-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation.git
