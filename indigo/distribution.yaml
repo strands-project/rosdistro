@@ -1,6 +1,6 @@
 %YAML 1.1
 # ROS distribution file
-# see REP 143: http://ros.org/reps/rep-0143.html
+# see REP 141: http://ros.org/reps/rep-0141.html
 ---
 release_platforms:
   ubuntu:
@@ -12495,4 +12495,4 @@ repositories:
       version: indigo
     status: developed
 type: distribution
-version: 2
+version: 1
