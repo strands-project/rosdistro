@@ -10890,10 +10890,11 @@ repositories:
       - upper_body_detector
       - vision_people_logging
       - visual_odometry
+      - wheelchair_detector
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/strands_perception_people.git
-      version: 1.3.0-0
+      version: 1.3.1-0
     source:
       type: git
       url: https://github.com/strands-project/strands_perception_people.git
