@@ -2080,7 +2080,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_tools-release.git
-      version: 0.61.2-0
+      version: 0.61.3-0
     source:
       type: git
       url: https://github.com/stonier/ecl_tools.git
@@ -7011,7 +7011,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.14-1
+      version: 0.0.15-0
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
@@ -7205,7 +7205,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_common-release.git
-      version: 1.11.13-0
+      version: 1.11.14-1
     source:
       type: git
       url: https://github.com/pr2/pr2_common.git
@@ -7542,7 +7542,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_robot-release.git
-      version: 1.6.10-3
+      version: 1.6.10-4
     source:
       type: git
       url: https://github.com/pr2/pr2_robot.git
@@ -8228,13 +8228,14 @@ repositories:
       - collada_urdf
       - joint_state_publisher
       - kdl_parser
+      - kdl_parser_py
       - robot_model
       - urdf
       - urdf_parser_plugin
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/robot_model-release.git
-      version: 1.11.8-0
+      version: 1.11.9-0
     source:
       type: git
       url: https://github.com/ros/robot_model.git
@@ -8275,7 +8276,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/robot_state_publisher-release.git
-      version: 1.11.0-0
+      version: 1.11.1-0
     source:
       type: git
       url: https://github.com/ros/robot_state_publisher.git
