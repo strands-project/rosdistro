@@ -395,6 +395,7 @@ repositories:
       url: https://github.com/ros-gbp/common_msgs-release.git
       version: 1.12.3-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/common_msgs.git
       version: jade-devel
@@ -1122,6 +1123,7 @@ repositories:
       url: https://github.com/ros-gbp/geometry-release.git
       version: 1.11.7-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry.git
       version: indigo-devel
@@ -1149,6 +1151,7 @@ repositories:
       url: https://github.com/ros-gbp/geometry_experimental-release.git
       version: 0.5.12-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/geometry_experimental.git
       version: indigo-devel
@@ -1559,7 +1562,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-industrial-release/industrial_core-release.git
-      version: 0.4.3-0
+      version: 0.5.0-0
     source:
       type: git
       url: https://github.com/ros-industrial/industrial_core.git
@@ -3601,7 +3604,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/gt-rail-release/rail_collada_models-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/GT-RAIL/rail_collada_models.git
@@ -3616,7 +3619,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/gt-rail-release/rail_manipulation_msgs-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/GT-RAIL/rail_manipulation_msgs.git
@@ -3653,7 +3656,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/gt-rail-release/rail_pick_and_place-release.git
-      version: 1.1.7-0
+      version: 1.1.9-0
     source:
       type: git
       url: https://github.com/GT-RAIL/rail_pick_and_place.git
@@ -3668,7 +3671,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/gt-rail-release/rail_segmentation.git
-      version: 0.1.8-0
+      version: 0.1.9-0
     source:
       type: git
       url: https://github.com/GT-RAIL/rail_segmentation.git
@@ -3845,7 +3848,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/robot_model-release.git
-      version: 1.11.9-0
+      version: 1.11.10-0
     source:
       type: git
       url: https://github.com/ros/robot_model.git
@@ -5268,11 +5271,19 @@ repositories:
       version: master
     status: maintained
   urdfdom_py:
+    doc:
+      type: git
+      url: https://github.com/ros/urdf_parser_py.git
+      version: 0.3.1
     release:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/urdfdom_py-release.git
-      version: 0.3.0-1
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/ros/urdf_parser_py.git
+      version: indigo-devel
     status: maintained
   urg_c:
     release:
