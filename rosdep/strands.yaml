@@ -32,3 +32,7 @@ strands-morse-simulator:
     trusty: [strands-morse-simulator]
 strands-twython:
   ubuntu: [python-strands-twython]
+deepfried2:
+  ubunut: [python-deepfried2-0.01-1]
+theano:
+  ubunut: [python-theano-0.8.0rc1-1]
