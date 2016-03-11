@@ -1,3 +1,5 @@
+deepfried2:
+  ubuntu: [python-deepfried2]
 ghmm:
   ubuntu:
     trusty: [libghmm-ne]
@@ -21,12 +23,8 @@ prism-robots:
     trusty: [prism-robots]
 pybayes:
   ubuntu: [libpybayes]
-python-deepfried2:
-  ubuntu: [python-deepfried2_0.01_all]
 python-strands-requests:
   ubuntu: [python-strands-requests]
-python-theano:
-  ubuntu: [python-theano_0.8.0rc1_all]
 python-webpy:
   ubuntu: [python-webpy]
 rubygem-jekyll:
@@ -36,3 +34,5 @@ strands-morse-simulator:
     trusty: [strands-morse-simulator]
 strands-twython:
   ubuntu: [python-strands-twython]
+theano:
+  ubuntu: [python-theano]
