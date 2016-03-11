@@ -28,6 +28,22 @@ repositories:
       url: https://github.com/ros/catkin.git
       version: kinetic-devel
     status: maintained
+  class_loader:
+    doc:
+      type: git
+      url: https://github.com/ros/class_loader.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/class_loader-release.git
+      version: 0.3.3-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/class_loader.git
+      version: indigo-devel
+    status: maintained
   cmake_modules:
     doc:
       type: git
@@ -120,6 +136,21 @@ repositories:
       url: https://github.com/ros/genpy.git
       version: indigo-devel
     status: maintained
+  message_generation:
+    doc:
+      type: git
+      url: https://github.com/ros/message_generation.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/message_generation-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/ros/message_generation.git
+      version: jade-devel
+    status: maintained
   message_runtime:
     doc:
       type: git
@@ -134,6 +165,52 @@ repositories:
       type: git
       url: https://github.com/ros/message_runtime.git
       version: groovy-devel
+    status: maintained
+  ros:
+    doc:
+      type: git
+      url: https://github.com/ros/ros.git
+      version: kinetic-devel
+    release:
+      packages:
+      - mk
+      - ros
+      - rosbash
+      - rosboost_cfg
+      - rosbuild
+      - rosclean
+      - roscreate
+      - roslang
+      - roslib
+      - rosmake
+      - rosunit
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/ros-release.git
+      version: 1.13.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros.git
+      version: kinetic-devel
+    status: maintained
+  ros_comm_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_comm_msgs.git
+      version: indigo-devel
+    release:
+      packages:
+      - rosgraph_msgs
+      - std_srvs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/ros_comm_msgs-release.git
+      version: 1.11.2-0
+    source:
+      type: git
+      url: https://github.com/ros/ros_comm_msgs.git
+      version: indigo-devel
     status: maintained
   rosbag_migration_rule:
     release:
@@ -164,6 +241,21 @@ repositories:
       url: https://github.com/ros/roscpp_core.git
       version: indigo-devel
     status: maintained
+  roslisp:
+    doc:
+      type: git
+      url: https://github.com/ros/roslisp.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/roslisp-release.git
+      version: 1.9.19-0
+    source:
+      type: git
+      url: https://github.com/ros/roslisp.git
+      version: master
+    status: maintained
   rospack:
     doc:
       type: git
@@ -179,6 +271,21 @@ repositories:
       type: git
       url: https://github.com/ros/rospack.git
       version: jade-devel
+    status: maintained
+  std_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros/std_msgs.git
+      version: groovy-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/std_msgs-release.git
+      version: 0.5.10-0
+    source:
+      type: git
+      url: https://github.com/ros/std_msgs.git
+      version: groovy-devel
     status: maintained
 type: distribution
 version: 2
