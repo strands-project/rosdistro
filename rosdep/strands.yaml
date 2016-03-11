@@ -1,3 +1,5 @@
+deepfried2:
+  ubunut: [python-deepfried2_0.01_all]
 ghmm:
   ubuntu:
     trusty: [libghmm-ne]
@@ -32,7 +34,5 @@ strands-morse-simulator:
     trusty: [strands-morse-simulator]
 strands-twython:
   ubuntu: [python-strands-twython]
-deepfried2:
-  ubunut: [python-deepfried2-0.01-1]
 theano:
-  ubunut: [python-theano-0.8.0rc1-1]
+  ubunut: [python-theano_0.8.0rc1_all]
