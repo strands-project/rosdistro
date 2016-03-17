@@ -1643,6 +1643,8 @@ libjpeg:
     trusty_python3: [libjpeg-dev]
     utopic: [libjpeg-dev]
     vivid: [libjpeg-dev]
+    wily: [libjpeg-dev]
+    xenial: [libjpeg-dev]
 libjson-glib:
   arch: [json-glib]
   debian: [libjson-glib-dev]
@@ -1915,6 +1917,8 @@ libpcl-all:
     trusty: [libpcl-1.7-all]
     utopic: [libpcl1.7]
     vivid: [libpcl1.7]
+    wily: [libpcl1.7]
+    xenial: [libpcl1.7]
 libpcl-all-dev:
   arch: [pcl]
   fedora: [pcl-devel]
@@ -1931,6 +1935,8 @@ libpcl-all-dev:
     trusty: [libpcl-1.7-all-dev]
     utopic: [libpcl-dev]
     vivid: [libpcl-dev]
+    wily: [libpcl-dev]
+    xenial: [libpcl-dev]
 libpcsclite-dev:
   arch: [pcsclite]
   debian: [libpcsclite-dev]
@@ -2530,15 +2536,7 @@ libvtk-java:
   debian: [libvtk-java]
   fedora: [vtk-java]
   gentoo: [sci-libs/vtk]
-  ubuntu:
-    lucid: [libvtk-java]
-    precise: [libvtk-java]
-    quantal: [libvtk-java]
-    raring: [libvtk-java]
-    saucy: [libvtk-java]
-    trusty: [libvtk-java]
-    utopic: [libvtk-java]
-    vivid: [libvtk-java]
+  ubuntu: [libvtk-java]
 libvtk-qt:
   arch: [vtk]
   debian: [libvtk5-qt4-dev]
@@ -3080,6 +3078,10 @@ qt4-qmake:
 qt5-qmake:
   fedora: [qt5-qtbase-devel]
   ubuntu: [qt5-qmake]
+qtbase5-dev:
+  debian: [qtbase5-dev]
+  fedora: [qt5-qtbase-devel]
+  ubuntu: [qtbase5-dev]
 qtmobility-dev:
   arch: [qtmobility]
   debian: [qtmobility-dev]
