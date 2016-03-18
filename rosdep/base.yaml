@@ -703,6 +703,8 @@ ffmpeg:
     trusty: [libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
     utopic: [libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
     vivid: [libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
+    wily: [libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
+    xenial: [libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
 ffmpeg2theora:
   arch: [ffmpeg2theora]
   debian: [ffmpeg2theora]
@@ -1401,6 +1403,8 @@ libfltk-dev:
     trusty: [libfltk1.1-dev]
     utopic: [libfltk1.3-dev]
     vivid: [libfltk1.3-dev]
+    wily: [libfltk1.3-dev]
+    xenial: [libfltk1.3-dev]
 libfontconfig1-dev:
   fedora: [fontconfig-devel]
   ubuntu: [libfontconfig1-dev]
@@ -2354,6 +2358,8 @@ libtiff-dev:
     trusty_python3: [libtiff5-dev]
     utopic: [libtiff5-dev]
     vivid: [libtiff5-dev]
+    wily: [libtiff5-dev]
+    xenial: [libtiff5-dev]
 libtiff4-dev:
   arch: [libtiff]
   debian: [libtiff4-dev]
@@ -2389,6 +2395,8 @@ libtool:
     trusty: [libtool, libltdl-dev]
     utopic: [libtool, libltdl-dev, libtool-bin]
     vivid: [libtool, libltdl-dev, libtool-bin]
+    wily: [libtool, libltdl-dev, libtool-bin]
+    xenial: [libtool, libltdl-dev, libtool-bin]
 libturbojpeg:
   fedora: [turbojpeg-devel]
   ubuntu: [libturbojpeg, libjpeg-turbo8-dev]
@@ -2531,6 +2539,8 @@ libvtk:
     trusty: [libvtk5-dev]
     utopic: [libvtk5-dev]
     vivid: [libvtk5-dev]
+    wily: [libvtk5-dev]
+    xenial: [libvtk5-dev]
 libvtk-java:
   arch: [vtk]
   debian: [libvtk-java]
