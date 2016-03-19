@@ -28,6 +28,21 @@ repositories:
       url: https://github.com/ros/actionlib.git
       version: indigo-devel
     status: maintained
+  angles:
+    doc:
+      type: git
+      url: https://github.com/ros/angles.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/geometry_angles_utils-release.git
+      version: 1.9.10-0
+    source:
+      type: git
+      url: https://github.com/ros/angles.git
+      version: master
+    status: maintained
   bond_core:
     doc:
       type: git
@@ -58,7 +73,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.7.0-3
+      version: 0.7.1-0
     source:
       test_pull_requests: true
       type: git
@@ -122,6 +137,27 @@ repositories:
       type: git
       url: https://github.com/ros/common_msgs.git
       version: jade-devel
+    status: maintained
+  common_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros/common_tutorials.git
+      version: hydro-devel
+    release:
+      packages:
+      - actionlib_tutorials
+      - common_tutorials
+      - nodelet_tutorial_math
+      - pluginlib_tutorials
+      - turtle_actionlib
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/common_tutorials-release.git
+      version: 0.1.8-0
+    source:
+      type: git
+      url: https://github.com/ros/common_tutorials.git
+      version: hydro-devel
     status: maintained
   dynamic_reconfigure:
     doc:
@@ -292,7 +328,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.1.0-3
+      version: 3.1.0-5
     status: maintained
   pluginlib:
     doc:
@@ -369,7 +405,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.11.17-0
+      version: 1.12.0-0
     source:
       test_pull_requests: true
       type: git
@@ -393,6 +429,27 @@ repositories:
       type: git
       url: https://github.com/ros/ros_comm_msgs.git
       version: indigo-devel
+    status: maintained
+  ros_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
+      version: kinetic-devel
+    release:
+      packages:
+      - ros_tutorials
+      - roscpp_tutorials
+      - rospy_tutorials
+      - turtlesim
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/ros_tutorials-release.git
+      version: 0.7.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
+      version: kinetic-devel
     status: maintained
   rosbag_migration_rule:
     release:
