@@ -35,8 +35,9 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/actionlib-release.git
-      version: 1.11.4-0
+      version: 1.11.5-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/actionlib.git
       version: indigo-devel
@@ -346,7 +347,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/catkin-release.git
-      version: 0.6.16-0
+      version: 0.6.18-0
     source:
       test_pull_requests: true
       type: git
@@ -362,8 +363,9 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/class_loader-release.git
-      version: 0.3.2-0
+      version: 0.3.3-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/class_loader.git
       version: indigo-devel
@@ -403,7 +405,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/common_msgs-release.git
-      version: 1.12.3-0
+      version: 1.12.4-0
     source:
       test_pull_requests: true
       type: git
@@ -615,7 +617,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/diagnostics-release.git
-      version: 1.8.7-0
+      version: 1.8.9-1
     source:
       type: git
       url: https://github.com/ros/diagnostics.git
@@ -643,8 +645,9 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
-      version: 1.5.39-2
+      version: 1.5.43-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/dynamic_reconfigure.git
       version: master
@@ -1014,7 +1017,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/gencpp-release.git
-      version: 0.5.3-0
+      version: 0.5.4-0
     source:
       type: git
       url: https://github.com/ros/gencpp.git
@@ -1029,7 +1032,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/geneus-release.git
-      version: 2.2.4-0
+      version: 2.2.5-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/geneus.git
@@ -1059,7 +1062,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/genmsg-release.git
-      version: 0.5.6-0
+      version: 0.5.7-0
     source:
       test_pull_requests: true
       type: git
@@ -1075,7 +1078,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/genpy-release.git
-      version: 0.5.7-0
+      version: 0.5.8-0
     source:
       test_pull_requests: true
       type: git
@@ -1131,7 +1134,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/geometry-release.git
-      version: 1.11.7-0
+      version: 1.11.8-0
     source:
       test_pull_requests: true
       type: git
@@ -1159,7 +1162,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/geometry_experimental-release.git
-      version: 0.5.12-0
+      version: 0.5.13-0
     source:
       test_pull_requests: true
       type: git
@@ -1529,7 +1532,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/image_pipeline-release.git
-      version: 1.12.15-0
+      version: 1.12.16-0
     source:
       type: git
       url: https://github.com/ros-perception/image_pipeline.git
@@ -2466,7 +2469,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.4.4-0
+      version: 0.5.0-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -2766,7 +2769,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/navigation_tutorials-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation_tutorials.git
@@ -2845,8 +2848,9 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/nodelet_core-release.git
-      version: 1.9.3-0
+      version: 1.9.4-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/nodelet_core.git
       version: indigo-devel
@@ -2889,7 +2893,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_capture-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/wg-perception/capture.git
@@ -3427,8 +3431,9 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/pluginlib-release.git
-      version: 1.10.1-0
+      version: 1.10.2-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/pluginlib.git
       version: indigo-devel
@@ -3602,7 +3607,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.2.17-0
+      version: 0.2.18-0
     source:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
@@ -4050,7 +4055,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/ros-release.git
-      version: 1.12.5-0
+      version: 1.12.6-0
     source:
       test_pull_requests: true
       type: git
@@ -4088,7 +4093,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm-release.git
-      version: 1.11.16-0
+      version: 1.11.18-0
     source:
       test_pull_requests: true
       type: git
@@ -4107,7 +4112,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/ros_comm_msgs-release.git
-      version: 1.11.1-0
+      version: 1.11.2-0
     source:
       type: git
       url: https://github.com/ros/ros_comm_msgs.git
@@ -4231,7 +4236,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/ros_tutorials-release.git
-      version: 0.6.1-0
+      version: 0.6.2-0
     source:
       test_pull_requests: true
       type: git
@@ -4319,7 +4324,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/roscpp_core-release.git
-      version: 0.5.6-0
+      version: 0.5.7-0
     source:
       test_pull_requests: true
       type: git
@@ -4438,7 +4443,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rospack-release.git
-      version: 2.2.5-0
+      version: 2.3.0-0
     source:
       test_pull_requests: true
       type: git
@@ -5073,7 +5078,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/std_msgs-release.git
-      version: 0.5.9-0
+      version: 0.5.10-0
     source:
       type: git
       url: https://github.com/ros/std_msgs.git
