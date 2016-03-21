@@ -2091,7 +2091,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_tools-release.git
-      version: 0.61.3-0
+      version: 0.61.4-0
     source:
       type: git
       url: https://github.com/stonier/ecl_tools.git
@@ -3979,6 +3979,10 @@ repositories:
       version: 2.0.13-0
     status: developed
   jsk_apc:
+    doc:
+      type: git
+      url: https://github.com/start-jsk/jsk_apc.git
+      version: master
     release:
       packages:
       - jsk_2015_05_baxter_apc
