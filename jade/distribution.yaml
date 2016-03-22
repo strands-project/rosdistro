@@ -1760,6 +1760,18 @@ repositories:
       url: https://github.com/tork-a/jsk_model_tools-release.git
       version: 0.2.3-0
     status: developed
+  jsk_pr2eus:
+    release:
+      packages:
+      - jsk_pr2eus
+      - pr2eus
+      - pr2eus_moveit
+      - pr2eus_tutorials
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/tork-a/jsk_pr2eus-release.git
+      version: 0.3.0-0
+    status: developed
   jsk_recognition:
     doc:
       type: git
@@ -1779,7 +1791,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.3.17-0
+      version: 0.3.19-0
     status: developed
   jsk_roseus:
     doc:
@@ -1795,7 +1807,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.4.1-0
+      version: 1.5.0-0
     status: developed
   jskeus:
     doc:
@@ -5153,7 +5165,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/teleop_twist_keyboard-release.git
-      version: 0.5.0-0
+      version: 0.6.0-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_twist_keyboard.git
