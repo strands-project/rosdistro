@@ -194,6 +194,16 @@ repositories:
       url: https://github.com/ros-drivers/audio_common.git
       version: hydro-devel
     status: maintained
+  auv_msgs:
+    doc:
+      type: git
+      url: https://github.com/oceansystemslab/auv_msgs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/oceansystemslab/auv_msgs.git
+      version: master
+    status: developed
   battery_monitor_rmp:
     doc:
       type: git
@@ -4697,7 +4707,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.10.10-1
+      version: 0.10.10-3
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -4712,7 +4722,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.10.10-0
+      version: 0.10.10-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -5135,7 +5145,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
