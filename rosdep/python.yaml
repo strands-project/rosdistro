@@ -225,6 +225,23 @@ python-beautifulsoup:
     raring: [python-beautifulsoup]
     saucy: [python-beautifulsoup]
     trusty: [python-beautifulsoup]
+python-bitstring:
+  ubuntu:
+    wily: [python-bitstring]
+    xenial: [python-bitstring]
+python-bitstring-pip:
+  debian:
+    pip:
+      packages: [bitstring]
+  fedora:
+    pip:
+      packages: [bitstring]
+  osx:
+    pip:
+      packages: [bitstring]
+  ubuntu:
+    pip:
+      packages: [bitstring]
 python-bloom:
   fedora: [python-bloom]
   ubuntu:
@@ -2164,6 +2181,19 @@ python-usb:
     raring: [python-usb]
     saucy: [python-usb]
     trusty: [python-usb]
+python-utm-pip:
+  debian:
+    pip:
+      packages: [utm]
+  fedora:
+    pip:
+      packages: [utm]
+  osx:
+    pip:
+      packages: [utm]
+  ubuntu:
+    pip:
+      packages: [utm]
 python-validictory-pip:
   ubuntu:
     pip:
