@@ -399,6 +399,9 @@ bullet:
     vivid:
       apt:
         packages: [libbullet-dev]
+    xenial:
+      apt:
+        packages: [libbullet-dev]
 bzip2:
   arch: [bzip2]
   cygwin: [bzip2]
@@ -788,6 +791,11 @@ gazebo5:
   fedora: [gazebo]
   gentoo: [sci-electronics/gazebo]
   ubuntu: [gazebo5]
+gcc-arm-none-eabi:
+  arch: [gcc-arm-none-eabi]
+  debian: [gcc-arm-none-eabi]
+  fedora: [arm-none-eabi-gcc-cs]
+  ubuntu: [gcc-arm-none-eabi]
 gcc-avr:
   arch: [avr-gcc]
   debian: [gcc-avr]
