@@ -691,7 +691,10 @@ festival-dev:
   ubuntu: [festival-dev]
 ffmpeg:
   arch: [ffmpeg]
-  debian: [ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
+  debian:
+    jessie: [libav-tools, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
+    sid: [ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
+    wheezy: [ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
   fedora: [ffmpeg-devel]
   gentoo:
     portage:
@@ -2020,6 +2023,8 @@ libpq-dev:
   fedora:
     '21': [derelict-PQ-devel, postgresql-devel]
     '22': [derelict-PQ-devel, postgresql-devel]
+    '23': [derelict-PQ-devel, postgresql-devel]
+    '24': [derelict-PQ-devel, postgresql-devel]
     beefy: [derelict-postgresql-devel, postgresql-devel]
     heisenbug: [derelict-postgresql-devel, postgresql-devel]
     schrödinger’s: [derelict-postgresql-devel, postgresql-devel]
@@ -3311,6 +3316,10 @@ sqlite3:
   debian: [sqlite3]
   fedora: [sqlite]
   ubuntu: [sqlite3]
+ssh-askpass:
+  ubuntu: [ssh-askpass]
+ssh-askpass-gnome:
+  ubuntu: [ssh-askpass-gnome]
 sshpass:
   fedora: [sshpass]
   ubuntu: [sshpass]
