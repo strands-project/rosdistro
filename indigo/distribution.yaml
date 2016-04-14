@@ -735,7 +735,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/UbiquityRobotics-release/bus_server-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     status: developed
   bwi:
     doc:
@@ -4248,7 +4248,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.3.19-0
+      version: 0.3.20-0
     status: developed
   jsk_robot:
     doc:
@@ -9583,7 +9583,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/roslisp-release.git
-      version: 1.9.19-0
+      version: 1.9.20-0
     source:
       type: git
       url: https://github.com/ros/roslisp.git
@@ -9600,13 +9600,15 @@ repositories:
       - cl_tf
       - cl_tf2
       - cl_transforms
+      - cl_transforms_stamped
+      - cl_urdf
       - cl_utils
       - roslisp_common
       - roslisp_utilities
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/roslisp_common-release.git
-      version: 0.2.3-0
+      version: 0.2.6-0
     source:
       type: git
       url: https://github.com/ros/roslisp_common.git
@@ -11382,12 +11384,27 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.3.0-0
+      version: 0.3.1-1
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
       version: master
     status: developed
+  teb_local_planner_tutorials:
+    doc:
+      type: git
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials-release.git
+      version: 0.0.1-2
+    source:
+      type: git
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
+      version: master
+    status: maintained
   teleop_tools:
     doc:
       type: git
@@ -11847,6 +11864,21 @@ repositories:
       url: https://github.com/orocos-toolchain/typelib.git
       version: toolchain-2.8
     status: maintained
+  uavc_v4lctl:
+    doc:
+      type: git
+      url: https://github.com/meuchel/uavc_v4lctl.git
+      version: 1.0.2
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/meuchel/uavc_v4lctl-release.git
+      version: 1.0.2-0
+    source:
+      type: git
+      url: https://github.com/meuchel/uavc_v4lctl.git
+      version: master
+    status: maintained
   ubiquity_launches:
     doc:
       type: git
@@ -11867,7 +11899,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/UbiquityRobotics-release/ubiquity_motor-release.git
-      version: 0.4.0-0
+      version: 0.4.1-0
     source:
       type: git
       url: https://github.com/UbiquityRobotics/ubiquity_motor.git

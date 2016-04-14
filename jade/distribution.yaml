@@ -1841,7 +1841,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.3.19-0
+      version: 0.3.20-0
     status: developed
   jsk_roseus:
     doc:
@@ -4538,12 +4538,37 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/roslisp-release.git
-      version: 1.9.19-0
+      version: 1.9.20-0
     source:
       type: git
       url: https://github.com/ros/roslisp.git
       version: master
     status: maintained
+  roslisp_common:
+    doc:
+      type: git
+      url: https://github.com/ros/roslisp_common.git
+      version: master
+    release:
+      packages:
+      - actionlib_lisp
+      - cl_tf
+      - cl_tf2
+      - cl_transforms
+      - cl_transforms_stamped
+      - cl_urdf
+      - cl_utils
+      - roslisp_common
+      - roslisp_utilities
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/roslisp_common-release.git
+      version: 0.2.6-0
+    source:
+      type: git
+      url: https://github.com/ros/roslisp_common.git
+      version: master
+    status: developed
   rospack:
     doc:
       type: git
@@ -5208,12 +5233,27 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
       version: master
     status: developed
+  teb_local_planner_tutorials:
+    doc:
+      type: git
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
+      version: master
+    status: maintained
   teleop_tools:
     doc:
       type: git
