@@ -1921,7 +1921,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/dji-sdk/Onboard-SDK-ROS-Release.git
-      version: 0.1.5-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/dji-sdk/Onboard-SDK-ROS.git
@@ -5513,7 +5513,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_msgs-release.git
-      version: 0.7.0-0
+      version: 0.7.1-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
@@ -9896,6 +9896,24 @@ repositories:
       url: https://github.com/osrf/rqt_graphprofiler.git
       version: master
     status: developed
+  rqt_paramedit:
+    doc:
+      type: git
+      url: https://github.com/dornhege/rqt_paramedit.git
+      version: indigo-devel
+    release:
+      packages:
+      - qt_paramedit
+      - rqt_paramedit
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/dornhege/rqt_paramedit-release.git
+      version: 1.0.0-2
+    source:
+      type: git
+      url: https://github.com/dornhege/rqt_paramedit.git
+      version: indigo-devel
+    status: maintained
   rqt_pr2_dashboard:
     release:
       tags:
@@ -10429,6 +10447,21 @@ repositories:
       url: https://github.com/strands-project/scitos_drivers.git
       version: indigo-devel
     status: developed
+  screenrun:
+    doc:
+      type: git
+      url: https://github.com/dornhege/screenrun.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/dornhege/screenrun-release.git
+      version: 1.0.2-0
+    source:
+      type: git
+      url: https://github.com/dornhege/screenrun.git
+      version: indigo-devel
+    status: maintained
   segbot:
     doc:
       type: git
