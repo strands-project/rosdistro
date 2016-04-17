@@ -807,7 +807,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/calibration-release.git
-      version: 0.10.13-0
+      version: 0.10.14-0
     source:
       type: git
       url: https://github.com/ros-perception/calibration.git
@@ -5645,7 +5645,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_ros-release.git
-      version: 0.7.0-0
+      version: 0.7.1-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_ros.git
