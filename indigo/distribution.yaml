@@ -6513,10 +6513,16 @@ repositories:
       version: master
     status: maintained
   occupancy_grid_utils:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/occupancy_grid_utils.git
+      version: 0.0.10-0
     source:
       type: git
       url: https://github.com/LCAS/occupancy_grid_utils.git
       version: indigo-devel
+    status: maintained
   ocl:
     doc:
       type: git
