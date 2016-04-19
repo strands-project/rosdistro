@@ -9706,7 +9706,7 @@ repositories:
     source:
       type: git
       url: https://github.com/LCAS/ROSPlan.git
-      version: master
+      version: indigo-devel
   rosprofiler:
     doc:
       type: git
