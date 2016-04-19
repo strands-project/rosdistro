@@ -1481,6 +1481,13 @@ repositories:
       url: https://github.com/ros-gbp/household_objects_database_msgs-release.git
       version: 0.1.1-0
     status: maintained
+  hrpsys:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/tork-a/hrpsys-release.git
+      version: 315.8.0-0
+    status: developed
   humanoid_msgs:
     doc:
       type: git
@@ -1774,7 +1781,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.11-0
+      version: 2.0.12-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
@@ -4692,7 +4699,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/roswww-release.git
-      version: 0.1.8-0
+      version: 0.1.9-0
     source:
       type: git
       url: https://github.com/tork-a/roswww.git
@@ -5256,7 +5263,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
@@ -5387,6 +5394,21 @@ repositories:
       type: git
       url: https://github.com/ros-teleop/twist_mux_msgs.git
       version: jade-devel
+    status: maintained
+  uavc_v4lctl:
+    doc:
+      type: git
+      url: https://github.com/meuchel/uavc_v4lctl.git
+      version: 1.0.3
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/meuchel/uavc_v4lctl-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/meuchel/uavc_v4lctl.git
+      version: master
     status: maintained
   ublox:
     doc:
