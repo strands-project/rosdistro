@@ -322,6 +322,12 @@ python-catkin-pkg:
     wily_python3: [python3-catkin-pkg]
     xenial: [python-catkin-pkg]
     xenial_python3: [python3-catkin-pkg]
+python-catkin-sphinx:
+  fedora: [python-catkin-sphinx]
+  osx:
+    pip:
+      packages: [catkin_sphinx]
+  ubuntu: [python-catkin-sphinx]
 python-catkin-tools:
   fedora: [python-catkin_tools]
   osx:
@@ -436,6 +442,7 @@ python-cpplint:
     pip:
       packages: [cpplint]
 python-crypto:
+  debian: [python-crypto]
   fedora: [python-crypto]
   osx:
     pip:
@@ -880,6 +887,10 @@ python-matplotlib:
     utopic_python3: [python3-matplotlib]
     vivid: [python-matplotlib]
     vivid_python3: [python3-matplotlib]
+    wily: [python-matplotlib]
+    wily_python3: [python3-matplotlib]
+    xenial: [python-matplotlib]
+    xenial_python3: [python3-matplotlib]
 python-mechanize:
   arch: [python2-mechanize]
   debian: [python-mechanize]
@@ -1814,6 +1825,10 @@ python-scipy:
     utopic_python3: [python3-scipy]
     vivid: [python-scipy]
     vivid_python3: [python3-scipy]
+    wily: [python-scipy]
+    wily_python3: [python3-scipy]
+    xenial: [python-scipy]
+    xenial_python3: [python3-scipy]
 python-selenium-pip:
   ubuntu:
     pip:
@@ -2114,6 +2129,10 @@ python-tk:
     utopic_python3: [python3-tk]
     vivid: [python-tk]
     vivid_python3: [python3-tk]
+    wily: [python-tk]
+    wily_python3: [python3-tk]
+    xenial: [python-tk]
+    xenial_python3: [python3-tk]
 python-tornado:
   debian:
     pip:
@@ -2355,5 +2374,6 @@ python-zmq:
     trusty_python3: [python3-zmq]
     vivid: [python-zmq]
 xdot:
+  debian: [xdot]
   fedora: [python-xdot]
   ubuntu: [xdot]

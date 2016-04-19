@@ -7,6 +7,13 @@ acpi:
   fedora: [acpi]
   gentoo: [sys-power/acpi]
   ubuntu: [acpi]
+acpitool:
+  ubuntu:
+    precise: [acpitool]
+    trusty: [acpitool]
+    vivid: [acpitool]
+    wily: [acpitool]
+    xenial: [acpitool]
 alsa-oss:
   arch: [alsa-oss]
   debian: [alsa-oss]
@@ -301,6 +308,12 @@ bluez:
   gentoo: [net-wireless/bluez-utils]
   rhel: [bluez-libs]
   ubuntu: [bluez]
+bluez-hcidump:
+  ubuntu:
+    precise: [bluez-hcidump]
+    trusty: [bluez-hcidump]
+    wily: [bluez-hcidump]
+    xenial: [bluez-hcidump]
 boost:
   arch: [boost]
   cygwin: [libboost-devel, libboost1.40]
@@ -1229,6 +1242,13 @@ libavahi-core-dev:
   debian: [libavahi-core-dev]
   fedora: [avahi-devel]
   ubuntu: [libavahi-core-dev]
+libbison-dev:
+  ubuntu:
+    precise: [libbison-dev]
+    trusty: [libbison-dev]
+    vivid: [libbison-dev]
+    wily: [libbison-dev]
+    xenial: [libbison-dev]
 libblas-dev:
   arch: [cblas]
   debian: [libblas-dev]
@@ -1240,6 +1260,12 @@ libbluetooth-dev:
   fedora: [bluez-libs-devel]
   gentoo: [net-wireless/bluez-libs]
   ubuntu: [libbluetooth-dev]
+libboost-random:
+  ubuntu:
+    precise: [libboost-random1.46]
+    trusty: [libboost-random1.54.0]
+libboost-random-dev:
+  ubuntu: [libboost-random-dev]
 libcairo2-dev:
   arch: [cairo]
   fedora: [cairo-devel]
@@ -1331,6 +1357,7 @@ libdevil-dev:
   ubuntu: [libdevil-dev]
 libdmtx-dev:
   arch: [libdmtx]
+  debian: [libdmtx-dev]
   fedora: [libdmtx-devel]
   ubuntu: [libdmtx-dev]
 libdrm-dev:
@@ -1648,6 +1675,13 @@ libjackson-json-java:
     portage:
       packages: [dev-java/json-simple]
   ubuntu: [libjackson-json-java]
+libjaxp1.3-java:
+  ubuntu:
+    precise: [libjaxp1.3-java]
+    trusty: [libjaxp1.3-java]
+    vivid: [libjaxp1.3-java]
+    wily: [libjaxp1.3-java]
+    xenial: [libjaxp1.3-java]
 libjpeg:
   arch: [libjpeg-turbo]
   debian:
@@ -1695,6 +1729,13 @@ libjson0-dev:
     portage:
       packages: [dev-libs/json-c]
   ubuntu: [libjson0-dev]
+libjsoncpp:
+  ubuntu:
+    precise: [libjsoncpp0]
+    trusty: [libjsoncpp0]
+    vivid: [libjsoncpp0]
+    wily: [libjsoncpp0v5]
+    xenial: [libjsoncpp1]
 libjsoncpp-dev:
   arch: [jsoncpp]
   debian: [libjsoncpp-dev]
@@ -1933,6 +1974,7 @@ libpcap:
       packages: [libpcap0.8-dev]
 libpcl-all:
   arch: [pcl]
+  debian: [libpcl1.7]
   fedora: [pcl, pcl-tools]
   gentoo:
     portage:
@@ -1951,6 +1993,7 @@ libpcl-all:
     xenial: [libpcl1.7]
 libpcl-all-dev:
   arch: [pcl]
+  debian: [libpcl-dev]
   fedora: [pcl-devel]
   gentoo:
     portage:
@@ -2450,6 +2493,8 @@ libtool:
     vivid: [libtool, libltdl-dev, libtool-bin]
     wily: [libtool, libltdl-dev, libtool-bin]
     xenial: [libtool, libltdl-dev, libtool-bin]
+libttspico:
+  ubuntu: [libttspico-dev, libttspico-data, libttspico-utils, libttspico0]
 libturbojpeg:
   fedora: [turbojpeg-devel]
   ubuntu: [libturbojpeg, libjpeg-turbo8-dev]
@@ -2580,7 +2625,10 @@ libvpx-dev:
   ubuntu: [libvpx-dev]
 libvtk:
   arch: [vtk]
-  debian: [libvtk5-dev]
+  debian:
+    jessie: [libvtk6-dev]
+    sid: [libvtk6-dev]
+    wheezy: [libvtk5-dev]
   fedora: [vtk-devel]
   gentoo: [sci-libs/vtk]
   macports: [vtk-devel]
@@ -2597,8 +2645,8 @@ libvtk:
     trusty: [libvtk5-dev]
     utopic: [libvtk5-dev]
     vivid: [libvtk5-dev]
-    wily: [libvtk5-dev]
-    xenial: [libvtk5-dev]
+    wily: [libvtk6-dev]
+    xenial: [libvtk6-dev]
 libvtk-java:
   arch: [vtk]
   debian: [libvtk-java]
@@ -3026,7 +3074,11 @@ proj:
   ubuntu: [libproj-dev]
 protobuf:
   arch: [protobuf]
-  debian: [libprotobuf7]
+  debian:
+    jessie: [libprotobuf9]
+    sid: [libprotobuf9]
+    squeeze: [libprotobuf7]
+    wheezy: [libprotobuf7]
   fedora: [protobuf]
   macports: [protobuf-cpp]
   ubuntu:
@@ -3291,6 +3343,13 @@ spacenavd:
   ubuntu: [spacenavd]
 sparsehash:
   ubuntu: [sparsehash]
+speex:
+  ubuntu:
+    precise: [speex]
+    trusty: [speex]
+    vivid: [speex]
+    wily: [speex]
+    xenial: [speex]
 sqlite3:
   arch: [sqlite]
   debian: [sqlite3]
@@ -3421,6 +3480,13 @@ tango-icon-theme:
   opensuse: [tango-icon-theme]
   rhel: [tango-icon-theme]
   ubuntu: [tango-icon-theme]
+tap-plugins:
+  ubuntu:
+    precise: [tap-plugins]
+    trusty: [tap-plugins]
+    vivid: [tap-plugins]
+    wily: [tap-plugins]
+    xenial: [tap-plugins]
 tar:
   arch: [libtar]
   debian: [libtar-dev]

@@ -807,7 +807,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/calibration-release.git
-      version: 0.10.13-0
+      version: 0.10.14-0
     source:
       type: git
       url: https://github.com/ros-perception/calibration.git
@@ -2189,7 +2189,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ecto-release.git
-      version: 0.6.11-0
+      version: 0.6.12-0
     source:
       type: git
       url: https://github.com/plasmodic/ecto.git
@@ -4095,7 +4095,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_apc-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/start-jsk/jsk_apc.git
@@ -4248,7 +4248,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 0.3.20-0
+      version: 0.3.21-0
     status: developed
   jsk_robot:
     doc:
@@ -5429,7 +5429,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/mongodb_store.git
-      version: 0.1.22-0
+      version: 0.1.24-0
     source:
       type: git
       url: https://github.com/strands-project/mongodb_store.git
@@ -5469,7 +5469,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_core-release.git
-      version: 0.7.0-0
+      version: 0.7.1-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_core.git
@@ -5645,7 +5645,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_ros-release.git
-      version: 0.7.0-0
+      version: 0.7.1-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_ros.git
@@ -7758,7 +7758,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pr2-gbp/pr2_robot-release.git
-      version: 1.6.16-0
+      version: 1.6.16-1
     source:
       type: git
       url: https://github.com/pr2/pr2_robot.git
@@ -9410,7 +9410,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/rosdoc_lite-release.git
-      version: 0.2.5-0
+      version: 0.2.6-0
     source:
       type: git
       url: https://github.com/ros-infrastructure/rosdoc_lite.git
@@ -9608,7 +9608,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/roslisp_common-release.git
-      version: 0.2.6-0
+      version: 0.2.7-0
     source:
       type: git
       url: https://github.com/ros/roslisp_common.git
@@ -10628,7 +10628,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/uos/sick_tim.git
@@ -11098,7 +11098,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/strands_apps.git
-      version: 0.1.11-0
+      version: 0.2.1-1
     source:
       type: git
       url: https://github.com/strands-project/strands_apps.git
@@ -11399,7 +11399,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials-release.git
-      version: 0.0.1-2
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
@@ -11873,7 +11873,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/meuchel/uavc_v4lctl-release.git
-      version: 1.0.2-0
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/meuchel/uavc_v4lctl.git
