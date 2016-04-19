@@ -6512,6 +6512,11 @@ repositories:
       url: https://github.com/wg-perception/transparent_objects.git
       version: master
     status: maintained
+  occupancy_grid_utils:
+    source:
+      type: git
+      url: https://github.com/LCAS/occupancy_grid_utils.git
+      version: indigo-devel
   ocl:
     doc:
       type: git
