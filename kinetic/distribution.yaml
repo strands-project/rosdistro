@@ -443,7 +443,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/genpy.git
-      version: indigo-devel
+      version: kinetic-devel
     release:
       tags:
         release: release/kinetic/{package}/{version}
@@ -453,7 +453,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/genpy.git
-      version: indigo-devel
+      version: kinetic-devel
     status: maintained
   geographic_info:
     doc:
@@ -637,6 +637,12 @@ repositories:
       url: https://github.com/ccny-ros-pkg/imu_tools.git
       version: kinetic
     status: developed
+  industrial_ci:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/industrial_ci.git
+      version: master
+    status: maintained
   interactive_markers:
     doc:
       type: git
@@ -1082,6 +1088,16 @@ repositories:
       url: https://github.com/ros-planning/random_numbers.git
       version: master
     status: maintained
+  realtime_tools:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/realtime_tools.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/ros-controls/realtime_tools.git
+      version: indigo-devel
+    status: maintained
   resource_retriever:
     doc:
       type: git
@@ -1096,6 +1112,16 @@ repositories:
       type: git
       url: https://github.com/ros/resource_retriever.git
       version: kinetic-devel
+  robot_localization:
+    doc:
+      type: git
+      url: https://github.com/cra-ros-pkg/robot_localization.git
+      version: kinetic-devel
+    source:
+      type: git
+      url: https://github.com/cra-ros-pkg/robot_localization.git
+      version: kinetic-devel
+    status: maintained
   robot_model:
     doc:
       type: git
@@ -1349,7 +1375,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/roslisp_common-release.git
-      version: 0.2.6-1
+      version: 0.2.7-0
     source:
       type: git
       url: https://github.com/ros/roslisp_common.git
