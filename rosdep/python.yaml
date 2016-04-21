@@ -1097,6 +1097,8 @@ python-omniorb:
     trusty: [python-omniorb, python-omniorb-omg, omniidl-python]
     utopic: [python-omniorb, python-omniorb-omg, omniidl-python]
     vivid: [python-omniorb, python-omniorb-omg, omniidl-python]
+    wily: [python-omniorb, python-omniorb-omg, omniidl-python]
+    xenial: [python-omniorb, python-omniorb-omg, omniidl-python]
 python-opencv:
   arch: [opencv, python2-numpy]
   debian: [python-opencv]
@@ -1872,6 +1874,10 @@ python-setuptools:
     utopic_python3: [python3-setuptools]
     vivid: [python-setuptools]
     vivid_python3: [python3-setuptools]
+    wily: [python-setuptools]
+    wily_python3: [python3-setuptools]
+    xenial: [python-setuptools]
+    xenial_python3: [python3-setuptools]
 python-shapely:
   debian: [python-shapely]
   fedora: [python-shapely]
