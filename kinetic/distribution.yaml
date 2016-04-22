@@ -643,6 +643,26 @@ repositories:
       url: https://github.com/ros-perception/image_pipeline.git
       version: indigo
     status: maintained
+  image_transport_plugins:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_transport_plugins.git
+      version: indigo-devel
+    release:
+      packages:
+      - compressed_depth_image_transport
+      - compressed_image_transport
+      - image_transport_plugins
+      - theora_image_transport
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/image_transport_plugins-release.git
+      version: 1.9.3-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/image_transport_plugins.git
+      version: indigo-devel
+    status: maintained
   imu_tools:
     doc:
       type: git
@@ -943,7 +963,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/octomap-release.git
-      version: 1.7.2-1
+      version: 1.8.0-0
     source:
       type: git
       url: https://github.com/OctoMap/octomap.git
@@ -1063,7 +1083,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
@@ -1085,7 +1105,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.3.0-0
+      version: 0.3.2-0
     source:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
@@ -1283,6 +1303,16 @@ repositories:
       url: https://github.com/ros/ros_comm_msgs.git
       version: indigo-devel
     status: maintained
+  ros_control:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/ros_control.git
+      version: kinetic-devel
+    source:
+      type: git
+      url: https://github.com/ros-controls/ros_control.git
+      version: kinetic-devel
+    status: maintained
   ros_tutorials:
     doc:
       type: git
@@ -1413,7 +1443,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/roslisp_common-release.git
-      version: 0.2.7-0
+      version: 0.2.8-0
     source:
       type: git
       url: https://github.com/ros/roslisp_common.git
@@ -1642,6 +1672,28 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lagadic/visp-release.git
       version: 3.0.0-3
+    status: maintained
+  visualization_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/visualization_tutorials.git
+      version: kinetic-devel
+    release:
+      packages:
+      - interactive_marker_tutorials
+      - librviz_tutorial
+      - rviz_plugin_tutorials
+      - rviz_python_tutorial
+      - visualization_marker_tutorials
+      - visualization_tutorials
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/visualization_tutorials-release.git
+      version: 0.10.1-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/visualization_tutorials.git
+      version: kinetic-devel
     status: maintained
   xacro:
     doc:
