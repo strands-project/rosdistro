@@ -1396,6 +1396,10 @@ libexpat1-dev:
     portage:
       packages: [dev-libs/expat]
   ubuntu: [libexpat1-dev]
+libfcl-dev:
+  arch: [fcl]
+  debian: [libfcl-dev]
+  ubuntu: [libfcl-dev]
 libfftw3:
   arch: [fftw]
   debian: [libfftw3-3, libfftw3-dev]
@@ -1858,6 +1862,10 @@ libnlopt-dev:
   ubuntu: [libnlopt-dev]
 libnlopt0:
   ubuntu: [libnlopt0]
+libnotify:
+  debian: [libnotify-dev]
+  fedora: [libnotify-devel]
+  ubuntu: [libnotify-dev]
 libnss3-dev:
   fedora: [nss-devel]
   ubuntu: [libnss3-dev]
@@ -2626,8 +2634,9 @@ libvpx-dev:
 libvtk:
   arch: [vtk]
   debian:
-    jessie: [libvtk6-dev]
+    jessie: [libvtk5-dev]
     sid: [libvtk6-dev]
+    stretch: [libvtk6-dev]
     wheezy: [libvtk5-dev]
   fedora: [vtk-devel]
   gentoo: [sci-libs/vtk]
@@ -2645,7 +2654,7 @@ libvtk:
     trusty: [libvtk5-dev]
     utopic: [libvtk5-dev]
     vivid: [libvtk5-dev]
-    wily: [libvtk6-dev]
+    wily: [libvtk5-dev]
     xenial: [libvtk6-dev]
 libvtk-java:
   arch: [vtk]
@@ -3070,6 +3079,7 @@ procps:
   fedora: [procps-ng]
   ubuntu: [procps]
 proj:
+  debian: [libproj-dev]
   fedora: [proj-devel]
   ubuntu: [libproj-dev]
 protobuf:
@@ -3655,6 +3665,10 @@ v4l-utils:
   arch: [v4l-utils]
   fedora: [v4l-utils]
   ubuntu: [v4l-utils]
+valgrind:
+  debian: [valgrind]
+  fedora: [valgrind]
+  ubuntu: [valgrind]
 vim:
   fedora: [vim-enhanced]
   ubuntu: [vim]

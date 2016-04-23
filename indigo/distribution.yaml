@@ -1921,7 +1921,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/dji-sdk/Onboard-SDK-ROS-Release.git
-      version: 0.1.6-0
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/dji-sdk/Onboard-SDK-ROS.git
@@ -3432,7 +3432,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.8.0-0
+      version: 315.9.0-0
     source:
       type: git
       url: https://github.com/fkanehiro/hrpsys-base.git
@@ -3717,7 +3717,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.0.9-0
+      version: 1.0.10-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
@@ -4103,6 +4103,7 @@ repositories:
       url: https://github.com/tork-a/jsk_apc-release.git
       version: 0.2.4-0
     source:
+      test_commits: false
       type: git
       url: https://github.com/start-jsk/jsk_apc.git
       version: master
@@ -4127,8 +4128,9 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.11-0
+      version: 2.0.12-0
     source:
+      test_commits: false
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_common.git
       version: master
@@ -4274,6 +4276,7 @@ repositories:
       - jsk_pepper_startup
       - jsk_pr2_calibration
       - jsk_pr2_startup
+      - jsk_robot
       - jsk_robot_startup
       - jsk_robot_utils
       - naoeus
@@ -4284,7 +4287,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_robot-release.git
-      version: 1.0.4-0
+      version: 1.0.5-1
     status: developed
   jsk_roseus:
     doc:
@@ -4301,7 +4304,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.5.0-0
+      version: 1.5.1-0
     status: maintained
   jsk_smart_apps:
     doc:
@@ -5634,7 +5637,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/moveit_robots-release.git
-      version: 1.0.5-0
+      version: 1.0.6-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_robots.git
@@ -5872,7 +5875,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.5.3-0
+      version: 0.5.4-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -8363,7 +8366,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/ridgeback-release.git
-      version: 0.1.0-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/ridgeback/ridgeback.git
@@ -9195,11 +9198,12 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/eric-wieser/ros_numpy-release.git
-      version: 0.0.1-1
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/eric-wieser/ros_numpy.git
       version: master
+    status: developed
   ros_openlighting:
     release:
       packages:
@@ -9636,7 +9640,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/roslisp_common-release.git
-      version: 0.2.7-0
+      version: 0.2.8-1
     source:
       type: git
       url: https://github.com/ros/roslisp_common.git
@@ -9814,7 +9818,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/roswww-release.git
-      version: 0.1.8-0
+      version: 0.1.9-0
     source:
       type: git
       url: https://github.com/tork-a/roswww.git
@@ -11438,7 +11442,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.3.1-1
+      version: 0.4.0-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
