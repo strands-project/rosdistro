@@ -7336,6 +7336,11 @@ repositories:
       url: https://github.com/pal-robotics/pmb2_simulation.git
       version: indigo-devel
     status: developed
+  pnp_ros:
+    source:
+      type: git
+      url: https://github.com/marc-hanheide/PetriNetPlans.git
+      version: catkinised
   pocketsphinx:
     doc:
       type: git
