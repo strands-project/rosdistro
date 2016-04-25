@@ -6,6 +6,8 @@ ghmm:
 igraph:
   ubuntu:
     trusty: [python-igraph]
+jekyll:
+  ubuntu: [jekyll]
 libsvm:
   ubuntu: [libsvm-dev]
 lm-sensors:
