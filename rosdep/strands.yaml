@@ -7,7 +7,7 @@ igraph:
   ubuntu:
     trusty: [python-igraph]
 jekyll-trusty:
-  ubuntu: 
+  ubuntu:
     trusty: [jekyll]
 libsvm:
   ubuntu: [libsvm-dev]
