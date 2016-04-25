@@ -7337,10 +7337,26 @@ repositories:
       version: indigo-devel
     status: developed
   pnp_ros:
+    release:
+      packages:
+      - pnp
+      - pnp_msgs
+      - pnp_ros
+      - pnpgen
+      - rp_action
+      - rp_action_msgs
+      - tug_example_actions
+      - tug_example_msgs
+      - tug_example_pnp_server
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/pnp_ros.git
+      version: 0.0.1-0
     source:
       type: git
       url: https://github.com/marc-hanheide/PetriNetPlans.git
       version: catkinised
+    status: developed
   pocketsphinx:
     doc:
       type: git
