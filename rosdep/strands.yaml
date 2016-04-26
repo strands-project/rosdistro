@@ -1,3 +1,5 @@
+coinor-solvers:
+  ubuntu: [coinor-libcbc-dev, coinor-libclp-dev, coinor-libcoinutils-dev]
 deepfried2:
   ubuntu: [python-deepfried2]
 ghmm:
