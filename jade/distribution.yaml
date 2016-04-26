@@ -1039,6 +1039,7 @@ repositories:
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
       version: 2.5.3-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
       version: jade-devel
@@ -1614,7 +1615,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.0.11-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
@@ -4443,7 +4444,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.7.14-0
+      version: 0.7.14-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -5130,7 +5131,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/uos/sick_tim.git

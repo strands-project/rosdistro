@@ -531,6 +531,22 @@ repositories:
       url: https://github.com/tork-a/euslisp-release.git
       version: 9.18.2-0
     status: developed
+  executive_smach:
+    release:
+      packages:
+      - executive_smach
+      - smach
+      - smach_msgs
+      - smach_ros
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/executive_smach-release.git
+      version: 2.0.0-2
+    source:
+      type: git
+      url: https://github.com/ros/executive_smach.git
+      version: indigo-devel
+    status: maintained
   filters:
     doc:
       type: git
@@ -545,6 +561,13 @@ repositories:
       type: git
       url: https://github.com/ros/filters.git
       version: hydro-devel
+    status: maintained
+  gazebo_ros_pkgs:
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+      version: kinetic-devel
     status: maintained
   gencpp:
     doc:
@@ -830,7 +853,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.0.11-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/ccny-ros-pkg/imu_tools.git
@@ -963,6 +986,13 @@ repositories:
       type: git
       url: https://github.com/ros-perception/laser_pipeline.git
       version: hydro-devel
+    status: maintained
+  libg2o:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/libg2o-release.git
+      version: 2016.4.24-0
     status: maintained
   mavlink:
     doc:
@@ -1859,6 +1889,21 @@ repositories:
       url: https://github.com/wjwwood/serial.git
       version: master
     status: maintained
+  sick_tim:
+    doc:
+      type: git
+      url: https://github.com/uos/sick_tim.git
+      version: kinetic
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/uos-gbp/sick_tim-release.git
+      version: 0.0.8-0
+    source:
+      type: git
+      url: https://github.com/uos/sick_tim.git
+      version: kinetic
+    status: developed
   slam_gmapping:
     doc:
       type: git
@@ -2092,6 +2137,7 @@ repositories:
       url: https://github.com/ros-gbp/visualization_tutorials-release.git
       version: 0.10.1-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/visualization_tutorials.git
       version: kinetic-devel

@@ -1460,11 +1460,10 @@ repositories:
       - frida_driver
       - prace_common
       - prace_gripper_driver
-      - rplidar_ros
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_substitute-release.git
-      version: 0.6.3-0
+      version: 0.6.4-0
     source:
       type: git
       url: https://github.com/ipa320/cob_substitute.git
@@ -2748,6 +2747,7 @@ repositories:
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
       version: 2.4.10-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
       version: indigo-devel
@@ -6228,7 +6228,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/wu-robotics/navigation_layers_release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/DLu/navigation_layers.git
@@ -9407,7 +9407,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.7.14-0
+      version: 0.7.14-1
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
@@ -10729,7 +10729,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/sick_tim-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/uos/sick_tim.git
