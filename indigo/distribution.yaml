@@ -1055,7 +1055,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/catkin_pure_python-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/asmodehn/catkin_pure_python.git
@@ -3032,6 +3032,7 @@ repositories:
       packages:
       - grid_map
       - grid_map_core
+      - grid_map_cv
       - grid_map_demos
       - grid_map_filters
       - grid_map_loader
@@ -3041,7 +3042,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/grid_map-release.git
-      version: 1.2.0-0
+      version: 1.3.0-0
     source:
       type: git
       url: https://github.com/ethz-asl/grid_map.git
@@ -3141,7 +3142,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hakuto-release.git
-      version: 0.1.4-0
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/tork-a/hakuto.git
@@ -9893,6 +9894,21 @@ repositories:
       url: https://github.com/ethz-asl/rotors_simulator.git
       version: master
     status: developed
+  rplidar_ros:
+    doc:
+      type: git
+      url: https://github.com/robopeak/rplidar_ros.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/robopeak/rplidar_ros-release.git
+      version: 1.5.3-0
+    source:
+      type: git
+      url: https://github.com/robopeak/rplidar_ros.git
+      version: master
+    status: maintained
   rqt:
     doc:
       type: git
@@ -10119,7 +10135,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_common-release.git
-      version: 1.3.1-0
+      version: 1.3.2-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_common.git
