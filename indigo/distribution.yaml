@@ -863,6 +863,12 @@ repositories:
       url: https://github.com/ros-perception/camera_info_manager_py.git
       version: master
     status: maintained
+  camera_pose_calibration:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/delftrobotics/camera_pose_calibration-release.git
+      version: 0.1.1-0
   camera_umd:
     release:
       packages:
@@ -1953,6 +1959,15 @@ repositories:
       type: git
       url: https://github.com/ZhuangYanDLUT/dlut_vision.git
       version: indigo-devel
+  dr_base:
+    release:
+      packages:
+      - dr_base
+      - dr_cmake
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/delftrobotics/camera_pose_calibration-release.git
+      version: 1.0.0-0
   drc_hubo:
     doc:
       type: git
@@ -2266,6 +2281,21 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/eigen_stl_containers-release.git
       version: 0.1.4-0
+  ekf_localization:
+    doc:
+      type: git
+      url: https://github.com/vislab-tecnico-lisboa/ekf_localization.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/vislab-tecnico-lisboa/ekf_localization-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/vislab-tecnico-lisboa/ekf_localization.git
+      version: indigo-devel
+    status: developed
   eml:
     release:
       tags:
@@ -3142,7 +3172,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hakuto-release.git
-      version: 0.1.7-0
+      version: 0.1.8-0
     source:
       type: git
       url: https://github.com/tork-a/hakuto.git
