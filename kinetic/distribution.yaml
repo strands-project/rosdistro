@@ -438,7 +438,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_tools-release.git
-      version: 0.61.4-1
+      version: 0.61.4-2
     source:
       type: git
       url: https://github.com/stonier/ecl_tools.git
@@ -576,7 +576,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.5.6-0
+      version: 2.5.6-2
     source:
       test_pull_requests: true
       type: git
@@ -1038,6 +1038,26 @@ repositories:
       url: https://github.com/mavlink/mavlink-gbp-release.git
       version: 2016.4.4-0
     status: maintained
+  mavros:
+    doc:
+      type: git
+      url: https://github.com/mavlink/mavros.git
+      version: master
+    release:
+      packages:
+      - libmavconn
+      - mavros
+      - mavros_extras
+      - mavros_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/mavlink/mavros-release.git
+      version: 0.17.2-0
+    source:
+      type: git
+      url: https://github.com/mavlink/mavros.git
+      version: master
+    status: developed
   md49_base_controller:
     doc:
       type: git
@@ -1232,6 +1252,7 @@ repositories:
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_ros_visualization.git
+      version: master
   object_recognition_tod:
     release:
       tags:
@@ -1932,7 +1953,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_common_plugins-release.git
-      version: 0.4.0-0
+      version: 0.4.0-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_common_plugins.git
@@ -1958,7 +1979,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/rqt_robot_plugins-release.git
-      version: 0.5.1-0
+      version: 0.5.2-1
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_plugins.git
