@@ -864,11 +864,20 @@ repositories:
       version: master
     status: maintained
   camera_pose_calibration:
+    doc:
+      type: git
+      url: https://github.com/delftrobotics/camera_pose_calibration.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/delftrobotics/camera_pose_calibration-release.git
       version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/delftrobotics/camera_pose_calibration.git
+      version: master
+    status: maintained
   camera_umd:
     release:
       packages:
@@ -2748,7 +2757,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_can-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_can.git
@@ -2763,7 +2772,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_core-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_core.git
@@ -6879,7 +6888,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/openni2_camera-release.git
-      version: 0.2.5-0
+      version: 0.2.6-0
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
@@ -10517,7 +10526,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_canopen_driver-release.git
-      version: 1.0.2-0
+      version: 1.0.3-0
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_canopen_driver.git
