@@ -1224,6 +1224,12 @@ repositories:
       url: https://github.com/ros/metapackages.git
       version: kinetic-devel
     status: maintained
+  navigation:
+    source:
+      type: git
+      url: https://github.com/ros-planning/navigation.git
+      version: kinetic-devel
+    status: maintained
   navigation_msgs:
     doc:
       type: git
@@ -1436,7 +1442,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/openhrp3-release.git
-      version: 3.1.8-1
+      version: 3.1.8-2
     status: developed
   openni2_camera:
     doc:
@@ -1473,7 +1479,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/openrtm_aist-release.git
-      version: 1.1.0-1
+      version: 1.1.0-2
     status: developed
   openslam_gmapping:
     doc:
@@ -1755,6 +1761,34 @@ repositories:
       url: https://github.com/ros/robot_state_publisher.git
       version: kinetic-devel
     status: maintained
+  rocon_msgs:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_msgs.git
+      version: kinetic
+    release:
+      packages:
+      - concert_msgs
+      - concert_service_msgs
+      - concert_workflow_engine_msgs
+      - gateway_msgs
+      - rocon_app_manager_msgs
+      - rocon_device_msgs
+      - rocon_interaction_msgs
+      - rocon_msgs
+      - rocon_service_pair_msgs
+      - rocon_std_msgs
+      - rocon_tutorial_msgs
+      - scheduler_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/yujinrobot-release/rocon_msgs-release.git
+      version: 0.9.0-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_msgs.git
+      version: kinetic
+    status: developed
   ros:
     doc:
       type: git
@@ -2476,6 +2510,21 @@ repositories:
       type: git
       url: https://github.com/ros/xacro.git
       version: kinetic-devel
+    status: developed
+  yocs_msgs:
+    doc:
+      type: git
+      url: https://github.com/yujinrobot/yocs_msgs.git
+      version: kinetic
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/yujinrobot-release/yocs_msgs-release.git
+      version: 0.6.3-0
+    source:
+      type: git
+      url: https://github.com/yujinrobot/yocs_msgs.git
+      version: kinetic
     status: developed
 type: distribution
 version: 2
