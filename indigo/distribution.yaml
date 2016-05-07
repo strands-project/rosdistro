@@ -4542,7 +4542,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki_core-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki_core.git
@@ -10059,7 +10059,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/OTL/rqt_ez_publisher-release.git
-      version: 0.3.1-1
+      version: 0.3.2-0
     source:
       type: git
       url: https://github.com/OTL/rqt_ez_publisher.git
@@ -11601,7 +11601,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
-      version: master
+      version: indigo-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
@@ -11610,7 +11610,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
-      version: master
+      version: indigo-devel
     status: developed
   teb_local_planner_tutorials:
     doc:
