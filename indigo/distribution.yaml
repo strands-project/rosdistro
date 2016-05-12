@@ -2757,7 +2757,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_can-release.git
-      version: 1.0.5-0
+      version: 1.0.7-0
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_can.git
@@ -5476,7 +5476,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/xuefengchang/micros_swarm_framework-release.git
-      version: 0.0.2-1
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/xuefengchang/micros_swarm_framework.git
@@ -9986,7 +9986,8 @@ repositories:
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/robopeak/rplidar_ros-release.git
+      url: https://github.com/kintzhao/rplidar_ros-release.git
+      version: 1.5.2-0
     source:
       type: git
       url: https://github.com/robopeak/rplidar_ros.git
@@ -10540,7 +10541,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_canopen_driver-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_canopen_driver.git
