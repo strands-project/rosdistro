@@ -2757,7 +2757,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_can-release.git
-      version: 1.0.7-0
+      version: 1.0.8-0
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_can.git
@@ -5227,9 +5227,12 @@ repositories:
       - swri_geometry_util
       - swri_image_util
       - swri_math_util
+      - swri_nodelet
       - swri_opencv_util
       - swri_prefix_tools
       - swri_roscpp
+      - swri_rospy
+      - swri_route_util
       - swri_serial_util
       - swri_string_util
       - swri_system_util
@@ -5238,7 +5241,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.0.9-1
+      version: 0.0.10-3
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -10541,7 +10544,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_canopen_driver-release.git
-      version: 1.0.4-0
+      version: 1.0.5-0
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/schunk_canopen_driver.git
@@ -13053,12 +13056,20 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/youbot-release/youbot_driver-release.git
       version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/youbot/youbot_driver.git
+      version: hydro-devel
   youbot_driver_ros_interface:
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/youbot-release/youbot_driver_ros_interface-release.git
       version: 1.1.1-0
+    source:
+      type: git
+      url: https://github.com/youbot/youbot_driver_ros_interface.git
+      version: indigo-devel
   youbot_simulation:
     release:
       packages:
