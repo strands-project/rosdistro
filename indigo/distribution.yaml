@@ -4198,7 +4198,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.13-0
+      version: 2.0.14-0
     source:
       test_commits: false
       type: git
@@ -10178,7 +10178,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.10.10-3
+      version: 0.11.5-0
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -10193,7 +10193,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.10.10-2
+      version: 0.11.5-0
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
