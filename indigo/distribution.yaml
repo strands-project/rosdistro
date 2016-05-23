@@ -3062,7 +3062,7 @@ repositories:
   grasp-synergy:
     doc:
       type: git
-      url: https://github.com/felixduvallet/grasp-synergy-release.git
+      url: https://github.com/felixduvallet/grasp-synergy.git
       version: master
     release:
       packages:
@@ -3070,10 +3070,10 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/felixduvallet/grasp-synergy-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
-      url: https://github.com/felixduvallet/grasp-synergy-release.git
+      url: https://github.com/felixduvallet/grasp-synergy.git
       version: master
     status: developed
   grasping_msgs:
@@ -4322,7 +4322,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     status: developed
   jsk_recognition:
     doc:
@@ -4414,7 +4414,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.30-0
+      version: 1.0.31-0
     status: developed
   jskeus:
     doc:
@@ -4849,7 +4849,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/laser_filters-release.git
-      version: 1.8.1-0
+      version: 1.8.3-1
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -5226,7 +5226,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -5280,7 +5280,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
@@ -5319,7 +5319,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2016.5.15-1
+      version: 2016.5.20-0
     status: maintained
   mavros:
     doc:
@@ -5336,7 +5336,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.17.2-0
+      version: 0.17.3-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -8703,7 +8703,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/robot_state_publisher-release.git
-      version: 1.11.1-0
+      version: 1.11.2-0
     source:
       test_pull_requests: true
       type: git
@@ -10125,12 +10125,29 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pschillinger/rqt_launchtree-release.git
-      version: 0.1.3-0
+      version: 0.1.4-0
     source:
       type: git
       url: https://github.com/pschillinger/rqt_launchtree.git
       version: master
     status: maintained
+  rqt_multiplot_plugin:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/rqt_multiplot_plugin.git
+      version: master
+    release:
+      packages:
+      - rqt_multiplot
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ethz-asl/rqt_multiplot_plugin-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/ethz-asl/rqt_multiplot_plugin.git
+      version: master
+    status: developed
   rqt_paramedit:
     doc:
       type: git
@@ -10279,7 +10296,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.1.13-1
+      version: 1.1.14-0
     source:
       type: git
       url: https://github.com/start-jsk/rtmros_hironx.git
@@ -11666,7 +11683,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.4.0-0
+      version: 0.4.1-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
@@ -11676,7 +11693,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
-      version: master
+      version: indigo-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
@@ -11685,7 +11702,7 @@ repositories:
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
-      version: master
+      version: indigo-devel
     status: maintained
   teleop_tools:
     doc:
@@ -12510,6 +12527,26 @@ repositories:
       url: https://github.com/strands-project/v4r_ros_wrappers.git
       version: master
     status: developed
+  variant:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/variant.git
+      version: master
+    release:
+      packages:
+      - variant
+      - variant_msgs
+      - variant_topic_test
+      - variant_topic_tools
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ethz-asl/variant-release.git
+      version: 0.1.3-0
+    source:
+      type: git
+      url: https://github.com/ethz-asl/variant.git
+      version: master
+    status: developed
   velodyne:
     doc:
       type: git
@@ -12652,7 +12689,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/lagadic/visp-release.git
-      version: 3.0.0-2
+      version: 3.0.0-3
     status: maintained
   visp_ros:
     doc:

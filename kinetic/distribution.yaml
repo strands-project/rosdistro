@@ -344,6 +344,21 @@ repositories:
       url: https://github.com/ros/convex_decomposition.git
       version: kinetic-devel
     status: maintained
+  costmap_converter:
+    doc:
+      type: git
+      url: https://github.com/rst-tu-dortmund/costmap_converter.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/rst-tu-dortmund/costmap_converter-release.git
+      version: 0.0.5-0
+    source:
+      type: git
+      url: https://github.com/rst-tu-dortmund/costmap_converter.git
+      version: master
+    status: developed
   diagnostics:
     doc:
       type: git
@@ -756,7 +771,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/RethinkRobotics-release/gennodejs-release.git
-      version: 1.0.2-0
+      version: 1.0.3-0
     source:
       type: git
       url: https://github.com/RethinkRobotics-opensource/gennodejs.git
@@ -1168,7 +1183,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/laser_filters-release.git
-      version: 1.8.2-1
+      version: 1.8.3-0
     source:
       type: git
       url: https://github.com/ros-perception/laser_filters.git
@@ -1204,6 +1219,17 @@ repositories:
       url: https://github.com/ros-perception/laser_pipeline.git
       version: hydro-devel
     status: maintained
+  libfreenect:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/libfreenect.git
+      version: ros-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/libfreenect-ros-release.git
+      version: 0.5.1-0
+    status: maintained
   libg2o:
     release:
       tags:
@@ -1226,6 +1252,28 @@ repositories:
       url: https://github.com/clearpathrobotics/lms1xx.git
       version: master
     status: maintained
+  marti_messages:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/marti_messages.git
+      version: indigo-devel
+    release:
+      packages:
+      - marti_can_msgs
+      - marti_common_msgs
+      - marti_nav_msgs
+      - marti_perception_msgs
+      - marti_sensor_msgs
+      - marti_visualization_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/marti_messages-release.git
+      version: 0.0.4-0
+    source:
+      type: git
+      url: https://github.com/swri-robotics/marti_messages.git
+      version: indigo-devel
+    status: developed
   mavlink:
     doc:
       type: git
@@ -1235,7 +1283,11 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2016.5.15-1
+      version: 2016.5.20-0
+    source:
+      type: git
+      url: https://github.com/mavlink/mavlink-gbp-release.git
+      version: release/kinetic/mavlink
     status: maintained
   mavros:
     doc:
@@ -1252,7 +1304,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.17.2-1
+      version: 0.17.3-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -1346,14 +1398,95 @@ repositories:
       url: https://github.com/ros/metapackages.git
       version: kinetic-devel
     status: maintained
+  nao_robot:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/nao_robot.git
+      version: master
+    release:
+      packages:
+      - nao_apps
+      - nao_bringup
+      - nao_description
+      - nao_robot
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-naoqi/nao_robot-release.git
+      version: 0.5.14-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/nao_robot.git
+      version: master
+    status: maintained
+  naoqi_bridge:
+    release:
+      packages:
+      - naoqi_apps
+      - naoqi_bridge
+      - naoqi_driver_py
+      - naoqi_pose
+      - naoqi_sensors_py
+      - naoqi_tools
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-naoqi/naoqi_bridge-release.git
+      version: 0.5.4-0
+  naoqi_bridge_msgs:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-naoqi/naoqi_bridge_msgs-release.git
+      version: 0.0.5-3
+    status: maintained
+  naoqi_driver:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-naoqi/naoqi_driver-release.git
+      version: 0.5.8-1
+    status: maintained
   naoqi_libqi:
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-naoqi/libqi-release.git
-      version: 2.5.0-2
+      version: 2.5.0-3
+    status: maintained
+  naoqi_libqicore:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-naoqi/libqicore-release.git
+      version: 2.3.1-1
     status: maintained
   navigation:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/navigation.git
+      version: kinetic-devel
+    release:
+      packages:
+      - amcl
+      - base_local_planner
+      - carrot_planner
+      - clear_costmap_recovery
+      - costmap_2d
+      - dwa_local_planner
+      - fake_localization
+      - global_planner
+      - map_server
+      - move_base
+      - move_slow_and_clear
+      - nav_core
+      - navfn
+      - navigation
+      - robot_pose_ekf
+      - rotate_recovery
+      - voxel_grid
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/navigation-release.git
+      version: 1.14.0-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation.git
@@ -1597,7 +1730,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/openni2_camera-release.git
-      version: 0.2.6-2
+      version: 0.2.6-3
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
@@ -1714,6 +1847,26 @@ repositories:
       type: git
       url: https://github.com/ros-perception/pcl_msgs.git
       version: indigo-devel
+    status: maintained
+  pepper_robot:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/pepper_robot.git
+      version: master
+    release:
+      packages:
+      - pepper_bringup
+      - pepper_description
+      - pepper_robot
+      - pepper_sensors_py
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-naoqi/pepper_robot-release.git
+      version: 0.1.8-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/pepper_robot.git
+      version: master
     status: maintained
   perception_pcl:
     doc:
@@ -1841,16 +1994,16 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: indigo-devel
+      version: kinetic-devel
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/realtime_tools-release.git
-      version: 1.9.1-0
+      version: 1.9.2-0
     source:
       type: git
       url: https://github.com/ros-controls/realtime_tools.git
-      version: indigo-devel
+      version: kinetic-devel
     status: maintained
   resource_retriever:
     doc:
@@ -1929,7 +2082,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/robot_state_publisher-release.git
-      version: 1.13.0-0
+      version: 1.13.1-0
     source:
       test_pull_requests: true
       type: git
@@ -1994,6 +2147,26 @@ repositories:
       url: https://github.com/robotics-in-concert/rocon_tools.git
       version: kinetic
     status: developed
+  romeo_robot:
+    doc:
+      type: git
+      url: https://github.com/ros-aldebaran/romeo_robot.git
+      version: master
+    release:
+      packages:
+      - romeo_bringup
+      - romeo_description
+      - romeo_robot
+      - romeo_sensors_py
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-aldebaran/romeo_robot-release.git
+      version: 0.1.4-0
+    source:
+      type: git
+      url: https://github.com/ros-aldebaran/romeo_robot.git
+      version: master
+    status: maintained
   ros:
     doc:
       type: git
@@ -2085,6 +2258,8 @@ repositories:
       version: kinetic-devel
     release:
       packages:
+      - combined_robot_hw
+      - combined_robot_hw_tests
       - controller_interface
       - controller_manager
       - controller_manager_msgs
@@ -2097,7 +2272,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_control-release.git
-      version: 0.10.1-0
+      version: 0.11.0-0
     source:
       type: git
       url: https://github.com/ros-controls/ros_control.git
@@ -2125,7 +2300,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/ros_controllers-release.git
-      version: 0.11.0-0
+      version: 0.11.1-0
     source:
       type: git
       url: https://github.com/ros-controls/ros_controllers.git
@@ -2562,6 +2737,36 @@ repositories:
       url: https://github.com/ros/std_msgs.git
       version: groovy-devel
     status: maintained
+  teb_local_planner:
+    doc:
+      type: git
+      url: https://github.com/rst-tu-dortmund/teb_local_planner.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
+      version: 0.6.0-0
+    source:
+      type: git
+      url: https://github.com/rst-tu-dortmund/teb_local_planner.git
+      version: kinetic-devel
+    status: developed
+  teb_local_planner_tutorials:
+    doc:
+      type: git
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials-release.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
+      version: kinetic-devel
+    status: maintained
   teleop_twist_keyboard:
     doc:
       type: git
@@ -2725,7 +2930,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/lagadic/vision_visp-release.git
-      version: 0.9.1-0
+      version: 0.9.3-0
     source:
       type: git
       url: https://github.com/lagadic/vision_visp.git
