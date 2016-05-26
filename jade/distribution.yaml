@@ -281,6 +281,14 @@ repositories:
       type: git
       url: https://github.com/voxel-dot-at/bta_ros.git
       version: master
+    status: end-of-life
+    status_description: Moved to bta_tof_driver
+  bta_tof_driver:
+    doc:
+      type: git
+      url: https://github.com/voxel-dot-at/bta_tof_driver.git
+      version: master
+    status: maintained
   calibration:
     doc:
       type: git
@@ -1898,7 +1906,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.3.1-1
+      version: 0.3.2-0
     status: developed
   jsk_recognition:
     doc:

@@ -681,6 +681,15 @@ repositories:
       url: https://github.com/ros-gbp/bfl-release.git
       version: 0.7.0-6
     status: maintained
+  blink1:
+    doc:
+      type: git
+      url: https://bitbucket.org/castacks/blink1_node.git
+      version: master
+    source:
+      type: git
+      url: https://bitbucket.org/castacks/blink1_node.git
+      version: master
   bond_core:
     doc:
       type: git
@@ -730,6 +739,14 @@ repositories:
       type: git
       url: https://github.com/voxel-dot-at/bta_ros.git
       version: master
+    status: end-of-life
+    status_description: Moved to bta_tof_driver
+  bta_tof_driver:
+    doc:
+      type: git
+      url: https://github.com/voxel-dot-at/bta_tof_driver.git
+      version: master
+    status: maintained
   bus_server:
     release:
       tags:
@@ -4322,7 +4339,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.3.1-0
+      version: 0.3.2-0
     status: developed
   jsk_recognition:
     doc:
@@ -8520,7 +8537,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/ridgeback-release.git
-      version: 0.1.5-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/ridgeback/ridgeback.git
@@ -8531,6 +8548,14 @@ repositories:
       type: git
       url: https://github.com/ridgeback/ridgeback_desktop.git
       version: indigo-devel
+    release:
+      packages:
+      - ridgeback_desktop
+      - ridgeback_viz
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/ridgeback_desktop-release.git
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/ridgeback/ridgeback_desktop.git
@@ -8547,6 +8572,26 @@ repositories:
       url: https://github.com/ridgeback/ridgeback_robot.git
       version: indigo-devel
     status: maintained
+  ridgeback_simulator:
+    doc:
+      type: git
+      url: https://github.com/ridgeback/ridgeback_simulator.git
+      version: indigo-devel
+    release:
+      packages:
+      - mecanum_gazebo_plugin
+      - ridgeback_gazebo
+      - ridgeback_gazebo_plugins
+      - ridgeback_simulator
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/ridgeback_simulator-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/ridgeback/ridgeback_simulator.git
+      version: indigo-devel
+    status: developed
   riskrrt:
     doc:
       type: git
@@ -10821,6 +10866,15 @@ repositories:
       url: https://github.com/wjwwood/serial_utils.git
       version: master
     status: maintained
+  sf30:
+    doc:
+      type: git
+      url: https://bitbucket.org/castacks/sf30_node.git
+      version: master
+    source:
+      type: git
+      url: https://bitbucket.org/castacks/sf30_node.git
+      version: master
   shadow_robot:
     doc:
       type: git
