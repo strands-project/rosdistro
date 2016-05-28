@@ -11487,7 +11487,7 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/strands_executive.git
-      version: hydro-release
+      version: indigo-devel
     status: developed
   strands_executive_behaviours:
     release:
