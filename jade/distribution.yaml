@@ -1906,7 +1906,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.3.2-0
+      version: 0.3.3-0
     status: developed
   jsk_recognition:
     doc:
@@ -1943,7 +1943,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.5.1-0
+      version: 1.5.3-0
     status: developed
   jskeus:
     doc:

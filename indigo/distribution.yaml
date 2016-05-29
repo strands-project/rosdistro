@@ -4323,7 +4323,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_planning-release.git
-      version: 0.1.6-0
+      version: 0.1.7-0
     status: developed
   jsk_pr2eus:
     doc:
@@ -4339,7 +4339,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.3.2-0
+      version: 0.3.3-0
     status: developed
   jsk_recognition:
     doc:
@@ -4408,7 +4408,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.5.1-0
+      version: 1.5.3-0
     status: maintained
   jsk_smart_apps:
     doc:
@@ -5398,6 +5398,21 @@ repositories:
       url: https://github.com/ros/media_export.git
       version: indigo-devel
     status: maintained
+  media_msgs:
+    doc:
+      type: git
+      url: https://github.com/rosalfred/media_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/rosalfred-release/media_msgs-release.git
+      version: 0.1.58-0
+    source:
+      type: git
+      url: https://github.com/rosalfred/media_msgs.git
+      version: master
+    status: developed
   message_generation:
     doc:
       type: git
@@ -6306,7 +6321,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.12.9-0
+      version: 1.12.10-0
     source:
       type: git
       url: https://github.com/ros-planning/navigation.git
@@ -9769,6 +9784,21 @@ repositories:
       url: https://github.com/rosjava/rosjava_core.git
       version: indigo
     status: maintained
+  rosjava_dynamic_reconfigure:
+    doc:
+      type: git
+      url: https://github.com/rosalfred/rosjava_dynamic_reconfigure.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/rosalfred-release/rosjava_dynamic_reconfigure-release.git
+      version: 0.2.4-0
+    source:
+      type: git
+      url: https://github.com/rosalfred/rosjava_dynamic_reconfigure.git
+      version: master
+    status: developed
   rosjava_extras:
     release:
       tags:
@@ -11718,6 +11748,21 @@ repositories:
       url: https://github.com/clearpath-gbp/libswiftnav-release.git
       version: 0.13.0-3
     status: maintained
+  swri_console:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/swri_console-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: master
+    status: developed
   talos_audio:
     doc:
       type: git
