@@ -12747,6 +12747,11 @@ repositories:
       version: indigo-devel
     status: developed
   viper:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/viper.git
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/strands-project/viper.git
