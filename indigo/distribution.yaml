@@ -12757,6 +12757,17 @@ repositories:
       url: https://github.com/strands-project/viper.git
       version: master
     status: maintained
+  viper_ros:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/viper_ros.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/kunzel/viper_ros.git
+      version: y3
+    status: developed
   vision_opencv:
     doc:
       type: git
