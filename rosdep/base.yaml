@@ -1558,6 +1558,8 @@ libglew-dev:
     trusty: [libglew-dev]
     utopic: [libglew-dev]
     vivid: [libglew-dev]
+    wily: [libglew-dev]
+    xenial: [libglew-dev]
 libglib-dev:
   arch: [glib2]
   debian: [libglib2.0-dev]
@@ -2354,6 +2356,10 @@ libqwt6:
     raring: [libqwt-dev]
     saucy: [libqwt-dev]
     trusty: [libqwt-dev]
+    utopic: [libqwt-dev]
+    vivid: [libqwt-dev]
+    wily: [libqwt-qt5-dev]
+    xenial: [libqwt-qt5-dev]
 libqwtplot3d-qt4-dev:
   arch: [qwtplot3d]
   debian:
