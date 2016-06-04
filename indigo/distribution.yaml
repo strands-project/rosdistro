@@ -1117,7 +1117,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/catkin_pip-release.git
-      version: 0.1.4-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/asmodehn/catkin_pip.git
@@ -2114,7 +2114,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/dynpick_driver-release.git
-      version: 0.0.10-0
+      version: 0.0.11-0
     source:
       type: git
       url: https://github.com/tork-a/dynpick_driver.git
@@ -4177,7 +4177,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/JenniferBuehler/convenience-pkgs-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/JenniferBuehler/convenience-pkgs.git
@@ -8162,7 +8162,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyros-config-rosrelease.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/asmodehn/pyros-config.git
@@ -8199,7 +8199,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyros-utils-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/asmodehn/pyros-utils.git
@@ -8325,7 +8325,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/qwt_dependency-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/ros-visualization/qwt_dependency.git
