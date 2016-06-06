@@ -10963,6 +10963,17 @@ repositories:
       url: https://github.com/segwayrmp/segway_rmp.git
       version: master
     status: maintained
+  semantic_segmentation:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/semantic_segmentation.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/strands-project/semantic_segmentation.git
+      version: master
+    status: developed
   sentis_tof_m100:
     doc:
       type: git
