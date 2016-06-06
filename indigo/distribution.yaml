@@ -11459,7 +11459,7 @@ repositories:
     source:
       type: git
       url: https://github.com/strands-project/soma.git
-      version: master
+      version: 2.0
     status: maintained
   sophus:
     release:
