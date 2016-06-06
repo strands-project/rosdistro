@@ -10896,6 +10896,17 @@ repositories:
       url: https://github.com/strands-project/scitos_drivers.git
       version: indigo-devel
     status: developed
+  scitos_moveit_config:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/scitos_moveit_config.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/kunzel/scitos_moveit_config.git
+      version: master
+    status: developed
   screenrun:
     doc:
       type: git
