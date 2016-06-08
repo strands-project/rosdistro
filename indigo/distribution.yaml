@@ -828,6 +828,7 @@ repositories:
       - bwi_common
       - bwi_gazebo_entities
       - bwi_interruptable_action_server
+      - bwi_joystick_teleop
       - bwi_kr_execution
       - bwi_logging
       - bwi_mapper
@@ -842,7 +843,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/bwi_common-release.git
-      version: 0.3.7-0
+      version: 0.3.8-0
     source:
       type: git
       url: https://github.com/utexas-bwi/bwi_common.git
@@ -2867,6 +2868,26 @@ repositories:
       type: git
       url: https://github.com/ros-simulation/gazebo_ros_pkgs.git
       version: indigo-devel
+    status: developed
+  gazebo_tools:
+    doc:
+      type: git
+      url: https://github.com/JenniferBuehler/gazebo-pkgs.git
+      version: master
+    release:
+      packages:
+      - gazebo_grasp_plugin
+      - gazebo_state_plugins
+      - gazebo_test_tools
+      - gazebo_world_plugin_loader
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/JenniferBuehler/gazebo-pkgs-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/JenniferBuehler/gazebo-pkgs.git
+      version: master
     status: developed
   gencpp:
     doc:
@@ -6393,6 +6414,8 @@ repositories:
       url: https://github.com/ros-gbp/navigation-release.git
       version: 1.12.10-0
     source:
+      test_commits: false
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-planning/navigation.git
       version: indigo-devel
@@ -12828,7 +12851,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/JenniferBuehler/urdf-tools-pkgs-release.git
-      version: 0.0.4-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/JenniferBuehler/urdf-tools-pkgs.git

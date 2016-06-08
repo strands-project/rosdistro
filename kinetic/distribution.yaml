@@ -1636,6 +1636,8 @@ repositories:
       url: https://github.com/ros-gbp/navigation-release.git
       version: 1.14.0-0
     source:
+      test_commits: false
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-planning/navigation.git
       version: kinetic-devel
@@ -1878,7 +1880,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/openni2_camera-release.git
-      version: 0.2.6-3
+      version: 0.2.7-0
     source:
       type: git
       url: https://github.com/ros-drivers/openni2_camera.git
