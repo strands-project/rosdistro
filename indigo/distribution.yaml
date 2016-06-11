@@ -8894,7 +8894,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/robot_model-release.git
-      version: 1.11.10-0
+      version: 1.11.11-0
     source:
       test_pull_requests: true
       type: git
@@ -10485,7 +10485,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.11.7-0
+      version: 0.11.7-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -11379,6 +11379,21 @@ repositories:
       url: https://github.com/rosalfred/smarthome_heater_msgs_java.git
       version: master
     status: developed
+  smarthome_light_msgs:
+    doc:
+      type: git
+      url: https://github.com/rosalfred/smarthome_light_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/rosalfred-release/smarthome_light_msgs-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/rosalfred/smarthome_light_msgs.git
+      version: master
+    status: developed
   smarthome_media_kodi_driver:
     doc:
       type: git
@@ -11467,6 +11482,21 @@ repositories:
     source:
       type: git
       url: https://github.com/rosalfred/smarthome_media_samsungtv_driver.git
+      version: master
+    status: developed
+  smarthome_msgs:
+    doc:
+      type: git
+      url: https://github.com/rosalfred/smarthome_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/rosalfred-release/smarthome_msgs-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/rosalfred/smarthome_msgs.git
       version: master
     status: developed
   smarthome_network_wakeonlan:
