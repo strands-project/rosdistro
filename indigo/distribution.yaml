@@ -166,6 +166,21 @@ repositories:
       url: https://github.com/RobotnikAutomation/agvs_sim.git
       version: indigo-devel
     status: maintained
+  alfred_bot:
+    doc:
+      type: git
+      url: https://github.com/rosalfred/alfred_bot.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/rosalfred-release/alfred_bot-release.git
+      version: 0.1.121-0
+    source:
+      type: git
+      url: https://github.com/rosalfred/alfred_bot.git
+      version: master
+    status: developed
   alfred_sr_linux:
     doc:
       type: git
@@ -7335,6 +7350,13 @@ repositories:
       url: https://github.com/allenh1/p2os.git
       version: master
     status: developed
+  parrot_arsdk:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/AutonomyLab/parrot_arsdk-release.git
+      version: 3.9.1-0
+    status: developed
   patrolling_sim:
     doc:
       type: git
@@ -7522,6 +7544,16 @@ repositories:
       url: https://github.com/ccny-ros-pkg/phidgets_drivers.git
       version: indigo
     status: maintained
+  pi_trees:
+    doc:
+      type: git
+      url: https://github.com/pirobot/pi_trees.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/pirobot/pi_trees.git
+      version: indigo-devel
+    status: developed
   pid:
     doc:
       type: git
@@ -11493,10 +11525,25 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rosalfred-release/smarthome_msgs-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/rosalfred/smarthome_msgs.git
+      version: master
+    status: developed
+  smarthome_msgs_java:
+    doc:
+      type: git
+      url: https://github.com/rosalfred/smarthome_msgs_java.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/rosalfred-release/smarthome_msgs_java-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/rosalfred/smarthome_msgs_java.git
       version: master
     status: developed
   smarthome_network_wakeonlan:
