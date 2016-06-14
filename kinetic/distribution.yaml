@@ -149,6 +149,13 @@ repositories:
       url: https://github.com/oceansystemslab/auv_msgs.git
       version: master
     status: developed
+  axcli:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/po1/axcli-release.git
+      version: 0.1.0-0
+    status: maintained
   bebop_autonomy:
     doc:
       type: git
@@ -1042,6 +1049,13 @@ repositories:
       type: git
       url: https://github.com/ethz-asl/grid_map.git
       version: master
+    status: developed
+  hrpsys:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/tork-a/hrpsys-release.git
+      version: 315.9.0-0
     status: developed
   humanoid_msgs:
     doc:
@@ -1946,6 +1960,13 @@ repositories:
       url: https://github.com/tork-a/openrtm_aist-release.git
       version: 1.1.0-2
     status: developed
+  openrtm_aist_python:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/tork-a/openrtm_aist_python-release.git
+      version: 1.1.0-1
+    status: developed
   openslam_gmapping:
     doc:
       type: git
@@ -2791,6 +2812,13 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/rtctree-release.git
       version: 3.0.1-0
+    status: developed
+  rtshell:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/tork-a/rtshell-release.git
+      version: 3.0.1-2
     status: developed
   rtsprofile:
     release:

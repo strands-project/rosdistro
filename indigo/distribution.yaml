@@ -551,6 +551,13 @@ repositories:
       url: https://github.com/wjwwood/ax2550.git
       version: master
     status: maintained
+  axcli:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/po1/axcli-release.git
+      version: 0.1.0-0
+    status: maintained
   axis_camera:
     doc:
       type: git
@@ -2102,6 +2109,7 @@ repositories:
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
       version: 1.5.43-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/dynamic_reconfigure.git
       version: master
@@ -4353,7 +4361,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.14-0
+      version: 2.0.15-1
     source:
       test_commits: false
       type: git
@@ -6871,7 +6879,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/octomap_msgs-release.git
-      version: 0.3.2-0
+      version: 0.3.3-0
     source:
       type: git
       url: https://github.com/OctoMap/octomap_msgs.git

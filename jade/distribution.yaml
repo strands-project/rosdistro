@@ -209,6 +209,13 @@ repositories:
       url: https://github.com/oceansystemslab/auv_msgs.git
       version: master
     status: developed
+  axcli:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/po1/axcli-release.git
+      version: 0.1.0-0
+    status: maintained
   battery_monitor_rmp:
     doc:
       type: git
@@ -1874,7 +1881,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.14-0
+      version: 2.0.15-0
     source:
       test_commits: false
       type: git
