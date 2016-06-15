@@ -1990,7 +1990,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/diagnostics-release.git
-      version: 1.8.9-0
+      version: 1.8.10-0
     source:
       type: git
       url: https://github.com/ros/diagnostics.git
@@ -2020,7 +2020,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/dji-sdk/Onboard-SDK-ROS-Release.git
-      version: 0.1.8-0
+      version: 0.1.9-0
     source:
       type: git
       url: https://github.com/dji-sdk/Onboard-SDK-ROS.git
@@ -5079,6 +5079,12 @@ repositories:
       url: https://github.com/ros-drivers/leap_motion.git
       version: master
     status: maintained
+  leptrino_force_torque:
+    doc:
+      type: git
+      url: https://github.com/hiveground-ros-package/leptrino_force_torque.git
+      version: master
+    status: maintained
   libccd:
     release:
       tags:
@@ -5618,6 +5624,21 @@ repositories:
       url: https://github.com/yincanben/micros_dynamic_objects_filter.git
       version: master
     status: developed
+  micros_mars_task_alloc:
+    doc:
+      type: git
+      url: https://github.com/liminglong/micros_mars_task_alloc.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/liminglong/micros_mars_task_alloc-release.git
+      version: 0.0.4-0
+    source:
+      type: git
+      url: https://github.com/liminglong/micros_mars_task_alloc.git
+      version: master
+    status: developed
   micros_rtt:
     doc:
       type: git
@@ -5642,7 +5663,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/xuefengchang/micros_swarm_framework-release.git
-      version: 0.0.7-0
+      version: 0.0.8-0
     source:
       type: git
       url: https://github.com/xuefengchang/micros_swarm_framework.git
@@ -12286,7 +12307,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.4.1-0
+      version: 0.4.2-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
@@ -12515,10 +12536,21 @@ repositories:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
       version: master
+    release:
+      packages:
+      - trac_ik
+      - trac_ik_examples
+      - trac_ik_kinematics_plugin
+      - trac_ik_lib
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/traclabs/trac_ik-release.git
+      version: 1.4.3-0
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
       version: master
+    status: developed
   trajectory_behaviours:
     source:
       type: git
