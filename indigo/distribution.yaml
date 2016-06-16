@@ -2231,7 +2231,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_lite-release.git
-      version: 0.61.4-0
+      version: 0.61.6-0
     source:
       type: git
       url: https://github.com/stonier/ecl_lite.git
@@ -5823,7 +5823,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_msgs-release.git
-      version: 0.7.1-0
+      version: 0.7.2-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
@@ -6987,7 +6987,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ompl-release.git
-      version: 1.0.0003094-0
+      version: 1.0.3094-0
     status: maintained
   ompl_visual_tools:
     doc:
@@ -7385,6 +7385,10 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/AutonomyLab/parrot_arsdk-release.git
       version: 3.9.1-0
+    source:
+      type: git
+      url: https://github.com/AutonomyLab/parrot_arsdk.git
+      version: indigo-devel
     status: developed
   patrolling_sim:
     doc:
