@@ -2207,7 +2207,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_core-release.git
-      version: 0.61.9-0
+      version: 0.61.14-0
     source:
       type: git
       url: https://github.com/stonier/ecl_core.git
@@ -4520,7 +4520,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_robot-release.git
-      version: 1.0.5-1
+      version: 1.0.6-2
     status: developed
   jsk_roseus:
     doc:
@@ -4801,11 +4801,11 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/kuka_experimental.git
-      version: hydro-devel
+      version: indigo-devel
     source:
       type: git
       url: https://github.com/ros-industrial/kuka_experimental.git
-      version: hydro-devel
+      version: indigo-devel
     status: developed
   kurt3d:
     doc:
@@ -5564,7 +5564,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/message_multiplexing-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/stonier/message_multiplexing.git
@@ -5633,7 +5633,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/liminglong/micros_mars_task_alloc-release.git
-      version: 0.0.4-0
+      version: 0.0.5-1
     source:
       type: git
       url: https://github.com/liminglong/micros_mars_task_alloc.git
@@ -7384,7 +7384,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AutonomyLab/parrot_arsdk-release.git
-      version: 3.9.1-0
+      version: 3.9.1-2
     source:
       type: git
       url: https://github.com/AutonomyLab/parrot_arsdk.git
@@ -8424,7 +8424,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/qglv_toolkit-release.git
-      version: 0.1.6-0
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/yujinrobot/qglv_toolkit.git
@@ -12253,6 +12253,18 @@ repositories:
       url: https://github.com/strands-project/strands_webtools.git
       version: hydro-devel
     status: developed
+  summit_xl_common:
+    release:
+      packages:
+      - summit_xl_common
+      - summit_xl_description
+      - summit_xl_localization
+      - summit_xl_navigation
+      - summit_xl_pad
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RobotnikAutomation/summit_xl_common-release.git
+      version: 1.0.0-0
   swiftnav:
     doc:
       type: git
