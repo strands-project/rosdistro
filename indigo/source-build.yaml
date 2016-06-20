@@ -2,7 +2,7 @@
 # ROS source-build file
 # see REP 141: http://ros.org/reps/rep-0141.html
 ---
-jenkins_job_timeout: 60
+jenkins_job_timeout: 120
 jenkins_url: http://10.210.9.131:8080/jenkins
 notifications:
   committers: true
