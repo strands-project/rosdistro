@@ -417,6 +417,11 @@ repositories:
       url: https://github.com/rst-tu-dortmund/costmap_converter.git
       version: master
     status: developed
+  demo_pioneer:
+    doc:
+      type: git
+      url: https://github.com/lagadic/demo_pioneer.git
+      version: master
   depthimage_to_laserscan:
     doc:
       type: git
@@ -2390,6 +2395,26 @@ repositories:
       url: https://github.com/ros/robot_state_publisher.git
       version: kinetic-devel
     status: maintained
+  rocon_app_platform:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_app_platform.git
+      version: kinetic
+    release:
+      packages:
+      - rocon_app_manager
+      - rocon_app_platform
+      - rocon_app_utilities
+      - rocon_apps
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/yujinrobot-release/rocon_app_platform-release.git
+      version: 0.8.0-0
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_app_platform.git
+      version: kinetic
+    status: developed
   rocon_msgs:
     doc:
       type: git
@@ -2416,6 +2441,30 @@ repositories:
     source:
       type: git
       url: https://github.com/robotics-in-concert/rocon_msgs.git
+      version: kinetic
+    status: developed
+  rocon_multimaster:
+    doc:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_multimaster.git
+      version: kinetic
+    release:
+      packages:
+      - rocon_gateway
+      - rocon_gateway_tests
+      - rocon_gateway_utils
+      - rocon_hub
+      - rocon_hub_client
+      - rocon_multimaster
+      - rocon_test
+      - rocon_unreliable_experiments
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/yujinrobot-release/rocon_multimaster-release.git
+      version: 0.8.1-1
+    source:
+      type: git
+      url: https://github.com/robotics-in-concert/rocon_multimaster.git
       version: kinetic
     status: developed
   rocon_tools:
@@ -3297,6 +3346,11 @@ repositories:
       url: https://github.com/lagadic/visp-release.git
       version: 3.0.0-3
     status: maintained
+  visp_ros:
+    doc:
+      type: git
+      url: https://github.com/lagadic/visp_ros.git
+      version: master
   visualization_tutorials:
     doc:
       type: git
@@ -3319,6 +3373,21 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/visualization_tutorials.git
       version: kinetic-devel
+    status: maintained
+  warehouse_ros:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/warehouse_ros-release.git
+      version: 0.9.0-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/warehouse_ros.git
+      version: jade-devel
     status: maintained
   xacro:
     doc:
