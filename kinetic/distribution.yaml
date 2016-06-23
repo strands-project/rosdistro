@@ -1526,7 +1526,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2016.6.12-0
+      version: 2016.6.22-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -2438,6 +2438,21 @@ repositories:
       url: https://github.com/ros/robot_model.git
       version: kinetic-devel
     status: maintained
+  robot_pose_publisher:
+    doc:
+      type: git
+      url: https://github.com/GT-RAIL/robot_pose_publisher.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/gt-rail-release/robot_pose_publisher-release.git
+      version: 0.2.4-0
+    source:
+      type: git
+      url: https://github.com/GT-RAIL/robot_pose_publisher.git
+      version: develop
+    status: maintained
   robot_state_publisher:
     doc:
       type: git
@@ -2735,6 +2750,21 @@ repositories:
       type: git
       url: https://github.com/ros/ros_tutorials.git
       version: kinetic-devel
+    status: maintained
+  rosauth:
+    doc:
+      type: git
+      url: https://github.com/GT-RAIL/rosauth.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/gt-rail-release/rosauth-release.git
+      version: 0.1.7-0
+    source:
+      type: git
+      url: https://github.com/GT-RAIL/rosauth.git
+      version: develop
     status: maintained
   rosbag_migration_rule:
     release:

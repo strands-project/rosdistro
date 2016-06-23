@@ -4468,7 +4468,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.3.3-0
+      version: 0.3.4-0
     status: developed
   jsk_recognition:
     doc:
@@ -5477,7 +5477,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: master
+      version: indigo-devel
     release:
       packages:
       - libmavconn
@@ -5492,8 +5492,8 @@ repositories:
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
-      version: master
-    status: developed
+      version: indigo-devel
+    status: maintained
   maxwell:
     doc:
       type: git
@@ -11484,7 +11484,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rosalfred-release/smarthome_light_msgs-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/rosalfred/smarthome_light_msgs.git
