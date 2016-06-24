@@ -5488,7 +5488,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.17.3-0
+      version: 0.17.4-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -10556,7 +10556,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.11.7-0
+      version: 0.11.7-1
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -10571,7 +10571,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.11.7-1
+      version: 0.11.7-2
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
@@ -11671,6 +11671,14 @@ repositories:
       type: git
       url: https://github.com/ipa320/softkinetic.git
       version: indigo_release_candidate
+    release:
+      packages:
+      - softkinetic
+      - softkinetic_camera
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/softkinetic-release.git
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/ipa320/softkinetic.git

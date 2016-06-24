@@ -1464,6 +1464,26 @@ repositories:
       url: https://bitbucket.org/AndyZe/lyap_control.git
       version: master
     status: maintained
+  mapviz:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/mapviz.git
+      version: kinetic-devel
+    release:
+      packages:
+      - mapviz
+      - mapviz_plugins
+      - multires_image
+      - tile_map
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/mapviz-release.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/swri-robotics/mapviz.git
+      version: kinetic-devel
+    status: developed
   marti_common:
     doc:
       type: git
@@ -1547,7 +1567,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.17.3-0
+      version: 0.18.0-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -1996,7 +2016,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/ompl-release.git
-      version: 1.1.3535-0
+      version: 1.2.0-0
     status: maintained
   opencv3:
     release:
