@@ -1155,11 +1155,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/catkin_pip-release.git
-      version: 0.1.8-0
+      version: 0.1.9-0
     source:
       type: git
       url: https://github.com/asmodehn/catkin_pip.git
-      version: indigo
+      version: indigo-devel
     status: developed
   circle_detection:
     source:
@@ -1901,7 +1901,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/start-jsk/denso-release.git
-      version: 1.1.5-0
+      version: 1.1.6-0
     source:
       type: git
       url: https://github.com/start-jsk/denso.git
@@ -3400,7 +3400,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_gazebo-release.git
-      version: 0.3.7-0
+      version: 0.3.8-0
     status: maintained
   hector_localization:
     doc:
@@ -3432,7 +3432,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_models-release.git
-      version: 0.4.1-0
+      version: 0.4.2-0
     status: maintained
   hector_navigation:
     doc:
@@ -3443,7 +3443,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/tu-darmstadt-ros-pkg/hector_nist_arenas_gazebo.git
-      version: indigo-devel
+      version: catkin
   hector_quadrotor:
     doc:
       type: git
@@ -3495,7 +3495,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_slam-release.git
-      version: 0.3.4-0
+      version: 0.3.5-0
     status: maintained
   hector_vision:
     doc:
@@ -4334,7 +4334,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_apc-release.git
-      version: 0.8.0-2
+      version: 0.8.1-0
     source:
       test_commits: false
       type: git
@@ -12297,6 +12297,17 @@ repositories:
       type: git
       url: https://github.com/RobotnikAutomation/summit_xl_common.git
       version: indigo-devel
+    release:
+      packages:
+      - summit_xl_common
+      - summit_xl_description
+      - summit_xl_localization
+      - summit_xl_navigation
+      - summit_xl_pad
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RobotnikAutomation/summit_xl_common-release.git
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/summit_xl_common.git
@@ -12307,6 +12318,17 @@ repositories:
       type: git
       url: https://github.com/RobotnikAutomation/summit_xl_sim.git
       version: indigo-devel
+    release:
+      packages:
+      - summit_xl_control
+      - summit_xl_gazebo
+      - summit_xl_robot_control
+      - summit_xl_sim
+      - summit_xl_sim_bringup
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RobotnikAutomation/summit_xl_sim-release.git
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/summit_xl_sim.git
