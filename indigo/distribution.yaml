@@ -5156,7 +5156,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/intel-ros/librealsense-release.git
-      version: 0.9.2-0
+      version: 0.9.2-1
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
@@ -8776,6 +8776,12 @@ repositories:
       url: https://github.com/ros-drivers/rgbd_launch.git
       version: indigo-devel
     status: maintained
+  rgbdslam_v2:
+    doc:
+      type: git
+      url: https://github.com/felixendres/rgbdslam_v2.git
+      version: indigo
+    status: maintained
   ric:
     doc:
       type: git
@@ -12327,7 +12333,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotnikAutomation/summit_xl_common-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/summit_xl_common.git
@@ -12676,6 +12682,7 @@ repositories:
       url: https://github.com/turtlebot-release/turtlebot-release.git
       version: 2.3.11-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/turtlebot/turtlebot.git
       version: indigo
@@ -12702,6 +12709,7 @@ repositories:
       url: https://github.com/turtlebot-release/turtlebot_apps-release.git
       version: 2.3.3-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/turtlebot/turtlebot_apps.git
       version: indigo
