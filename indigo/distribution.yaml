@@ -139,7 +139,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotnikAutomation/agvs_common-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/agvs_common.git
@@ -1880,6 +1880,20 @@ repositories:
       url: https://github.com/strands-project/data_compression.git
       version: hydro-devel
     status: developed
+  declination:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/declination.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/declination-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/declination.git
+      version: master
   demo_pioneer:
     doc:
       type: git
@@ -2398,6 +2412,20 @@ repositories:
       url: https://github.com/ros-gbp/eml-release.git
       version: 1.8.15-0
     status: maintained
+  enu:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/enu.git
+      version: hydro
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/enu-release.git
+      version: 1.2.2-0
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/enu.git
+      version: hydro
   epos_hardware:
     doc:
       type: git
@@ -5746,6 +5774,23 @@ repositories:
       type: git
       url: https://github.com/ros-industrial/motoman.git
       version: indigo-devel
+    release:
+      packages:
+      - motoman
+      - motoman_driver
+      - motoman_mh5_support
+      - motoman_msgs
+      - motoman_sda10f_moveit_config
+      - motoman_sda10f_support
+      - motoman_sia10d_support
+      - motoman_sia10f_support
+      - motoman_sia20d_moveit_config
+      - motoman_sia20d_support
+      - motoman_sia5d_support
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-industrial-release/motoman-release.git
+      version: 0.3.5-0
     source:
       type: git
       url: https://github.com/ros-industrial/motoman.git
@@ -8676,11 +8721,30 @@ repositories:
       url: https://github.com/KristofRobot/razor_imu_9dof.git
       version: indigo-devel
     status: maintained
+  rb1_common:
+    doc:
+      type: git
+      url: https://github.com/RobotnikAutomation/rb1_common.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/RobotnikAutomation/rb1_common.git
+      version: indigo-devel
+    status: maintained
   rbcar_common:
     doc:
       type: git
       url: https://github.com/RobotnikAutomation/rbcar_common.git
       version: indigo-devel
+    release:
+      packages:
+      - rbcar_common
+      - rbcar_description
+      - rbcar_pad
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RobotnikAutomation/rbcar_common-release.git
+      version: 1.0.3-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/rbcar_common.git
@@ -12389,7 +12453,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotnikAutomation/summit_xl_sim-release.git
-      version: 1.0.5-0
+      version: 1.0.6-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/summit_xl_sim.git
