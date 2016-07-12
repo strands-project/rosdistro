@@ -5202,7 +5202,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/intel-ros/librealsense-release.git
-      version: 0.9.2-1
+      version: 0.9.2-2
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
@@ -9621,6 +9621,25 @@ repositories:
       url: https://github.com/ros-aldebaran/romeo_robot.git
       version: master
     status: maintained
+  romeo_virtual:
+    doc:
+      type: git
+      url: https://github.com/ros-aldebaran/romeo_virtual.git
+      version: master
+    release:
+      packages:
+      - romeo_control
+      - romeo_gazebo_plugin
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-aldebaran/romeo_virtual-release.git
+      version: 0.2.2-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-aldebaran/romeo_virtual.git
+      version: master
+    status: maintained
   ros:
     doc:
       type: git
@@ -10874,7 +10893,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.1.15-0
+      version: 1.1.16-0
     source:
       test_pull_requests: true
       type: git
@@ -12237,6 +12256,15 @@ repositories:
       type: git
       url: https://github.com/srv/stereo_slam.git
       version: indigo
+  straf_recovery:
+    doc:
+      type: git
+      url: https://github.com/PeterMitrano/straf_recovery.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/PeterMitrano/straf_recovery.git
+      version: master
   strands_3d_mapping:
     release:
       packages:
@@ -12557,7 +12585,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotnikAutomation/summit_x_sim-release.git
-      version: 1.0.1-0
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/RobotnikAutomation/summit_x_sim.git
