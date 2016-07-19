@@ -2962,6 +2962,21 @@ repositories:
       url: https://github.com/ros-naoqi/libqicore-release.git
       version: 2.3.1-1
     status: maintained
+  nav_pcontroller:
+    doc:
+      type: git
+      url: https://github.com/code-iai/nav_pcontroller.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/code-iai-release/nav_pcontroller-release.git
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/code-iai/nav_pcontroller.git
+      version: master
+    status: maintained
   navigation:
     doc:
       type: git
@@ -5623,6 +5638,31 @@ repositories:
       url: https://github.com/ros/std_msgs.git
       version: groovy-devel
     status: maintained
+  stdr_simulator:
+    doc:
+      type: git
+      url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator.git
+      version: indigo-devel
+    release:
+      packages:
+      - stdr_gui
+      - stdr_launchers
+      - stdr_msgs
+      - stdr_parser
+      - stdr_resources
+      - stdr_robot
+      - stdr_samples
+      - stdr_server
+      - stdr_simulator
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator.git
+      version: indigo-devel
+    status: developed
   stereo_slam:
     doc:
       type: git
@@ -5673,7 +5713,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git

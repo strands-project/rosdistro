@@ -5724,7 +5724,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/xuefengchang/micros_swarm_framework-release.git
-      version: 0.0.9-0
+      version: 0.0.12-1
     source:
       type: git
       url: https://github.com/xuefengchang/micros_swarm_framework.git
@@ -6524,6 +6524,21 @@ repositories:
       type: git
       url: https://github.com/paulbovbel/nav2_platform.git
       version: hydro-devel
+    status: maintained
+  nav_pcontroller:
+    doc:
+      type: git
+      url: https://github.com/code-iai/nav_pcontroller.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/code-iai-release/nav_pcontroller-release.git
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/code-iai/nav_pcontroller.git
+      version: master
     status: maintained
   navigation:
     doc:
@@ -8999,7 +9014,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/ridgeback-release.git
-      version: 0.1.6-0
+      version: 0.1.7-0
     source:
       type: git
       url: https://github.com/ridgeback/ridgeback.git
@@ -9126,7 +9141,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/robot_calibration-release.git
-      version: 0.5.2-0
+      version: 0.5.3-0
     source:
       type: git
       url: https://github.com/mikeferguson/robot_calibration.git
@@ -12234,7 +12249,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator.git
-      version: hydro-devel
+      version: indigo-devel
     release:
       packages:
       - stdr_gui
@@ -12249,7 +12264,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator-release.git
-      version: 0.2.0-0
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator.git
+      version: indigo-devel
     status: developed
   stereo_slam:
     doc:
@@ -12731,7 +12750,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
