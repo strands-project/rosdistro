@@ -2668,10 +2668,11 @@ repositories:
       - fetch_moveit_config
       - fetch_navigation
       - fetch_teleop
+      - freight_calibration
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/fetch_ros-release.git
-      version: 0.7.7-0
+      version: 0.7.8-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_ros.git
@@ -3656,11 +3657,19 @@ repositories:
       version: hydro-devel
     status: maintained
   household_objects_database_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-interactive-manipulation/household_objects_database_msgs.git
+      version: hydro-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/household_objects_database_msgs-release.git
-      version: 0.1.1-2
+      version: 0.1.2-0
+    source:
+      type: git
+      url: https://github.com/ros-interactive-manipulation/household_objects_database_msgs.git
+      version: hydro-devel
     status: maintained
   hrpsys:
     doc:
@@ -4606,7 +4615,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.31-0
+      version: 1.0.32-0
     status: developed
   jskeus:
     doc:
@@ -9160,7 +9169,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics-gbp/robot_controllers-release.git
-      version: 0.5.0-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/fetchrobotics/robot_controllers.git
