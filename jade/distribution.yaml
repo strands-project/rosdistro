@@ -1894,7 +1894,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.0.16-1
+      version: 2.0.17-0
     source:
       test_commits: false
       type: git
@@ -2313,6 +2313,16 @@ repositories:
       url: https://github.com/swri-robotics/mapviz.git
       version: jade-devel
     status: developed
+  marker_msgs:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/marker_msgs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/marker_msgs.git
+      version: master
+    status: maintained
   marti_common:
     doc:
       type: git
@@ -3737,7 +3747,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-naoqi/pepper_moveit_config-release.git
-      version: 0.0.4-1
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/ros-naoqi/pepper_moveit_config.git
@@ -4459,7 +4469,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-aldebaran/romeo_moveit_config-release.git
-      version: 0.2.6-0
+      version: 0.2.7-0
     source:
       type: git
       url: https://github.com/ros-aldebaran/romeo_moveit_config.git
@@ -5201,7 +5211,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/introlab/rtabmap-release.git
-      version: 0.11.7-0
+      version: 0.11.8-0
     source:
       type: git
       url: https://github.com/introlab/rtabmap.git
@@ -5216,7 +5226,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/introlab/rtabmap_ros-release.git
-      version: 0.11.7-1
+      version: 0.11.8-0
     source:
       type: git
       url: https://github.com/introlab/rtabmap_ros.git
