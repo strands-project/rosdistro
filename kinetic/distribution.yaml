@@ -1741,6 +1741,16 @@ repositories:
       url: https://github.com/tuw-robotics/marker_msgs.git
       version: master
     status: maintained
+  marker_rviz_plugin:
+    doc:
+      type: git
+      url: https://github.com/tuw-robotics/marker_rviz_plugin.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/tuw-robotics/marker_rviz_plugin.git
+      version: master
+    status: maintained
   marti_common:
     doc:
       type: git
@@ -2700,7 +2710,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/RobotnikAutomation/rb1_base_common-release.git
-      version: 1.0.4-0
+      version: 1.0.5-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/rb1_base_common.git
@@ -2711,6 +2721,17 @@ repositories:
       type: git
       url: https://github.com/RobotnikAutomation/rb1_base_sim.git
       version: kinetic-devel
+    release:
+      packages:
+      - rb1_base_2dnav
+      - rb1_base_control
+      - rb1_base_gazebo
+      - rb1_base_purepursuit
+      - rb1_base_sim
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/RobotnikAutomation/rb1_base_sim-release.git
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/rb1_base_sim.git
