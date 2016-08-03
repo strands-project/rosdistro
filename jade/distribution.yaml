@@ -969,7 +969,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.19.0-0
+      version: 9.20.0-0
     status: developed
   executive_smach:
     doc:
@@ -1990,7 +1990,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.12-0
+      version: 1.0.13-0
     status: developed
   katana_driver:
     doc:
@@ -5622,7 +5622,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/srdfdom-release.git
-      version: 0.2.7-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
@@ -6311,6 +6311,21 @@ repositories:
       url: https://github.com/ros/xacro.git
       version: jade-devel
     status: developed
+  xsens_driver:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver-release.git
+      version: 2.0.0-0
+    source:
+      type: git
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver.git
+      version: master
+    status: maintained
   youbot_driver:
     release:
       tags:

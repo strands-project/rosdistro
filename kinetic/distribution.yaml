@@ -774,7 +774,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.19.0-0
+      version: 9.20.0-0
     status: developed
   executive_smach:
     release:
@@ -1449,7 +1449,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.12-0
+      version: 1.0.13-0
     status: developed
   kobuki:
     doc:
@@ -1832,7 +1832,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2016.7.7-0
+      version: 2016.8.2-1
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -4454,6 +4454,21 @@ repositories:
       url: https://github.com/ros/xacro.git
       version: kinetic-devel
     status: developed
+  xsens_driver:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver-release.git
+      version: 2.0.0-0
+    source:
+      type: git
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver.git
+      version: master
+    status: maintained
   yocs_msgs:
     doc:
       type: git
