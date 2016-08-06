@@ -1106,7 +1106,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.5.5-0
+      version: 2.6.0-0
     source:
       test_pull_requests: true
       type: git
@@ -2765,7 +2765,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
-      version: 0.1.8-0
+      version: 0.1.10-0
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -5041,7 +5041,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rosserial-release.git
-      version: 0.7.2-0
+      version: 0.7.3-0
     source:
       type: git
       url: https://github.com/ros-drivers/rosserial.git
@@ -5165,6 +5165,23 @@ repositories:
       url: https://github.com/pschillinger/rqt_launchtree.git
       version: master
     status: maintained
+  rqt_multiplot_plugin:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/rqt_multiplot_plugin.git
+      version: master
+    release:
+      packages:
+      - rqt_multiplot
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ethz-asl/rqt_multiplot_plugin-release.git
+      version: 0.0.5-0
+    source:
+      type: git
+      url: https://github.com/ethz-asl/rqt_multiplot_plugin.git
+      version: master
+    status: developed
   rqt_robot_plugins:
     doc:
       type: git
@@ -5829,11 +5846,12 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/OSLL/tiny-slam-ros-release.git
-      version: 0.1.2-1
+      version: 0.1.2-2
     source:
       type: git
       url: https://github.com/OSLL/tiny-slam-ros-cpp.git
       version: devel
+    status: developed
   topic_proxy:
     doc:
       type: git
@@ -6071,6 +6089,26 @@ repositories:
       url: https://github.com/uji-ros-pkg/uwsim_osgworks-release.git
       version: 3.0.3-2
     status: maintained
+  variant:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/variant.git
+      version: master
+    release:
+      packages:
+      - variant
+      - variant_msgs
+      - variant_topic_test
+      - variant_topic_tools
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ethz-asl/variant-release.git
+      version: 0.1.3-0
+    source:
+      type: git
+      url: https://github.com/ethz-asl/variant.git
+      version: master
+    status: developed
   velodyne_simulator:
     doc:
       type: git
