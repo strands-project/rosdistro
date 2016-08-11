@@ -118,6 +118,9 @@ python-anyjson:
   debian: [python-anyjson]
   fedora: [python-anyjson]
   ubuntu: [python-anyjson]
+python-apparmor:
+  debian: [python-apparmor]
+  ubuntu: [python-apparmor]
 python-argcomplete:
   fedora: [python-argcomplete]
   ubuntu: [python-argcomplete]
@@ -472,6 +475,9 @@ python-crypto:
     wily_python3: [python3-crypto]
     xenial: [python-crypto]
     xenial_python3: [python3-crypto]
+python-cryptography:
+  debian: [python-cryptography]
+  ubuntu: [python-cryptography]
 python-cwiid:
   arch: [cwiid]
   debian: [python-cwiid]
@@ -1179,6 +1185,9 @@ python-opengl:
     vivid: [python-opengl]
     wily: [python-opengl]
     xenial: [python-opengl]
+python-openssl:
+  debian: [python-openssl]
+  ubuntu: [python-openssl]
 python-pandas:
   arch: [python2-pandas]
   debian: [python-pandas]
@@ -2044,11 +2053,12 @@ python-sip4:
 python-six:
   fedora: [python-six]
   ubuntu:
+    saucy: [python-six]
     trusty: [python-six]
     vivid: [python-six]
     wily: [python-six]
     xenial: [python-six]
-    xenial: [python-six]
+    yakkety: [python-six]
 python-skimage:
   debian: [python-skimage]
   fedora: [python-scikit-image]
@@ -2535,7 +2545,11 @@ python-zmq:
     saucy: [python-zmq]
     trusty: [python-zmq]
     trusty_python3: [python3-zmq]
+    utopic: [python-zmq]
     vivid: [python-zmq]
+    wily: [python-zmq]
+    xenial: [python-zmq]
+    yakkety: [python-zmq]
 python3-babeltrace:
   debian:
     jessie: [python3-babeltrace]
