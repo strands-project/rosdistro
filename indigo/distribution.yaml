@@ -1160,7 +1160,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/catkin_pip-release.git
-      version: 0.1.10-0
+      version: 0.1.11-0
     source:
       type: git
       url: https://github.com/asmodehn/catkin_pip.git
@@ -5370,7 +5370,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/log4cpp-release.git
-      version: 2.8.1-0
+      version: 2.8.3-0
     source:
       type: git
       url: https://github.com/orocos-toolchain/log4cpp.git
@@ -6959,7 +6959,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/ocl-release.git
-      version: 2.8.2-0
+      version: 2.8.3-0
     source:
       type: git
       url: https://github.com/orocos-toolchain/ocl.git
@@ -7766,6 +7766,26 @@ repositories:
       url: https://bitbucket.org/AndyZe/pid.git
       version: master
     status: developed
+  pioneer_bringup:
+    doc:
+      type: git
+      url: https://github.com/amineHorseman/pioneer_bringup.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/amineHorseman/pioneer_bringup.git
+      version: master
+    status: maintained
+  pioneer_teleop:
+    doc:
+      type: git
+      url: https://github.com/amineHorseman/pioneer_teleop.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/amineHorseman/pioneer_teleop.git
+      version: master
+    status: maintained
   play_motion:
     doc:
       type: git
@@ -11020,7 +11040,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/rtt-release.git
-      version: 2.8.2-0
+      version: 2.8.3-0
     source:
       type: git
       url: https://github.com/orocos-toolchain/rtt.git
