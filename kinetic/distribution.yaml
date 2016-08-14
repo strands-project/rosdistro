@@ -1544,7 +1544,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki-release.git
-      version: 0.7.0-0
+      version: 0.7.1-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki.git
@@ -1616,6 +1616,23 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-drivers/korg_nanokontrol.git
+      version: master
+    status: maintained
+  kvh_drivers:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/kvh_drivers.git
+      version: master
+    release:
+      packages:
+      - kvh
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/kvh_drivers-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/kvh_drivers.git
       version: master
     status: maintained
   laser_assembler:
@@ -2799,6 +2816,18 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
       version: kinetic-devel
+    status: maintained
+  qt_ros:
+    release:
+      packages:
+      - qt_build
+      - qt_create
+      - qt_ros
+      - qt_tutorials
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/yujinrobot-release/qt_ros-release.git
+      version: 0.2.9-0
     status: maintained
   qwt_dependency:
     doc:
@@ -4516,6 +4545,25 @@ repositories:
       url: https://github.com/ethz-asl/variant.git
       version: master
     status: developed
+  velodyne_simulator:
+    doc:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
+      version: master
+    release:
+      packages:
+      - velodyne_description
+      - velodyne_gazebo_plugins
+      - velodyne_simulator
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/DataspeedInc-release/velodyne_simulator-release.git
+      version: 1.0.3-0
+    source:
+      type: git
+      url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
+      version: master
+    status: maintained
   vision_opencv:
     doc:
       type: git
