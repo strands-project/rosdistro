@@ -870,7 +870,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/utexas-bwi-gbp/bwi_common-release.git
-      version: 0.3.9-0
+      version: 0.3.10-0
     source:
       type: git
       url: https://github.com/utexas-bwi/bwi_common.git
@@ -5477,7 +5477,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/mapviz-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/swri-robotics/mapviz.git
@@ -5509,7 +5509,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.0.11-0
+      version: 0.0.12-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -5531,7 +5531,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
@@ -6592,7 +6592,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.12.12-0
+      version: 1.12.13-0
     source:
       test_commits: false
       test_pull_requests: true
@@ -7736,6 +7736,13 @@ repositories:
       url: https://github.com/ccny-ros-pkg/phidgets_drivers.git
       version: indigo
     status: maintained
+  phoxi_camera:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/photoneo/phoxi_camera-release.git
+      version: 0.0.2-0
+    status: developed
   pi_tracker:
     doc:
       type: git
@@ -10184,7 +10191,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-      version: 0.7.15-0
+      version: 0.7.16-0
     source:
       type: git
       url: https://github.com/RobotWebTools/rosbridge_suite.git
