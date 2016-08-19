@@ -1166,6 +1166,13 @@ repositories:
       url: https://github.com/asmodehn/catkin_pip.git
       version: indigo-devel
     status: developed
+  certifi:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/certifi-rosrelease.git
+      version: 2015.11.20-1
+    status: maintained
   circle_detection:
     source:
       type: git
@@ -5483,6 +5490,13 @@ repositories:
       url: https://github.com/swri-robotics/mapviz.git
       version: indigo-devel
     status: developed
+  marshmallow:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/marshmallow-rosrelease.git
+      version: 2.9.1-4
+    status: maintained
   marti_common:
     doc:
       type: git
@@ -5762,7 +5776,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/xuefengchang/micros_swarm_framework-release.git
-      version: 0.0.12-1
+      version: 0.0.13-0
     source:
       type: git
       url: https://github.com/xuefengchang/micros_swarm_framework.git
@@ -6158,7 +6172,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/milvusrobotics/mrp2_common-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/milvusrobotics/mrp2_common.git
@@ -6196,7 +6210,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/milvusrobotics/mrp2_robot-release.git
-      version: 0.2.4-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/milvusrobotics/mrp2_robot.git
@@ -6244,6 +6258,16 @@ repositories:
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
+      version: master
+    status: maintained
+  mrpt_slam:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
       version: master
     status: maintained
   mtig_driver:
@@ -7460,6 +7484,15 @@ repositories:
       type: git
       url: https://github.com/Oriense/orsens_ros.git
       version: master
+  osrf_gear:
+    doc:
+      type: git
+      url: https://bitbucket.org/osrf/gear.git
+      version: master
+    source:
+      type: git
+      url: https://bitbucket.org/osrf/gear.git
+      version: master
   oxford_gps_eth:
     doc:
       type: hg
@@ -8515,7 +8548,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyros-config-rosrelease.git
-      version: 0.1.3-0
+      version: 0.1.3-1
     source:
       type: git
       url: https://github.com/asmodehn/pyros-config.git
@@ -8614,7 +8647,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyzmp-rosrelease.git
-      version: 0.0.14-0
+      version: 0.0.14-1
     source:
       type: git
       url: https://github.com/asmodehn/pyzmp.git
@@ -12842,7 +12875,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.4.2-0
+      version: 0.4.3-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
@@ -14233,6 +14266,17 @@ repositories:
       url: https://github.com/RIVeR-Lab/wpi_jaco.git
       version: develop
     status: maintained
+  wts_driver:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ksatyaki/wts_driver-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/ksatyaki/wts_driver.git
+      version: master
+    status: developed
   wu_ros_tools:
     doc:
       type: git
@@ -14302,7 +14346,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/ethzasl_xsens_driver-release.git
-      version: 2.0.0-0
+      version: 2.0.1-0
     source:
       type: git
       url: https://github.com/ethz-asl/ethzasl_xsens_driver.git

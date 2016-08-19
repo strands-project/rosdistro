@@ -2771,6 +2771,16 @@ repositories:
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
       version: master
     status: maintained
+  mrpt_slam:
+    doc:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
+      version: master
+    status: maintained
   multimaster_fkie:
     doc:
       type: git
@@ -6374,6 +6384,15 @@ repositories:
       url: https://github.com/RobotWebTools/web_video_server.git
       version: develop
     status: maintained
+  wireless:
+    release:
+      packages:
+      - wireless_msgs
+      - wireless_watcher
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/clearpath-gbp/wireless-release.git
+      version: 0.0.7-0
   wu_ros_tools:
     doc:
       type: git
@@ -6422,7 +6441,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ethz-asl/ethzasl_xsens_driver-release.git
-      version: 2.0.0-0
+      version: 2.0.1-0
     source:
       type: git
       url: https://github.com/ethz-asl/ethzasl_xsens_driver.git

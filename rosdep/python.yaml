@@ -559,6 +559,10 @@ python-docx:
   fedora: [python-docx]
   ubuntu:
     pip: [python-docx]
+python-easygui:
+  debian: [python-easygui]
+  fedora: [python-easygui]
+  ubuntu: [python-easygui]
 python-empy:
   arch: [python2-empy]
   debian: [python-empy]
@@ -691,6 +695,7 @@ python-gevent:
   ubuntu: [python-gevent]
 python-gi:
   debian: [python-gi]
+  fedora: [pygobject3]
   ubuntu: [python-gi]
 python-googleapi:
   debian: [python-googleapi]
@@ -2393,6 +2398,10 @@ python-twitter:
     raring: [python-twitter]
     saucy: [python-twitter]
     trusty: [python-twitter]
+python-tz:
+  debian: [python-tz]
+  fedora: [pytz]
+  ubuntu: [python-tz]
 python-tzlocal-pip:
   ubuntu:
     pip:
