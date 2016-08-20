@@ -7490,6 +7490,7 @@ repositories:
       url: https://bitbucket.org/osrf/gear.git
       version: master
     source:
+      test_commits: false
       type: git
       url: https://bitbucket.org/osrf/gear.git
       version: master
@@ -7806,7 +7807,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.15-0
+      version: 0.0.16-0
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
@@ -12746,7 +12747,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotnikAutomation/summit_x_common-release.git
-      version: 0.0.1-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/summit_x_common.git
