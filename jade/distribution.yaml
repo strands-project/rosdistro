@@ -1361,11 +1361,12 @@ repositories:
       - grid_map_loader
       - grid_map_msgs
       - grid_map_ros
+      - grid_map_rviz_plugin
       - grid_map_visualization
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ethz-asl/grid_map-release.git
-      version: 1.3.1-0
+      version: 1.4.0-0
     source:
       type: git
       url: https://github.com/ethz-asl/grid_map.git
@@ -2552,37 +2553,44 @@ repositories:
       url: https://github.com/strands-project/mongodb_store.git
       version: hydro-devel
     status: developed
-  moveit_commander:
+  moveit:
     doc:
       type: git
-      url: https://github.com/ros-planning/moveit_commander.git
-      version: indigo-devel
-    release:
-      tags:
-        release: release/jade/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_commander-release.git
-      version: 0.6.1-0
-    source:
-      type: git
-      url: https://github.com/ros-planning/moveit_commander.git
-      version: indigo-devel
-    status: maintained
-  moveit_core:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/moveit_core.git
+      url: https://github.com/ros-planning/moveit.git
       version: jade-devel
     release:
+      packages:
+      - moveit
+      - moveit_commander
+      - moveit_controller_manager_example
+      - moveit_core
+      - moveit_fake_controller_manager
+      - moveit_planners
+      - moveit_planners_ompl
+      - moveit_plugins
+      - moveit_ros
+      - moveit_ros_benchmarks
+      - moveit_ros_benchmarks_gui
+      - moveit_ros_control_interface
+      - moveit_ros_manipulation
+      - moveit_ros_move_group
+      - moveit_ros_perception
+      - moveit_ros_planning
+      - moveit_ros_planning_interface
+      - moveit_ros_robot_interaction
+      - moveit_ros_visualization
+      - moveit_ros_warehouse
+      - moveit_setup_assistant
+      - moveit_simple_controller_manager
       tags:
         release: release/jade/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_core-release.git
-      version: 0.8.2-0
+      url: https://github.com/ros-gbp/moveit-release.git
+      version: 0.8.3-0
     source:
-      test_pull_requests: true
       type: git
-      url: https://github.com/ros-planning/moveit_core.git
+      url: https://github.com/ros-planning/moveit.git
       version: jade-devel
-    status: maintained
+    status: developed
   moveit_experimental:
     doc:
       type: git
@@ -2613,49 +2621,12 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/moveit_msgs-release.git
-      version: 0.8.1-0
+      version: 0.8.3-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
       version: jade-devel
     status: developed
-  moveit_planners:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/moveit_planners.git
-      version: indigo-devel
-    release:
-      packages:
-      - moveit_planners
-      - moveit_planners_ompl
-      tags:
-        release: release/jade/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_planners-release.git
-      version: 0.6.7-0
-    source:
-      type: git
-      url: https://github.com/ros-planning/moveit_planners.git
-      version: indigo-devel
-    status: maintained
-  moveit_plugins:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/moveit_plugins.git
-      version: jade-devel
-    release:
-      packages:
-      - moveit_fake_controller_manager
-      - moveit_plugins
-      - moveit_simple_controller_manager
-      tags:
-        release: release/jade/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_plugins-release.git
-      version: 0.5.6-0
-    source:
-      type: git
-      url: https://github.com/ros-planning/moveit_plugins.git
-      version: jade-devel
-    status: maintained
   moveit_python:
     doc:
       type: git
@@ -2673,48 +2644,6 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/moveit_resources-release.git
       version: 0.5.0-0
-    status: maintained
-  moveit_ros:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/moveit_ros.git
-      version: jade-devel
-    release:
-      packages:
-      - moveit_ros
-      - moveit_ros_benchmarks
-      - moveit_ros_benchmarks_gui
-      - moveit_ros_manipulation
-      - moveit_ros_move_group
-      - moveit_ros_perception
-      - moveit_ros_planning
-      - moveit_ros_planning_interface
-      - moveit_ros_robot_interaction
-      - moveit_ros_visualization
-      - moveit_ros_warehouse
-      tags:
-        release: release/jade/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_ros-release.git
-      version: 0.6.6-0
-    source:
-      type: git
-      url: https://github.com/ros-planning/moveit_ros.git
-      version: jade-devel
-    status: maintained
-  moveit_setup_assistant:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/moveit_setup_assistant.git
-      version: jade-devel
-    release:
-      tags:
-        release: release/jade/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_setup_assistant-release.git
-      version: 0.7.1-0
-    source:
-      type: git
-      url: https://github.com/ros-planning/moveit_setup_assistant.git
-      version: jade-devel
     status: maintained
   moveit_sim_controller:
     doc:
@@ -2765,7 +2694,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
-      version: 0.1.10-0
+      version: 0.1.11-0
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -2776,6 +2705,17 @@ repositories:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
       version: master
+    release:
+      packages:
+      - mrpt_ekf_slam_2d
+      - mrpt_ekf_slam_3d
+      - mrpt_icp_slam_2d
+      - mrpt_rbpf_slam
+      - mrpt_slam
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/mrpt-ros-pkg-release/mrpt_slam-release.git
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
@@ -3827,7 +3767,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.16-0
+      version: 0.0.17-0
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
@@ -4738,7 +4678,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/code-iai-release/ros_emacs_utils-release.git
-      version: 0.4.9-0
+      version: 0.4.10-0
     source:
       type: git
       url: https://github.com/code-iai/ros_emacs_utils.git
