@@ -5580,6 +5580,17 @@ repositories:
       url: https://github.com/ros-gbp/sicktoolbox_wrapper-release.git
       version: 2.5.3-0
     status: maintained
+  simple_grasping:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/simple_grasping.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/fetchrobotics-gbp/simple_grasping-release.git
+      version: 0.2.2-0
+    status: developed
   slam_gmapping:
     doc:
       type: git
@@ -5598,6 +5609,17 @@ repositories:
       url: https://github.com/ros-perception/slam_gmapping.git
       version: hydro-devel
     status: developed
+  slam_karto:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/slam_karto.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/slam_karto-release.git
+      version: 0.7.3-0
+    status: maintained
   smart_battery_msgs:
     doc:
       type: git
@@ -5623,6 +5645,17 @@ repositories:
       type: git
       url: https://github.com/stonier/sophus.git
       version: jade
+    status: maintained
+  sparse_bundle_adjustment:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/sparse_bundle_adjustment.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-gbp/sparse_bundle_adjustment-release.git
+      version: 0.3.2-0
     status: maintained
   spatial_temporal_learning:
     doc:

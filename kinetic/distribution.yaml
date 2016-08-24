@@ -1094,7 +1094,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/geometric_shapes-release.git
-      version: 0.4.4-0
+      version: 0.5.1-0
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
@@ -1187,6 +1187,17 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: https://github.com/davetcoleman/graph_msgs-release.git
       version: 0.1.0-0
+    status: maintained
+  grasping_msgs:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/grasping_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/mikeferguson/grasping_msgs-gbp.git
+      version: 0.3.1-0
     status: maintained
   grid_map:
     doc:
@@ -1791,7 +1802,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/intel-ros/librealsense-release.git
-      version: 0.9.2-3
+      version: 0.9.3-0
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
@@ -2123,6 +2134,17 @@ repositories:
       url: https://github.com/ros-planning/moveit_msgs.git
       version: jade-devel
     status: maintained
+  moveit_python:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/moveit_python.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/mikeferguson/moveit_python-release.git
+      version: 0.2.17-0
+    status: developed
   mrpt_navigation:
     doc:
       type: git
@@ -2530,6 +2552,17 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/ompl-release.git
       version: 1.2.0-0
+    status: maintained
+  open_karto:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/open_karto.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/open_karto-release.git
+      version: 1.1.4-0
     status: maintained
   opencv3:
     release:
@@ -3116,6 +3149,21 @@ repositories:
       url: https://github.com/ros-drivers/rgbd_launch.git
       version: jade-devel
     status: maintained
+  robot_controllers:
+    doc:
+      type: git
+      url: https://github.com/fetchrobotics/robot_controllers.git
+      version: indigo-devel
+    release:
+      packages:
+      - robot_controllers
+      - robot_controllers_interface
+      - robot_controllers_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/fetchrobotics-gbp/robot_controllers-release.git
+      version: 0.5.2-0
+    status: maintained
   robot_localization:
     doc:
       type: git
@@ -3149,8 +3197,9 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/robot_model-release.git
-      version: 1.12.3-0
+      version: 1.12.4-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros/robot_model.git
       version: kinetic-devel
@@ -4089,6 +4138,17 @@ repositories:
       url: https://github.com/uos/sick_tim.git
       version: kinetic
     status: developed
+  simple_grasping:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/simple_grasping.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/fetchrobotics-gbp/simple_grasping-release.git
+      version: 0.2.2-0
+    status: developed
   slam_gmapping:
     doc:
       type: git
@@ -4107,6 +4167,17 @@ repositories:
       url: https://github.com/ros-perception/slam_gmapping.git
       version: hydro-devel
     status: maintained
+  slam_karto:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/slam_karto.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/slam_karto-release.git
+      version: 0.7.3-0
+    status: maintained
   sophus:
     release:
       tags:
@@ -4117,6 +4188,17 @@ repositories:
       type: git
       url: https://github.com/stonier/sophus.git
       version: indigo
+    status: maintained
+  sparse_bundle_adjustment:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/sparse_bundle_adjustment.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/sparse_bundle_adjustment-release.git
+      version: 0.3.2-0
     status: maintained
   srdfdom:
     doc:
