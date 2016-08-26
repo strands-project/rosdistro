@@ -1485,7 +1485,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/interactive_markers-release.git
-      version: 1.11.1-0
+      version: 1.11.3-0
     source:
       type: git
       url: https://github.com/ros-visualization/interactive_markers.git
@@ -2004,7 +2004,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/mavlink/mavlink-gbp-release.git
-      version: 2016.8.8-0
+      version: 2016.8.25-0
     source:
       type: git
       url: https://github.com/mavlink/mavlink-gbp-release.git
@@ -3902,7 +3902,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/kintzhao/rplidar_ros-release.git
-      version: 1.5.4-0
+      version: 1.5.5-0
     source:
       type: git
       url: https://github.com/robopeak/rplidar_ros.git
@@ -4209,7 +4209,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/srdfdom-release.git
-      version: 0.3.1-0
+      version: 0.3.2-0
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
@@ -4868,7 +4868,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/anqixu/ueye_cam-release.git
-      version: 1.0.14-0
+      version: 1.0.15-0
     source:
       type: git
       url: https://github.com/anqixu/ueye_cam.git
