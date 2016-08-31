@@ -666,7 +666,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/DynamixelSDK-release.git
-      version: 3.4.0-6
+      version: 3.4.1-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
@@ -2242,6 +2242,28 @@ repositories:
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
       version: master
     status: maintained
+  multimaster_fkie:
+    doc:
+      type: git
+      url: https://github.com/fkie/multimaster_fkie.git
+      version: kinetic-devel
+    release:
+      packages:
+      - default_cfg_fkie
+      - master_discovery_fkie
+      - master_sync_fkie
+      - multimaster_fkie
+      - multimaster_msgs_fkie
+      - node_manager_fkie
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/fkie-release/multimaster_fkie-release.git
+      version: 0.5.5-0
+    source:
+      type: git
+      url: https://github.com/fkie/multimaster_fkie.git
+      version: kinetic-devel
+    status: developed
   multisense_ros:
     doc:
       type: hg
@@ -3337,7 +3359,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-Framework-release.git
-      version: 0.1.1-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-Framework.git
@@ -3352,7 +3374,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-Math-release.git
-      version: 0.1.0-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-Math.git
@@ -4533,7 +4555,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-THORMANG-Common-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-Common.git
@@ -4587,7 +4609,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-THORMANG-msgs-release.git
-      version: 0.1.0-0
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-msgs.git
