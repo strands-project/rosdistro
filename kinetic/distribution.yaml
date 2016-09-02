@@ -1125,7 +1125,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
-      version: indigo-devel
+      version: kinetic-devel
     release:
       tags:
         release: release/kinetic/{package}/{version}
@@ -1134,7 +1134,7 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
-      version: indigo-devel
+      version: kinetic-devel
     status: maintained
   geometry:
     doc:
@@ -2258,7 +2258,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.5.5-0
+      version: 0.5.6-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -3374,7 +3374,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-Math-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-Math.git
@@ -3422,7 +3422,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/RobotnikAutomation/robotnik_sensors-release.git
-      version: 1.0.2-0
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/robotnik_sensors.git
@@ -4466,7 +4466,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/RobotnikAutomation/summit_xl_common-release.git
-      version: 1.1.1-0
+      version: 1.1.2-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/summit_xl_common.git
@@ -4641,7 +4641,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-THORMANG-msgs-release.git
-      version: 0.2.0-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-msgs.git

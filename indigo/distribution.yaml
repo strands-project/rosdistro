@@ -1160,7 +1160,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/catkin_pip-release.git
-      version: 0.1.14-0
+      version: 0.1.15-0
     source:
       type: git
       url: https://github.com/asmodehn/catkin_pip.git
@@ -6317,7 +6317,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.5.5-0
+      version: 0.5.6-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -8565,6 +8565,21 @@ repositories:
       url: https://github.com/clearpathrobotics/puma_motor_driver.git
       version: master
     status: maintained
+  pyros:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/pyros.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/pyros-rosrelease.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/asmodehn/pyros.git
+      version: indigo
+    status: developed
   pyros_config:
     doc:
       type: git
@@ -9494,7 +9509,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotnikAutomation/robotnik_sensors-release.git
-      version: 1.0.1-0
+      version: 1.0.3-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/robotnik_sensors.git
@@ -12833,7 +12848,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotnikAutomation/summit_xl_common-release.git
-      version: 1.0.9-0
+      version: 1.0.10-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/summit_xl_common.git
@@ -13498,7 +13513,7 @@ repositories:
   ucl_drone:
     doc:
       type: git
-      url: https://github.com/Felicien93/ucl_drone.git
+      url: https://github.com/dronesinma/ucl_drone_2016.git
       version: master
   ueye:
     doc:
@@ -14337,7 +14352,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ksatyaki/wts_driver-release.git
-      version: 1.0.2-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/ksatyaki/wts_driver.git
