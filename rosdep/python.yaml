@@ -210,6 +210,20 @@ python-babel:
     vivid: [python-babel]
     wily: [python-babel]
     xenial: [python-babel]
+python-backports.ssl-match-hostname:
+  debian: [python-backports.ssl-match-hostname]
+  fedora: [python-backports.ssl-match-hostname]
+  ubuntu:
+    saucy:
+      pip:
+        packages: [backports.ssl_match_hostname]
+    trusty:
+      pip:
+        packages: [backports.ssl_match_hostname]
+    vivid: [backports.ssl_match_hostname]
+    wily: [python-backports.ssl-match-hostname]
+    xenial: [python-backports.ssl-match-hostname]
+    yakkety: [python-backports.ssl-match-hostname]
 python-beautifulsoup:
   arch: [python2-beautifulsoup3]
   debian: [python-beautifulsoup]
@@ -270,10 +284,16 @@ python-bluez:
     vivid: [python-bluez]
     wily: [python-bluez]
     xenial: [python-bluez]
+python-bottle:
+  debian: [python-bottle]
+  fedora: [python-bottle]
+  ubuntu: [python-bottle]
 python-box2d:
   fedora: [pybox2d]
   ubuntu: [python-box2d]
 python-bs4:
+  debian: [python-bs4]
+  fedora: [python-beautifulsoup4]
   ubuntu: [python-bs4]
 python-bson:
   debian: [python-bson]
@@ -628,6 +648,10 @@ python-evdev:
     vivid: [python-evdev]
     wily: [python-evdev]
     xenial: [python-evdev]
+python-falcon:
+  debian: [python-falcon]
+  fedora: [python-falcon]
+  ubuntu: [python-falcon]
 python-fcn-pip:
   osx:
     pip:
@@ -663,6 +687,7 @@ python-flask:
     vivid: [python-flask]
     wily: [python-flask]
     xenial: [python-flask]
+    yakkety: [python-flask]
 python-flask-cors-pip:
   debian:
     pip:
@@ -671,10 +696,26 @@ python-flask-cors-pip:
     pip:
       packages: [flask-cors]
 python-flask-restful:
+  debian: [python-flask-restful]
   fedora: [python-flask-restful]
   ubuntu:
-    pip:
-      packages: [flask-restful]
+    saucy:
+      pip:
+        packages: [flask-restful]
+    trusty:
+      pip:
+        packages: [flask-restful]
+    utopic:
+      pip:
+        packages: [flask-restful]
+    vivid:
+      pip:
+        packages: [flask-restful]
+    wily:
+      pip:
+        packages: [flask-restful]
+    xenial: [python-flask-restful]
+    yakkety: [python-flask-restful]
 python-freezegun-pip:
   osx:
     pip:
@@ -1248,6 +1289,10 @@ python-paramiko:
 python-passlib:
   fedora: [python-passlib]
   ubuntu: [python-passlib]
+python-pastedeploy:
+  debian: [python-pastedeploy]
+  fedora: [python-paste-deploy]
+  ubuntu: [python-pastedeploy]
 python-path.py:
   osx:
     pip:
@@ -1580,11 +1625,16 @@ python-pyproj:
     apt:
       packages: [python-pyproj]
 python-pyquery:
+  debian: [python-pyquery]
   fedora: [python-pyquery]
   osx:
     pip:
       packages: [pyquery]
   ubuntu: [python-pyquery]
+python-pyramid:
+  debian: [python-pyramid]
+  fedora: [python-pyramid]
+  ubuntu: [python-pyramid]
 python-pyside:
   arch: [python2-pyside]
   debian: [python-pyside]
@@ -2047,6 +2097,10 @@ python-simplejson:
   debian: [python-simplejson]
   fedora: [python-simplejson]
   ubuntu: [python-simplejson]
+python-singledispatch:
+  debian: [python-singledispatch]
+  fedora: [python-singledispatch]
+  ubuntu: [python-singledispatch]
 python-sip:
   arch: [sip, python2-sip]
   debian: [python-sip-dev]
@@ -2487,10 +2541,18 @@ python-vtk:
     vivid: [python-vtk]
     wily: [python-vtk]
     xenial: [python-vtk6]
+python-waitress:
+  debian: [python-waitress]
+  fedora: [python-waitress]
+  ubuntu: [python-waitress]
 python-walrus-pip:
   ubuntu:
     pip:
       packages: [walrus]
+python-webob:
+  debian: [python-webob]
+  fedora: [python-webob]
+  ubuntu: [python-webob]
 python-websocket:
   debian: [python-websocket]
   fedora: [python-websocket-client]
@@ -2519,6 +2581,10 @@ python-websocket:
     wily_python3: [python3-websocket]
     xenial: [python-websocket]
     xenial_python3: [python3-websocket]
+python-webtest:
+  debian: [python-webtest]
+  fedora: [python-webtest]
+  ubuntu: [python-webtest]
 python-werkzeug:
   fedora: [python-werkzeug]
   ubuntu: [python-werkzeug]
