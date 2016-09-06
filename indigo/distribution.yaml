@@ -2486,7 +2486,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.20.0-0
+      version: 9.21.0-1
     status: developed
   evapc_ros:
     doc:
@@ -3748,6 +3748,17 @@ repositories:
       type: git
       url: https://github.com/AravindaDP/humanoid_navigation.git
       version: indigo-devel
+    release:
+      packages:
+      - footstep_planner
+      - gridmap_2d
+      - humanoid_localization
+      - humanoid_navigation
+      - humanoid_planner_2d
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/AravindaDP/humanoid_navigation-release.git
+      version: 0.4.1-0
     source:
       type: git
       url: https://github.com/AravindaDP/humanoid_navigation.git
@@ -7829,7 +7840,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotnikAutomation/phantomx_reactor_arm-release.git
-      version: 0.1.3-0
+      version: 0.1.4-0
     source:
       type: git
       url: https://github.com/RobotnikAutomation/phantomx_reactor_arm.git
@@ -9942,7 +9953,8 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/Romea/romea_controllers-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
+    status: developed
   romeo_moveit_actions:
     doc:
       type: git
@@ -12393,7 +12405,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/sophus_ros_toolkit-release.git
-      version: 0.1.2-0
+      version: 0.1.3-0
     source:
       type: git
       url: https://github.com/stonier/sophus_ros_toolkit.git
@@ -13689,7 +13701,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/UbiquityRobotics-release/ubiquity_motor-release.git
-      version: 0.4.1-0
+      version: 0.5.0-0
     source:
       type: git
       url: https://github.com/UbiquityRobotics/ubiquity_motor.git
@@ -14336,6 +14348,25 @@ repositories:
       url: https://github.com/ros-planning/warehouse_ros.git
       version: indigo-devel
     status: maintained
+  waypoint:
+    doc:
+      type: git
+      url: https://github.com/jihoonl/waypoint.git
+      version: master
+    release:
+      packages:
+      - waypoint_generator
+      - waypoint_meta
+      - waypoint_touring
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/jihoonl/waypoint-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/jihoonl/waypoint.git
+      version: master
+    status: developed
   web_video_server:
     doc:
       type: git
@@ -14350,6 +14381,17 @@ repositories:
       type: git
       url: https://github.com/RobotWebTools/web_video_server.git
       version: develop
+    status: maintained
+  webtest:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/webtest-rosrelease.git
+      version: release/indigo/webtest
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/webtest-rosrelease.git
+      version: 2.0.18-0
     status: maintained
   wge100_driver:
     doc:
