@@ -2280,7 +2280,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 3.4.7-0
+      version: 3.4.9-0
     source:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
@@ -2456,6 +2456,16 @@ repositories:
       url: https://github.com/nerian-vision/nerian_sp1.git
       version: master
     status: developed
+  netft_utils:
+    doc:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/netft_utils.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/netft_utils.git
+      version: master
+    status: maintained
   nodelet_core:
     doc:
       type: git
@@ -2672,11 +2682,19 @@ repositories:
       version: 3.1.0-16
     status: maintained
   opencv_apps:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/opencv_apps.git
+      version: indigo
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-perception/opencv_apps-release.git
       version: 1.11.13-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/opencv_apps.git
+      version: indigo
     status: developed
   opencv_candidate:
     release:
@@ -3017,6 +3035,17 @@ repositories:
       url: https://github.com/pr2/pr2_common.git
       version: kinetic-devel
     status: maintained
+  pyros_config:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/pyros-config-rosrelease.git
+      version: release/kinetic/pyros_config
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/asmodehn/pyros-config-rosrelease.git
+      version: 0.1.5-1
+    status: developed
   pyros_test:
     doc:
       type: git

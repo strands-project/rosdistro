@@ -3758,7 +3758,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AravindaDP/humanoid_navigation-release.git
-      version: 0.4.1-1
+      version: 0.4.1-2
     source:
       type: git
       url: https://github.com/AravindaDP/humanoid_navigation.git
@@ -6827,6 +6827,16 @@ repositories:
       url: https://github.com/nerian-vision/nerian_sp1.git
       version: master
     status: developed
+  netft_utils:
+    doc:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/netft_utils.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/netft_utils.git
+      version: master
+    status: maintained
   nmea_comms:
     doc:
       type: git
@@ -7085,7 +7095,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/ocl-release.git
-      version: 2.8.3-0
+      version: 2.8.3-1
     source:
       type: git
       url: https://github.com/orocos-toolchain/ocl.git
@@ -11348,7 +11358,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/orocos-gbp/rtt-release.git
-      version: 2.8.3-0
+      version: 2.8.3-2
     source:
       type: git
       url: https://github.com/orocos-toolchain/rtt.git
