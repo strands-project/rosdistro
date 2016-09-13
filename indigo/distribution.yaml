@@ -1160,7 +1160,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/catkin_pip-release.git
-      version: 0.1.15-0
+      version: 0.1.16-0
     source:
       type: git
       url: https://github.com/asmodehn/catkin_pip.git
@@ -4722,7 +4722,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 1.0.32-0
+      version: 1.0.33-0
     status: developed
   jskeus:
     doc:
@@ -7355,7 +7355,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-perception/opencv_apps-release.git
-      version: 1.11.13-0
+      version: 1.11.14-0
     source:
       type: git
       url: https://github.com/ros-perception/opencv_apps.git
@@ -14190,6 +14190,66 @@ repositories:
       url: https://github.com/ros-visualization/view_controller_msgs.git
       version: indigo-devel
     status: developed
+  vigir_footstep_planning_basics:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_basics.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_basics.git
+      version: master
+    status: maintained
+  vigir_footstep_planning_core:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_core.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_core.git
+      version: master
+    status: maintained
+  vigir_footstep_planning_msgs:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_msgs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_msgs.git
+      version: master
+    status: maintained
+  vigir_generic_params:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_generic_params.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/team-vigir/vigir_generic_params.git
+      version: master
+    status: maintained
+  vigir_pluginlib:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_pluginlib.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/team-vigir/vigir_pluginlib.git
+      version: master
+    status: maintained
+  vigir_step_control:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_step_control.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/team-vigir/vigir_step_control.git
+      version: master
+    status: maintained
   viper:
     release:
       tags:
