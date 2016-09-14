@@ -1401,7 +1401,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.9.0-0
+      version: 315.10.0-0
     status: developed
   humanoid_msgs:
     doc:
@@ -2038,6 +2038,12 @@ repositories:
       url: https://github.com/swri-robotics/marti_messages.git
       version: indigo-devel
     status: developed
+  marvelmind_nav:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/MarvelmindRobotics/marvelmind_nav-release.git
+      version: 1.0.4-0
   mavlink:
     doc:
       type: git
@@ -3328,7 +3334,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/rgbd_launch-release.git
-      version: 2.2.1-0
+      version: 2.2.2-0
     source:
       type: git
       url: https://github.com/ros-drivers/rgbd_launch.git
