@@ -3038,6 +3038,9 @@ meshlab:
   debian: [meshlab]
   fedora: [meshlab]
   ubuntu: [meshlab]
+mongo-cxx-driver:
+  ubuntu:
+    trusty: [mongo-cxx-driver]
 mongodb:
   debian: [mongodb]
   fedora: [mongodb]
