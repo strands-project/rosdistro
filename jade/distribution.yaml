@@ -3761,7 +3761,6 @@ repositories:
     release:
       packages:
       - pepper_dcm_bringup
-      - pepper_dcm_msgs
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-naoqi/pepper_dcm_robot-release.git
@@ -6316,6 +6315,72 @@ repositories:
       type: git
       url: https://github.com/ros-visualization/view_controller_msgs.git
       version: hydro-devel
+    status: maintained
+  vigir_footstep_planning_basics:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_basics.git
+      version: master
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_basics.git
+      version: master
+    status: maintained
+  vigir_footstep_planning_core:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_core.git
+      version: master
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_core.git
+      version: master
+    status: maintained
+  vigir_footstep_planning_msgs:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_msgs.git
+      version: master
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/team-vigir/vigir_footstep_planning_msgs.git
+      version: master
+    status: maintained
+  vigir_generic_params:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_generic_params.git
+      version: master
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/team-vigir/vigir_generic_params.git
+      version: master
+    status: maintained
+  vigir_pluginlib:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_pluginlib.git
+      version: master
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/team-vigir/vigir_pluginlib.git
+      version: master
+    status: maintained
+  vigir_step_control:
+    doc:
+      type: git
+      url: https://github.com/team-vigir/vigir_step_control.git
+      version: master
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/team-vigir/vigir_step_control.git
+      version: master
     status: maintained
   vision_opencv:
     doc:
