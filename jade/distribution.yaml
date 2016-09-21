@@ -2912,7 +2912,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_bridge-release.git
-      version: 0.5.3-0
+      version: 0.5.5-0
     source:
       type: git
       url: https://github.com/ros-naoqi/naoqi_bridge.git
@@ -2953,7 +2953,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-naoqi/naoqi_dcm_driver-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/ros-naoqi/naoqi_dcm_driver.git
@@ -3828,7 +3828,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-naoqi/pepper_virtual-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/ros-naoqi/pepper_virtual.git
@@ -4622,6 +4622,24 @@ repositories:
       url: https://github.com/ros-aldebaran/romeo_robot.git
       version: master
     status: maintained
+  romeo_virtual:
+    doc:
+      type: git
+      url: https://github.com/ros-aldebaran/romeo_virtual.git
+      version: master
+    release:
+      packages:
+      - romeo_control
+      - romeo_gazebo_plugin
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/ros-aldebaran/romeo_virtual-release.git
+      version: 0.2.2-0
+    source:
+      type: git
+      url: https://github.com/ros-aldebaran/romeo_virtual.git
+      version: master
+    status: developed
   ros:
     doc:
       type: git
