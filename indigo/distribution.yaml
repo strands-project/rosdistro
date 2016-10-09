@@ -804,6 +804,12 @@ repositories:
       url: https://github.com/ros/bond_core.git
       version: master
     status: maintained
+  bowpmap_ros:
+    source:
+      type: git
+      url: https://github.com/kejriwalnishant1990/bowpmap_ros.git
+      version: master
+    status: maintained
   brics_actuator:
     release:
       tags:
@@ -3800,7 +3806,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.10.0-0
+      version: 315.10.1-0
     source:
       type: git
       url: https://github.com/fkanehiro/hrpsys-base.git
