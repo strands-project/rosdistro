@@ -1335,7 +1335,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_calibration_data-release.git
-      version: 0.6.5-0
+      version: 0.6.6-0
     source:
       type: git
       url: https://github.com/ipa320/cob_calibration_data.git
@@ -1358,7 +1358,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_command_tools-release.git
-      version: 0.6.4-0
+      version: 0.6.5-0
     source:
       type: git
       url: https://github.com/ipa320/cob_command_tools.git
@@ -1379,7 +1379,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_common-release.git
-      version: 0.6.5-0
+      version: 0.6.6-0
     source:
       type: git
       url: https://github.com/ipa320/cob_common.git
@@ -1409,7 +1409,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_control-release.git
-      version: 0.6.11-0
+      version: 0.6.14-0
     source:
       type: git
       url: https://github.com/ipa320/cob_control.git
@@ -1432,6 +1432,8 @@ repositories:
       - cob_head_axis
       - cob_light
       - cob_mimic
+      - cob_phidget_em_state
+      - cob_phidget_power_state
       - cob_phidgets
       - cob_relayboard
       - cob_scan_unifier
@@ -1444,7 +1446,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_driver-release.git
-      version: 0.6.7-0
+      version: 0.6.8-0
     source:
       type: git
       url: https://github.com/ipa320/cob_driver.git
@@ -1462,7 +1464,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_environments-release.git
-      version: 0.6.3-0
+      version: 0.6.4-0
     source:
       type: git
       url: https://github.com/ipa320/cob_environments.git
@@ -1476,13 +1478,16 @@ repositories:
     release:
       packages:
       - cob_extern
+      - libconcorde_tsp_solver
+      - libdlib
       - libntcan
+      - libopengm
       - libpcan
       - libphidgets
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_extern-release.git
-      version: 0.6.4-0
+      version: 0.6.5-0
     source:
       type: git
       url: https://github.com/ipa320/cob_extern.git
@@ -1506,6 +1511,24 @@ repositories:
       url: https://github.com/ipa320/cob_gazebo_plugins.git
       version: indigo_dev
     status: maintained
+  cob_hand:
+    doc:
+      type: git
+      url: https://github.com/ipa320/cob_hand.git
+      version: indigo_release_candidate
+    release:
+      packages:
+      - cob_hand
+      - cob_hand_bridge
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ipa320/cob_hand-release.git
+      version: 0.6.1-0
+    source:
+      type: git
+      url: https://github.com/ipa320/cob_hand.git
+      version: indigo_dev
+    status: developed
   cob_manipulation:
     doc:
       type: git
@@ -1584,7 +1607,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_perception_common-release.git
-      version: 0.6.7-0
+      version: 0.6.8-0
     source:
       type: git
       url: https://github.com/ipa320/cob_perception_common.git
@@ -1606,7 +1629,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_robots-release.git
-      version: 0.6.5-0
+      version: 0.6.6-0
     source:
       type: git
       url: https://github.com/ipa320/cob_robots.git
@@ -1627,7 +1650,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_simulation-release.git
-      version: 0.6.5-0
+      version: 0.6.6-0
     source:
       type: git
       url: https://github.com/ipa320/cob_simulation.git
@@ -1640,7 +1663,9 @@ repositories:
       version: indigo_release_candidate
     release:
       packages:
+      - cob_docker_control
       - cob_lbr
+      - cob_reflector_referencing
       - cob_safety_controller
       - cob_substitute
       - frida_driver
@@ -1649,7 +1674,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_substitute-release.git
-      version: 0.6.4-0
+      version: 0.6.5-0
     source:
       type: git
       url: https://github.com/ipa320/cob_substitute.git
@@ -11827,7 +11852,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/schunk_modular_robotics-release.git
-      version: 0.6.7-0
+      version: 0.6.8-0
     source:
       type: git
       url: https://github.com/ipa320/schunk_modular_robotics.git
