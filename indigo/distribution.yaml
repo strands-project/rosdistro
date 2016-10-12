@@ -504,7 +504,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/auboliuxin/aubo_robot-release.git
-      version: 0.1.6-0
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/auboliuxin/aubo_robot.git
@@ -12177,7 +12177,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/SICKAG/sick_visionary_t-release.git
-      version: 0.0.2-0
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/SICKAG/sick_visionary_t.git
