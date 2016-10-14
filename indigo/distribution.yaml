@@ -1163,6 +1163,7 @@ repositories:
       url: https://github.com/googlecartographer/cartographer.git
       version: master
     source:
+      test_commits: false
       type: git
       url: https://github.com/googlecartographer/cartographer.git
       version: master
@@ -1172,6 +1173,7 @@ repositories:
       url: https://github.com/googlecartographer/cartographer_ros.git
       version: master
     source:
+      test_commits: false
       type: git
       url: https://github.com/googlecartographer/cartographer_ros.git
       version: master
@@ -1487,7 +1489,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_extern-release.git
-      version: 0.6.5-0
+      version: 0.6.6-0
     source:
       type: git
       url: https://github.com/ipa320/cob_extern.git
@@ -14655,7 +14657,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/web_video_server-release.git
-      version: 0.0.4-0
+      version: 0.0.5-0
     source:
       type: git
       url: https://github.com/RobotWebTools/web_video_server.git
