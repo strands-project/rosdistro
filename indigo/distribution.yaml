@@ -4012,6 +4012,46 @@ repositories:
       url: https://github.com/open-rdc/icart_mini.git
       version: indigo-devel
     status: developed
+  ihmc-ros-control:
+    release:
+      packages:
+      - ihmc_ros_control
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ihmcrobotics/ihmc-ros-control-release.git
+      version: 0.5.0-1
+    source:
+      type: git
+      url: https://github.com/ihmcrobotics/ihmc-ros-control.git
+      version: develop
+    status: developed
+  ihmc_ros_core:
+    release:
+      packages:
+      - ihmc_msgs
+      - ihmc_ros_common
+      - ihmc_ros_core
+      - ihmc_ros_java_adapter
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ihmcrobotics/ihmc_ros_core-release.git
+      version: 0.8.0-0
+    source:
+      type: git
+      url: https://github.com/ihmcrobotics/ihmc_ros_core.git
+      version: develop
+    status: developed
+  ihmc_ros_diagnostics:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ihmcrobotics/ihmc_ros_diagnostics-release.git
+      version: 0.8.0-0
+    source:
+      type: git
+      url: https://github.com/ihmcrobotics/ihmc_ros_diagnostics.git
+      version: develop
+    status: developed
   im_msgs:
     doc:
       type: git
@@ -5941,6 +5981,21 @@ repositories:
       url: https://github.com/yincanben/micros_dynamic_objects_filter.git
       version: master
     status: developed
+  micros_hopfield:
+    doc:
+      type: git
+      url: https://github.com/micros-uav/micros_hopfield.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/micros-uav/micros_hopfield-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/micros-uav/micros_hopfield.git
+      version: master
+    status: developed
   micros_mars_task_alloc:
     doc:
       type: git
@@ -6358,7 +6413,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-planning/moveit_tutorials.git
-      version: master
+      version: indigo-devel
   moveit_visual_tools:
     doc:
       type: git
@@ -11571,7 +11626,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_nextage-release.git
-      version: 0.7.9-0
+      version: 0.7.10-0
     source:
       test_pull_requests: true
       type: git
