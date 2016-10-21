@@ -151,7 +151,7 @@ repositories:
       - aruco_ros
       tags:
         release: release/jade/{package}/{version}
-      url: https://github.com/bmagyar/aruco_ros-release.git
+      url: https://github.com/pal-gbp/aruco_ros-release.git
       version: 0.1.0-0
     source:
       type: git
@@ -4906,6 +4906,17 @@ repositories:
       url: https://github.com/ros/ros_tutorials.git
       version: jade-devel
     status: maintained
+  ros_type_introspection:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/facontidavide/ros_type_introspection-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/facontidavide/ros_type_introspection.git
+      version: master
+    status: developed
   rosaria:
     doc:
       type: git

@@ -424,8 +424,8 @@ repositories:
       - aruco_ros
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/bmagyar/aruco_ros-release.git
-      version: 0.1.0-0
+      url: https://github.com/pal-gbp/aruco_ros-release.git
+      version: 0.2.0-0
     source:
       type: git
       url: https://github.com/pal-robotics/aruco_ros.git
@@ -1489,7 +1489,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ipa320/cob_extern-release.git
-      version: 0.6.6-0
+      version: 0.6.7-0
     source:
       type: git
       url: https://github.com/ipa320/cob_extern.git
@@ -4035,7 +4035,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ihmcrobotics/ihmc_ros_core-release.git
-      version: 0.8.0-0
+      version: 0.8.0-4
     source:
       type: git
       url: https://github.com/ihmcrobotics/ihmc_ros_core.git
@@ -4046,7 +4046,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ihmcrobotics/ihmc_ros_diagnostics-release.git
-      version: 0.8.0-0
+      version: 0.8.0-1
     source:
       type: git
       url: https://github.com/ihmcrobotics/ihmc_ros_diagnostics.git
@@ -5474,7 +5474,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/intel-ros/librealsense-release.git
-      version: 1.11.0-0
+      version: 1.11.0-1
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
@@ -10710,7 +10710,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/ros_type_introspection-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/facontidavide/ros_type_introspection.git
+      version: master
     status: developed
   ros_web_video:
     doc:

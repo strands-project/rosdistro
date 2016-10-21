@@ -1165,7 +1165,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/geometric_shapes-release.git
-      version: 0.5.1-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
@@ -1633,6 +1633,17 @@ repositories:
       url: https://github.com/tork-a/jsk_common_msgs-release.git
       version: 4.0.0-0
     status: developed
+  jsk_roseus:
+    release:
+      packages:
+      - jsk_roseus
+      - roseus
+      - roseus_smach
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/tork-a/jsk_roseus-release.git
+      version: 1.6.0-0
+    status: developed
   jskeus:
     release:
       tags:
@@ -1923,7 +1934,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/intel-ros/librealsense-release.git
-      version: 1.11.0-0
+      version: 1.11.0-1
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
@@ -2258,6 +2269,44 @@ repositories:
       url: https://github.com/ros/metapackages.git
       version: kinetic-devel
     status: maintained
+  moveit:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit.git
+      version: kinetic-devel
+    release:
+      packages:
+      - moveit
+      - moveit_commander
+      - moveit_controller_manager_example
+      - moveit_core
+      - moveit_fake_controller_manager
+      - moveit_kinematics
+      - moveit_planners
+      - moveit_planners_ompl
+      - moveit_plugins
+      - moveit_ros
+      - moveit_ros_benchmarks
+      - moveit_ros_control_interface
+      - moveit_ros_manipulation
+      - moveit_ros_move_group
+      - moveit_ros_perception
+      - moveit_ros_planning
+      - moveit_ros_planning_interface
+      - moveit_ros_robot_interaction
+      - moveit_ros_visualization
+      - moveit_ros_warehouse
+      - moveit_setup_assistant
+      - moveit_simple_controller_manager
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/moveit-release.git
+      version: 0.9.1-2
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit.git
+      version: kinetic-devel
+    status: developed
   moveit_msgs:
     doc:
       type: git
@@ -2299,11 +2348,41 @@ repositories:
       url: https://github.com/ros-planning/moveit_resources.git
       version: master
     status: developed
+  moveit_sim_controller:
+    doc:
+      type: git
+      url: https://github.com/davetcoleman/moveit_sim_controller.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/davetcoleman/moveit_sim_controller-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/davetcoleman/moveit_sim_controller.git
+      version: kinetic-devel
+    status: maintained
   moveit_tutorials:
     doc:
       type: git
       url: https://github.com/ros-planning/moveit_tutorials.git
       version: kinetic-devel
+  moveit_visual_tools:
+    doc:
+      type: git
+      url: https://github.com/davetcoleman/moveit_visual_tools.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/davetcoleman/moveit_visual_tools-release.git
+      version: 3.2.0-0
+    source:
+      type: git
+      url: https://github.com/davetcoleman/moveit_visual_tools.git
+      version: kinetic-devel
+    status: developed
   mrpt_navigation:
     doc:
       type: git
@@ -3673,7 +3752,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/robot_state_publisher-release.git
-      version: 1.13.2-0
+      version: 1.13.3-0
     source:
       test_pull_requests: true
       type: git
@@ -4130,6 +4209,17 @@ repositories:
       url: https://github.com/ros/ros_tutorials.git
       version: kinetic-devel
     status: maintained
+  ros_type_introspection:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/facontidavide/ros_type_introspection-release.git
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/facontidavide/ros_type_introspection.git
+      version: master
+    status: developed
   rosauth:
     doc:
       type: git
