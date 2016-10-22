@@ -781,6 +781,13 @@ python-gi:
   debian: [python-gi]
   fedora: [pygobject3]
   ubuntu: [python-gi]
+python-github-pip:
+  osx:
+    pip:
+      packages: [PyGithub]
+  ubuntu:
+    pip:
+      packages: [PyGithub]
 python-googleapi:
   debian: [python-googleapi]
   fedora: [google-api-python-client]
@@ -2392,6 +2399,9 @@ python-termcolor:
     xenial: [python-termcolor]
     xenial_python3: [python3-termcolor]
 python-texttable:
+  debian:
+    jessie: [python-texttable]
+    sid: [python-texttable]
   fedora: [python-texttable]
   osx:
     pip:

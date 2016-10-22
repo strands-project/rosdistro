@@ -4026,6 +4026,10 @@ repositories:
       version: develop
     status: developed
   ihmc_ros_core:
+    doc:
+      type: git
+      url: https://github.com/ihmcrobotics/ihmc_ros_core.git
+      version: develop
     release:
       packages:
       - ihmc_msgs
@@ -4035,7 +4039,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ihmcrobotics/ihmc_ros_core-release.git
-      version: 0.8.0-4
+      version: 0.8.0-6
     source:
       type: git
       url: https://github.com/ihmcrobotics/ihmc_ros_core.git
@@ -4642,7 +4646,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_apc-release.git
-      version: 1.5.1-0
+      version: 2.0.0-0
     source:
       test_commits: false
       type: git
@@ -8209,7 +8213,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AndyZelenak/pid-release.git
-      version: 0.0.17-0
+      version: 0.0.18-0
     source:
       type: git
       url: https://bitbucket.org/AndyZe/pid.git
