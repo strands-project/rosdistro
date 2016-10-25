@@ -921,6 +921,11 @@ repositories:
       url: https://github.com/ros/eigen_stl_containers.git
       version: master
     status: maintained
+  ethercat_grant:
+    source:
+      type: git
+      url: https://github.com/shadow-robot/ethercat_grant.git
+      version: kinetic-devel
   euslisp:
     release:
       tags:
@@ -1284,14 +1289,16 @@ repositories:
       - grid_map_filters
       - grid_map_loader
       - grid_map_msgs
+      - grid_map_pcl
       - grid_map_ros
       - grid_map_rviz_plugin
       - grid_map_visualization
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ethz-asl/grid_map-release.git
-      version: 1.4.0-0
+      version: 1.4.1-1
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ethz-asl/grid_map.git
       version: master
@@ -2133,7 +2140,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.2.0-1
+      version: 0.2.1-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -2155,7 +2162,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.0.4-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
@@ -4984,6 +4991,21 @@ repositories:
       url: https://github.com/RobotnikAutomation/summit_xl_sim.git
       version: kinetic-devel
     status: maintained
+  swri_console:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/swri_console-release.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: master
+    status: developed
   teb_local_planner:
     doc:
       type: git
