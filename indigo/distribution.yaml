@@ -5493,7 +5493,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/intel-ros/librealsense-release.git
-      version: 1.11.0-1
+      version: 1.11.0-2
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
@@ -9088,7 +9088,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.2.30-0
+      version: 0.2.31-0
     source:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
@@ -11399,7 +11399,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/rqt_common_plugins-release.git
-      version: 0.3.13-0
+      version: 0.4.3-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_common_plugins.git
@@ -11516,7 +11516,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/rqt_robot_plugins-release.git
-      version: 0.4.3-0
+      version: 0.5.5-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_plugins.git
@@ -13712,7 +13712,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot-release.git
-      version: 2.3.11-0
+      version: 2.3.13-0
     source:
       test_pull_requests: true
       type: git
@@ -13726,20 +13726,16 @@ repositories:
       version: indigo
     release:
       packages:
-      - pano_core
-      - pano_py
-      - pano_ros
       - turtlebot_actions
       - turtlebot_apps
       - turtlebot_calibration
       - turtlebot_follower
       - turtlebot_navigation
-      - turtlebot_panorama
       - turtlebot_rapps
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot_apps-release.git
-      version: 2.3.3-0
+      version: 2.3.7-0
     source:
       test_pull_requests: true
       type: git

@@ -4284,7 +4284,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.2.30-0
+      version: 0.2.31-0
     source:
       type: git
       url: https://github.com/ros-visualization/qt_gui_core.git
@@ -5383,7 +5383,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rqt_common_plugins-release.git
-      version: 0.3.13-0
+      version: 0.4.3-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_common_plugins.git
@@ -5456,7 +5456,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rqt_robot_plugins-release.git
-      version: 0.4.3-0
+      version: 0.5.5-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt_robot_plugins.git
