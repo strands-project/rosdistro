@@ -2962,10 +2962,12 @@ repositories:
       - fremenserver
       - frenap
       - froctomap
+      - frongo
+      - frongoweb
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/fremen.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/strands-project/fremen.git
