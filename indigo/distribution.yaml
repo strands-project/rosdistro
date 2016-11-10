@@ -598,6 +598,13 @@ repositories:
       url: https://github.com/clearpathrobotics/axis_camera.git
       version: master
     status: maintained
+  backports_ssl_match_hostname:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/backports.ssl_match_hostname-rosrelease.git
+      version: 3.5.0-1
+    status: maintained
   barrett_hand:
     doc:
       type: git
@@ -2304,7 +2311,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/stonier/ecl_core.git
-      version: devel
+      version: release/0.61-indigo-kinetic
     release:
       packages:
       - ecl_command_line
@@ -2333,11 +2340,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_core-release.git
-      version: 0.61.14-0
+      version: 0.61.15-0
     source:
       type: git
       url: https://github.com/stonier/ecl_core.git
-      version: devel
+      version: release/0.61-indigo-kinetic
     status: maintained
   ecl_lite:
     doc:
@@ -2386,7 +2393,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/stonier/ecl_navigation.git
-      version: devel
+      version: release/0.60-indigo-kinetic
     release:
       packages:
       - ecl_mobile_robot
@@ -2394,11 +2401,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_navigation-release.git
-      version: 0.60.1-1
+      version: 0.60.3-0
     source:
       type: git
       url: https://github.com/stonier/ecl_navigation.git
-      version: devel
+      version: release/0.60-indigo-kinetic
     status: maintained
   ecl_tools:
     doc:
@@ -3043,6 +3050,21 @@ repositories:
     source:
       type: git
       url: https://github.com/fzi-forschungszentrum-informatik/fzi_icl_core.git
+      version: master
+    status: maintained
+  gauges:
+    doc:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/gauges.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/UTNuclearRoboticsPublic/gauges-release.git
+      version: 1.0.1-2
+    source:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/gauges.git
       version: master
     status: maintained
   gazebo2rviz:
@@ -5014,7 +5036,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki-release.git
-      version: 0.6.7-0
+      version: 0.6.8-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki.git
@@ -5034,7 +5056,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki_core-release.git
-      version: 0.6.4-0
+      version: 0.6.5-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki_core.git
@@ -5495,7 +5517,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/intel-ros/librealsense-release.git
-      version: 1.11.0-2
+      version: 1.11.1-0
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
@@ -9880,6 +9902,7 @@ repositories:
       url: https://github.com/cra-ros-pkg/robot_localization-release.git
       version: 2.3.1-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/cra-ros-pkg/robot_localization.git
       version: indigo-devel
@@ -13709,6 +13732,13 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/topic_proxy-release.git
       version: 0.1.1-0
+    status: maintained
+  tornado:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/tornado-rosrelease.git
+      version: 4.2.1-1
     status: maintained
   trac_ik:
     doc:
