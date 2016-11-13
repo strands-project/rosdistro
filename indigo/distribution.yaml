@@ -1999,6 +1999,28 @@ repositories:
       url: https://github.com/strands-project/data_compression.git
       version: hydro-devel
     status: developed
+  dataspeed_can:
+    doc:
+      type: hg
+      url: https://bitbucket.org/dataspeedinc/dataspeed_can
+      version: default
+    source:
+      test_commits: false
+      type: hg
+      url: https://bitbucket.org/dataspeedinc/dataspeed_can
+      version: default
+    status: developed
+  dbw_mkz_ros:
+    doc:
+      type: hg
+      url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros
+      version: default
+    source:
+      test_commits: false
+      type: hg
+      url: https://bitbucket.org/dataspeedinc/dbw_mkz_ros
+      version: default
+    status: developed
   declination:
     doc:
       type: git
@@ -2512,7 +2534,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/eigen_stl_containers-release.git
-      version: 0.1.6-0
+      version: 0.1.4-0
     source:
       type: git
       url: https://github.com/ros/eigen_stl_containers.git
@@ -3061,7 +3083,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/UTNuclearRoboticsPublic/gauges-release.git
-      version: 1.0.1-2
+      version: 1.0.2-0
     source:
       type: git
       url: https://github.com/UTNuclearRoboticsPublic/gauges.git
@@ -5517,7 +5539,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/intel-ros/librealsense-release.git
-      version: 1.11.1-0
+      version: 1.11.1-1
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
@@ -5664,6 +5686,17 @@ repositories:
       type: git
       url: https://github.com/tum-vision/lsd_slam.git
       version: master
+  lusb:
+    doc:
+      type: hg
+      url: https://bitbucket.org/dataspeedinc/lusb
+      version: default
+    source:
+      test_commits: false
+      type: hg
+      url: https://bitbucket.org/dataspeedinc/lusb
+      version: default
+    status: developed
   lyap_control:
     doc:
       type: git
@@ -6136,6 +6169,28 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/jolting/ml_classifiers-release.git
       version: 0.3.1-2
+  mobility_base_ros:
+    doc:
+      type: hg
+      url: https://bitbucket.org/dataspeedinc/mobility_base_ros
+      version: default
+    source:
+      test_commits: false
+      type: hg
+      url: https://bitbucket.org/dataspeedinc/mobility_base_ros
+      version: default
+    status: developed
+  mobility_base_simulator:
+    doc:
+      type: hg
+      url: https://bitbucket.org/dataspeedinc/mobility_base_simulator
+      version: default
+    source:
+      test_commits: false
+      type: hg
+      url: https://bitbucket.org/dataspeedinc/mobility_base_simulator
+      version: default
+    status: developed
   modbus:
     doc:
       type: git
