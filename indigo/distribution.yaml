@@ -9901,10 +9901,16 @@ repositories:
       version: master
     status: developed
   robot_blockly:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/strands-project-releases/robot_blockly.git
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/LCAS/robot_blockly.git
       version: master
+    status: developed
   robot_calibration:
     doc:
       type: git
