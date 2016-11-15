@@ -9900,6 +9900,11 @@ repositories:
       url: https://github.com/strands-project/robomongo.git
       version: master
     status: developed
+  robot_blockly:
+    source:
+      type: git
+      url: https://github.com/LCAS/robot_blockly.git
+      version: master
   robot_calibration:
     doc:
       type: git
