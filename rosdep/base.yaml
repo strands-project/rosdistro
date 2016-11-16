@@ -3892,7 +3892,7 @@ texmaker:
 tilestache:
   debian: [tilestache]
   fedora: [python-tilestache]
-  ubuntu: [tilestach]
+  ubuntu: [tilestache]
 time:
   arch: [time]
   debian: [time]
