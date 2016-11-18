@@ -57,6 +57,13 @@ repositories:
       url: https://github.com/ros/angles.git
       version: master
     status: maintained
+  aniso8601:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/aniso8601-rosrelease.git
+      version: 0.8.3-0
+    status: maintained
   ar_track_alvar:
     doc:
       type: git
@@ -215,6 +222,13 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/po1/axcli-release.git
       version: 0.1.0-0
+    status: maintained
+  backports_ssl_match_hostname:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/backports.ssl_match_hostname-rosrelease.git
+      version: 3.5.0-0
     status: maintained
   battery_monitor_rmp:
     doc:
@@ -400,6 +414,13 @@ repositories:
       url: https://github.com/asmodehn/catkin_pip.git
       version: jade
     status: developed
+  certifi:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/certifi-rosrelease.git
+      version: 2015.11.20-0
+    status: maintained
   class_loader:
     doc:
       type: git
@@ -1057,6 +1078,13 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/introlab/find_object_2d-release.git
       version: 0.5.1-0
+    status: maintained
+  flask_restful:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/flask-restful-rosrelease.git
+      version: 0.3.4-0
     status: maintained
   force_torque_tools:
     doc:
@@ -6217,6 +6245,13 @@ repositories:
       type: git
       url: https://github.com/tu-darmstadt-ros-pkg/topic_proxy.git
       version: master
+  tornado:
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/asmodehn/tornado-rosrelease.git
+      version: 4.2.1-0
+    status: maintained
   trac_ik:
     doc:
       type: git
