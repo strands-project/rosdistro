@@ -909,6 +909,7 @@ python-imaging:
     '22': [python-pillow, python-pillow-qt]
     '23': [python-pillow, python-pillow-qt]
     '24': [python-pillow, python-pillow-qt]
+    '25': [python-pillow, python-pillow-qt]
     beefy: [python-imaging]
     heisenbug: [python-pillow, python-pillow-qt]
     schrödinger’s: [python-pillow, python-pillow-qt]
@@ -2744,6 +2745,7 @@ python-webtest:
   fedora: [python-webtest]
   ubuntu: [python-webtest]
 python-werkzeug:
+  debian: [python-werkzeug]
   fedora: [python-werkzeug]
   ubuntu: [python-werkzeug]
 python-ws4py-pip:
