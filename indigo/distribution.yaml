@@ -504,7 +504,6 @@ repositories:
       version: indigo-devel
     release:
       packages:
-      - aubo_control
       - aubo_description
       - aubo_driver
       - aubo_gazebo
@@ -513,7 +512,6 @@ repositories:
       - aubo_msgs
       - aubo_new_driver
       - aubo_panel
-      - aubo_robot
       - aubo_trajectory
       - aubo_trajectory_filters
       tags:
@@ -3154,10 +3152,13 @@ repositories:
       url: https://github.com/UTNuclearRoboticsPublic/gauges.git
       version: master
     release:
+      packages:
+      - gauges
+      - rqt_gauges
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/UTNuclearRoboticsPublic/gauges-release.git
-      version: 1.0.2-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/UTNuclearRoboticsPublic/gauges.git
@@ -13750,7 +13751,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git

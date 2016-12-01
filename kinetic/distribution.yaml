@@ -1152,10 +1152,13 @@ repositories:
       url: https://github.com/UTNuclearRoboticsPublic/gauges.git
       version: master
     release:
+      packages:
+      - gauges
+      - rqt_gauges
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/UTNuclearRoboticsPublic/gauges-release.git
-      version: 1.0.2-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://github.com/UTNuclearRoboticsPublic/gauges.git
@@ -2263,7 +2266,6 @@ repositories:
       - manipulator_h_gazebo
       - manipulator_h_gui
       - manipulator_h_kinematics_dynamics
-      - manipulator_h_manager
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-MANIPULATOR-H-release.git
@@ -5398,7 +5400,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
@@ -5461,7 +5463,6 @@ repositories:
     release:
       packages:
       - thormang3_balance_control
-      - thormang3_feet_ft_module
       - thormang3_kinematics_dynamics
       - thormang3_manager
       - thormang3_mpc
@@ -5504,9 +5505,6 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-OPC.git
       version: kinetic-devel
     release:
-      packages:
-      - thormang3_offset_tuner_client
-      - thormang3_opc
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-THORMANG-OPC-release.git
@@ -5541,9 +5539,6 @@ repositories:
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-Tools.git
       version: kinetic-devel
     release:
-      packages:
-      - thormang3_offset_tuner_server
-      - thormang3_tools
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-THORMANG-Tools-release.git
