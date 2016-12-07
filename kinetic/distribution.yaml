@@ -1199,7 +1199,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.5.7-0
+      version: 2.5.8-0
     source:
       test_pull_requests: true
       type: git
@@ -1597,6 +1597,23 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_worldmodel-release.git
       version: 0.3.4-0
+    status: maintained
+  hls-lfcd-lds-driver:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+      version: kinetic-devel
+    release:
+      packages:
+      - hls_lfcd_lds_driver
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/hls-lfcd-lds-driver-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+      version: kinetic-devel
     status: maintained
   hokuyo3d:
     doc:
@@ -2695,7 +2712,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/groove-x/mqtt_bridge-release.git
-      version: 0.1.2-1
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/groove-x/mqtt_bridge.git
