@@ -412,7 +412,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ROS-PSE/arni-release.git
-      version: 1.1.1-0
+      version: 1.1.2-0
     source:
       type: git
       url: https://github.com/ROS-PSE/arni.git
@@ -1759,7 +1759,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/common_tutorials.git
-      version: hydro-devel
+      version: indigo-devel
     release:
       packages:
       - actionlib_tutorials
@@ -1770,11 +1770,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/common_tutorials-release.git
-      version: 0.1.8-0
+      version: 0.1.9-0
     source:
       type: git
       url: https://github.com/ros/common_tutorials.git
-      version: hydro-devel
+      version: indigo-devel
     status: maintained
   concert_scheduling:
     doc:
@@ -10641,7 +10641,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
-      version: indigo_release_candidate
+      version: indigo
     release:
       packages:
       - can_msgs
@@ -11698,7 +11698,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/pschillinger/rqt_launchtree-release.git
-      version: 0.1.4-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/pschillinger/rqt_launchtree.git
