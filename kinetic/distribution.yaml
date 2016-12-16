@@ -3087,6 +3087,51 @@ repositories:
       url: https://github.com/UTNuclearRoboticsPublic/netft_utils.git
       version: master
     status: maintained
+  nmea_comms:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/nmea_comms.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/nmea_comms-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/nmea_comms.git
+      version: jade-devel
+    status: maintained
+  nmea_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/nmea_msgs.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/nmea_msgs-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/nmea_msgs.git
+      version: jade-devel
+    status: maintained
+  nmea_navsat_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/nmea_navsat_driver.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/nmea_navsat_driver-release.git
+      version: 0.5.0-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/nmea_navsat_driver.git
+      version: jade-devel
+    status: maintained
   nodelet_core:
     doc:
       type: git
@@ -4472,6 +4517,20 @@ repositories:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
       version: jade-devel
+    release:
+      packages:
+      - can_msgs
+      - canopen_402
+      - canopen_chain_node
+      - canopen_master
+      - canopen_motor_node
+      - ros_canopen
+      - socketcan_bridge
+      - socketcan_interface
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-industrial-release/ros_canopen-release.git
+      version: 0.7.0-0
     source:
       type: git
       url: https://github.com/ros-industrial/ros_canopen.git
@@ -4925,7 +4984,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/kintzhao/rplidar_ros-release.git
-      version: 1.5.5-0
+      version: 1.5.7-0
     source:
       type: git
       url: https://github.com/robopeak/rplidar_ros.git
