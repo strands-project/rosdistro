@@ -12984,20 +12984,22 @@ repositories:
   soma:
     release:
       packages:
-      - soma2_msgs
-      - soma2_trajectory
-      - soma_geospatial_store
-      - soma_io
+      - soma
+      - soma_llsd
+      - soma_llsd_msgs
       - soma_manager
       - soma_map_manager
+      - soma_msgs
       - soma_objects
       - soma_pcl_segmentation
       - soma_roi_manager
+      - soma_trajectory
       - soma_utils
+      - soma_visualizer
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/soma.git
-      version: 2.0.0-0
+      version: 2.1.0-0
     source:
       type: git
       url: https://github.com/strands-project/soma.git
