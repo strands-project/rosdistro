@@ -2958,6 +2958,11 @@ repositories:
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
       version: master
     status: maintained
+  msp:
+    doc:
+      type: git
+      url: https://github.com/christianrauch/msp.git
+      version: master
   multimaster_fkie:
     doc:
       type: git
@@ -6378,7 +6383,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/traclabs/trac_ik-release.git
-      version: 1.4.3-0
+      version: 1.4.5-0
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git

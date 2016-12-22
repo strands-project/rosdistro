@@ -179,6 +179,12 @@ repositories:
       url: https://github.com/tfoote/ros_astra_launch.git
       version: master
     status: developed
+  async_web_server_cpp:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/gt-rail-release/async_web_server_cpp-release.git
+      version: 0.0.3-0
   ati_force_torque:
     doc:
       type: git
@@ -2795,6 +2801,11 @@ repositories:
       url: https://github.com/mrpt-ros-pkg/mrpt_slam.git
       version: master
     status: maintained
+  msp:
+    doc:
+      type: git
+      url: https://github.com/christianrauch/msp.git
+      version: master
   multimaster_fkie:
     doc:
       type: git
@@ -2839,6 +2850,11 @@ repositories:
       url: https://bitbucket.org/crl/multisense_ros
       version: default
     status: maintained
+  multiwii:
+    doc:
+      type: git
+      url: https://github.com/christianrauch/ros-multiwii.git
+      version: master
   mvsim:
     doc:
       type: git
@@ -5815,11 +5831,21 @@ repositories:
     doc:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
-      version: no_moveit_plugin-kinetic
+      version: master
+    release:
+      packages:
+      - trac_ik
+      - trac_ik_examples
+      - trac_ik_kinematics_plugin
+      - trac_ik_lib
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/traclabs/trac_ik-release.git
+      version: 1.4.5-1
     source:
       type: git
       url: https://bitbucket.org/traclabs/trac_ik.git
-      version: no_moveit_plugin-kinetic
+      version: master
     status: developed
   turtlebot:
     doc:
