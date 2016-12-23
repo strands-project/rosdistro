@@ -2870,6 +2870,23 @@ repositories:
       url: https://github.com/ual-arm-ros-pkg/mvsim.git
       version: master
     status: maintained
+  nao_dcm_robot:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/nao_dcm_robot.git
+      version: master
+    release:
+      packages:
+      - nao_dcm_bringup
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-naoqi/nao_dcm_robot-release.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/nao_dcm_robot.git
+      version: master
+    status: maintained
   nao_meshes:
     doc:
       type: git
@@ -3676,7 +3693,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-naoqi/pepper_dcm_robot-release.git
-      version: 0.0.1-0
+      version: 0.0.3-0
     source:
       type: git
       url: https://github.com/ros-naoqi/pepper_dcm_robot.git
@@ -5862,7 +5879,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/turtlebot-release/turtlebot-release.git
-      version: 2.4.0-0
+      version: 2.4.2-0
     source:
       test_pull_requests: true
       type: git
