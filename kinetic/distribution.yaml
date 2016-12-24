@@ -4911,6 +4911,28 @@ repositories:
       url: https://github.com/ros-infrastructure/rosdoc_lite.git
       version: master
     status: maintained
+  rosjava_bootstrap:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/rosjava-release/rosjava_bootstrap-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/rosjava/rosjava_bootstrap.git
+      version: kinetic
+    status: maintained
+  rosjava_build_tools:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/rosjava-release/rosjava_build_tools-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/rosjava/rosjava_build_tools.git
+      version: kinetic
+    status: maintained
   rosjava_test_msgs:
     release:
       tags:
@@ -5641,7 +5663,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/rst-tu-dortmund/teb_local_planner-release.git
-      version: 0.6.5-0
+      version: 0.6.6-0
     source:
       type: git
       url: https://github.com/rst-tu-dortmund/teb_local_planner.git
@@ -6146,6 +6168,21 @@ repositories:
       type: git
       url: https://github.com/anqixu/ueye_cam.git
       version: master
+    status: maintained
+  um6:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/um6.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/um6-release.git
+      version: 1.1.2-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/um6.git
+      version: indigo-devel
     status: maintained
   unique_identifier:
     doc:
