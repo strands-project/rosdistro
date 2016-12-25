@@ -1257,6 +1257,17 @@ repositories:
       url: https://github.com/jsk-ros-pkg/geneus.git
       version: master
     status: developed
+  genjava:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/rosjava-release/genjava-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/rosjava/genjava.git
+      version: kinetic
+    status: maintained
   genlisp:
     doc:
       type: git
@@ -2244,7 +2255,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/intel-ros/librealsense-release.git
-      version: 1.11.1-1
+      version: 1.12.0-0
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
@@ -4156,7 +4167,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/intel-ros/realsense-release.git
-      version: 1.6.1-0
+      version: 1.7.0-0
     source:
       test_pull_requests: true
       type: git
@@ -4931,6 +4942,28 @@ repositories:
     source:
       type: git
       url: https://github.com/rosjava/rosjava_build_tools.git
+      version: kinetic
+    status: maintained
+  rosjava_core:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/rosjava-release/rosjava_core-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/rosjava/rosjava_core.git
+      version: kinetic
+    status: maintained
+  rosjava_messages:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/rosjava-release/rosjava_messages-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/rosjava/rosjava_messages.git
       version: kinetic
     status: maintained
   rosjava_test_msgs:
