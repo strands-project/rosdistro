@@ -2817,6 +2817,11 @@ repositories:
       type: git
       url: https://github.com/christianrauch/msp.git
       version: master
+    source:
+      type: git
+      url: https://github.com/christianrauch/msp.git
+      version: master
+    status: developed
   multimaster_fkie:
     doc:
       type: git
@@ -2866,6 +2871,11 @@ repositories:
       type: git
       url: https://github.com/christianrauch/ros-multiwii.git
       version: master
+    source:
+      type: git
+      url: https://github.com/christianrauch/ros-multiwii.git
+      version: master
+    status: developed
   mvsim:
     doc:
       type: git
@@ -4949,7 +4959,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/rosjava-release/rosjava_build_tools-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/rosjava/rosjava_build_tools.git
