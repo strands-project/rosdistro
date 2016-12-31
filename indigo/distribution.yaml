@@ -2736,7 +2736,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/euslisp-release.git
-      version: 9.21.0-1
+      version: 9.22.0-0
     status: developed
   evapc_ros:
     doc:
@@ -5137,7 +5137,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jskeus-release.git
-      version: 1.0.13-1
+      version: 1.0.14-0
     status: developed
   katana_driver:
     doc:
@@ -6473,7 +6473,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 0.7.5-0
+      version: 0.7.6-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -14163,7 +14163,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobustFieldAutonomyLab/turtlebot_exploration_3d-release.git
-      version: 0.0.5-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/RobustFieldAutonomyLab/turtlebot_exploration_3d.git
@@ -14456,7 +14456,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-industrial-release/universal_robot-release.git
-      version: 1.1.6-0
+      version: 1.1.8-0
     source:
       type: git
       url: https://github.com/ros-industrial/universal_robot.git
