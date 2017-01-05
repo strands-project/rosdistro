@@ -1340,6 +1340,17 @@ repositories:
       url: https://github.com/ros/genpy.git
       version: kinetic-devel
     status: maintained
+  genrs:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/adnanademovic/genrs-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/adnanademovic/genrs.git
+      version: master
+    status: developed
   geographic_info:
     doc:
       type: git
@@ -4302,7 +4313,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/robot_model-release.git
-      version: 1.12.5-0
+      version: 1.12.6-0
     source:
       test_pull_requests: true
       type: git
