@@ -4923,7 +4923,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_common-release.git
-      version: 2.1.2-4
+      version: 2.2.2-1
     source:
       test_commits: false
       type: git
@@ -6496,6 +6496,24 @@ repositories:
     source:
       type: git
       url: https://github.com/JenniferBuehler/moveit-pkgs.git
+      version: master
+    status: maintained
+  moveit_metapackages:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_metapackages.git
+      version: master
+    release:
+      packages:
+      - moveit_full
+      - moveit_full_pr2
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_metapackages-release.git
+      version: 0.7.6-0
+    source:
+      type: git
+      url: https://github.com/ros-planning/moveit_metapackages.git
       version: master
     status: maintained
   moveit_msgs:
