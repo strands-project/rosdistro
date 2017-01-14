@@ -460,7 +460,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/asmodehn/catkin_pip-release.git
-      version: 0.1.16-0
+      version: 0.1.17-0
     source:
       type: git
       url: https://github.com/asmodehn/catkin_pip.git
@@ -3374,7 +3374,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/octomap-release.git
-      version: 1.8.0-0
+      version: 1.8.1-0
     source:
       type: git
       url: https://github.com/OctoMap/octomap.git
@@ -3964,11 +3964,19 @@ repositories:
       version: kinetic-devel
     status: maintained
   pyros:
+    doc:
+      type: git
+      url: https://github.com/asmodehn/pyros.git
+      version: master
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/asmodehn/pyros-rosrelease.git
-      version: 0.3.0-2
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://github.com/asmodehn/pyros.git
+      version: master
     status: developed
   pyros_config:
     doc:
@@ -6793,7 +6801,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/yujinrobot-release/yujin_ocs-release.git
-      version: 0.8.1-0
+      version: 0.8.2-0
     source:
       type: git
       url: https://github.com/yujinrobot/yujin_ocs.git
