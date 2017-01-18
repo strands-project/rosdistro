@@ -3448,6 +3448,7 @@ repositories:
       version: indigo-devel
     release:
       packages:
+      - geometry2
       - geometry_experimental
       - tf2
       - tf2_bullet
@@ -3462,7 +3463,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/geometry2-release.git
-      version: 0.5.13-0
+      version: 0.5.14-0
     source:
       test_pull_requests: true
       type: git
@@ -4237,6 +4238,13 @@ repositories:
       type: git
       url: https://github.com/open-rdc/icart_mini.git
       version: indigo-devel
+    status: developed
+  idolink_node:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/pal-gbp/idolink_node-release.git
+      version: 0.1.2-0
     status: developed
   ihmc-ros-control:
     release:
@@ -7280,7 +7288,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/nerian-vision/nerian_sp1-release.git
-      version: 1.3.3-0
+      version: 1.5.0-1
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_sp1.git
@@ -8283,7 +8291,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/pepper_robot-release.git
-      version: 0.1.7-0
+      version: 0.1.10-1
     source:
       type: git
       url: https://github.com/ros-naoqi/pepper_robot.git
@@ -9558,6 +9566,13 @@ repositories:
       url: https://github.com/ros-planning/random_numbers.git
       version: master
     status: maintained
+  range_msgs:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/pal-gbp/range_msgs-release.git
+      version: 1.1.1-0
+    status: developed
   rangeonly_driver:
     doc:
       type: git
@@ -15135,7 +15150,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobotWebTools-release/web_video_server-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/RobotWebTools/web_video_server.git
