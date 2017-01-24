@@ -1452,6 +1452,16 @@ repositories:
       url: https://github.com/ros/geometry_tutorials.git
       version: indigo-devel
     status: maintained
+  geonav_transform:
+    doc:
+      type: git
+      url: https://github.com/bsb808/geonav_transform.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/bsb808/geonav_transform.git
+      version: master
+    status: developed
   gl_dependency:
     doc:
       type: git
@@ -1662,6 +1672,18 @@ repositories:
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_worldmodel-release.git
       version: 0.3.4-0
     status: maintained
+  hiqp_release:
+    release:
+      packages:
+      - hiqp
+      - hiqp_core
+      - hiqp_msgs
+      - hiqp_ros
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/neckutrek/hiqp-release.git
+      version: 0.0.1-0
+    status: developed
   hls-lfcd-lds-driver:
     doc:
       type: git
@@ -5421,6 +5443,10 @@ repositories:
       version: master
     status: maintained
   rqt_wrapper:
+    doc:
+      type: git
+      url: https://github.com/stonier/rqt_wrapper.git
+      version: release/0.1-kinetic
     release:
       tags:
         release: release/kinetic/{package}/{version}
@@ -6466,6 +6492,34 @@ repositories:
       url: https://github.com/ros-drivers/urg_node.git
       version: indigo-devel
     status: maintained
+  uwsim_bullet:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/uji-ros-pkg/uwsim_bullet-release.git
+      version: 2.82.1-0
+    status: maintained
+  uwsim_osgbullet:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/uji-ros-pkg/uwsim_osgbullet-release.git
+      version: 3.0.1-0
+    status: maintained
+  uwsim_osgocean:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/uji-ros-pkg/uwsim_osgocean-release.git
+      version: 1.0.3-0
+    status: maintained
+  uwsim_osgworks:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/uji-ros-pkg/uwsim_osgworks-release.git
+      version: 3.0.3-1
+    status: maintained
   variant:
     doc:
       type: git
@@ -6639,6 +6693,18 @@ repositories:
       type: git
       url: https://github.com/lagadic/visp_ros.git
       version: master
+  visualization_osg:
+    release:
+      packages:
+      - osg_interactive_markers
+      - osg_markers
+      - osg_utils
+      - visualization_osg
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/uji-ros-pkg/visualization_osg-release.git
+      version: 1.0.2-0
+    status: maintained
   visualization_tutorials:
     doc:
       type: git
