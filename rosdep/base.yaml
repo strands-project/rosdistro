@@ -447,10 +447,9 @@ ca-certificates:
   fedora: [ca-certificates]
   ubuntu: [ca-certificates]
 can-utils:
-  ubuntu:
-    trusty: [can-utils]
-    utopic: [can-utils]
-    vivid: [can-utils]
+  debian: [can-utils]
+  fedora: [can-utils]
+  ubuntu: [can-utils]
 catkin_pkg:
   gentoo:
     portage:
@@ -1510,6 +1509,10 @@ libfcl-dev:
   debian: [libfcl-0.5-dev]
   fedora: [fcl-devel]
   ubuntu: [libfcl-0.5-dev]
+libffi-dev:
+  debian: [libffi-dev]
+  fedora: [libffi-devel]
+  ubuntu: [libffi-dev]
 libfftw3:
   arch: [fftw]
   debian: [libfftw3-3, libfftw3-dev]
@@ -3069,6 +3072,10 @@ libzmq3-dev:
   ubuntu: [libzmq3-dev]
 libzmqpp3:
   ubuntu: [libzmqpp3]
+linphone:
+  debian: [linphone]
+  fedora: [linphone]
+  ubuntu: [linphone]
 linux-headers-generic:
   arch: [linux-headers]
   debian:
@@ -3292,6 +3299,10 @@ nvidia-cuda:
   debian: [nvidia-cuda-toolkit]
   gentoo: [nvidia-cuda-toolkit]
   ubuntu: [nvidia-cuda-toolkit]
+nvidia-cuda-dev:
+  debian: [nvidia-cuda-dev]
+  gentoo: [nvidia-cuda-dev]
+  ubuntu: [nvidia-cuda-dev]
 omniidl:
   arch: [omniorb]
   debian: [omniidl, omniorb-idl]
