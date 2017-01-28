@@ -1810,6 +1810,19 @@ repositories:
       url: https://github.com/at-wat/hokuyo3d.git
       version: indigo-devel
     status: developed
+  homer_mapping:
+    release:
+      packages:
+      - homer_map_manager
+      - homer_mapnav_msgs
+      - homer_mapping
+      - homer_nav_libs
+      - homer_navigation
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://gitlab.uni-koblenz.de/robbie/homer_mapping.git
+      version: 0.1.11-1
+    status: developed
   homer_msgs:
     release:
       packages:
@@ -3077,7 +3090,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.7.0-0
+      version: 0.7.2-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
