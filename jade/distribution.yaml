@@ -1900,7 +1900,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/image_common-release.git
-      version: 1.11.11-0
+      version: 1.11.12-0
     source:
       type: git
       url: https://github.com/ros-perception/image_common.git
@@ -6285,7 +6285,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/srdfdom-release.git
-      version: 0.3.3-0
+      version: 0.3.4-0
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
@@ -6927,7 +6927,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/vision_opencv-release.git
-      version: 1.11.14-0
+      version: 1.11.15-0
     source:
       type: git
       url: https://github.com/ros-perception/vision_opencv.git

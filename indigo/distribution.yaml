@@ -4359,7 +4359,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/image_common-release.git
-      version: 1.11.11-0
+      version: 1.11.12-0
     source:
       type: git
       url: https://github.com/ros-perception/image_common.git
@@ -7852,7 +7852,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.2.0-0
+      version: 3.1.0-1
     status: maintained
   opencv_apps:
     doc:
@@ -13364,7 +13364,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/srdfdom-release.git
-      version: 0.3.3-0
+      version: 0.3.4-0
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
@@ -14761,6 +14761,16 @@ repositories:
       url: https://github.com/bosch-ros-pkg/usb_cam.git
       version: develop
     status: maintained
+  usv_gazebo_plugins:
+    doc:
+      type: git
+      url: https://github.com/bsb808/usv_gazebo_plugins.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/bsb808/usv_gazebo_plugins.git
+      version: master
+    status: developed
   utilrb:
     doc:
       type: git
@@ -15059,7 +15069,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/vision_opencv-release.git
-      version: 1.11.14-0
+      version: 1.11.15-0
     source:
       type: git
       url: https://github.com/ros-perception/vision_opencv.git
