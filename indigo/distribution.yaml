@@ -641,7 +641,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/backports.ssl_match_hostname-rosrelease.git
-      version: 3.5.0-2
+      version: 3.5.0-3
     status: maintained
   barrett_hand:
     doc:
@@ -6930,7 +6930,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/nao_dcm_robot-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_dcm_robot.git
@@ -7038,7 +7038,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-naoqi/nao_virtual-release.git
-      version: 0.0.5-0
+      version: 0.0.6-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_virtual.git
@@ -9771,6 +9771,26 @@ repositories:
       type: hg
       url: https://bitbucket.org/rbdl/rbdl
       version: default
+    status: developed
+  rcll_fawkes_sim:
+    doc:
+      type: git
+      url: https://github.com/timn/ros-rcll_fawkes_sim.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/timn/ros-rcll_fawkes_sim.git
+      version: master
+    status: developed
+  rcll_fawkes_sim_msgs:
+    doc:
+      type: git
+      url: https://github.com/timn/ros-rcll_fawkes_sim_msgs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/timn/ros-rcll_fawkes_sim_msgs.git
+      version: master
     status: developed
   rcll_refbox_peer:
     doc:
@@ -14163,7 +14183,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/tornado-rosrelease.git
-      version: 4.2.1-1
+      version: 4.2.1-2
     status: maintained
   trac_ik:
     doc:

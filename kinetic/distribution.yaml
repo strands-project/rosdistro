@@ -3177,7 +3177,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-naoqi/nao_dcm_robot-release.git
-      version: 0.0.3-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_dcm_robot.git
@@ -3231,6 +3231,23 @@ repositories:
     source:
       type: git
       url: https://github.com/ros-naoqi/nao_robot.git
+      version: master
+    status: maintained
+  nao_virtual:
+    doc:
+      type: git
+      url: https://github.com/ros-naoqi/nao_virtual.git
+      version: master
+    release:
+      packages:
+      - nao_control
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-naoqi/nao_virtual-release.git
+      version: 0.0.6-0
+    source:
+      type: git
+      url: https://github.com/ros-naoqi/nao_virtual.git
       version: master
     status: maintained
   naoqi_bridge:
@@ -4491,6 +4508,26 @@ repositories:
       url: https://github.com/RobotnikAutomation/rbcar_sim.git
       version: kinetic-devel
     status: maintained
+  rcll_fawkes_sim:
+    doc:
+      type: git
+      url: https://github.com/timn/ros-rcll_fawkes_sim.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/timn/ros-rcll_fawkes_sim.git
+      version: master
+    status: developed
+  rcll_fawkes_sim_msgs:
+    doc:
+      type: git
+      url: https://github.com/timn/ros-rcll_fawkes_sim_msgs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/timn/ros-rcll_fawkes_sim_msgs.git
+      version: master
+    status: developed
   rcll_refbox_peer:
     doc:
       type: git
