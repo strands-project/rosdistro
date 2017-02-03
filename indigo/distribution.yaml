@@ -5825,6 +5825,12 @@ repositories:
       type: git
       url: https://github.com/srv/libvlfeat.git
       version: master
+  light_scan_sim:
+    source:
+      type: git
+      url: https://github.com/josephduchesne/light_scan_sim.git
+      version: master
+    status: maintained
   linux_networking:
     release:
       packages:
@@ -7473,7 +7479,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/object_recognition_core-release.git
-      version: 0.6.5-0
+      version: 0.6.7-0
     source:
       type: git
       url: https://github.com/wg-perception/object_recognition_core.git
@@ -10715,7 +10721,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/Romea/romea_controllers-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/Romea/romea_controllers.git
