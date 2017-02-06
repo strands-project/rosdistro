@@ -2476,7 +2476,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_core-release.git
-      version: 0.61.15-0
+      version: 0.61.17-0
     source:
       type: git
       url: https://github.com/stonier/ecl_core.git
@@ -2547,7 +2547,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/stonier/ecl_tools.git
-      version: devel
+      version: release/0.61-indigo-kinetic
     release:
       packages:
       - ecl_build
@@ -2556,7 +2556,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/yujinrobot-release/ecl_tools-release.git
-      version: 0.61.4-0
+      version: 0.61.6-0
     source:
       type: git
       url: https://github.com/stonier/ecl_tools.git
@@ -14387,7 +14387,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/RobustFieldAutonomyLab/turtlebot_exploration_3d-release.git
-      version: 0.0.8-0
+      version: 0.0.9-0
     source:
       type: git
       url: https://github.com/RobustFieldAutonomyLab/turtlebot_exploration_3d.git
