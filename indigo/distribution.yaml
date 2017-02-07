@@ -6097,7 +6097,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_messages-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_messages.git
@@ -6493,6 +6493,8 @@ repositories:
       - moveit_controller_manager_example
       - moveit_core
       - moveit_fake_controller_manager
+      - moveit_full
+      - moveit_full_pr2
       - moveit_kinematics
       - moveit_planners
       - moveit_planners_ompl
@@ -6509,12 +6511,13 @@ repositories:
       - moveit_ros_robot_interaction
       - moveit_ros_visualization
       - moveit_ros_warehouse
+      - moveit_runtime
       - moveit_setup_assistant
       - moveit_simple_controller_manager
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 0.7.6-0
+      version: 0.7.7-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -6537,24 +6540,6 @@ repositories:
     source:
       type: git
       url: https://github.com/JenniferBuehler/moveit-pkgs.git
-      version: master
-    status: maintained
-  moveit_metapackages:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/moveit_metapackages.git
-      version: master
-    release:
-      packages:
-      - moveit_full
-      - moveit_full_pr2
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_metapackages-release.git
-      version: 0.7.6-0
-    source:
-      type: git
-      url: https://github.com/ros-planning/moveit_metapackages.git
       version: master
     status: maintained
   moveit_msgs:
@@ -6871,7 +6856,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/carnegieroboticsllc/multisense_ros-release.git
-      version: 3.4.7-0
+      version: 4.0.0-0
     source:
       type: hg
       url: https://bitbucket.org/crl/multisense_ros
@@ -10471,7 +10456,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/SawYerRobotics-release/roch_simulator-release.git
-      version: 1.0.8-1
+      version: 1.0.10-0
     source:
       type: git
       url: https://github.com/SawYer-Robotics/roch_simulator.git
@@ -11206,7 +11191,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/ros_type_introspection-release.git
-      version: 0.3.3-2
+      version: 0.4.0-0
     source:
       type: git
       url: https://github.com/facontidavide/ros_type_introspection.git
@@ -13416,7 +13401,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/srdfdom-release.git
-      version: 0.3.4-0
+      version: 0.3.5-0
     source:
       type: git
       url: https://github.com/ros-planning/srdfdom.git
@@ -13523,7 +13508,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator-release.git
-      version: 0.3.1-0
+      version: 0.3.2-0
     source:
       type: git
       url: https://github.com/stdr-simulator-ros-pkg/stdr_simulator.git
