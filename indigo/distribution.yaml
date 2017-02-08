@@ -310,7 +310,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/ar_track_alvar-release.git
-      version: 0.5.4-0
+      version: 0.5.5-0
     source:
       type: git
       url: https://github.com/sniekum/ar_track_alvar.git
@@ -6153,7 +6153,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.17.4-0
+      version: 0.17.5-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -8537,15 +8537,20 @@ repositories:
       url: https://github.com/silviomaeta/plot_util.git
       version: master
   plotjuggler:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/PlotJuggler.git
+      version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.8.1-0
+      version: 0.9.0-2
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
       version: master
+    status: developed
   pluginlib:
     doc:
       type: git
@@ -9556,7 +9561,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/gt-rail-release/rail_object_detector-release.git
-      version: 1.0.2-0
+      version: 1.0.2-1
     source:
       type: git
       url: https://github.com/GT-RAIL/rail_object_detector.git
@@ -10414,7 +10419,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/SawYerRobotics-release/roch-release.git
-      version: 1.0.8-0
+      version: 1.0.9-0
     source:
       type: git
       url: https://github.com/SawYer-Robotics/roch.git
@@ -10438,7 +10443,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/SawYerRobotics-release/roch_robot-release.git
-      version: 1.0.10-0
+      version: 1.0.11-0
     source:
       type: git
       url: https://github.com/SawYer-Robotics/roch_robot.git

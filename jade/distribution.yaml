@@ -2750,7 +2750,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/mavlink/mavros-release.git
-      version: 0.17.4-0
+      version: 0.17.5-0
     source:
       type: git
       url: https://github.com/mavlink/mavros.git
@@ -2893,6 +2893,7 @@ repositories:
       - moveit_controller_manager_example
       - moveit_core
       - moveit_fake_controller_manager
+      - moveit_kinematics
       - moveit_planners
       - moveit_planners_ompl
       - moveit_plugins
@@ -2908,12 +2909,13 @@ repositories:
       - moveit_ros_robot_interaction
       - moveit_ros_visualization
       - moveit_ros_warehouse
+      - moveit_runtime
       - moveit_setup_assistant
       - moveit_simple_controller_manager
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 0.8.3-0
+      version: 0.8.5-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -4255,6 +4257,21 @@ repositories:
       url: https://github.com/amineHorseman/pioneer_teleop.git
       version: master
     status: maintained
+  plotjuggler:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/PlotJuggler.git
+      version: master
+    release:
+      tags:
+        release: release/jade/{package}/{version}
+      url: https://github.com/facontidavide/plotjuggler-release.git
+      version: 0.9.0-0
+    source:
+      type: git
+      url: https://github.com/facontidavide/PlotJuggler.git
+      version: master
+    status: developed
   pluginlib:
     doc:
       type: git
@@ -5330,11 +5347,15 @@ repositories:
       version: jade-devel
     status: maintained
   ros_type_introspection:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/ros_type_introspection.git
+      version: master
     release:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/facontidavide/ros_type_introspection-release.git
-      version: 0.3.1-0
+      version: 0.4.0-0
     source:
       type: git
       url: https://github.com/facontidavide/ros_type_introspection.git
