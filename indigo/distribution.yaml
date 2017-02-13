@@ -5830,6 +5830,11 @@ repositories:
       url: https://github.com/srv/libvlfeat.git
       version: master
   light_scan_sim:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/josephduchesne/light_scan_sim-release.git
+      version: 0.0.9-0
     source:
       type: git
       url: https://github.com/josephduchesne/light_scan_sim.git
@@ -6107,6 +6112,12 @@ repositories:
       url: https://github.com/swri-robotics/marti_messages.git
       version: indigo-devel
     status: developed
+  marvelmind_nav:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/MarvelmindRobotics/marvelmind_nav-release.git
+      version: 1.0.6-0
   mastering_ros_demo_pkg:
     release:
       tags:
@@ -8196,7 +8207,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AutonomyLab/parrot_arsdk-release.git
-      version: 3.10.1-0
+      version: 3.11.0-0
     source:
       type: git
       url: https://github.com/AutonomyLab/parrot_arsdk.git
@@ -8549,7 +8560,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.9.1-0
+      version: 0.10.0-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
