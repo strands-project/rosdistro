@@ -1367,6 +1367,13 @@ python-numpy:
     vivid: [python-numpy]
     wily: [python-numpy]
     xenial: [python-numpy]
+python-numpy-stl-pip:
+  osx:
+    pip:
+      packages: [numpy-stl]
+  ubuntu:
+    pip:
+      packages: [numpy-stl]
 python-oauth2:
   arch: [python-oauth2]
   debian: [python-oauth2]
@@ -2486,6 +2493,14 @@ python-sphinx:
     wily: [python-sphinx]
     xenial: [python-sphinx]
     xenial_python3: [python3-sphinx]
+python-sphinx-argparse:
+  ubuntu:
+    xenial: [python-sphinx-argparse]
+    xenial_python3: [python3-sphinx-argparse]
+    yakkety: [python-sphinx-argparse]
+    yakkety_python3: [python3-sphinx-argparse]
+    zesty: [python-sphinx-argparse]
+    zesty_python3: [python3-sphinx-argparse]
 python-sphinx-rtd-theme:
   ubuntu:
     xenial: [python-sphinx-rtd-theme]
