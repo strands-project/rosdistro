@@ -1770,18 +1770,6 @@ repositories:
       url: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_worldmodel-release.git
       version: 0.3.4-0
     status: maintained
-  hiqp_release:
-    release:
-      packages:
-      - hiqp
-      - hiqp_core
-      - hiqp_msgs
-      - hiqp_ros
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: https://github.com/neckutrek/hiqp-release.git
-      version: 0.0.1-0
-    status: developed
   hls-lfcd-lds-driver:
     doc:
       type: git
@@ -2991,6 +2979,21 @@ repositories:
       url: https://bitbucket.org/dataspeedinc/mobility_base_simulator
       version: default
     status: developed
+  move_base_to_manip:
+    doc:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/move_base_to_manip.git
+      version: kinetic
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/UTNuclearRoboticsPublic/move_base_to_manip-release.git
+      version: 1.0.3-0
+    source:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/move_base_to_manip.git
+      version: kinetic
+    status: maintained
   moveit:
     doc:
       type: git
@@ -4378,6 +4381,21 @@ repositories:
       url: https://github.com/pr2/pr2_common.git
       version: kinetic-devel
     status: maintained
+  py_trees:
+    doc:
+      type: git
+      url: https://github.com/stonier/py_trees.git
+      version: release/0.5-kinetic
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/stonier/py_trees-release.git
+      version: 0.5.4-0
+    source:
+      type: git
+      url: https://github.com/stonier/py_trees.git
+      version: devel
+    status: developed
   pyros:
     doc:
       type: git

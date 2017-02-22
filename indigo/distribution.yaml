@@ -3522,7 +3522,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/geometry2-release.git
-      version: 0.5.14-0
+      version: 0.5.15-0
     source:
       test_pull_requests: true
       type: git
@@ -6526,6 +6526,21 @@ repositories:
       url: https://github.com/ros-industrial/motoman.git
       version: indigo-devel
     status: maintained
+  move_base_to_manip:
+    doc:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/move_base_to_manip.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/UTNuclearRoboticsPublic/move_base_to_manip-release.git
+      version: 1.0.5-0
+    source:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/move_base_to_manip.git
+      version: indigo
+    status: maintained
   moveit:
     doc:
       type: git
@@ -8590,7 +8605,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.10.2-0
+      version: 0.10.3-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -13350,9 +13365,13 @@ repositories:
   squirrel_common:
     release:
       packages:
+      - robotino_description
       - robotino_msgs
+      - softhand_description
+      - squirrel_3d_localizer_msgs
       - squirrel_3d_mapping_msgs
       - squirrel_common
+      - squirrel_dynamic_filter_msgs
       - squirrel_hri_msgs
       - squirrel_kclhand_msgs
       - squirrel_localizer_msgs
@@ -13366,11 +13385,13 @@ repositories:
       - squirrel_rgbd_mapping_msgs
       - squirrel_sketch_interface_msgs
       - squirrel_speech_msgs
+      - squirrel_vad_msgs
+      - squirrel_view_controller_msgs
       - squirrel_waypoint_msgs
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/squirrel-project/squirrel_common-release.git
-      version: 0.0.18-0
+      version: 0.0.24-0
   sr_config:
     release:
       packages:
