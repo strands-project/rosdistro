@@ -12,6 +12,43 @@ release_platforms:
   - yakkety
   - zesty
 repositories:
+  angles:
+    doc:
+      type: git
+      url: https://github.com/ros/angles.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/geometry_angles_utils-release.git
+      version: 1.9.10-2
+    source:
+      type: git
+      url: https://github.com/ros/angles.git
+      version: master
+    status: maintained
+  bond_core:
+    doc:
+      type: git
+      url: https://github.com/ros/bond_core.git
+      version: master
+    release:
+      packages:
+      - bond
+      - bond_core
+      - bondcpp
+      - bondpy
+      - smclib
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/bond_core-release.git
+      version: 1.7.18-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/bond_core.git
+      version: master
+    status: maintained
   catkin:
     doc:
       type: git
@@ -27,6 +64,22 @@ repositories:
       type: git
       url: https://github.com/ros/catkin.git
       version: kinetic-devel
+    status: maintained
+  class_loader:
+    doc:
+      type: git
+      url: https://github.com/ros/class_loader.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/class_loader-release.git
+      version: 0.3.6-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/class_loader.git
+      version: indigo-devel
     status: maintained
   cmake_modules:
     doc:
@@ -136,12 +189,158 @@ repositories:
       url: https://github.com/ros/genpy.git
       version: kinetic-devel
     status: maintained
+  message_generation:
+    doc:
+      type: git
+      url: https://github.com/ros/message_generation.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/message_generation-release.git
+      version: 0.4.0-0
+    source:
+      type: git
+      url: https://github.com/ros/message_generation.git
+      version: kinetic-devel
+    status: maintained
+  message_runtime:
+    doc:
+      type: git
+      url: https://github.com/ros/message_runtime.git
+      version: groovy-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/message_runtime-release.git
+      version: 0.4.12-0
+    source:
+      type: git
+      url: https://github.com/ros/message_runtime.git
+      version: groovy-devel
+    status: maintained
+  pluginlib:
+    doc:
+      type: git
+      url: https://github.com/ros/pluginlib.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/pluginlib-release.git
+      version: 1.10.4-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/pluginlib.git
+      version: indigo-devel
+    status: maintained
+  ros:
+    doc:
+      type: git
+      url: https://github.com/ros/ros.git
+      version: lunar-devel
+    release:
+      packages:
+      - mk
+      - ros
+      - rosbash
+      - rosboost_cfg
+      - rosbuild
+      - rosclean
+      - roscreate
+      - roslang
+      - roslib
+      - rosmake
+      - rosunit
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/ros-release.git
+      version: 1.14.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros.git
+      version: lunar-devel
+    status: maintained
+  ros_comm:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_comm.git
+      version: lunar-devel
+    release:
+      packages:
+      - message_filters
+      - ros_comm
+      - rosbag
+      - rosbag_storage
+      - rosconsole
+      - roscpp
+      - rosgraph
+      - roslaunch
+      - roslz4
+      - rosmaster
+      - rosmsg
+      - rosnode
+      - rosout
+      - rosparam
+      - rospy
+      - rosservice
+      - rostest
+      - rostopic
+      - roswtf
+      - topic_tools
+      - xmlrpcpp
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/ros_comm-release.git
+      version: 1.13.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros_comm.git
+      version: lunar-devel
+    status: maintained
+  ros_comm_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_comm_msgs.git
+      version: indigo-devel
+    release:
+      packages:
+      - rosgraph_msgs
+      - std_srvs
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/ros_comm_msgs-release.git
+      version: 1.11.2-0
+    source:
+      type: git
+      url: https://github.com/ros/ros_comm_msgs.git
+      version: indigo-devel
+    status: maintained
   rosbag_migration_rule:
     release:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/rosbag_migration_rule-release.git
       version: 1.0.0-0
+    status: maintained
+  rosconsole_bridge:
+    doc:
+      type: git
+      url: https://github.com/ros/rosconsole_bridge.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rosconsole_bridge-release.git
+      version: 0.4.4-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/rosconsole_bridge.git
+      version: indigo-devel
     status: maintained
   roscpp_core:
     doc:
@@ -164,6 +363,52 @@ repositories:
       type: git
       url: https://github.com/ros/roscpp_core.git
       version: kinetic-devel
+    status: maintained
+  roslisp:
+    doc:
+      type: git
+      url: https://github.com/ros/roslisp.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/roslisp-release.git
+      version: 1.9.20-0
+    source:
+      type: git
+      url: https://github.com/ros/roslisp.git
+      version: master
+    status: maintained
+  rospack:
+    doc:
+      type: git
+      url: https://github.com/ros/rospack.git
+      version: lunar-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rospack-release.git
+      version: 2.4.0-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/rospack.git
+      version: lunar-devel
+    status: maintained
+  std_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros/std_msgs.git
+      version: groovy-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/std_msgs-release.git
+      version: 0.5.11-0
+    source:
+      type: git
+      url: https://github.com/ros/std_msgs.git
+      version: groovy-devel
     status: maintained
 type: distribution
 version: 2

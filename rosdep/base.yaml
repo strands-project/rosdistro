@@ -506,6 +506,10 @@ coinor-libipopt-dev:
   debian: [coinor-libipopt-dev]
   fedora: [coin-or-CoinUtils-devel]
   ubuntu: [coinor-libipopt-dev]
+coinor-libosi-dev:
+  debian: [coinor-libosi-dev]
+  fedora: [coin-or-Osi-devel]
+  ubuntu: [coinor-libosi-dev]
 collada-dom:
   arch: [collada-dom]
   debian: [libcollada-dom2.4-dp-dev]
@@ -2183,6 +2187,30 @@ libopenscenegraph:
     portage:
       packages: [dev-games/openscenegraph]
   ubuntu: [openscenegraph, libopenscenegraph-dev]
+libopenvdb:
+  arch: [openvdb]
+  debian:
+    jessie: [libopenvdb2.3]
+    stretch: [libopenvdb3.2]
+  gentoo:
+    portage:
+      packages: [media-gfx/openvdb]
+  ubuntu:
+    saucy: [libopenvdb1.1]
+    trusty: [libopenvdb2.1]
+    utopic: [libopenvdb2.3]
+    vivid: [libopenvdb2.3]
+    wily: [libopenvdb3.0]
+    xenial: [libopenvdb3.1]
+    yakkety: [libopenvdb3.1]
+    zesty: [libopenvdb3.2]
+libopenvdb-dev:
+  arch: [openvdb]
+  debian: [libopenvdb-dev]
+  gentoo:
+    portage:
+      packages: [media-gfx/openvdb]
+  ubuntu: [libopenvdb-dev]
 libosmesa6-dev:
   arch: [mesa]
   debian: [libosmesa6-dev]
@@ -3119,6 +3147,7 @@ log4cxx:
     jessie: [liblog4cxx10-dev]
     sid: [liblog4cxx10-dev]
     squeeze: [liblog4cxx10-dev]
+    stretch: [liblog4cxx10-dev]
     wheezy: [liblog4cxx10-dev]
   fedora: [log4cxx-devel]
   freebsd: [log4cxx]
@@ -3168,6 +3197,8 @@ lz4:
     vivid: [liblz4-dev]
     wily: [liblz4-dev]
     xenial: [liblz4-dev]
+    yakkety: [liblz4-dev]
+    zesty: [liblz4-dev]
 m4:
   arch: [m4]
   debian: [m4]
