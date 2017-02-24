@@ -4342,7 +4342,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ihmcrobotics/ihmc_ros_core-release.git
-      version: 0.8.0-6
+      version: 0.9.1-1
     source:
       type: git
       url: https://github.com/ihmcrobotics/ihmc_ros_core.git
@@ -8605,7 +8605,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.10.3-0
+      version: 0.11.0-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -9908,7 +9908,7 @@ repositories:
       type: git
       url: https://github.com/intel-ros/realsense.git
       version: indigo-devel
-    status: developed
+    status: maintained
   realtime_tools:
     doc:
       type: git
@@ -10493,6 +10493,7 @@ repositories:
     release:
       packages:
       - roch_base
+      - roch_capabilities
       - roch_control
       - roch_description
       - roch_ftdi
@@ -10503,7 +10504,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/SawYerRobotics-release/roch_robot-release.git
-      version: 1.0.11-0
+      version: 1.0.12-0
     source:
       type: git
       url: https://github.com/SawYer-Robotics/roch_robot.git
@@ -15281,7 +15282,7 @@ repositories:
       url: https://github.com/uos/volksbot_driver.git
       version: indigo
     source:
-      test_pull_requests: true
+      test_commits: false
       type: git
       url: https://github.com/uos/volksbot_driver.git
       version: indigo

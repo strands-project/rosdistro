@@ -1813,7 +1813,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://gitlab.uni-koblenz.de/robbie/homer_mapping.git
-      version: 0.1.11-1
+      version: 0.1.16-0
     status: developed
   homer_msgs:
     release:
@@ -2220,7 +2220,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/jsk_model_tools-release.git
-      version: 0.3.4-0
+      version: 0.3.5-0
     status: developed
   jsk_planning:
     release:
@@ -2349,7 +2349,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki-release.git
-      version: 0.7.2-0
+      version: 0.7.3-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki.git
@@ -2369,13 +2369,17 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki_core-release.git
-      version: 0.7.2-0
+      version: 0.7.4-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki_core.git
       version: kinetic
     status: maintained
   kobuki_desktop:
+    doc:
+      type: git
+      url: https://github.com/yujinrobot/kobuki_desktop.git
+      version: kinetic
     release:
       packages:
       - kobuki_dashboard
@@ -2387,7 +2391,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki_desktop-release.git
-      version: 0.5.1-0
+      version: 0.5.3-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki_desktop.git
@@ -2615,7 +2619,7 @@ repositories:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
       version: master
-    status: developed
+    status: maintained
   linux_peripheral_interfaces:
     doc:
       type: git
@@ -3000,7 +3004,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/UTNuclearRoboticsPublic/move_base_to_manip-release.git
-      version: 1.0.3-0
+      version: 1.0.6-0
     source:
       type: git
       url: https://github.com/UTNuclearRoboticsPublic/move_base_to_manip.git
@@ -4408,6 +4412,21 @@ repositories:
       url: https://github.com/stonier/py_trees.git
       version: devel
     status: developed
+  py_trees_msgs:
+    doc:
+      type: git
+      url: https://github.com/stonier/py_trees_msgs.git
+      version: release/0.3-kinetic
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/stonier/py_trees_msgs-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/stonier/py_trees_msgs.git
+      version: devel
+    status: developed
   pyros:
     doc:
       type: git
@@ -4720,7 +4739,7 @@ repositories:
       type: git
       url: https://github.com/intel-ros/realsense.git
       version: indigo-devel
-    status: developed
+    status: maintained
   realtime_tools:
     doc:
       type: git
@@ -6098,6 +6117,24 @@ repositories:
       url: https://github.com/ros-planning/srdfdom.git
       version: kinetic-devel
     status: maintained
+  srv_tools:
+    release:
+      packages:
+      - bag_tools
+      - launch_tools
+      - plot_tools
+      - pointcloud_tools
+      - srv_tools
+      - tf_tools
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/srv/srv_tools-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/srv/srv_tools.git
+      version: kinetic
+    status: developed
   stage:
     doc:
       type: git
@@ -7168,6 +7205,16 @@ repositories:
       url: https://github.com/ros-visualization/visualization_tutorials.git
       version: kinetic-devel
     status: maintained
+  volksbot_driver:
+    doc:
+      type: git
+      url: https://github.com/uos/volksbot_driver.git
+      version: kinetic
+    source:
+      test_commits: false
+      type: git
+      url: https://github.com/uos/volksbot_driver.git
+      version: kinetic
   vrpn:
     doc:
       type: git

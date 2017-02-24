@@ -12,6 +12,22 @@ release_platforms:
   - yakkety
   - zesty
 repositories:
+  actionlib:
+    doc:
+      type: git
+      url: https://github.com/ros/actionlib.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/actionlib-release.git
+      version: 1.11.8-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/actionlib.git
+      version: indigo-devel
+    status: maintained
   angles:
     doc:
       type: git
@@ -95,6 +111,70 @@ repositories:
       type: git
       url: https://github.com/ros/cmake_modules.git
       version: 0.4-devel
+    status: maintained
+  common_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros/common_msgs.git
+      version: jade-devel
+    release:
+      packages:
+      - actionlib_msgs
+      - common_msgs
+      - diagnostic_msgs
+      - geometry_msgs
+      - nav_msgs
+      - sensor_msgs
+      - shape_msgs
+      - stereo_msgs
+      - trajectory_msgs
+      - visualization_msgs
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/common_msgs-release.git
+      version: 1.12.5-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/common_msgs.git
+      version: jade-devel
+    status: maintained
+  common_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros/common_tutorials.git
+      version: indigo-devel
+    release:
+      packages:
+      - actionlib_tutorials
+      - common_tutorials
+      - nodelet_tutorial_math
+      - pluginlib_tutorials
+      - turtle_actionlib
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/common_tutorials-release.git
+      version: 0.1.10-0
+    source:
+      type: git
+      url: https://github.com/ros/common_tutorials.git
+      version: indigo-devel
+    status: maintained
+  dynamic_reconfigure:
+    doc:
+      type: git
+      url: https://github.com/ros/dynamic_reconfigure.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
+      version: 1.5.46-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/dynamic_reconfigure.git
+      version: master
     status: maintained
   gencpp:
     doc:
@@ -219,6 +299,26 @@ repositories:
       url: https://github.com/ros/message_runtime.git
       version: groovy-devel
     status: maintained
+  nodelet_core:
+    doc:
+      type: git
+      url: https://github.com/ros/nodelet_core.git
+      version: indigo-devel
+    release:
+      packages:
+      - nodelet
+      - nodelet_core
+      - nodelet_topic_tools
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/nodelet_core-release.git
+      version: 1.9.9-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/nodelet_core.git
+      version: indigo-devel
+    status: maintained
   pluginlib:
     doc:
       type: git
@@ -318,6 +418,27 @@ repositories:
       type: git
       url: https://github.com/ros/ros_comm_msgs.git
       version: indigo-devel
+    status: maintained
+  ros_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
+      version: kinetic-devel
+    release:
+      packages:
+      - ros_tutorials
+      - roscpp_tutorials
+      - rospy_tutorials
+      - turtlesim
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/ros_tutorials-release.git
+      version: 0.7.1-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/ros_tutorials.git
+      version: kinetic-devel
     status: maintained
   rosbag_migration_rule:
     release:
