@@ -1717,6 +1717,8 @@ python-pydot:
     vivid: [python-pydot]
     wily: [python-pydot]
     xenial: [python-pydot]
+    yakkety: [python-pydot]
+    zesty: [python-pydot]
 python-pygame:
   arch: [python2-pygame]
   debian: [python-pygame]
@@ -1769,6 +1771,8 @@ python-pygraphviz:
     vivid: [python-pygraphviz]
     wily: [python-pygraphviz]
     xenial: [python-pygraphviz]
+    yakkety: [python-pygraphviz]
+    zesty: [python-pygraphviz]
 python-pyinotify:
   debian: [python-pyinotify]
   fedora: [python-inotify]
@@ -2035,22 +2039,28 @@ python-qt5-bindings:
   arch: [python2-pyqt5]
   debian:
     jessie: [pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-sip-dev, qtbase5-dev]
+    stretch: [pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-sip-dev, qtbase5-dev]
   fedora: [python-qt5, sip]
   gentoo: [dev-python/PyQt5]
   slackware: [PyQt5]
   ubuntu:
     wily: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
     xenial: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
+    yakkety: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
+    zesty: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
 python-qt5-bindings-gl:
   arch: [python2-pyqt5]
   debian:
     jessie: [python-pyqt5.qtopengl]
+    stretch: [python-pyqt5.qtopengl]
   fedora: [python-qt5]
   gentoo: [dev-python/PyQt5]
   slackware: [PyQt5]
   ubuntu:
     wily: [python-pyqt5.qtopengl]
     xenial: [python-pyqt5.qtopengl]
+    yakkety: [python-pyqt5.qtopengl]
+    zesty: [python-pyqt5.qtopengl]
 python-qwt5-qt4:
   arch: [pyqwt]
   debian: [python-qwt5-qt4]
