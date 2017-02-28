@@ -1580,7 +1580,11 @@ libflann-dev:
   ubuntu: [libflann-dev]
 libfltk-dev:
   arch: [fltk]
-  debian: [libfltk1.1-dev]
+  debian:
+    jessie: [libfltk1.1-dev]
+    sid: [libfltk1.1-dev]
+    stretch: [libfltk1.3-dev]
+    wheezy: [libfltk1.1-dev]
   fedora: [fltk-devel]
   freebsd: [fltk]
   gentoo: [=x11-libs/fltk-1*]
@@ -1601,6 +1605,8 @@ libfltk-dev:
     vivid: [libfltk1.3-dev]
     wily: [libfltk1.3-dev]
     xenial: [libfltk1.3-dev]
+    yakkety: [libfltk1.3-dev]
+    zesty: [libfltk1.3-dev]
 libfontconfig1-dev:
   fedora: [fontconfig-devel]
   ubuntu: [libfontconfig1-dev]
@@ -1880,6 +1886,7 @@ libjpeg:
   arch: [libjpeg-turbo]
   debian:
     jessie: [libjpeg62-turbo-dev]
+    stretch: [libjpeg-dev]
     wheezy: [libjpeg8-dev]
   fedora: [libjpeg-turbo-devel]
   gentoo: [media-libs/libjpeg-turbo]
@@ -1901,6 +1908,8 @@ libjpeg:
     vivid: [libjpeg-dev]
     wily: [libjpeg-dev]
     xenial: [libjpeg-dev]
+    yakkety: [libjpeg-dev]
+    zesty: [libjpeg-dev]
 libjson-glib:
   arch: [json-glib]
   debian: [libjson-glib-dev]
@@ -2783,6 +2792,7 @@ libtool:
     lenny: [libtool, libltdl3-dev]
     sid: [libtool, libltdl-dev, libtool-bin]
     squeeze: [libtool, libltdl-dev]
+    stretch: [libtool, libltdl-dev, libtool-bin]
     wheezy: [libtool, libltdl-dev]
   fedora: [libtool, libtool-ltdl-devel]
   freebsd: [libtool]
@@ -2805,6 +2815,8 @@ libtool:
     vivid: [libtool, libltdl-dev, libtool-bin]
     wily: [libtool, libltdl-dev, libtool-bin]
     xenial: [libtool, libltdl-dev, libtool-bin]
+    yakkety: [libtool, libltdl-dev, libtool-bin]
+    zesty: [libtool, libltdl-dev, libtool-bin]
 libttspico:
   ubuntu: [libttspico-dev, libttspico-data, libttspico-utils, libttspico0]
 libturbojpeg:
