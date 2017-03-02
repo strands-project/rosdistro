@@ -2248,7 +2248,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_planning-release.git
-      version: 0.1.8-2
+      version: 0.1.9-0
     status: developed
   jsk_pr2eus:
     release:
@@ -4091,7 +4091,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/AutonomyLab/parrot_arsdk-release.git
-      version: 3.10.1-0
+      version: 3.11.0-0
     source:
       type: git
       url: https://github.com/AutonomyLab/parrot_arsdk.git
@@ -5744,13 +5744,14 @@ repositories:
       - rosserial_msgs
       - rosserial_python
       - rosserial_server
+      - rosserial_test
       - rosserial_tivac
       - rosserial_windows
       - rosserial_xbee
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rosserial-release.git
-      version: 0.7.5-0
+      version: 0.7.6-0
     source:
       type: git
       url: https://github.com/ros-drivers/rosserial.git
