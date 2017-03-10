@@ -2248,7 +2248,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_planning-release.git
-      version: 0.1.9-0
+      version: 0.1.10-0
     status: developed
   jsk_pr2eus:
     release:
@@ -2260,7 +2260,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.3.9-0
+      version: 0.3.10-0
     status: developed
   jsk_recognition:
     doc:
@@ -2867,6 +2867,10 @@ repositories:
       version: master
     status: maintained
   metapackages:
+    doc:
+      type: git
+      url: https://github.com/ros/metapackages.git
+      version: jade-devel
     release:
       packages:
       - desktop
@@ -2881,6 +2885,10 @@ repositories:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/metapackages-release.git
       version: 1.2.0-0
+    source:
+      type: git
+      url: https://github.com/ros/metapackages.git
+      version: jade-devel
     status: maintained
   microstrain_3dm_gx5_45:
     doc:
@@ -4336,7 +4344,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.11.0-0
+      version: 0.12.1-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
