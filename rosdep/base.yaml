@@ -876,6 +876,9 @@ gnuplot:
     portage:
       packages: [sci-visualization/gnuplot]
   ubuntu: [gnuplot]
+golang-go:
+  debian: [golang-go]
+  ubuntu: [golang-go]
 google-mock:
   arch: [gmock]
   debian: [google-mock]
@@ -1340,6 +1343,13 @@ libcoin80-dev:
   debian: [libcoin80-dev]
   fedora: [Coin2-devel]
   ubuntu: [libcoin80-dev]
+libconfig++-dev:
+  debian: [libconfig++-dev]
+  ubuntu: [libconfig++-dev]
+libconfig-dev:
+  debian: [libconfig-dev]
+  fedora: [libconfig-devel]
+  ubuntu: [libconfig-dev]
 libconsole-bridge-dev:
   arch: [console-bridge]
   debian: [libconsole-bridge-dev]
@@ -1616,6 +1626,7 @@ libgmp:
   fedora: [gmp-devel]
   ubuntu: [libgmp-dev]
 libgoogle-glog-dev:
+  debian: [libgoogle-glog-dev]
   fedora: [glog-devel]
   gentoo:
     portage:
