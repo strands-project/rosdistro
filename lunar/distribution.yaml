@@ -207,6 +207,22 @@ repositories:
       url: https://github.com/ros/eigen_stl_containers.git
       version: master
     status: maintained
+  filters:
+    doc:
+      type: git
+      url: https://github.com/ros/filters.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/filters-release.git
+      version: 1.7.4-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/filters.git
+      version: hydro-devel
+    status: maintained
   gencpp:
     doc:
       type: git
@@ -315,6 +331,27 @@ repositories:
       url: https://github.com/ros-visualization/gl_dependency.git
       version: kinetic-devel
     status: maintained
+  image_common:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_common.git
+      version: hydro-devel
+    release:
+      packages:
+      - camera_calibration_parsers
+      - camera_info_manager
+      - image_common
+      - image_transport
+      - polled_camera
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/image_common-release.git
+      version: 1.11.12-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/image_common.git
+      version: hydro-devel
+    status: maintained
   media_export:
     doc:
       type: git
@@ -379,6 +416,13 @@ repositories:
       type: git
       url: https://github.com/ros/nodelet_core.git
       version: indigo-devel
+    status: maintained
+  opencv3:
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/opencv3-release.git
+      version: 3.2.0-3
     status: maintained
   pluginlib:
     doc:
@@ -674,6 +718,41 @@ repositories:
       type: git
       url: https://github.com/ros/std_msgs.git
       version: groovy-devel
+    status: maintained
+  urdfdom_py:
+    doc:
+      type: git
+      url: https://github.com/ros/urdf_parser_py.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/urdfdom_py-release.git
+      version: 0.3.3-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/urdf_parser_py.git
+      version: indigo-devel
+    status: maintained
+  vision_opencv:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/vision_opencv.git
+      version: kinetic
+    release:
+      packages:
+      - cv_bridge
+      - image_geometry
+      - vision_opencv
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/vision_opencv-release.git
+      version: 1.12.4-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/vision_opencv.git
+      version: kinetic
     status: maintained
 type: distribution
 version: 2
