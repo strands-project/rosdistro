@@ -422,7 +422,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.2.0-4
+      version: 3.2.0-6
     status: maintained
   pluginlib:
     doc:
@@ -449,7 +449,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/python_qt_binding-release.git
-      version: 0.3.2-0
+      version: 0.3.2-2
     source:
       type: git
       url: https://github.com/ros-visualization/python_qt_binding.git
@@ -471,7 +471,7 @@ repositories:
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/qt_gui_core-release.git
-      version: 0.3.4-0
+      version: 0.3.4-2
     source:
       test_pull_requests: true
       type: git

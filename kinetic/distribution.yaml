@@ -195,6 +195,11 @@ repositories:
       url: https://github.com/iirob/ati_force_torque.git
       version: kinetic-devel
     status: developed
+  auction_methods_stack:
+    doc:
+      type: git
+      url: https://github.com/joaoquintas/auction_methods_stack.git
+      version: master
   audio_common:
     doc:
       type: git
@@ -2323,10 +2328,11 @@ repositories:
       - jsk_roseus
       - roseus
       - roseus_smach
+      - roseus_tutorials
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/jsk_roseus-release.git
-      version: 1.6.0-0
+      version: 1.6.1-0
     status: developed
   jsk_visualization:
     doc:
@@ -3954,7 +3960,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
-      version: 3.2.0-3
+      version: 3.2.0-4
     status: maintained
   opencv_apps:
     doc:
@@ -4396,7 +4402,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.13.0-0
+      version: 0.14.1-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -4841,7 +4847,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/intel-ros/realsense-release.git
-      version: 1.7.1-0
+      version: 1.7.2-0
     source:
       test_pull_requests: true
       type: git
