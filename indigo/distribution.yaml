@@ -3030,11 +3030,15 @@ repositories:
       version: indigo-devel
     status: developed
   filters:
+    doc:
+      type: git
+      url: https://github.com/ros/filters.git
+      version: hydro-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/filters-release.git
-      version: 1.7.4-0
+      version: 1.7.5-0
     source:
       type: git
       url: https://github.com/ros/filters.git
@@ -5819,6 +5823,15 @@ repositories:
       url: https://github.com/segwayrmp/libsegwayrmp-release.git
       version: 0.2.10-0
     status: maintained
+  libsick_ldmrs:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/libsick_ldmrs.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/SICKAG/libsick_ldmrs.git
+      version: master
   libuvc:
     doc:
       type: git
@@ -12830,6 +12843,15 @@ repositories:
       url: https://github.com/wcaarls/shared_serial.git
       version: master
     status: maintained
+  sick_ldmrs_laser:
+    doc:
+      type: git
+      url: https://github.com/SICKAG/sick_ldmrs_laser.git
+      version: indigo
+    source:
+      type: git
+      url: https://github.com/SICKAG/sick_ldmrs_laser.git
+      version: indigo
   sick_tim:
     doc:
       type: git
