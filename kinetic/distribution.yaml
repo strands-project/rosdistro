@@ -4012,7 +4012,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-perception/opencv_apps-release.git
-      version: 1.11.14-0
+      version: 1.11.15-0
     source:
       type: git
       url: https://github.com/ros-perception/opencv_apps.git
@@ -4550,7 +4550,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/stonier/py_trees-release.git
-      version: 0.5.8-0
+      version: 0.5.9-0
     source:
       type: git
       url: https://github.com/stonier/py_trees.git
@@ -4565,7 +4565,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/stonier/py_trees_msgs-release.git
-      version: 0.3.4-0
+      version: 0.3.5-0
     source:
       type: git
       url: https://github.com/stonier/py_trees_msgs.git
@@ -4580,7 +4580,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/stonier/py_trees_ros-release.git
-      version: 0.5.3-0
+      version: 0.5.4-0
     source:
       type: git
       url: https://github.com/stonier/py_trees_ros.git
