@@ -43,10 +43,12 @@ repositories:
       - abb_irb5400_support
       - abb_irb6600_support
       - abb_irb6640_moveit_config
+      - abb_irb6640_support
+      - abb_resources
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-industrial-release/abb-release.git
-      version: 1.2.0-0
+      version: 1.2.1-0
     source:
       type: git
       url: https://github.com/ros-industrial/abb.git
@@ -1299,6 +1301,13 @@ repositories:
       type: git
       url: https://github.com/asmodehn/catkin_pip.git
       version: indigo
+    status: developed
+  cepton:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ceptontech/cepton_ros-release.git
+      version: 0.1.0-0
     status: developed
   certifi:
     release:
@@ -3237,7 +3246,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/ftputil-rosrelease.git
-      version: 3.3.0-1
+      version: 3.3.0-2
     status: maintained
   fulanghua_navigation:
     release:
@@ -7453,7 +7462,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/nerian-vision/nerian_sp1-release.git
-      version: 1.6.0-0
+      version: 1.6.1-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_sp1.git
@@ -9350,7 +9359,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyros-common-rosrelease.git
-      version: 0.4.0-2
+      version: 0.4.0-3
     status: developed
   pyros_config:
     doc:
@@ -10068,7 +10077,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/resource_retriever-release.git
-      version: 1.11.7-1
+      version: 1.11.8-0
     source:
       test_pull_requests: true
       type: git
@@ -10382,7 +10391,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/robot_model-release.git
-      version: 1.11.12-0
+      version: 1.11.13-0
     source:
       test_pull_requests: true
       type: git
