@@ -4945,6 +4945,21 @@ repositories:
       url: https://github.com/JenniferBuehler/general-message-pkgs.git
       version: master
     status: maintained
+  jog_arm:
+    doc:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/jog_arm.git
+      version: indigo
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/UTNuclearRoboticsPublic/jog_arm-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/jog_arm.git
+      version: indigo
+    status: maintained
   joystick_drivers:
     doc:
       type: git
@@ -5861,7 +5876,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/intel-ros/librealsense-release.git
-      version: 1.12.1-0
+      version: 1.12.1-1
     source:
       type: git
       url: https://github.com/IntelRealSense/librealsense.git
@@ -10593,7 +10608,6 @@ repositories:
     release:
       packages:
       - roch_base
-      - roch_capabilities
       - roch_control
       - roch_description
       - roch_ftdi
@@ -10604,7 +10618,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/SawYerRobotics-release/roch_robot-release.git
-      version: 1.0.13-0
+      version: 1.0.11-0
     source:
       type: git
       url: https://github.com/SawYer-Robotics/roch_robot.git
@@ -10637,7 +10651,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/SawYerRobotics-release/roch_viz-release.git
-      version: 1.0.9-1
+      version: 1.0.8-0
     source:
       type: git
       url: https://github.com/SawYer-Robotics/roch_viz.git

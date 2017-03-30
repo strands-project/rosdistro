@@ -2147,6 +2147,21 @@ repositories:
       url: https://github.com/gstavrinos/jaguar-release.git
       version: 0.1.0-0
     status: developed
+  jog_arm:
+    doc:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/jog_arm.git
+      version: kinetic
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/UTNuclearRoboticsPublic/jog_arm-release.git
+      version: 0.0.2-0
+    source:
+      type: git
+      url: https://github.com/UTNuclearRoboticsPublic/jog_arm.git
+      version: kinetic
+    status: maintained
   joystick_drivers:
     doc:
       type: git
@@ -2425,7 +2440,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki_core-release.git
-      version: 0.7.6-0
+      version: 0.7.7-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki_core.git
@@ -2447,7 +2462,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/yujinrobot-release/kobuki_desktop-release.git
-      version: 0.5.3-0
+      version: 0.5.5-0
     source:
       type: git
       url: https://github.com/yujinrobot/kobuki_desktop.git
@@ -5226,7 +5241,6 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/SawYerRobotics-release/roch_robot-release.git
-      version: 2.0.13-1
     source:
       type: git
       url: https://github.com/SawYer-Robotics/roch_robot.git
