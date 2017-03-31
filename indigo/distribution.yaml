@@ -531,6 +531,7 @@ repositories:
       version: indigo-devel
     release:
       packages:
+      - aubo_control
       - aubo_description
       - aubo_driver
       - aubo_gazebo
@@ -539,12 +540,13 @@ repositories:
       - aubo_msgs
       - aubo_new_driver
       - aubo_panel
+      - aubo_robot
       - aubo_trajectory
       - aubo_trajectory_filters
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/auboliuxin/aubo_robot-release.git
-      version: 0.3.12-1
+      version: 0.3.15-0
     source:
       type: git
       url: https://github.com/auboliuxin/aubo_robot.git
@@ -3080,6 +3082,13 @@ repositories:
       url: https://github.com/Ikergune/firos.git
       version: master
     status: maintained
+  flaky:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/flaky-rosrelease.git
+      version: 3.1.0-0
+    status: maintained
   flask_cors:
     release:
       tags:
@@ -3410,7 +3419,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/rosjava-release/genjava-release.git
-      version: 0.1.4-0
+      version: 0.1.5-0
     source:
       type: git
       url: https://github.com/rosjava/genjava.git
@@ -4048,7 +4057,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hironx_rpc-release.git
-      version: 0.0.2-0
+      version: 0.0.4-0
     source:
       type: git
       url: https://github.com/tork-a/hironx_rpc.git
@@ -10608,6 +10617,7 @@ repositories:
     release:
       packages:
       - roch_base
+      - roch_capabilities
       - roch_control
       - roch_description
       - roch_ftdi
@@ -10618,7 +10628,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/SawYerRobotics-release/roch_robot-release.git
-      version: 1.0.11-0
+      version: 1.0.13-2
     source:
       type: git
       url: https://github.com/SawYer-Robotics/roch_robot.git
