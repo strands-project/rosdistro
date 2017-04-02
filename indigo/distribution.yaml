@@ -10595,7 +10595,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/SawYerRobotics-release/roch-release.git
-      version: 1.0.11-0
+      version: 1.0.12-0
     source:
       type: git
       url: https://github.com/SawYer-Robotics/roch.git
@@ -10635,7 +10635,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/SawYerRobotics-release/roch_robot-release.git
-      version: 1.0.13-2
+      version: 1.0.13-3
     source:
       type: git
       url: https://github.com/SawYer-Robotics/roch_robot.git
@@ -10668,7 +10668,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/SawYerRobotics-release/roch_viz-release.git
-      version: 1.0.8-0
+      version: 1.0.9-3
     source:
       type: git
       url: https://github.com/SawYer-Robotics/roch_viz.git
@@ -14165,7 +14165,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/swri_console-release.git
-      version: 0.2.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/swri-robotics/swri_console.git

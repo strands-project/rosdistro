@@ -561,6 +561,27 @@ repositories:
       url: https://github.com/orocos-toolchain/ocl.git
       version: toolchain-2.9
     status: maintained
+  octomap:
+    doc:
+      type: git
+      url: https://github.com/OctoMap/octomap.git
+      version: v1.8.0
+    release:
+      packages:
+      - dynamic_edt_3d
+      - octomap
+      - octovis
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/octomap-release.git
+      version: 1.8.0-0
+    source:
+      type: git
+      url: https://github.com/OctoMap/octomap.git
+      version: devel
+    status: developed
+    status_description: Prerelease based on version 1.8.0. The final version for ROS
+      Lunar will (1.9.0)
   opencv3:
     release:
       tags:
@@ -1058,6 +1079,21 @@ repositories:
       url: https://github.com/ros/std_msgs.git
       version: groovy-devel
     status: maintained
+  swri_console:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/swri-robotics-gbp/swri_console-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/swri-robotics/swri_console.git
+      version: master
+    status: developed
   urdfdom_py:
     doc:
       type: git
