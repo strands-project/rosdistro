@@ -6691,7 +6691,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 0.7.8-0
+      version: 0.7.9-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -10017,7 +10017,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/intel-ros/realsense-release.git
-      version: 1.7.2-0
+      version: 1.8.0-0
     source:
       test_pull_requests: true
       type: git
