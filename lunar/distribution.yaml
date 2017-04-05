@@ -12,6 +12,21 @@ release_platforms:
   - yakkety
   - zesty
 repositories:
+  ackermann_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/ackermann_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/ackermann_msgs-release.git
+      version: 1.0.1-0
+    source:
+      type: git
+      url: https://github.com/ros-drivers/ackermann_msgs.git
+      version: master
+    status: maintained
   actionlib:
     doc:
       type: git
@@ -1146,6 +1161,25 @@ repositories:
       url: https://github.com/swri-robotics/swri_console.git
       version: master
     status: developed
+  unique_identifier:
+    doc:
+      type: git
+      url: https://github.com/ros-geographic-info/unique_identifier.git
+      version: master
+    release:
+      packages:
+      - unique_id
+      - unique_identifier
+      - uuid_msgs
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-geographic-info/unique_identifier-release.git
+      version: 1.0.6-0
+    source:
+      type: git
+      url: https://github.com/ros-geographic-info/unique_identifier.git
+      version: master
+    status: maintained
   urdfdom_py:
     doc:
       type: git
