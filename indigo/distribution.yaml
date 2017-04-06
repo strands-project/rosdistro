@@ -4173,7 +4173,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/hrpsys-release.git
-      version: 315.10.1-0
+      version: 315.12.1-0
     source:
       type: git
       url: https://github.com/fkanehiro/hrpsys-base.git
@@ -11820,7 +11820,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://bitbucket.org/rospeex/rospeex-release.git
-      version: 2.15.4-0
+      version: 3.0.0-0
     source:
       type: git
       url: https://bitbucket.org/rospeex/rospeex.git
