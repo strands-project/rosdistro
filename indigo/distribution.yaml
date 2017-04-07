@@ -93,7 +93,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/actionlib-release.git
-      version: 1.11.7-0
+      version: 1.11.9-0
     source:
       test_pull_requests: true
       type: git
@@ -863,7 +863,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/bond_core-release.git
-      version: 1.7.18-0
+      version: 1.7.19-0
     source:
       test_pull_requests: true
       type: git
@@ -2416,7 +2416,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
-      version: 1.5.46-0
+      version: 1.5.47-0
     source:
       test_pull_requests: true
       type: git
@@ -7567,7 +7567,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/nodelet_core-release.git
-      version: 1.9.8-0
+      version: 1.9.10-0
     source:
       test_pull_requests: true
       type: git
@@ -8735,7 +8735,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/pluginlib-release.git
-      version: 1.10.4-0
+      version: 1.10.5-0
     source:
       test_pull_requests: true
       type: git
