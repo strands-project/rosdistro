@@ -2416,7 +2416,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
-      version: 1.5.47-0
+      version: 1.5.48-0
     source:
       test_pull_requests: true
       type: git
@@ -6276,7 +6276,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ethz-asl/mav_comm-release.git
-      version: 3.0.0-0
+      version: 3.2.0-1
     source:
       type: git
       url: https://github.com/ethz-asl/mav_comm.git
@@ -11958,7 +11958,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/roswww-release.git
-      version: 0.1.9-0
+      version: 0.1.10-1
     source:
       type: git
       url: https://github.com/tork-a/roswww.git
