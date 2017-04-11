@@ -90,6 +90,7 @@ assimp:
   debian:
     jessie: [libassimp-dev]
     sid: [libassimp-dev]
+    stretch: [libassimp-dev]
     wheezy: [libassimp-dev]
   fedora: [assimp]
   gentoo:
@@ -113,11 +114,14 @@ assimp:
     vivid: [libassimp-dev]
     wily: [libassimp-dev]
     xenial: [libassimp-dev]
+    yakkety: [libassimp-dev]
+    zesty: [libassimp-dev]
 assimp-dev:
   arch: [assimp]
   debian:
     jessie: [libassimp-dev]
     sid: [libassimp-dev]
+    stretch: [libassimp-dev]
     wheezy: [libassimp-dev]
   fedora: [assimp-devel]
   gentoo:
@@ -140,6 +144,8 @@ assimp-dev:
     vivid: [libassimp-dev]
     wily: [libassimp-dev]
     xenial: [libassimp-dev]
+    yakkety: [libassimp-dev]
+    zesty: [libassimp-dev]
 atlas:
   arch: [atlas-lapack]
   debian: [libatlas-base-dev]
@@ -1211,6 +1217,10 @@ lib32asound2:
   debian: [lib32asound2]
   fedora: ['alsa-lib(%{__isa_name}-32)', alsa-lib]
   ubuntu: [lib32asound2]
+libalglib-dev:
+  debian: [libalglib-dev]
+  fedora: [alglib-devel]
+  ubuntu: [libalglib-dev]
 libann-dev:
   arch: [ann]
   debian: [libann-dev]
@@ -4131,6 +4141,7 @@ uvcdynctrl:
   ubuntu: [uvcdynctrl]
 v4l-utils:
   arch: [v4l-utils]
+  debian: [v4l-utils]
   fedora: [v4l-utils]
   ubuntu: [v4l-utils]
 valgrind:
