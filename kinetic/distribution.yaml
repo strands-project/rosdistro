@@ -2934,7 +2934,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.2.3-0
+      version: 0.2.4-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -3192,7 +3192,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/moveit-release.git
-      version: 0.9.5-0
+      version: 0.9.6-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
@@ -4627,7 +4627,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/stonier/py_trees_ros-release.git
-      version: 0.5.6-0
+      version: 0.5.7-0
     source:
       type: git
       url: https://github.com/stonier/py_trees_ros.git
@@ -6128,7 +6128,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/stonier/rqt_py_trees-release.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: https://github.com/stonier/rqt_py_trees.git
