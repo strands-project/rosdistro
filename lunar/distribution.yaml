@@ -631,6 +631,22 @@ repositories:
       url: https://github.com/ros/message_runtime.git
       version: groovy-devel
     status: maintained
+  moveit_msgs:
+    doc:
+      type: git
+      url: https://github.com/ros-planning/moveit_msgs.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/moveit_msgs-release.git
+      version: 0.9.1-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-planning/moveit_msgs.git
+      version: kinetic-devel
+    status: maintained
   nodelet_core:
     doc:
       type: git
@@ -1362,6 +1378,21 @@ repositories:
       type: git
       url: https://github.com/ros/xacro.git
       version: lunar-devel
+    status: developed
+  xsens_driver:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver-release.git
+      version: 2.1.0-0
+    source:
+      type: git
+      url: https://github.com/ethz-asl/ethzasl_xsens_driver.git
+      version: master
     status: developed
   xv_11_laser_driver:
     doc:
