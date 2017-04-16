@@ -227,7 +227,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/geometry_angles_utils-release.git
-      version: 1.9.10-0
+      version: 1.9.11-0
     source:
       type: git
       url: https://github.com/ros/angles.git
@@ -14384,6 +14384,16 @@ repositories:
     source:
       type: git
       url: https://github.com/bsb808/thingmagic_rfid.git
+      version: master
+    status: developed
+  thingmagic_usbpro:
+    doc:
+      type: git
+      url: https://gitlab.com/chambana/thingmagic_usbpro.git
+      version: master
+    source:
+      type: git
+      url: https://gitlab.com/chambana/thingmagic_usbpro.git
       version: master
     status: developed
   threemxl:
