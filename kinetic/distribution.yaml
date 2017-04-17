@@ -107,7 +107,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/geometry_angles_utils-release.git
-      version: 1.9.10-0
+      version: 1.9.11-0
     source:
       test_pull_requests: true
       type: git
@@ -1520,7 +1520,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-geographic-info/geographic_info-release.git
-      version: 0.4.0-0
+      version: 0.5.2-0
     source:
       type: git
       url: https://github.com/ros-geographic-info/geographic_info.git
@@ -7777,6 +7777,21 @@ repositories:
       type: git
       url: https://github.com/RobotWebTools/web_video_server.git
       version: master
+    status: maintained
+  webkit_dependency:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/webkit_dependency.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/webkit_dependency-release.git
+      version: 1.1.0-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/webkit_dependency.git
+      version: kinetic-devel
     status: maintained
   webtest:
     release:
