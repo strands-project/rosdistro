@@ -89,6 +89,21 @@ repositories:
       url: https://github.com/ros/bond_core.git
       version: master
     status: maintained
+  camera_info_manager_py:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/camera_info_manager_py.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/camera_info_manager_py-release.git
+      version: 0.2.3-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/camera_info_manager_py.git
+      version: master
+    status: maintained
   capabilities:
     doc:
       type: git
@@ -586,6 +601,17 @@ repositories:
       url: https://github.com/ros-perception/laser_pipeline.git
       version: hydro-devel
     status: maintained
+  libfreenect:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/libfreenect.git
+      version: ros-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/libfreenect-ros-release.git
+      version: 0.5.1-0
+    status: maintained
   libg2o:
     release:
       tags:
@@ -781,6 +807,22 @@ repositories:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/opencv3-release.git
       version: 3.2.0-6
+    status: maintained
+  openni_camera:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/openni_camera.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/openni_camera-release.git
+      version: 1.9.5-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-drivers/openni_camera.git
+      version: indigo-devel
     status: maintained
   orocos_kinematics_dynamics:
     doc:
@@ -1303,6 +1345,22 @@ repositories:
       type: git
       url: https://github.com/orocos/rtt_ros_integration.git
       version: toolchain-2.9
+    status: maintained
+  rviz:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rviz.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rviz-release.git
+      version: 1.12.4-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rviz.git
+      version: kinetic-devel
     status: maintained
   srdfdom:
     doc:
