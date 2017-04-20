@@ -9375,7 +9375,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/asmodehn/pyros-common-rosrelease.git
-      version: 0.4.0-3
+      version: 0.4.2-0
     status: developed
   pyros_config:
     doc:
@@ -11821,7 +11821,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://bitbucket.org/rospeex/rospeex-release.git
-      version: 3.0.0-0
+      version: 3.0.1-1
     source:
       type: git
       url: https://bitbucket.org/rospeex/rospeex.git
@@ -14982,8 +14982,8 @@ repositories:
       version: 0.0.3-0
     source:
       type: git
-      url: https://github.com/TheDash/ur_modern_driver.git
-      version: indigo-devel
+      url: https://github.com/ThomasTimm/ur_modern_driver.git
+      version: master
     status: maintained
   urdf_tools:
     doc:

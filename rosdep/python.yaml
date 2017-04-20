@@ -912,6 +912,10 @@ python-gdown-pip:
   ubuntu:
     pip:
       packages: [gdown]
+python-geographiclib:
+  debian: [python-geographiclib]
+  fedora: [python-GeographicLib]
+  ubuntu: [python-geographiclib]
 python-gevent:
   debian: [python-gevent]
   fedora: [python-gevent]
@@ -3152,6 +3156,10 @@ python-yaml:
     yakkety_python3: [python3-yaml]
     zesty: [python-yaml]
     zesty_python3: [python3-yaml]
+python-zbar:
+  debian: [python-zbar]
+  fedora: [zbar-pygtk]
+  ubuntu: [python-zbar]
 python-zmq:
   arch: [python2-pyzmq]
   debian: [python-zmq]
