@@ -525,6 +525,49 @@ repositories:
       url: https://github.com/ros-perception/image_common.git
       version: hydro-devel
     status: maintained
+  image_pipeline:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_pipeline.git
+      version: indigo
+    release:
+      packages:
+      - camera_calibration
+      - depth_image_proc
+      - image_pipeline
+      - image_proc
+      - image_publisher
+      - image_rotate
+      - image_view
+      - stereo_image_proc
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/image_pipeline-release.git
+      version: 1.12.19-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/image_pipeline.git
+      version: indigo
+  image_transport_plugins:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_transport_plugins.git
+      version: indigo-devel
+    release:
+      packages:
+      - compressed_depth_image_transport
+      - compressed_image_transport
+      - image_transport_plugins
+      - theora_image_transport
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/image_transport_plugins-release.git
+      version: 1.9.5-0
+    source:
+      type: git
+      url: https://github.com/ros-perception/image_transport_plugins.git
+      version: indigo-devel
+    status: maintained
   interactive_markers:
     doc:
       type: git
@@ -1141,6 +1184,24 @@ repositories:
       type: git
       url: https://github.com/ros-controls/ros_controllers.git
       version: kinetic-devel
+    release:
+      packages:
+      - diff_drive_controller
+      - effort_controllers
+      - force_torque_sensor_controller
+      - forward_command_controller
+      - gripper_action_controller
+      - imu_sensor_controller
+      - joint_state_controller
+      - joint_trajectory_controller
+      - position_controllers
+      - ros_controllers
+      - rqt_joint_trajectory_controller
+      - velocity_controllers
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/ros_controllers-release.git
+      version: 0.12.2-0
     source:
       type: git
       url: https://github.com/ros-controls/ros_controllers.git

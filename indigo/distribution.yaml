@@ -2976,11 +2976,12 @@ repositories:
     release:
       packages:
       - fetch_arm_control
+      - fetch_pbd_interaction
       - fetch_social_gaze
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fetchrobotics/fetch_pbd-release.git
-      version: 0.0.6-0
+      version: 0.0.7-0
     source:
       type: git
       url: https://github.com/fetchrobotics/fetch_pbd.git
@@ -8705,7 +8706,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.17.0-0
+      version: 0.18.0-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -14281,7 +14282,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.2.4-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git

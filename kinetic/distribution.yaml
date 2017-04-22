@@ -2771,7 +2771,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/easymov/log_server-release.git
-      version: 0.1.1-1
+      version: 0.1.4-0
     status: developed
   lpms_imu:
     doc:
@@ -4221,6 +4221,13 @@ repositories:
       url: https://github.com/orocos/orocos_kinematics_dynamics.git
       version: master
     status: maintained
+  oros_tools:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/easymov/oros_tools-release.git
+      version: 0.1.1-0
+    status: developed
   osrf_gear:
     doc:
       type: git
@@ -4507,7 +4514,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 0.17.0-0
+      version: 0.18.0-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -6798,7 +6805,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/teleop_tools-release.git
-      version: 0.2.4-0
+      version: 0.2.5-0
     source:
       type: git
       url: https://github.com/ros-teleop/teleop_tools.git
