@@ -7000,7 +7000,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.7.2-0
+      version: 0.7.3-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -8712,7 +8712,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -9398,6 +9398,13 @@ repositories:
       type: git
       url: https://github.com/asmodehn/pyros-config.git
       version: master
+    status: developed
+  pyros_interfaces_ros:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/asmodehn/pyros-rosinterface-rosrelease.git
+      version: 0.4.0-0
     status: developed
   pyros_setup:
     release:

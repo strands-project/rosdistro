@@ -867,6 +867,22 @@ repositories:
       url: https://github.com/ros-drivers/openni_camera.git
       version: indigo-devel
     status: maintained
+  openni_launch:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/openni_launch.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/openni_launch-release.git
+      version: 1.9.8-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-drivers/openni_launch.git
+      version: indigo-devel
+    status: maintained
   orocos_kinematics_dynamics:
     doc:
       type: git
@@ -1028,6 +1044,22 @@ repositories:
       type: git
       url: https://github.com/orocos/rFSM.git
       version: master
+    status: maintained
+  rgbd_launch:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/rgbd_launch.git
+      version: jade-devel
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rgbd_launch-release.git
+      version: 2.2.2-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-drivers/rgbd_launch.git
+      version: jade-devel
     status: maintained
   robot_model:
     doc:
@@ -1330,14 +1362,154 @@ repositories:
       - rqt_gui
       - rqt_gui_cpp
       - rqt_gui_py
+      - rqt_py_common
       tags:
         release: release/lunar/{package}/{version}
       url: https://github.com/ros-gbp/rqt-release.git
-      version: 0.3.2-0
+      version: 0.5.0-0
     source:
       type: git
       url: https://github.com/ros-visualization/rqt.git
       version: kinetic-devel
+    status: maintained
+  rqt_bag:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_bag.git
+      version: master
+    release:
+      packages:
+      - rqt_bag
+      - rqt_bag_plugins
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_bag-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_bag.git
+      version: master
+    status: maintained
+  rqt_console:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_console.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_console-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_console.git
+      version: master
+    status: maintained
+  rqt_graph:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_graph.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_graph-release.git
+      version: 0.4.8-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-visualization/rqt_graph.git
+      version: master
+    status: maintained
+  rqt_logger_level:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_logger_level.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_logger_level-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_logger_level.git
+      version: master
+    status: maintained
+  rqt_msg:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_msg.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_msg-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_msg.git
+      version: master
+    status: maintained
+  rqt_plot:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_plot.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_plot-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_plot.git
+      version: master
+    status: maintained
+  rqt_service_caller:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_service_caller.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_service_caller-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_service_caller.git
+      version: master
+    status: maintained
+  rqt_topic:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_topic.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_topic-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_topic.git
+      version: master
+    status: maintained
+  rqt_web:
+    doc:
+      type: git
+      url: https://github.com/ros-visualization/rqt_web.git
+      version: master
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/rqt_web-release.git
+      version: 0.4.8-0
+    source:
+      type: git
+      url: https://github.com/ros-visualization/rqt_web.git
+      version: master
     status: maintained
   rtt:
     doc:

@@ -911,7 +911,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/dynamixel-workbench-release.git
-      version: 0.1.3-0
+      version: 0.1.4-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
@@ -947,7 +947,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/DynamixelSDK-release.git
-      version: 3.4.1-0
+      version: 3.4.3-1
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/DynamixelSDK.git
@@ -1406,7 +1406,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.5.11-0
+      version: 2.5.12-0
     source:
       test_pull_requests: true
       type: git
@@ -1865,7 +1865,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/hls-lfcd-lds-driver-release.git
-      version: 0.1.1-1
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
@@ -3399,7 +3399,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/fkie-release/multimaster_fkie-release.git
-      version: 0.7.2-0
+      version: 0.7.3-0
     source:
       type: git
       url: https://github.com/fkie/multimaster_fkie.git
@@ -4252,6 +4252,13 @@ repositories:
       url: https://github.com/easymov/oros_tools-release.git
       version: 0.1.1-0
     status: developed
+  oros_tools_examples:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/easymov/oros_tools_examples-release.git
+      version: 0.1.2-0
+    status: developed
   osrf_gear:
     doc:
       type: git
@@ -4538,7 +4545,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 1.0.0-0
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -5184,13 +5191,14 @@ repositories:
       version: kinetic-devel
     release:
       packages:
+      - robotis_controller
       - robotis_device
       - robotis_framework
       - robotis_framework_common
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-Framework-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-Framework.git
@@ -5205,7 +5213,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-Math-release.git
-      version: 0.2.2-0
+      version: 0.2.3-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-Math.git
@@ -5219,11 +5227,12 @@ repositories:
     release:
       packages:
       - robotis_utility
+      - ros_madplay_player
       - ros_mpg321_player
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-Utility-release.git
-      version: 0.1.1-2
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-Utility.git
@@ -5676,7 +5685,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/easymov/ros_peerjs-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     status: developed
   ros_tutorials:
     doc:
@@ -6903,7 +6912,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-THORMANG-Common-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-Common.git
@@ -6916,14 +6925,25 @@ repositories:
       version: kinetic-devel
     release:
       packages:
+      - ati_ft_sensor
+      - motion_module_tutorial
+      - sensor_module_tutorial
+      - thormang3_action_module
       - thormang3_balance_control
+      - thormang3_base_module
+      - thormang3_feet_ft_module
+      - thormang3_gripper_module
+      - thormang3_head_control_module
+      - thormang3_imu_3dm_gx4
       - thormang3_kinematics_dynamics
       - thormang3_manager
+      - thormang3_manipulation_module
       - thormang3_mpc
+      - thormang3_walking_module
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-THORMANG-MPC-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-MPC.git
@@ -6938,16 +6958,15 @@ repositories:
       packages:
       - thormang3_action_module_msgs
       - thormang3_feet_ft_module_msgs
-      - thormang3_gripper_module_msgs
+      - thormang3_head_control_module_msgs
       - thormang3_manipulation_module_msgs
       - thormang3_msgs
       - thormang3_offset_tuner_msgs
       - thormang3_walking_module_msgs
-      - thormang3_wholebody_module_msgs
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-THORMANG-msgs-release.git
-      version: 0.2.1-0
+      version: 0.2.2-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-msgs.git
@@ -6978,10 +6997,11 @@ repositories:
       - thormang3_manipulation_demo
       - thormang3_ppc
       - thormang3_sensors
+      - thormang3_walking_demo
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/ROBOTIS-GIT-release/ROBOTIS-THORMANG-PPC-release.git
-      version: 0.1.0-0
+      version: 0.1.1-0
     source:
       type: git
       url: https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-PPC.git
@@ -7072,6 +7092,46 @@ repositories:
       type: git
       url: https://github.com/turtlebot/turtlebot.git
       version: kinetic
+    status: maintained
+  turtlebot3:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3.git
+      version: kinetic-devel
+    release:
+      packages:
+      - turtlebot3
+      - turtlebot3_bringup
+      - turtlebot3_description
+      - turtlebot3_fake
+      - turtlebot3_gazebo
+      - turtlebot3_navigation
+      - turtlebot3_slam
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/turtlebot3-release.git
+      version: 0.1.3-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3.git
+      version: kinetic-devel
+    status: maintained
+  turtlebot3_msgs:
+    doc:
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ROBOTIS-GIT-release/turtlebot3_msgs-release.git
+      version: 0.1.3-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+      version: kinetic-devel
     status: maintained
   turtlebot_apps:
     doc:
@@ -7544,7 +7604,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/DataspeedInc-release/velodyne_simulator-release.git
-      version: 1.0.3-0
+      version: 1.0.4-0
     source:
       type: git
       url: https://bitbucket.org/DataspeedInc/velodyne_simulator.git
