@@ -1523,6 +1523,8 @@ python-opengl:
     vivid: [python-opengl]
     wily: [python-opengl]
     xenial: [python-opengl]
+    yakkety: [python-opengl]
+    zesty: [python-opengl]
 python-openssl:
   debian: [python-openssl]
   ubuntu: [python-openssl]
@@ -1714,6 +1716,8 @@ python-psutil:
     vivid: [python-psutil]
     wily: [python-psutil]
     xenial: [python-psutil]
+    yakkety: [python-psutil]
+    zesty: [python-psutil]
 python-psycopg2:
   fedora: [python-psycopg2]
   ubuntu:
