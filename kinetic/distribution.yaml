@@ -9,7 +9,6 @@ release_platforms:
   - '23'
   - '24'
   ubuntu:
-  - wily
   - xenial
 repositories:
   abb:
@@ -3224,6 +3223,22 @@ repositories:
       url: https://bitbucket.org/dataspeedinc/mobility_base_simulator
       version: default
     status: developed
+  motoman:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/motoman.git
+      version: kinetic-devel
+    source:
+      type: git
+      url: https://github.com/ros-industrial/motoman.git
+      version: kinetic-devel
+    status: maintained
+  motoman_experimental:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/motoman_experimental.git
+      version: kinetic-devel
+    status: developed
   move_base_to_manip:
     doc:
       type: git
@@ -5081,7 +5096,10 @@ repositories:
       url: https://github.com/orocos/rFSM.git
       version: master
     release:
+      tags:
+        release: release/kinetic/{package}/{version}
       url: https://github.com/orocos-gbp/rfsm-release.git
+      version: 1.0.1-0
     source:
       type: git
       url: https://github.com/orocos/rFSM.git
@@ -6320,7 +6338,7 @@ repositories:
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_moveit.git
+      url: https://github.com/ros-gbp/rqt_moveit-release.git
       version: 0.5.7-0
     source:
       test_pull_requests: true
@@ -6368,7 +6386,7 @@ repositories:
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_nav_view.git
+      url: https://github.com/ros-gbp/rqt_nav_view-release.git
       version: 0.5.7-0
     source:
       type: git
@@ -6398,7 +6416,7 @@ repositories:
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_pose_view.git
+      url: https://github.com/ros-gbp/rqt_pose_view-release.git
       version: 0.5.7-0
     source:
       type: git
@@ -6474,7 +6492,7 @@ repositories:
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_robot_dashboard.git
+      url: https://github.com/ros-gbp/rqt_robot_dashboard-release.git
       version: 0.5.7-0
     source:
       test_pull_requests: true
@@ -6490,7 +6508,7 @@ repositories:
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_robot_monitor.git
+      url: https://github.com/ros-gbp/rqt_robot_monitor-release.git
       version: 0.5.7-0
     source:
       type: git
@@ -6520,7 +6538,7 @@ repositories:
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_robot_steering.git
+      url: https://github.com/ros-gbp/rqt_robot_steering-release.git
       version: 0.5.7-0
     source:
       type: git
@@ -6535,7 +6553,7 @@ repositories:
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_runtime_monitor.git
+      url: https://github.com/ros-gbp/rqt_runtime_monitor-release.git
       version: 0.5.7-0
     source:
       type: git
@@ -6550,9 +6568,10 @@ repositories:
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_rviz.git
+      url: https://github.com/ros-gbp/rqt_rviz-release.git
       version: 0.5.7-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rqt_rviz.git
       version: master
@@ -6610,7 +6629,7 @@ repositories:
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/ros-gbp/rqt_tf_tree.git
+      url: https://github.com/ros-gbp/rqt_tf_tree-release.git
       version: 0.5.7-0
     source:
       test_pull_requests: true
@@ -6794,7 +6813,10 @@ repositories:
       - rtt_tf
       - rtt_trajectory_msgs
       - rtt_visualization_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
       url: https://github.com/orocos-gbp/rtt_ros_integration-release.git
+      version: 2.9.0-0
     source:
       type: git
       url: https://github.com/orocos/rtt_ros_integration.git
@@ -6811,7 +6833,6 @@ repositories:
       url: https://github.com/ros-gbp/rviz-release.git
       version: 1.12.4-0
     source:
-      test_commits: false
       test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rviz.git
