@@ -548,6 +548,25 @@ repositories:
       url: https://github.com/ros/cmake_modules.git
       version: 0.4-devel
     status: maintained
+  collada_urdf:
+    doc:
+      type: git
+      url: https://github.com/ros/collada_urdf.git
+      version: kinetic-devel
+    release:
+      packages:
+      - collada_parser
+      - collada_urdf
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/collada_urdf-release.git
+      version: 1.12.10-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/collada_urdf.git
+      version: kinetic-devel
+    status: maintained
   common_msgs:
     doc:
       type: git
@@ -2802,7 +2821,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/clearpath-gbp/lms1xx-release.git
-      version: 0.1.5-0
+      version: 0.1.6-0
     source:
       type: git
       url: https://github.com/clearpathrobotics/lms1xx.git
@@ -3248,7 +3267,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/UTNuclearRoboticsPublic/move_base_to_manip-release.git
-      version: 1.0.12-0
+      version: 1.0.13-0
     source:
       type: git
       url: https://github.com/UTNuclearRoboticsPublic/move_base_to_manip.git
@@ -5158,8 +5177,6 @@ repositories:
       version: kinetic-devel
     release:
       packages:
-      - collada_parser
-      - collada_urdf
       - joint_state_publisher
       - kdl_parser
       - kdl_parser_py
@@ -5712,7 +5729,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/code-iai-release/ros_emacs_utils-release.git
-      version: 0.4.10-0
+      version: 0.4.11-0
     source:
       type: git
       url: https://github.com/code-iai/ros_emacs_utils.git
