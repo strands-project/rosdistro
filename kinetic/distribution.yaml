@@ -2314,6 +2314,10 @@ repositories:
       version: 2.2.2-0
     status: developed
   jsk_common_msgs:
+    doc:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
+      version: master
     release:
       packages:
       - jsk_common_msgs
@@ -2325,7 +2329,11 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/tork-a/jsk_common_msgs-release.git
-      version: 4.1.0-0
+      version: 4.1.1-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_common_msgs.git
+      version: master
     status: developed
   jsk_control:
     doc:
@@ -2476,6 +2484,25 @@ repositories:
       url: https://github.com/uos/katana_driver.git
       version: kinetic
     status: developed
+  kdl_parser:
+    doc:
+      type: git
+      url: https://github.com/ros/kdl_parser.git
+      version: kinetic-devel
+    release:
+      packages:
+      - kdl_parser
+      - kdl_parser_py
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/ros-gbp/kdl_parser-release.git
+      version: 1.12.10-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros/kdl_parser.git
+      version: kinetic-devel
+    status: maintained
   kobuki:
     doc:
       type: git
@@ -5219,8 +5246,6 @@ repositories:
     release:
       packages:
       - joint_state_publisher
-      - kdl_parser
-      - kdl_parser_py
       - robot_model
       - urdf
       - urdf_parser_plugin
@@ -8491,6 +8516,11 @@ repositories:
       url: https://github.com/asmodehn/webtest-rosrelease.git
       version: 2.0.18-1
     status: maintained
+  wire:
+    doc:
+      type: git
+      url: https://github.com/tue-robotics/wire.git
+      version: master
   wireless:
     doc:
       type: git
