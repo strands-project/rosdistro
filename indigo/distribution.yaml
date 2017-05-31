@@ -470,6 +470,21 @@ repositories:
       type: git
       url: https://github.com/ethz-asl/asctec_mav_framework.git
       version: master
+  asr_aruco_marker_recognition:
+    doc:
+      type: git
+      url: https://github.com/asr-ros/asr_aruco_marker_recognition.git
+      version: master
+  asr_descriptor_surface_based_recognition:
+    doc:
+      type: git
+      url: https://github.com/asr-ros/asr_descriptor_surface_based_recognition.git
+      version: master
+  asr_fake_object_recognition:
+    doc:
+      type: git
+      url: https://github.com/asr-ros/asr_fake_object_recognition.git
+      version: master
   asr_flir_ptu_controller:
     doc:
       type: git
@@ -489,6 +504,11 @@ repositories:
     doc:
       type: git
       url: https://github.com/asr-ros/asr_gazebo_models.git
+      version: master
+  asr_halcon_bridge:
+    doc:
+      type: git
+      url: https://github.com/asr-ros/asr_halcon_bridge.git
       version: master
   asr_ivt:
     doc:
@@ -545,10 +565,20 @@ repositories:
       type: git
       url: https://github.com/asr-ros/asr_navfn.git
       version: master
+  asr_object_database:
+    doc:
+      type: git
+      url: https://github.com/asr-ros/asr_object_database.git
+      version: master
   asr_rapidxml:
     doc:
       type: git
       url: https://github.com/asr-ros/asr_rapidxml.git
+      version: master
+  asr_resources_for_vision:
+    doc:
+      type: git
+      url: https://github.com/asr-ros/asr_resources_for_vision.git
       version: master
   asr_robot_model_services:
     doc:
@@ -7665,7 +7695,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/nerian-vision/nerian_sp1-release.git
-      version: 1.6.1-0
+      version: 1.6.2-0
     source:
       type: git
       url: https://github.com/nerian-vision/nerian_sp1.git
