@@ -425,7 +425,7 @@ collada-dom:
   fedora: [collada-dom-devel]
   gentoo:
     portage:
-      packages: [media-libs/collada-dom]
+      packages: [dev-libs/collada-dom]
   macports: [collada-dom]
   slackware: [collada-dom]
   ubuntu:
@@ -575,7 +575,7 @@ eclipse:
   fedora: [eclipse-pde, eclipse-emf]
   gentoo:
     portage:
-      packages: [dev-java/ant-eclipse-ecj, dev-util/eclipse-sdk-bin, dev-java/eclipse-ecj]
+      packages: [dev-java/ant-eclipse-ecj, dev-java/eclipse-ecj]
   ubuntu:
     karmic: [eclipse, eclipse-platform, eclipse-rcp, eclipse-pde]
     lucid: [eclipse, eclipse-platform, eclipse-rcp, eclipse-pde]
@@ -637,6 +637,9 @@ f2c:
     portage:
       packages: [dev-lang/f2c]
   ubuntu: [f2c, libf2c2, libf2c2-dev]
+fakeroot:
+  debian: [fakeroot]
+  ubuntu: [fakeroot]
 fcgi:
   arch: [fcgi, mod_fcgid, spawn-fcgi]
   debian: [libfcgi-dev, libapache2-mod-fastcgi, spawn-fcgi]
@@ -1824,6 +1827,7 @@ libjackson-json-java:
   ubuntu: [libjackson-json-java]
 libjansson-dev:
   debian: [libjansson-dev]
+  gentoo: [dev-libs/jansson]
   ubuntu: [libjansson-dev]
 libjaxp1.3-java:
   ubuntu:
