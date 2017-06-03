@@ -5470,7 +5470,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/katana_driver-release.git
-      version: 1.0.7-0
+      version: 1.1.2-0
     source:
       test_pull_requests: true
       type: git
@@ -8068,6 +8068,21 @@ repositories:
       url: https://github.com/ros-visualization/oculus_sdk.git
       version: hydro-devel
     status: maintained
+  oculusprime:
+    doc:
+      type: git
+      url: https://github.com/xaxxontech/oculusprime_ros.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/xaxxontech/oculusprime_ros-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/xaxxontech/oculusprime_ros.git
+      version: master
+    status: developed
   odva_ethernetip:
     doc:
       type: git
@@ -11773,7 +11788,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/rosdoc_lite-release.git
-      version: 0.2.6-0
+      version: 0.2.7-0
     source:
       type: git
       url: https://github.com/ros-infrastructure/rosdoc_lite.git
@@ -12933,7 +12948,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/rtmros_hironx-release.git
-      version: 1.1.24-0
+      version: 1.1.25-0
     source:
       test_pull_requests: true
       type: git
@@ -14833,6 +14848,11 @@ repositories:
       url: https://github.com/openrobotics/talos_description.git
       version: indigo-devel
     status: developed
+  tango_ros_streamer:
+    doc:
+      type: git
+      url: https://github.com/Intermodalics/tango_ros.git
+      version: master
   tblib:
     release:
       tags:
