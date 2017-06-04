@@ -639,6 +639,7 @@ f2c:
   ubuntu: [f2c, libf2c2, libf2c2-dev]
 fakeroot:
   debian: [fakeroot]
+  gentoo: [sys-apps/fakeroot]
   ubuntu: [fakeroot]
 fcgi:
   arch: [fcgi, mod_fcgid, spawn-fcgi]
@@ -2620,6 +2621,11 @@ libraw1394-dev:
     portage:
       packages: [sys-libs/libraw1394]
   ubuntu: [libraw1394-dev]
+librdkafka-dev:
+  debian: [librdkafka-dev]
+  fedora: [librdkafka-devel]
+  gentoo: [dev-libs/librdkafka]
+  ubuntu: [librdkafka-dev]
 libreadline:
   arch: [readline]
   debian: [libreadline-dev]
