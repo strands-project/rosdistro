@@ -1,3 +1,13 @@
+adafruit-pca9685-pip:
+  debian:
+    pip:
+      packages: [adafruit-pca9685]
+  fedora:
+    pip:
+      packages: [adafruit-pca9685]
+  ubuntu:
+    pip:
+      packages: [adafruit-pca9685]
 gunicorn:
   fedora: [python-gunicorn]
   gentoo: [www-servers/gunicorn]
@@ -1193,6 +1203,13 @@ python-jira-pip:
   ubuntu:
     pip:
       packages: [jira]
+python-jsonpyes-pip:
+  debian:
+    pip:
+      packages: [jsonpyes]
+  ubuntu:
+    pip:
+      packages: [jsonpyes]
 python-jsonref-pip:
   ubuntu:
     pip:
