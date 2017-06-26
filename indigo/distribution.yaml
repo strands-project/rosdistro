@@ -3572,7 +3572,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.4.13-0
+      version: 2.4.14-0
     source:
       test_pull_requests: true
       type: git
@@ -5418,7 +5418,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_pr2eus-release.git
-      version: 0.3.10-0
+      version: 0.3.11-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_pr2eus.git
+      version: master
     status: developed
   jsk_recognition:
     doc:
@@ -7009,11 +7013,10 @@ repositories:
       - moveit_pr2
       - pr2_moveit_config
       - pr2_moveit_plugins
-      - pr2_moveit_tutorials
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/moveit_pr2-release.git
-      version: 0.6.2-0
+      version: 0.6.5-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_pr2.git
@@ -11719,7 +11722,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/ros_type_introspection-release.git
-      version: 0.6.1-1
+      version: 0.6.2-0
     source:
       type: git
       url: https://github.com/facontidavide/ros_type_introspection.git
