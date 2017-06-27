@@ -3572,7 +3572,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-      version: 2.4.14-0
+      version: 2.4.13-0
     source:
       test_pull_requests: true
       type: git
@@ -8673,6 +8673,16 @@ repositories:
       type: git
       url: https://github.com/najkirdneh/pcan_topics.git
       version: master
+  pcdfilter:
+    doc:
+      type: git
+      url: https://github.com/peterweissig/ros_pcdfilter.git
+      version: master
+    source:
+      type: git
+      url: https://github.com/peterweissig/ros_pcdfilter.git
+      version: master
+    status: maintained
   pcl_conversions:
     doc:
       type: git
@@ -9006,7 +9016,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/plotjuggler-release.git
-      version: 1.1.0-0
+      version: 1.1.1-0
     source:
       type: git
       url: https://github.com/facontidavide/PlotJuggler.git
@@ -10482,7 +10492,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/ridgeback-release.git
-      version: 0.1.9-0
+      version: 0.1.10-0
     source:
       type: git
       url: https://github.com/ridgeback/ridgeback.git
@@ -11722,7 +11732,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/facontidavide/ros_type_introspection-release.git
-      version: 0.6.2-0
+      version: 0.6.3-0
     source:
       type: git
       url: https://github.com/facontidavide/ros_type_introspection.git
