@@ -5272,7 +5272,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.1-0
+      version: 2.1.2-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
@@ -13725,6 +13725,25 @@ repositories:
       url: https://github.com/ros-planning/shape_tools.git
       version: master
     status: maintained
+  shared_autonomy_manipulation:
+    doc:
+      type: git
+      url: https://github.com/SharedAutonomyToolkit/shared_autonomy_manipulation.git
+      version: hydro-devel
+    release:
+      packages:
+      - safe_teleop_base
+      - safe_teleop_pr2
+      - safe_teleop_stage
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/shared_autonomy_manipulation-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/SharedAutonomyToolkit/shared_autonomy_manipulation.git
+      version: hydro-devel
+    status: unmaintained
   shared_serial:
     doc:
       type: git
