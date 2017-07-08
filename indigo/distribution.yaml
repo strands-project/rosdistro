@@ -5272,7 +5272,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_3rdparty-release.git
-      version: 2.1.2-0
+      version: 2.1.3-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_3rdparty.git
@@ -5458,7 +5458,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_recognition-release.git
-      version: 1.1.2-0
+      version: 1.1.3-0
     source:
       type: git
       url: https://github.com/jsk-ros-pkg/jsk_recognition.git
@@ -5537,7 +5537,11 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/tork-a/jsk_visualization-release.git
-      version: 2.1.0-0
+      version: 2.1.2-0
+    source:
+      type: git
+      url: https://github.com/jsk-ros-pkg/jsk_visualization.git
+      version: master
     status: developed
   jskeus:
     doc:
@@ -8677,7 +8681,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/AutonomyLab/parrot_arsdk-release.git
-      version: 3.11.0-0
+      version: 3.12.6-0
     source:
       type: git
       url: https://github.com/AutonomyLab/parrot_arsdk.git
@@ -8700,6 +8704,8 @@ repositories:
       version: master
   pcdfilter_pa:
     doc:
+      depends:
+      - parameter_pa
       type: git
       url: https://github.com/peterweissig/ros_pcdfilter.git
       version: master
@@ -13738,7 +13744,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/ros-gbp/shared_autonomy_manipulation-release.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: https://github.com/SharedAutonomyToolkit/shared_autonomy_manipulation.git
