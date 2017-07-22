@@ -14338,6 +14338,21 @@ repositories:
       url: https://github.com/GT-RAIL/spatial_temporal_learning.git
       version: develop
     status: developed
+  spin_hokuyo:
+    doc:
+      type: git
+      url: https://github.com/RobustFieldAutonomyLab/spin_hokuyo.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/RobustFieldAutonomyLab/spin_hokuyo-release.git
+      version: 1.0.0-0
+    source:
+      type: git
+      url: https://github.com/RobustFieldAutonomyLab/spin_hokuyo.git
+      version: master
+    status: maintained
   spur:
     doc:
       type: git
