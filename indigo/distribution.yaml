@@ -6544,7 +6544,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/swri-robotics-gbp/marti_common-release.git
-      version: 0.3.0-0
+      version: 1.0.0-0
     source:
       type: git
       url: https://github.com/swri-robotics/marti_common.git
@@ -7361,6 +7361,11 @@ repositories:
       url: https://bitbucket.org/crl/multisense_ros
       version: default
     status: developed
+  muse_bldc_motor_drive:
+    doc:
+      type: git
+      url: https://bitbucket.org/muserobotics/muse_ros_package.git
+      version: master
   mvsim:
     doc:
       type: git
@@ -8749,6 +8754,11 @@ repositories:
       type: git
       url: https://github.com/peterweissig/ros_pcdfilter.git
       version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/peterweissig/ros_pcdfilter-release.git
+      version: 1.1.0-0
     source:
       type: git
       url: https://github.com/peterweissig/ros_pcdfilter.git
@@ -13333,6 +13343,7 @@ repositories:
       url: https://github.com/ros-gbp/rviz-release.git
       version: 1.11.16-0
     source:
+      test_pull_requests: true
       type: git
       url: https://github.com/ros-visualization/rviz.git
       version: indigo-devel
