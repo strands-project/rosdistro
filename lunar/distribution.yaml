@@ -437,6 +437,25 @@ repositories:
       url: https://github.com/ros/dynamic_reconfigure.git
       version: master
     status: maintained
+  ecl_tools:
+    doc:
+      type: git
+      url: https://github.com/stonier/ecl_tools.git
+      version: release/0.61-lunar
+    release:
+      packages:
+      - ecl_build
+      - ecl_license
+      - ecl_tools
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/yujinrobot-release/ecl_tools-release.git
+      version: 0.61.7-0
+    source:
+      type: git
+      url: https://github.com/stonier/ecl_tools.git
+      version: devel
+    status: maintained
   ecto:
     release:
       tags:
@@ -1674,6 +1693,19 @@ repositories:
       url: https://github.com/ros-drivers/openni_launch.git
       version: indigo-devel
     status: maintained
+  openslam_gmapping:
+    release:
+      tags:
+        release: release/lunar/{package}/{version}
+      url: https://github.com/ros-gbp/openslam_gmapping-release.git
+      version: 0.1.2-0
+    source:
+      test_pull_requests: true
+      type: git
+      url: https://github.com/ros-perception/openslam_gmapping.git
+      version: master
+    status: end-of-life
+    status_description: cartographer should be the new standard
   orocos_kinematics_dynamics:
     doc:
       type: git
