@@ -14742,8 +14742,7 @@ repositories:
       - scheduler
       - scipoptsuite
       - sim_clock
-      - strands_executive_msgs
-      - strands_executive_tutorial
+      - strands_executive_msgs      
       - task_executor
       - wait_action
       tags:
