@@ -310,7 +310,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/ros/bond_core.git
-      version: master
+      version: groovy-devel
     release:
       packages:
       - bond
@@ -326,7 +326,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/ros/bond_core.git
-      version: master
+      version: groovy-devel
     status: maintained
   bta_ros:
     doc:
@@ -6809,7 +6809,7 @@ repositories:
       tags:
         release: release/jade/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.11.17-0
+      version: 1.11.18-0
     source:
       type: git
       url: https://github.com/ros-visualization/rviz.git
