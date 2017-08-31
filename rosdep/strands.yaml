@@ -23,6 +23,8 @@ mongo-cxx-driver:
 morse-blender-bundle:
   ubuntu:
     precise: [morse-blender-2.65-py-3.3]
+openjdk-8:
+  ubuntu: [openjdk-8-jdk]
 prism-robots:
   ubuntu:
     precise: [prism-robots]
