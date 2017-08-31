@@ -14762,6 +14762,7 @@ repositories:
       packages:
       - gcal_routine
       - mdp_plan_exec
+      - prism_strands
       - scheduler
       - scipoptsuite
       - sim_clock
@@ -14771,7 +14772,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/strands-project-releases/strands_executive.git
-      version: 1.0.6-0
+      version: 1.1.2-0
     source:
       type: git
       url: https://github.com/strands-project/strands_executive.git
