@@ -88,20 +88,7 @@ paramiko:
     pip:
       packages: [paramiko]
   rhel: [python-paramiko]
-  ubuntu:
-    lucid: [python-paramiko]
-    maverick: [python-paramiko]
-    natty: [python-paramiko]
-    oneiric: [python-paramiko]
-    precise: [python-paramiko]
-    quantal: [python-paramiko]
-    raring: [python-paramiko]
-    saucy: [python-paramiko]
-    trusty: [python-paramiko]
-    utopic: [python-paramiko]
-    vivid: [python-paramiko]
-    wily: [python-paramiko]
-    xenial: [python-paramiko]
+  ubuntu: [python-paramiko]
 pika:
   debian: [python-pika]
   gentoo: [dev-python/pika]
@@ -3859,6 +3846,16 @@ python3-setuptools:
   ubuntu: [python3-setuptools]
 python3-yaml:
   ubuntu: [python3-yaml]
+rosbag-metadata-pip:
+  debian:
+    pip:
+      packages: [rosbag-metadata]
+  fedora:
+    pip:
+      packages: [rosbag-metadata]
+  ubuntu:
+    pip:
+      packages: [rosbag-metadata]
 rpy2:
   arch: [python-rpy2]
   debian: [python-rpy2]
